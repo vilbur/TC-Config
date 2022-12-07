@@ -1,0 +1,43 @@
+#SingleInstance force
+userCommand("create")
+#Include %A_LineFile%\..\..\TcCommand.ahk
+/* 
+ */
+callCommandsTest()
+{
+    $default_command := "SrcThumbs"
+    $user_command    := "UserTestCommand"
+
+	new TcCommand($default_command) ; call command in constructor
+	
+	new TcCommand()
+			.cmd("cm_" $default_command, 1000)			
+			.cmd($user_command, 2000)			
+			.cmd("em_" $user_command, 3000)
+			.call()
+}
+
+/*--------------------------------------- 
+	RUN TESTS
+-----------------------------------------
+*/
+callCommandsTest()
+
+/*---------------------------------------
+	HELPERS FOR TEST
+-----------------------------------------
+*/
+userCommand("delete")
+/**
+ */
+userCommand($mode)
+{
+	$usercmd	= %Commander_Path%\usercmd.ini
+	$cmd	= em_TestCommandCalled
+	
+	if( $mode=="create" )
+		IniWrite, % A_ScriptDir "\command-file\command-file.ahk", %$usercmd%, %$cmd%, cmd
+	else
+		IniDelete, %$usercmd%, %$cmd%
+}
+

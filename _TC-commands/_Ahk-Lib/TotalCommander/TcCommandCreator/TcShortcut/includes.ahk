@@ -1,0 +1,1 @@
+#Include %A_LineFile%\..\..\..\TcCommanderPath\TcCommanderPath.ahk

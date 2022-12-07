@@ -1,0 +1,40 @@
+#SingleInstance force
+
+#Include %A_LineFile%\..\..\TcSelection.ahk
+
+/** !!! IMPORTANT !!!
+  *
+  * This test file must be executed via Total Commander`s button bar.
+  *	Since it`s getting current selection in Total Commander
+  *
+  */
+Access_via_class()
+{
+
+	SetTitleMatchMode, 2
+	;sleep 1000
+
+	dump(new TcSelection().get(), "Selection.get() get all", 1)	
+	dump(new TcSelection().getFolders(), "Selection.getFolders()", 1)
+	WinActivate, Total Commander
+	dump(new TcSelection().getFiles("(.ahk|.md)$"), "Selection.getFiles('(.ahk|.md)$')", 1)
+	
+	;dump(new TcSelection().getFocused(), "Selection.getFocused() get focused item", 1)
+	;dump(new TcSelection().getFocused("file"), "Selection.getFocused('file') get focused file", 1)
+	;dump(new TcSelection().getFocused("folder"), "Selection.getFocused('folder') get focused folder", 1)
+	
+	;dump(new TcSelection().getSelectionOrFocused(), "Selection.getFocused() get selection or focused item", 1)
+	;dump(new TcSelection().getSelectionOrFocused("file"), "Selection.getSelectionOrFocused('file') get selection or focused file", 1)
+	;dump(new TcSelection().getSelectionOrFocused("folder"), "Selection.getSelectionOrFocused('folder') get selection or focused folder", 1)	
+}
+
+
+
+/*
+-----------------------------------------------
+	RUN TEST
+-----------------------------------------------
+
+*/
+
+Access_via_class()

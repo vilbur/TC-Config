@@ -1,0 +1,14 @@
+[activetabs]
+0_path=c:\
+0_caption=ACTIVE
+0_options=1|0|0|0|0|2|0
+1_path=c:\windows
+1_options=1|0|0|0|0|2|0
+activetab=0
+[inactivetabs]
+0_path=C:\Users\
+0_caption=INACTIVE
+0_options=1|0|0|0|0|2|0
+1_path=c:\Users\All Users\
+1_options=1|0|0|0|0|2|0
+activetab=0

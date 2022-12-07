@@ -1,0 +1,15 @@
+[activetabs]
+0_caption=Ahk\TotalCommander
+0_options=1|0|0|0|0|2|0
+0_path=c:\GoogleDrive\Programs\Core\AutoHotkey\Lib\TotalCommander\
+1_options=1|0|0|0|0|2|0
+1_path=c:\GoogleDrive\Programs\Core\AutoHotkey\Lib\TotalCommander\TcCommand\
+2_options=1|0|0|0|0|2|0
+2_path=c:\GoogleDrive\Programs\Core\AutoHotkey\Lib\TotalCommander\TcPane\
+3_options=1|0|0|0|0|2|0
+3_path=c:\GoogleDrive\Programs\Core\AutoHotkey\Lib\TotalCommander\TcSelection\
+4_options=1|0|0|0|0|2|0
+4_path=c:\GoogleDrive\Programs\Core\AutoHotkey\Lib\TotalCommander\TcTabs\
+5_options=1|0|0|0|0|0|0
+5_path=c:\GoogleDrive\Programs\Core\AutoHotkey\Lib\TotalCommander\TcTabs\
+activetab=4

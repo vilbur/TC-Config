@@ -1,0 +1,1 @@
+WinActivate, ahk_class TTOTAL_CMD

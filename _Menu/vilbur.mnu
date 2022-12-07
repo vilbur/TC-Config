@@ -134,6 +134,12 @@ POPUP "C&onfiguration"
 END_POPUP
 MENUITEM SEPARATOR
 
+POPUP "&Tabs"
+    MENUITEM "TabsManager", em_TABS-TabsManager
+    MENUITEM "Tabs clear", em_TABS_clear-tabs
+END_POPUP
+MENUITEM SEPARATOR
+
 POPUP "TC Editors"
     MENUITEM "TC Editors", em_TC-Editors
     MENUITEM "TC Editors close all", em_TC-editors_TC_Editors-close-all
@@ -165,10 +171,6 @@ END_POPUP
 
 POPUP "S&ync"
     MENUITEM "Sync dirs & compare		( Ctrl to save )", em_SYNC_sync-dirs-and-compare
-END_POPUP
-
-POPUP "&Tabs"
-    MENUITEM "Tabs clear", em_TABS_clear-tabs
 END_POPUP
 
 POPUP "&Autohotkey"

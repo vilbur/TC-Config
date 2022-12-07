@@ -1,0 +1,9 @@
+# TcShortcut  * Create keyboard shortcut  ## Constructor  | __TcShortcut__( [$name] )    |__ New    |  |:---    |:---    |  |`@param string` [ $name="" ]    |Name of command    |  ## Methods  | __name__( $name )    | Name of command E.G.: "em_user-command"    |  |:---    |:---    |  |`@param string` $name    |    |  |`@return self`    |    |  ##  | __shortcut__( [$keys*], $keys )    |Set control keys    |  |:---    |:---    |  |`@param string` [ $keys* ]    |    |  |`@return self`    |    |  >Last parameter can be boolean for __force__ or __suspend__ creation  ##  | __delete__()    |Delete shortcut    |  |:---    |:---    |  |`@return self`    |    |  ## Examples  
+``` php
+$command_name := "em_TcCommandCreator-shorcut-test"/* 1. Create command   2. Create shortcuts   3. Get TcShortcut object    4. Delete last created shortcut*/new TcCommandCreator()        .name($command_name)
+        .create()                              ; 1. create command
+        .shortcut("shift", "alt", "0")         ; 2. create shotrcut
+        .shortcut("shift", "alt", "win", "f3") ; 2. create another shotrcut
+        .shortcut()                            ; 3. get TcShortcut object
+        .delete()                              ; 4. delete last shortcut/* Create shortcut, force overwrite*/new TcShortcut()		.name($command_name)		.shortcut("shift", "alt", "0", true) ;  force overwrite with true/* Get shortcut, suspend creation and delete*/new TcShortcut()		.shortcut("shift", "alt", "0", false) ;  suspend creation with false		.delete()		/** Delete all shortcuts by command name*/new TcShortcut($command_name)		.delete()		 
+```    

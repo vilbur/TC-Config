@@ -1,0 +1,14 @@
+[Buttonbar]
+Buttoncount=5
+button1=%systemroot%\system32\shell32.dll,43
+cmd1=%COMMANDER_PATH%\commands\foo.bat
+menu1=First Button
+
+iconic3=0
+button4=%systemroot%\system32\shell32.dll,49
+cmd4=cmd.exe /c exit
+iconic4=0
+menu4=-
+button5=%systemroot%\system32\shell32.dll,43
+cmd5=%COMMANDER_PATH%\commands\foo.bat
+menu5=Last Button
