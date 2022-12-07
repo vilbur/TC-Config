@@ -1,0 +1,14 @@
+# ignore everything (dirs, files, sub-dirs, sub-files)
+/*
+
+
+# DO NOT IGNORE THESE FILES
+!.gitignore
+!wincmd.ini
+!usercmd.ini
+!colors.less
+!userChrome.less
+
+
+# DO NOT IGNORE THESE FOLDERS
+!/_Menu

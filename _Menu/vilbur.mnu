@@ -1,0 +1,205 @@
+POPUP "&Files"
+    MENUITEM "Create New File from Template", em_File-Create_new_from_template
+    MENUITEM "Create Hardlink", em_File-Hardlink_create
+    MENUITEM "Replace in files and paths", em_File-Replace-in-files-and-paths
+    MENUITEM SEPARATOR
+    MENUITEM "Add selected files to commands", em_FILE-Add-selected-to-commands
+    MENUITEM SEPARATOR
+    MENUITEM "&Change Attributes...", 502
+    MENUITEM "&Pack...\tAlt + F5", 508
+    MENUITEM "&Unpack Specific Files...\tAlt + F9", 509
+    MENUITEM "Test Arch&ive(s)\tAlt + Shift + F9", 518
+    MENUITEM "Compare B&y Content...", 2022
+    MENUITEM "&Associate With...", 507
+    MENUITEM "Interna&l Associations (Total Commander Only)...", 519
+    MENUITEM "Properties&...\tAlt + Enter", 510
+    MENUITEM "Calculate &Occupied Space...\tCtrl + L", 503
+    MENUITEM "Multi-&Rename Tool...\tCtrl + M", 2400
+    MENUITEM "Edit Comme&nt...\tCtrl + Z", 2700
+    POPUP "Prin&t"
+        MENUITEM "File &List...", 2027
+        MENUITEM "File List With &Subdirs...", 2028
+        MENUITEM "File Con&tents\tCtrl + F9", 504
+    END_POPUP
+    MENUITEM SEPARATOR
+    MENUITEM "&Split File...", 560
+    MENUITEM "Co&mbine Files...", 561
+    MENUITEM "&Encode File  (MIME,UUE,XXE)...", 562
+    MENUITEM "&Decode File  (MIME,UUE,XXE,BinHex)...", 563
+    MENUITEM "Create C&hecksum File(s) (CRC32, MD5, SHA1)...", 564
+    MENUITEM "&Verify Checksums (from checksum files)", 565
+    MENUITEM SEPARATOR
+    MENUITEM "&Quit\tAlt + F4", 24340
+END_POPUP
+
+POPUP "&Mark"
+    MENUITEM "Select &Group...\tNum +", 521
+    MENUITEM "&Unselect Group...\tNum -", 522
+    MENUITEM "Select &All\tCtrl + A", 523
+    MENUITEM "U&nselect All\tCtrl + Num -", 524
+    MENUITEM "&Invert Selection\tNum *", 525
+    MENUITEM "Select All With Same E&xtension\tAlt + Num +", 527
+    MENUITEM SEPARATOR
+    MENUITEM "&Save Selection", 530
+    MENUITEM "&Restore Selection\tNum /", 529
+    MENUITEM "Sa&ve Selection To File", 2031
+    MENUITEM "&Load Selection From File", 2032
+    MENUITEM "Read file selection from clipboard", 2033
+    MENUITEM SEPARATOR
+    MENUITEM "Cop&y Selected Names To Clipboard", 2017
+    MENUITEM "Copy Names With &Path To Clipboard", 2018
+    MENUITEM "Copy To Clipboard With All &Details", 2036
+    MENUITEM "Copy To Clip&board With Path+Details", 2037
+    MENUITEM SEPARATOR
+    MENUITEM "&Compare Directories\tShift + F2", 533
+    MENUITEM "&Mark Newer, Hide Same Files", 534
+END_POPUP
+
+POPUP "Commands"
+    MENUITEM "CD &Tree...\tAlt + F10", 500
+    MENUITEM "&Search...\tAlt + F7", 501
+    MENUITEM "&Volume Label...", 505
+    MENUITEM "System &Information...", 506
+    MENUITEM "S&ynchronize Dirs...", 2020
+    MENUITEM "Directory &Hotlist\tCtrl + D", 526
+    MENUITEM "Go &Back\tAlt + Left", 570
+    MENUITEM "Go to path in clipboard\Ctrl + G", em_go_to_path_in_clipboard
+    MENUITEM SEPARATOR
+    MENUITEM "Open comman&d prompt window", 511
+    MENUITEM SEPARATOR
+    MENUITEM "Br&anch View (With Subdirs)\tCtrl + B (*)", 2026
+    MENUITEM "&Open Desktop Folder", 2121
+    MENUITEM "Background Transfer &Manager...", 559
+    MENUITEM SEPARATOR
+    MENUITEM "Source&<->Target\tCtrl + U", 531
+    MENUITEM "Target&=Source", 532
+END_POPUP
+
+POPUP "&Net"
+    MENUITEM "&Network Connections...", 512
+    MENUITEM "&Disconnect Network Drives...", 513
+    MENUITEM "Share &Current Directory...", 514
+    MENUITEM "&Unshare Directory...", 515
+    MENUITEM "Show &Admin Shares", 2204
+    MENUITEM SEPARATOR
+    MENUITEM "&FTP Connect...\tCtrl + F (*)", 550
+    MENUITEM "FT&P New Connection...\tCtrl + N (*)", 551
+    MENUITEM "FTP Disconn&ect\tCtrl + Shift + F (*)", 552
+    MENUITEM "FTP Sho&w Hidden Files", 553
+    MENUITEM "FTP Download From &List...", 558
+    MENUITEM "P&ORT Connection To Other PC...", 2300
+END_POPUP
+
+POPUP "Sho&w"
+    MENUITEM "&Brief\tCtrl + F1", 301
+    MENUITEM "&Full\tCtrl + F2", 302
+    MENUITEM "Co&mments\tCtrl + Shift + F2", 300
+    MENUITEM "Custom Columns Mo&de\tShift + F1", 270
+    MENUITEM "&Tree\tCtrl + F8", 303
+    POPUP "Separate Tree\tCtrl+Shift+F8"
+        MENUITEM "&0 (None)", 3200
+        MENUITEM "&1 (One For Both Panels)", 3201
+        MENUITEM "&2 (Two, One For Each Panel)", 3202
+    END_POPUP
+    MENUITEM "Thumbnai&l view\tCtrl + Shift + F1", 269
+    MENUITEM "&Quick View Panel\tCtrl + Q", 304
+    MENUITEM "&Vertical Arrangement", 305
+    MENUITEM "Ne&w Folder Tab\tCtrl + T", 3001
+    MENUITEM SEPARATOR
+    MENUITEM "&All Files\tCtrl + F10", 312
+    MENUITEM "&Programs\tCtrl + F11", 311
+    MENUITEM "*.*", 313
+    MENUITEM "&Custom...\tCtrl + F12", 314
+    MENUITEM "&Only Selected Files", 2023
+    MENUITEM SEPARATOR
+    MENUITEM "&Name\tCtrl + F3", 321
+    MENUITEM "E&xtension\tCtrl + F4", 322
+    MENUITEM "T&ime\tCtrl + F5", 324
+    MENUITEM "&Size\tCtrl + F6", 323
+    MENUITEM "&Unsorted\tCtrl + F7", 325
+    MENUITEM SEPARATOR
+    MENUITEM "&Reversed Order", 330
+    MENUITEM SEPARATOR
+    MENUITEM "R&eread Source\tF2", 540
+END_POPUP
+
+POPUP "C&onfiguration"
+    MENUITEM "&Options...", 490
+    MENUITEM "Colors", 494
+    MENUITEM "Config edit program by extension", em_config_edit_program_by_extension
+    MENUITEM "&Save Position", 493
+    MENUITEM "Sa&ve Settings", 580
+    MENUITEM SEPARATOR
+    MENUITEM "Backup Total Commander", em_BackupTotalCommander
+END_POPUP
+MENUITEM SEPARATOR
+
+POPUP "TC Editors"
+    MENUITEM "TC Editors", em_TC-Editors
+    MENUITEM "TC Editors close all", em_TC-editors_TC_Editors-close-all
+    MENUITEM SEPARATOR
+    MENUITEM "ButtonBar", em_TC-ButtonBar
+    MENUITEM "DirectoryHotList", em_TC-DirectoryHotList
+    MENUITEM "Extended Commands", em_TC-ExtendedCommands
+    MENUITEM "MainMenu", em_TC-MainMenu
+    MENUITEM "HotKeys", em_TC-HotKeys
+    MENUITEM "Nested Bar Creator", em_TC-NestedBarCreator
+    MENUITEM SEPARATOR
+    MENUITEM "HistoryEditor", em_TC-HistoryEditor
+END_POPUP
+MENUITEM SEPARATOR
+
+POPUP "TC-&Git"
+    MENUITEM "TC-Git - Install", em_TC-Git-install
+END_POPUP
+
+POPUP "&Selection"
+    MENUITEM "Save\load	( Ctrl to save )", em_SELECTION_save\load-to-tcfiles
+    MENUITEM "Save\load Quick	( Ctrl to save )", em_SELECTION_save\load-temp
+    MENUITEM SEPARATOR
+    MENUITEM "Paths to clipboard\tCtrl + Shift + C", em_File-Selected_paths_to_clipboard-path
+    MENUITEM "Filenames to clipboard\tCtrl + Alt + Shift + C", em_File-Selected_paths_to_clipboard-filename
+    MENUITEM "Filenames to clipboard - no extension", em_File-Selected_paths_to_clipboard-filename-noext
+    MENUITEM "Dir to clipboard", em_File-Selected_paths_to_clipboard-dir
+END_POPUP
+
+POPUP "S&ync"
+    MENUITEM "Sync dirs & compare		( Ctrl to save )", em_SYNC_sync-dirs-and-compare
+END_POPUP
+
+POPUP "&Tabs"
+    MENUITEM "Tabs clear", em_TABS_clear-tabs
+END_POPUP
+
+POPUP "&Autohotkey"
+    MENUITEM "Add Ahk to commands", em_File-Ahk_Add_to_commands
+END_POPUP
+
+POPUP "&Komodo"
+    MENUITEM "Komodo create autofolder.ini file", em_Kmodo-Create-Autofolder-ini-file
+    MENUITEM SEPARATOR
+    MENUITEM "Snippets rename in TC", em_Komodo-snippets-rename-in-TC
+    MENUITEM "Snippet .folderdata", em_Komodo-snippets-folderdata
+    MENUITEM SEPARATOR
+    MENUITEM "Change icon icon folder", em_Komodo-change-komodotool-icon-in-folder
+    MENUITEM SEPARATOR
+    MENUITEM "Komodo Build Extension Current Folder", em_Komodo-Build-Extension_Current_Folder
+    MENUITEM "Komodo Build Extension Current Folder & REINSTALL", em_Komodo-Build_Extension_Current_Folder_Reinstall
+END_POPUP
+
+POPUP "&BackUps"
+    MENUITEM "Backup selected", em_File-Backup_selected
+    MENUITEM "Go to Backuped", em_Backup_Go_to_Backuped
+END_POPUP
+
+HELP_BREAK
+
+POPUP "&Help"
+    MENUITEM "&Index\tF1", 610
+    MENUITEM "&Keyboard", 620
+    MENUITEM "&Registration Info", 630
+    MENUITEM "&Visit Totalcmd's Web Site", 640
+    MENUITEM SEPARATOR
+    MENUITEM "&About Total Commander...", 690
+    MENUITEM SEPARATOR
+END_POPUP
