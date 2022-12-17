@@ -3,17 +3,15 @@
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" fifProjectPanel1="no" fifProjectPanel2="no" fifProjectPanel3="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="no" regexBackward4PowerUser="no">
         <Filter name="" />
+        <Find name="ActiveState\KomodoEdit" />
+        <Find name="ActiveState Komodo IDE 10" />
         <Find name="Library/MAXSCRIPT-UI-framework" />
         <Find name="/Library/MAXSCRIPT-UI-framework" />
+        <Replace name="ActiveState Komodo IDE 12" />
         <Replace name="MAXSCRIPT-UI-framework" />
         <Replace name="/MAXSCRIPT-UI-framework" />
     </FindHistory>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="C:\Users\vilbur\AppData\Local\Autodesk\3dsMax\2022 - 64bit\ENU\scripts\MAXSCRIPT-UI-framework\Lib\List\Test\ListIncludeTest.ms" />
-        <File filename="C:\Users\vilbur\AppData\Local\Autodesk\3dsMax\2022 - 64bit\ENU\scripts\MAXSCRIPT-UI-framework\Lib\RolloutCreator\_Test\includes\Example-how-to-Iinclude.ms" />
-        <File filename="C:\Users\vilbur\AppData\Local\Autodesk\3dsMax\2022 - 64bit\ENU\scripts\MAXSCRIPT-UI-framework\Lib\RolloutCreator\ControlsCreator\AcrossParameterModifier\_Test\02_AcrossParamMassTest.ms" />
-        <File filename="C:\Users\vilbur\AppData\Local\Autodesk\3dsMax\2022 - 64bit\ENU\scripts\MAXSCRIPT-UI-framework\Lib\RolloutCreator\ControlsCreator\AcrossParameterModifier\_Test\03_AcrossParamGroupEndTest.ms" />
-        <File filename="C:\Users\vilbur\AppData\Local\Autodesk\3dsMax\2022 - 64bit\ENU\scripts\MAXSCRIPT-UI-framework\Lib\RolloutCreator\ControlsCreator\ControlEventBinder\_Test\1_ControlEventBinderTest.ms" />
         <File filename="C:\Users\vilbur\AppData\Local\Autodesk\3dsMax\2022 - 64bit\ENU\scripts\MAXSCRIPT-UI-framework\Lib\RolloutCreator\ControlsCreator\GroupBoxCreator\GroupBoxCreator.ms" />
         <File filename="C:\Users\vilbur\AppData\Local\Autodesk\3dsMax\2022 - 64bit\ENU\scripts\MAXSCRIPT-UI-framework\Lib\RolloutCreator\RolloutEventBinder\_Test\1_RolloutEventTest.ms" />
         <File filename="C:\Users\vilbur\AppData\Local\Autodesk\3dsMax\2022 - 64bit\ENU\scripts\MAXSCRIPT-UI-framework\Lib\RolloutCreator\RolloutEventBinder\_Test\2_DialogEventTest.ms" />
@@ -23,7 +21,12 @@
         <File filename="C:\Users\vilbur\AppData\Local\Autodesk\3dsMax\2022 - 64bit\ENU\scripts\MAXSCRIPT-UI-framework\Test\Controls\Groupbox\1.1_GroupBoxTest.ms" />
         <File filename="C:\Users\vilbur\AppData\Local\Autodesk\3dsMax\2022 - 64bit\ENU\scripts\MAXSCRIPT-UI-framework\Test\Controls\Groupbox\1.2_GroupBoxMassTest.ms" />
         <File filename="c:\Users\vilbur\AppData\Local\Autodesk\3dsMax\2022 - 64bit\ENU\scripts\MAXSCRIPT-vilTools3\test.ms" />
-        <File filename="C:\GoogleDrive\TotalComander\.gitignore" />
+        <File filename="C:\GoogleDrive\TotalComander\_Utilities\Notepad++\plugins\docMonitor.unicode.dll" />
+        <File filename="C:\GoogleDrive\TotalComander\_Utilities\Notepad++\.gitignore" />
+        <File filename="C:\GoogleDrive\TotalComander\_TC-commands\tc_editors\TC_Editors-close-all.ahk" />
+        <File filename="C:\GoogleDrive\TotalComander\usercmd.ini" />
+        <File filename="c:\GoogleDrive\TotalComander\.gitignore" />
+        <File filename="C:\GoogleDrive\TotalComander\wincmd.ini" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
@@ -42,7 +45,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
         <GUIConfig name="AppPosition" x="1976" y="356" width="1699" height="1779" isMaximized="no" />
-        <GUIConfig name="FindWindowPosition" left="2531" top="1085" right="3120" bottom="1449" isLessModeOn="no" />
+        <GUIConfig name="FindWindowPosition" left="1303" top="827" right="1892" bottom="1191" isLessModeOn="no" />
         <GUIConfig name="FinderConfig" wrappedLines="no" purgeBeforeEverySearch="no" showOnlyOneEntryPerFoundLine="yes" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20230101">yes</GUIConfig>
         <GUIConfig name="Auto-detection">autoUpdate2End</GUIConfig>
