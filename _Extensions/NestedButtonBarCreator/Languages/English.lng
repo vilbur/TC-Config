@@ -1,0 +1,50 @@
+; English language for Nested Button Bar Creator 2.00
+
+; You can send translations of this file
+; to me at   ( utcmedit@yahoo.com )
+; and I will publish it with the program
+
+[UserLanguage]
+101=&File
+110=E&xit
+150=&Options...
+
+161=&Help
+162=Help &Topics
+163=&About...
+
+601=Step 1
+602=Step 2
+603=Step 3
+604=&Next
+605=&Back
+606=&Create
+607=Try my other tools
+610=&File name prefix
+611=&Language File
+
+620=Specify how many button bar you need?
+621=Specify where the button bar files will be saved.
+622=It is recommended to save in separate folder.
+623=Press above numbers and browse for any button bar file (*.bar) to import its contents.
+624=You can skip this step and press Create button.
+625=Button bar files has been created, follow these steps to apply:
+626=1- Run Total Commander.
+627=2- Show 'Change button bar' dialog box.
+628=3- Press >> button and choose 'Bar_01.bar' file, then press OK.
+629=4- Press Yes when you asked: Do you want to make this button bar the new main button bar?
+
+1001=Options
+1008=OK
+1009=Cancel
+
+1501=About
+1502=Programmed by :
+1503=Version
+1504=This program is registered to :
+1505=For the latest information on this program please visit the program home page.
+1506=Web site
+1507=e-mail
+1508=Visit Now
+
+3056=File not found.

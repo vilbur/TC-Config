@@ -1,0 +1,50 @@
+; Fichier français pour "Nested Button Bar Creator 2.00"
+
+; You can send translations of this file
+; to me at   ( utcmedit@yahoo.com )
+; and I will publish it with the program
+
+[UserLanguage]
+101=&Fichier
+110=&Quitter
+150=&Options...
+
+161=&Aide
+162=&Sujets de l'aide
+163=À &propos de...
+
+601=Étape n°1
+602=Étape n°2
+603=Étape n°3
+604=&Suivant
+605=&Précédent
+606=&Créer
+607=/E
+610=Préfixe des noms de &fichiers :
+611=Fichier pour la &langue :
+
+620=Spécifiez le nombre de boutons nécessaires
+621=Spécifiez où les barres de boutons seront enregistrées.
+622=Il est recommandé d'utiliser un répertoire spécifique.
+623=Choisissez un N° et parcourez pour importer le contenu d'un fichier de barre de boutons (*.bar).
+624=Vous pouvez sauter cette étape et choisir "Créer" un bouton.
+625=Le fichier de barre de bouton a été créé, suivez le étapes suivantes pour appliquer:
+626=1- Lancer Total Commander.
+627=2- Afficher la boîte de dialogue “Modifier la barre des boutons”.
+628=3- Bouton >> et choisir le fichier "Bar_01.bar", puis Confirmer.
+629=4- Clic sur “Oui” à la demande: “Voulez-vous que cette barre devienne la nouvelle barre principale?”
+
+1001=Options
+1008=Confirmer
+1009=Annuler
+
+1501=À propos…
+1502=Programmé par :
+1503-Version:
+1504=Ce programme est enregistré pour :
+1505=Pour les dernières informations sur ce programme visitez sa page.
+1506=Site:
+1507=Courriel:
+1508=Visiter maintenant...
+
+3056=Fichier introuvable.

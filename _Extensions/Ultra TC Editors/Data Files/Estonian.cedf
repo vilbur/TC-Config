@@ -1,0 +1,2953 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="style.xsl" type="text/xsl" ?>
+<!--  This file contain all Total Commander 7.55a (Wincmd.ini and Wcx_ftp.ini) configuration keys.-->
+<!--  for more information about this file please read the Help Topics.-->
+<!--  to view the contents of this file as a web page, open it with IE6+, Firefox or Opera.-->
+<ultra_tc_editors_data_file>
+	<main_category title="Total Commander Konfiguratsioonid">
+		<category title="Näitamine">
+			<category title="Peaakna">
+				<category title="Välimus">
+					<key name="ButtonBar" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= Show button bar.
+0= Hide button bar.</description>
+					</key>
+					<key name="DriveBar1" file="Wincmd.ini" section="Layout" default="0" version="3.00">
+						<description>1= Show drive buttons.
+0= Hide drive buttons.</description>
+					</key>
+					<key name="DriveBar2" file="Wincmd.ini" section="Layout" default="0" version="4.00">
+						<description>1= Show two drive button bars. (fixed width, above file windows).
+0= Hide two drive button bars.
+
+Has no effect if DriveBar1=0.</description>
+					</key>
+					<key name="DriveBarHide" file="Wincmd.ini" section="Configuration" default="drive_list" advanced="Yes" version="7.03">
+						<description>peidab kohaliku ketta A ja hosti kettad CDE.</description>
+					</key>
+					<key name="DriveBarFlat" file="Wincmd.ini" section="Layout" default="1" version="3.50">
+						<description>1= drive buttons appear flat.
+0= drive buttons appear 3D.</description>
+					</key>
+					<key name="DriveCombo" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= Show drive combobox.
+0= Hide drive combobox.</description>
+					</key>
+					<key name="DirectoryTabs" file="Wincmd.ini" section="Layout" default="1" version="6.00">
+						<description>1= Show directory tabs.
+0= Hide directory tabs.</description>
+					</key>
+					<key name="CurDir" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= Show current directory.
+0= Hide current directory.</description>
+					</key>
+					<key name="BreadCrumbBar" file="Wincmd.ini" section="Layout" default="1" version="7.50">
+						<description>1= Show clickable path parts ("breadcrumb bar").</description>
+					</key>
+					<key name="HistoryHotlistButtons" file="Wincmd.ini" section="Layout" default="1" version="6.00">
+						<description>1= Show buttons for history list and hotlist.
+0= Hide buttons for history list and hotlist.</description>
+					</key>
+					<key name="TabHeader" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= Show tabstop header.
+0= Hide tabstop header.</description>
+					</key>
+					<key name="StatusBar" file="Wincmd.ini" section="Layout" default="1" version="3.50">
+						<description>1= Show status bar.
+0= Hide status bar.</description>
+					</key>
+					<key name="CmdLine" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= Show command line.
+0= Hide command line.</description>
+					</key>
+					<key name="KeyButtons" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= Show function key buttons.
+0= Hide function key buttons.</description>
+					</key>
+					<key name="InterfaceFlat" file="Wincmd.ini" section="Layout" default="1" version="3.50">
+						<description>1= Flat user interface.
+0= 3D user interface.</description>
+					</key>
+					<key name="XPthemeBg" file="Wincmd.ini" section="Layout" default="1" version="7.00">
+						<description>Windows XP theme background (menu+button bar+drive bar).</description>
+					</key>
+				</category>
+				<category title="Visual style">
+					<key name="PanelsVertical" file="Wincmd.ini" section="Configuration" default="0" version="5.00">
+						<description>Failipaneelid kõrvuti (0) või üksteise kohal (1)</description>
+					</key>
+					<key name="NewStyleProgress" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+						<description>1: Kasutatakse operatsioonisüsteemi edenemisriba (vaikesäte Windows &gt;=XP korral)
+0: Kasutatakse Total Commanderi oma edenemisriba (vaikesäte kõigi vanemate Windowsi versioonide korral)
+2: Nagu 1, aga segmenteerimata ribaga (toetatud ainult klassikalises laadis)</description>
+					</key>
+					<key name="WantXPLook" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.50">
+						<description>Ainult Windows &gt;=XP: näitab nuppe peaaknas ja kujundust:
+	0= klassikalises laadis
+	1= XP laadis</description>
+					</key>
+					<key name="OverrideDPI" file="Wincmd.ini" section="Configuration" default="96" advanced="Yes" version="7.00">
+						<description>Scales all dialog boxes (except for the main window!) to the given size in dots per inch. Normal is 96 dpi.</description>
+					</key>
+					<key name="ShowInstanceNr" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.00">
+						<description>Näitab tiitliribal numbrit, kui töötab rohkem kui üks Total Commander (1/0)</description>
+					</key>
+					<key name="TabHeaderThemed" file="Wincmd.ini" section="Layout" default="1" advanced="Yes" version="7.50">
+						<description>0: Lülitab välja tulpade pealdiste laadid</description>
+					</key>
+					<key name="TabHeaderBoldArrow" file="Wincmd.ini" section="Layout" default="1" advanced="Yes" version="7.50">
+						<description>0: Lülitab välja jämedad nooled tulpade pealdistel (vaikimisi: sama kui TabHeaderThemed)</description>
+					</key>
+				</category>
+			</category>
+			<category title="Paneelide">
+				<key name="ShowHiddenSystem" file="Wincmd.ini" section="Configuration" default="0" version="1.10">
+					<description>1=Näidatakse peidetud/süsteemifaile</description>
+				</key>
+				<key name="UseLongNames" file="Wincmd.ini" section="Configuration" default="1" version="2.00">
+					<description>Kasutatakse pikki failinimesid (1/0)</description>
+				</key>
+				<key name="Small83Names" file="Wincmd.ini" section="Configuration" default="0" version="3.00">
+					<description>Näitab vanas stiilis nimesid (8 märki nimes ja 3 laiendis) väiketähtedega nagu Win9x Exploreris (1/0)</description>
+				</key>
+				<key name="ShowParentDirInRoot" file="Wincmd.ini" section="Configuration" default="0" version="6.00">
+					<description>1: Näitab emakausta [..] ka juurkaustas (c:\ jne)</description>
+				</key>
+				<key name="DirBrackets" file="Wincmd.ini" section="Configuration" default="1" version="3.52">
+					<description>Näitab nurksulge kaustanimede ümber (1/0, vaikimisi=1)</description>
+				</key>
+				<key name="BriefViewWidthLimit" file="Wincmd.ini" section="Configuration" default="0" version="6.50">
+					<description>Määrab ära tulba maksimaalse laiuse lühivaates (pikslites)</description>
+				</key>
+				<key name="SortUpper" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>0: Vaikimisi sortimismeetod
+1: Failide sortimisel pannakse alakriipsuga _ algavad nimed lõppu
+2: Kasutab segasortimist tähestiku ja numbrite järgi, näit. file10.txt tuleb file1.txt JÄREL
+3: Nagu 2, aga kasutab võrdlemiseks funktsiooni StrCmpLogicalW. 3 vajab installitud IE 6.x!</description>
+				</key>
+				<key name="SortDirsByName" file="Wincmd.ini" section="Configuration" default="1" version="1.30">
+					<description>Kaustade sortimine alati nime järgi (1/0)</description>
+				</key>
+				<key name="SortDirExt" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>1: Lubab sortida kaustad laiendi järgi (ainult kui SortDirsByName=0)</description>
+				</key>
+				<key name="Tips" file="Wincmd.ini" section="Configuration" default="3" version="2.00">
+					<description>Vihjed 1=nuppudele, 2=ketastele, 3=mõlemile</description>
+				</key>
+				<key name="FileTipWindows" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>Näitab vihjeid (vihjeaknaid faili nimega) failidele mille nimed on täisvaates näitamiseks liiga pikad (1/0)</description>
+				</key>
+				<key name="OleComments" file="Wincmd.ini" section="Configuration" default="1" version="5.50">
+					<description>Kommentaaride laadimine 
+	0: Ainult kommentaarifailidest descript.ion ja files.bbs
+	1: Explorerist (NTFS-vood ja Wordi dokumendid) ja kommentaarifailidest
+	2: Ainult Exploreri kommentaarid
+	3: Mitte ühestki eelnimetatust (ainult pluginatest, kui on defineeritud)</description>
+				</key>
+				<key name="Win32TipWindows" file="Wincmd.ini" section="Configuration" default="0" version="5.50">
+					<description>1: Näitab Win32-stiilis vihjeaknaid (nihutatud allapoole ja paremale)</description>
+				</key>
+				<key name="MinLineHeight" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.03">
+					<description>Kehtestab faililoendite minimaalse reakõrguse (pikslites), kui etteantud väärtus on &gt;0. Kui on negatiivne, lisatakse absoluutväärtus tavalisele reakõrgusele, näit. MinLineHeight=-2, kõrgus=16 -&gt; 18</description>
+				</key>
+			</category>
+			<category title="Tulbad">
+				<key name="Aligned extension" file="Wincmd.ini" section="Configuration" default="1" version="1.30">
+					<description>Faililaiendid näidatakse vasakule joondatult</description>
+				</key>
+				<key name="0" file="Wincmd.ini" section="Tabstops" default="90" version="1.30">
+					<description>Suurus</description>
+				</key>
+				<key name="1" file="Wincmd.ini" section="Tabstops" default="93" version="1.30">
+					<description>Daatum</description>
+				</key>
+				<key name="3" file="Wincmd.ini" section="Tabstops" default="152" version="1.30">
+					<description>Atribuudid</description>
+				</key>
+				<key name="4" file="Wincmd.ini" section="Tabstops" default="42" version="1.30">
+					<description>Laiend</description>
+				</key>
+				<key name="5" file="Wincmd.ini" section="Tabstops" default="93" version="6.50">
+					<description>Kommentaar</description>
+				</key>
+				<key name="6" file="Wincmd.ini" section="Tabstops" default="457" advanced="Yes" version="6.50">
+					<description>laius&gt; Võrdluslaius (kasutatakse AdjustWidth=1 korral)</description>
+				</key>
+				<key name="AdjustWidth" file="Wincmd.ini" section="Tabstops" default="0" version="4.00">
+					<description>Kohandab automaatselt nimetulba laiust akna suuruse muutumisel</description>
+				</key>
+				<key name="ShowCentury" file="Wincmd.ini" section="Configuration" default="1" version="3.00">
+					<description>Näitab faililoendites sajandit kuupäevas (1/0)</description>
+				</key>
+				<key name="ShowAMPM" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>1: Näitab aega 12-tunnises AM/PM vormingus (ameerika stiilis)</description>
+				</key>
+				<key name="DirsInFooter" file="Wincmd.ini" section="Configuration" default="1" version="6.50">
+					<description>Näitab märgitud ja kogu kaustade hulka jaluses</description>
+				</key>
+				<key name="SizeStyle" file="Wincmd.ini" section="Configuration" default="0" version="5.00">
+					<description>Suuruse näit faililoendis:
+0=baitides, 1=kilobaitides, 2=muutuv, 3=muutuv, koos murdosaga, 4/5= nagu 2/3, aga ilma gigabaitideta (faili suurust &gt;1GB näidatakse megabaitides)</description>
+				</key>
+				<key name="SizeFooter" file="Wincmd.ini" section="Configuration" default="1" version="5.50">
+					<description>Suuruse näit päises ja jaluses:
+0=baitides, 1=kilobaitides, 2=muutuv, 3=muutuv, koos murdosaga, 4/5= nagu 2/3, aga ilma gigabaitideta (faili suurust &gt;1GB näidatakse megabaitides)</description>
+				</key>
+				<key name="LongInStatus" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>Näitab täisvaates staatuseribal kursorialuse faili nime (1/0)</description>
+				</key>
+				<key name="AccessTime" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="6.02">
+					<description>1: Võimaldab Total Commanderil töötada 'viimase kasutamise' ajatempliga 'viimase muutmise' asemel, näit. viimase n päeva jooksul kasutatud failide kopeerimiseks. </description>
+				</key>
+			</category>
+			<category title="Kaustapuu">
+				<key name="SeparateTree" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>Näidatakse mitte ühtegi (0), ühte (1) või kahte (2) eraldi kaustapuud</description>
+				</key>
+				<key name="SeparateTreeWidth" file="Wincmd.ini" section="Configuration" default="160" version="7.00">
+					<description>Eraldi kaustapuu paneeli(de) laius</description>
+				</key>
+				<key name="Tree" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="2.00">
+					<description>Kaustapuud näidatakse 1=sortimata, 0=nime järgi sorditult</description>
+				</key>
+			</category>
+			<category title="Nupuriba">
+				<key name="Buttonbar" file="Wincmd.ini" section="Buttonbar" default="%COMMANDER_PATH%\default.bar" dialog="Open File" version="1.30">
+					<description>Vaikimisi nupuriba</description>
+				</key>
+				<key name="Buttonheight" file="Wincmd.ini" section="Buttonbar" default="29" version="1.30">
+					<description>Ikoonide suurus</description>
+				</key>
+				<key name="FlatIcons" file="Wincmd.ini" section="Buttonbar" default="1" version="3.50">
+					<description>1: Ikoonid ilma 3D-efektita, 0: 3D-efektiga</description>
+				</key>
+				<key name="SmallIcons" file="Wincmd.ini" section="Buttonbar" default="1" version="3.50">
+					<description>1: Kasutab väikeseid ikoone, mille suuruse defineerib SmallIconSize, 0: ikoonid on nupu suurused</description>
+				</key>
+				<key name="SmallIconSize" file="Wincmd.ini" section="Buttonbar" default="16" version="7.00">
+					<description>Ikoonide suurus väikeste ikoonide kasutamisel</description>
+				</key>
+				<key name="PopupIconSize" file="Wincmd.ini" section="Buttonbar" default="16" advanced="Yes" version="7.50">
+					<description>Ikoonide suurus rippmenüüs, kui BAR-faili näidatakse menüüna. Vaikimisi: sama, mis ikooni suurus näidataval nupuribal.</description>
+				</key>
+				<key name="XPstyle" file="Wincmd.ini" section="Buttonbar" default="1" version="7.00">
+					<description>Kasutab XP-stiilis nuppe (1/0)</description>
+				</key>
+				<key name="ToolTipDelay" file="Wincmd.ini" section="Configuration" default="500" advanced="Yes" version="2.11">
+					<description>Viivitus millisekundites enne nuppude kirjelduste näitamist nupuribal (vaikimisi = 500)</description>
+				</key>
+				<key name="PopupOverlay" file="Wincmd.ini" section="Buttonbar" default="1" advanced="Yes" version="7.50">
+					<description>1: Näitab väikest nooleikooni nupul, mis avab alammenüü</description>
+				</key>
+				<key name="BarLimitLines" file="Wincmd.ini" section="Buttonbar" default="0" advanced="Yes" version="7.50">
+					<description>Piirab nupuriba ridade arvu. 0 tähendab piiramata</description>
+				</key>
+			</category>
+			<category title="Kaustalehed">
+				<key name="DirTabOptions" file="Wincmd.ini" section="Configuration" default="824" dialog="Bits Sum" version="6.00">
+					<description>Järgmiste valikute summa:
+	1: Kaustalehtede sakid alati näha
+	2: Sakid mitmes reas
+	4: Kõik sakid sama laiusega
+	8: Saki teksti pikkuse piirang sisse lülitatud (vt. DirTabLimit)
+	16: Küsitakse kinnitust kõigi kaustalehtede sulgemiseks
+	32: Kaustalehed suletakse topeltklõpsuga sakil
+	64: Uued kaustalehed avatakse esiplaanil
+	128: Uued kaustalehed avatakse aktiivse saki kõrval
+	256: Lukustatud kaustalehtede korral näitatakse tärni *
+	512: Sihtpaneel aktiveeritakse mõnel selle sakil klõpsates
+	1024: Kaustalehe sakil näidatakse aktiivse ketta tähist</description>
+				</key>
+				<key name="DirTabLimit" file="Wincmd.ini" section="Configuration" default="32" version="6.00">
+					<description>Suurim kaustalehe sakil näidatav märkide arv</description>
+				</key>
+				<key name="TabSeparator" file="Wincmd.ini" section="Configuration" default=":" advanced="Yes" version="7.00">
+					<description>Määratleb eraldaja ketta tähise ja kausta nime vahel kaustalehe sakil</description>
+				</key>
+			</category>
+			<category title="Directory history">
+				<key name="HistoryAppend" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.51">
+					<description>1= Lisab ajaloo loendist (Alt+Allanool) valitud kausta ajaloo loendi lõppu (vaikimisi)
+0= Liigutab ajaloo loendi aktiivse positsiooni valitud kaustale</description>
+				</key>
+				<key name="ReverseHistory" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="6.02">
+					<description>1: Näitab ajalugu (varem külastatud kaustu) vastupidises järjestuses (viimati külastatud üleval)</description>
+				</key>
+			</category>
+			<category title="Drive hints">
+				<key name="CDlabel" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.01">
+					<description>Näitab CD-de (ja teiste eemaldatavate ketaste) nimesilte Alt+F1/F2 ripploendis (1/0)</description>
+				</key>
+				<key name="tsclient" file="Wincmd.ini" section="Configuration" default="\\tsclient" advanced="Yes" version="7.55">
+					<description>Määratleb kaughosti nime, mille ketaste tähiseid näidata ketaste valikukastis ja kettanuppude ribal. Näidatakse ainult ühetähelisi jagatud ressursse. Ärakeelamiseks andke tühi string (tsclient=). Tavaliselt kasutatakse ainult Windows 7 XP-re˛iimis ja terminaliserveri korral.</description>
+				</key>
+				<key name="A" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Kasutaja defineeritud kettakirjeldused ketaste valimiseks
+E=ZIP-draiv Üks rida ketta tähisega iga ümbernimetatava ketta jaoks</description>
+				</key>
+				<key name="B" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive B</description>
+				</key>
+				<key name="C" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive C</description>
+				</key>
+				<key name="D" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive D</description>
+				</key>
+				<key name="E" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive E</description>
+				</key>
+				<key name="F" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive F</description>
+				</key>
+				<key name="G" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive G</description>
+				</key>
+				<key name="H" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive H</description>
+				</key>
+				<key name="I" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive I</description>
+				</key>
+				<key name="J" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive J</description>
+				</key>
+				<key name="K" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive K</description>
+				</key>
+				<key name="L" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive L</description>
+				</key>
+				<key name="M" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive M</description>
+				</key>
+				<key name="N" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive N</description>
+				</key>
+				<key name="O" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive O</description>
+				</key>
+				<key name="P" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive P</description>
+				</key>
+				<key name="Q" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive Q</description>
+				</key>
+				<key name="R" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive R</description>
+				</key>
+				<key name="S" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive S</description>
+				</key>
+				<key name="T" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive T</description>
+				</key>
+				<key name="U" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive U</description>
+				</key>
+				<key name="V" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive V</description>
+				</key>
+				<key name="W" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive W</description>
+				</key>
+				<key name="X" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive X</description>
+				</key>
+				<key name="Y" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive Y</description>
+				</key>
+				<key name="Z" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive Z</description>
+				</key>
+				<key name="\" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for Network Neighborhood/FS-plugins
+Note: This hint appears only for drive buttons bar not drive dropdown list.</description>
+				</key>
+			</category>
+			<category title="Ikoonid">
+				<category title="Paneelide">
+					<key name="Showicons" file="Wincmd.ini" section="Configuration" default="2" version="1.10">
+						<description>Ikoonid: 0=ei näidata, 1=standardsed, 2=kõik</description>
+					</key>
+					<key name="ShowEXEandLNKicons" file="Wincmd.ini" section="Configuration" default="2" version="3.00">
+						<description>EXE ja LNK failide ikoonide näitamine:
+	0: Ainult standardsed ikoonid
+	1: Näidatakse EXE/LNK ikoone (aeglane)
+	2: Sama nagu 1, aga ilma diskettideta</description>
+					</key>
+					<key name="ShellExtIcons" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="4.50">
+						<description>1=Näitab kestalaienduste ikoone (erinevad ikoonid faili kohta), 0=ei näita</description>
+					</key>
+					<key name="IconsOnNet" file="Wincmd.ini" section="Configuration" default="1" version="4.53">
+						<description>Laadib EXE ja LNK failide ikoonid ka võrguketaste korral (1/0)</description>
+					</key>
+					<key name="IconsSpecialFolders" file="Wincmd.ini" section="Configuration" default="3" version="5.50">
+						<description>Lubab/keelab erikaustade ikoonide näitamise (0=ei näita, 1=kohalikus failisüsteemis, 2=virtuaalkaustadel ja võrgus, 3=mõlemas)</description>
+					</key>
+					<key name="IconOverlays" file="Wincmd.ini" section="Configuration" default="0" version="6.50">
+						<description>Lubab/keelab ülekatteikoonid, nagu väikesed nooled LNK-failidel (1/0)</description>
+					</key>
+					<key name="Iconsize32" file="Wincmd.ini" section="[%Screen_Resolution%]" default="16" version="3.00">
+						<description>Ikoonide suurus (pikslites)</description>
+					</key>
+					<key name="IconLib" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" dialog="Icon Library Preview" version="4.00">
+						<description>Laadib kõik faililoendi vaikeikoonid määratletud DLL-ist. Vt. ICL-i näidist saidil www.ghisler.com.</description>
+					</key>
+					<key name="IconsInThread" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="4.00">
+						<description>Laadib EXE ja LNK failide ikoonid eraldi harus (1/0)</description>
+					</key>
+					<key name="IconWin95" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" advanced="Yes" version="1.52">
+						<description>If set to 1, use 16 pixels size for file list icons independently of Iconsize32 value.</description>
+					</key>
+				</category>
+				<category title="Drive bar">
+					<key name="DriveLib" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" dialog="Open File" version="6.50">
+						<description>Laadib kettanuppude ikoonid määratletud DLL-failist</description>
+					</key>
+					<key name="OldDriveIcons" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+						<description>1: Kettanuppude ribal kasutatakse vanu TC 6.5x kettaikoone
+0: Kasutatakse uusi kettaikoone</description>
+					</key>
+					<key name="IconsInDriveList" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+						<description>Näitab kettaikoone ketaste ripploendis (Alt+F1/F2) ja "Ketast ei ole" dialoogikastis</description>
+					</key>
+				</category>
+				<category title="Peamenüü">
+					<key name="IconsInMenus" file="Wincmd.ini" section="Configuration" default="17" dialog="Bits Sum" version="7.00">
+						<description>Võimaldab näidata peamenüüs ikoone failidest wcmicons.dll või wciconex.dll. Summa väärtustest:
+	1: Lubab ikoonid menüüs
+	2: Ümbritseb ikoonid raamiga
+	4: Näitab 24x24 ikoone 16x16 asemel
+	8: Näitab 32x32 ikoone
+	12: Näitab 48x48 ikoone (väga suure eraldusvõimega ekraani korral)
+	16: Näitab märgitud kirjed allavajutatud nuppudega märke asemel</description>
+					</key>
+				</category>
+			</category>
+			<category title="Font">
+				<category title="Paneelide">
+					<key name="FontName" file="Wincmd.ini" section="[%Screen_Resolution%]" default="Microsoft Sans Serif" dialog="Font" version="1.10">
+						<description>Font</description>
+					</key>
+					<key name="FontSize" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="1.10">
+						<description>Kirjasuurus</description>
+					</key>
+					<key name="FontWeight" file="Wincmd.ini" section="[%Screen_Resolution%]" default="700" version="1.30">
+						<description>Kirja paksus (400=harilik, 700=paks)</description>
+					</key>
+					<key name="FontCharset" file="Wincmd.ini" section="[%Screen_Resolution%]" default="1" version="3.50">
+						<description>Failipaneeli fondi märgistik (lääne, kirillitsa jne.)</description>
+					</key>
+				</category>
+				<category title="Peaakna">
+					<key name="FontNameWindow" file="Wincmd.ini" section="[%Screen_Resolution%]" default="Microsoft Sans Serif" dialog="Font" version="3.00">
+						<description>Font ülejäänud peaaknale</description>
+					</key>
+					<key name="FontSizewindow" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="3.00">
+						<description>Kirjasuurus ülejäänud peaaknale</description>
+					</key>
+					<key name="FontWeightWindow" file="Wincmd.ini" section="[%Screen_Resolution%]" default="400" version="3.00">
+						<description>Kirja paksus ülejäänud peaaknale</description>
+					</key>
+					<key name="FontCharsetWindow" file="Wincmd.ini" section="[%Screen_Resolution%]" default="1" version="3.50">
+						<description>Sama, kuid peaakna fondile</description>
+					</key>
+				</category>
+				<category title="Dialoogikastide">
+					<key name="FontNameDialog" file="Wincmd.ini" section="[%Screen_Resolution%]" default="Microsoft Sans Serif" dialog="Font" version="4.00">
+						<description>Font name.
+Tip: Press &lt;Ctrl+B&gt; to set Font Name, Size, Weight and Charset at once.</description>
+					</key>
+					<key name="FontSizeDialog" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="4.00">
+						<description>Font size.</description>
+					</key>
+					<key name="FontWeightDialog" file="Wincmd.ini" section="[%Screen_Resolution%]" default="400" version="4.00">
+						<description>Font weight:
+	400= Normal.
+	700= Bold.</description>
+					</key>
+					<key name="FontCharsetDialog" file="Wincmd.ini" section="[%Screen_Resolution%]" default="1" version="4.00">
+						<description>Font character set (Western, Cyrillic etc).</description>
+					</key>
+				</category>
+			</category>
+			<category title="Värvid">
+				<category title="Paneelide">
+					<key name="ForeColor" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="1.10">
+						<description>Teksti värv (-1=vaikimisi)</description>
+					</key>
+					<key name="BackColor" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="1.10">
+						<description>Taustavärv (RGB: punane+256*roheline+65536*sinine, iga väärtus vahemikus 0...255)</description>
+					</key>
+					<key name="BackColor2" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="7.00">
+						<description>Taustavärv paarisridadele (tähistab ka aktiivset kausta eraldi kaustapuul)</description>
+					</key>
+					<key name="MarkColor" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="1.61">
+						<description>Märgistuse värv</description>
+					</key>
+					<key name="CursorColor" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="1.61">
+						<description>Kursori värv</description>
+					</key>
+					<key name="CursorText" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="2.11">
+						<description>Kursori teksti värv (ainult täidetud kursori jaoks)</description>
+					</key>
+					<key name="ActiveTitle" file="Wincmd.ini" section="Colors" default="14898176" advanced="Yes" dialog="Color" version="7.55">
+						<description>Aktiivse paneeli tiitliriba värv</description>
+					</key>
+					<key name="ActiveTitleText" file="Wincmd.ini" section="Colors" default="16777215" advanced="Yes" dialog="Color" version="7.55">
+						<description>Aktiivse paneeli tiitliriba teksti värv</description>
+					</key>
+					<key name="InactiveTitle" file="Wincmd.ini" section="Colors" default="14653050" advanced="Yes" dialog="Color" version="7.55">
+						<description>Passiivse paneeli tiitliriba värv</description>
+					</key>
+					<key name="InactiveTitleText" file="Wincmd.ini" section="Colors" default="16311512" advanced="Yes" dialog="Color" version="7.55">
+						<description>Passiivse paneeli tiitliriba teksti värv</description>
+					</key>
+					<key name="ThumbnailFrame" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="6.50">
+						<description>Määratleb pisipiltide ümber oleva raami värvi: RGB-väärtus või -1=vaikimisi, -2=nähtamatu</description>
+					</key>
+					<key name="TreeLineColor" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="7.00">
+						<description>Kaustapuu ühendusjoonte värv nii failipaneelil kui eraldi kaustapuus, Alt+F10 kaustapuu dialoogis ja FTP ühenduste dialoogis. Väärtused: RGB-väärtus või -1=vaikimisi, -2=nähtamatu</description>
+					</key>
+					<key name="InverseCursor" file="Wincmd.ini" section="Colors" default="0" version="3.00">
+						<description>Kursorit näidatakse täidetud kastina (1)</description>
+					</key>
+					<key name="InverseSelection" file="Wincmd.ini" section="Colors" default="0" version="5.00">
+						<description>Märgitud faile näidatakse täidetud kastidena (1)</description>
+					</key>
+				</category>
+				<category title="Lister">
+					<key name="FgColor" file="Wincmd.ini" section="Lister" default="0" dialog="Color" version="6.00">
+						<description>Teksti värv. Vaikeväärtus on Windowsi vaikimisi tekstivärv.</description>
+					</key>
+					<key name="BgColor" file="Wincmd.ini" section="Lister" default="16777215" dialog="Color" version="6.00">
+						<description>Taustavärv. Vaikeväärtus on Windowsi vaikimisi taustavärv.</description>
+					</key>
+					<key name="FgSelColor" file="Wincmd.ini" section="Lister" default="16777215" dialog="Color" version="6.00">
+						<description>Märgitud teksti värv. Vaikeväärtus on taustavärv.</description>
+					</key>
+					<key name="BgSelColor" file="Wincmd.ini" section="Lister" default="0" dialog="Color" version="6.00">
+						<description>Märgitud teksti taustavärv. Vaikeväärtus on teksti värv.</description>
+					</key>
+					<key name="LinkColor" file="Wincmd.ini" section="Lister" default="8388608" dialog="Color" version="6.00">
+						<description>Linkide värv. Vaikeväärtus on tumesinine (128*65536).</description>
+					</key>
+				</category>
+				<category title="Sisu järgi võrdlemine">
+					<key name="CompareText" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="4.11">
+						<description>Erinevuste värv failide võrdlemisel tekstivaates</description>
+					</key>
+					<key name="CompareTextSel" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="4.11">
+						<description>Sama, aga märgitud tekstile</description>
+					</key>
+					<key name="CompareBinary" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="4.11">
+						<description>Erinevuste värv failide võrdlemisel binaarvaates</description>
+					</key>
+					<key name="CompareBinarySel" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="4.11">
+						<description>Sama, aga märgitud tekstile</description>
+					</key>
+					<key name="CompareDifferenceBack" file="Wincmd.ini" section="Colors" default="-2" advanced="Yes" dialog="Color" version="7.55">
+						<description>Taustavärv erinevustega ridadele:
+	-1=sama värv mis ilma erinevusteta ridadel
+	-2=kergelt tumedam või heledam (sõltuvalt taustavärvist)
+muu=RGB väärtus</description>
+					</key>
+					<key name="CompareNormalBack" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="7.55">
+						<description>Taustavärv ilma erinevusteta ridadele. -1= vaikimisi: COLOR_WINDOW</description>
+					</key>
+					<key name="CompareNormalText" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="7.55">
+						<description>Tekstivärv ilma erinevusteta ridadele. -1= vaikimisi: COLOR_WINDOWTEXT</description>
+					</key>
+					<key name="CompareSelBack" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="7.55">
+						<description>Märgitud teksti taustavärv. -1= vaikimisi: COLOR_HIGHLIGHT</description>
+					</key>
+					<key name="CompareSelText" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="7.55">
+						<description>Märgitud teksti värv. -1= vaikimisi: COLOR_HIGHLIGHTTEXT</description>
+					</key>
+				</category>
+				<category title="File types">
+					<key name="ColorFilters" file="Wincmd.ini" section="Configuration" default="1" version="4.50">
+						<description>Lubab/keelab värvid failitüüpide jaoks</description>
+					</key>
+					<key name="ColorFilter1" file="Wincmd.ini" section="Colors" default="*.exe" version="4.50">
+						<description>Define file type e.g *.exe
+also you can defined many file types at the same filter e.g. *.exe; *.com; *.bat; *.cmd
+
+				IMPORTANT:
+				===========
+These keys must be in sequence, that is don't set (ColorFilter4 &amp; ColorFilter4Color) before you set the previous (ColorFilter1 &amp; ColorFilter1Color), (ColorFilter2 &amp; ColorFilter2Color) and (ColorFilter3 &amp; ColorFilter3Color).
+Also, the key 'ColorFilters' must set to 1 in order to apply color filter settings.
+
+This category contain only 25 predefined values, if you need more, open this data file in Notepad and add up to ColorFilter250 &amp; ColorFilter250Color value under [File types] category.</description>
+					</key>
+					<key name="ColorFilter1Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter2" file="Wincmd.ini" section="Colors" default="*.dll" version="4.50">
+						<description>Define file type e.g *.dll.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter2Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter3" file="Wincmd.ini" section="Colors" default="*.zip" version="4.50">
+						<description>Define file type e.g *.zip
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter3Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color
+
+See important note in the descriptions of (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter4" file="Wincmd.ini" section="Colors" default="*.rar" version="4.50">
+						<description>Define file type e.g *.rar.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter4Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter5" file="Wincmd.ini" section="Colors" default="*.txt" version="4.50">
+						<description>Define file type e.g *.txt.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter5Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter6" file="Wincmd.ini" section="Colors" default="*.ini" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter6Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter7" file="Wincmd.ini" section="Colors" default="*.bmp" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter7Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter8" file="Wincmd.ini" section="Colors" default="*.jpg" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter8Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter9" file="Wincmd.ini" section="Colors" default="*.gif" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter9Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter10" file="Wincmd.ini" section="Colors" default="*.tif" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter10Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter11" file="Wincmd.ini" section="Colors" default="*.ico" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter11Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter12" file="Wincmd.ini" section="Colors" default="*.icl" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter12Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter13" file="Wincmd.ini" section="Colors" default="*.avi" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter13Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter14" file="Wincmd.ini" section="Colors" default="*.mpg" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter14Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter15" file="Wincmd.ini" section="Colors" default="*.mpeg" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter15Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter16" file="Wincmd.ini" section="Colors" default="*.wmv" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter16Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter17" file="Wincmd.ini" section="Colors" default="*.asf" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter17Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter18" file="Wincmd.ini" section="Colors" default="*.mp3" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter18Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter19" file="Wincmd.ini" section="Colors" default="*.wav" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter19Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter20" file="Wincmd.ini" section="Colors" default="*.mid" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter20Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter21" file="Wincmd.ini" section="Colors" default="*.htm" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter21Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter22" file="Wincmd.ini" section="Colors" default="*.html" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter22Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter23" file="Wincmd.ini" section="Colors" default="*.mht" version="4.50">
+						<description>Define file type
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter23Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter24" file="Wincmd.ini" section="Colors" default="*.doc" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter24Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter25" file="Wincmd.ini" section="Colors" default="*.*" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter25Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+				</category>
+			</category>
+			<category title="Keel">
+				<key name="LanguageIni" file="Wincmd.ini" section="Configuration" default="lng_file" dialog="Open File" version="3.00">
+					<description>Kasutatav keelefail (WCMD_EST.LNG jne)</description>
+				</key>
+				<key name="Mainmenu" file="Wincmd.ini" section="Configuration" default="path\mnu_file" dialog="Open File" version="1.30">
+					<description>Sisaldab kohandatud peamenüü asukohta ja failinime</description>
+				</key>
+			</category>
+		</category>
+		<category title="Toimimine">
+			<category title="Main program">
+				<key name="OnlyOnce" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="2.00">
+					<description>1: Lubab käivitada ainult ühe Total Commanderi eksemplari kasutaja kohta (näit. RunAs abil käivitades)
+-1: Lubab käivitada ainult ühe Total Commanderi eksemplari sellel arvutil (kõigi kasutajate jaoks)
+x&gt;0: Sama nagu 1, aga lubab kasutada mitut ühe kasutaja kohta
+x&lt;0: Sama nagu -1, aga lubab kasutada mitut sellel arvutil (kõigi kasutajate jaoks kokku)</description>
+				</key>
+				<key name="ActiveRight" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="4.50">
+					<description>1: Total Commanderi käivitamisel saab parem paneel aktiivseks (1/0)</description>
+				</key>
+				<key name="TrayIcon" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>Paigutab Total Commanderi ikooni süsteemisalve (minimeerimisel) (1/0)</description>
+				</key>
+				<key name="UseIniInProgramDir" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Bits Sum" version="6.50">
+					<description>Seda muutujat loetakse ainult siis, kui fail wincmd.ini asub programmiga samas kaustas. See peab olema otse failis wincmd.ini, RedirectSection ei mõjuta seda muutujat.
+See on järgmiste väärtuste summa:
+	1: Kasutatakse programmikaustas olevat wincmd.ini, kui muud asukohta pole määratud registris või parameetritega
+	2: Kasutatakse programmikaustas olevat wcx_ftp.ini, kui muud asukohta pole määratud registris või parameetritega
+	4: Alistab registri seaded (aga mitte käsurea parameetreid)</description>
+				</key>
+				<key name="ResolutionSpecific" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>0: Eraldusvõimega seotud andmeid, nagu fondi laad ja kirjasuurus, hoitakse ühises jaotises nimega [AllResolutions]
+1: Eraldusvõimega seotud andmeid hoitakse eraldi jaotistes, nagu [1024x768 (10x20)]</description>
+				</key>
+				<key name="KeyPath" file="Wincmd.ini" section="Configuration" default="%COMMANDER_PATH%" advanced="Yes" dialog="Open Folder" version="3.02">
+					<description>Registreerimisvõtme tee (ILMA failinimeta!). Vaikimisi otsib Total Commander võtit omaenda kaustast. Kasulik siis, kui võtit ei saa üle kohtvõrgu lugeda.
+Kui Keypath=$, otsib Total Commander võtit registrist (binaarväärtus "key" alamharus "Software/Ghisler/Total Commander").</description>
+				</key>
+				<key name="InstallDir" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" dialog="Open Folder" version="4.00">
+					<description>Total Commanderi viimane installikaust (sama mis registris)</description>
+				</key>
+				<key name="Version" file="Wincmd.ini" section="Configuration" default="7.01" advanced="Yes" version="1.30">
+					<description>Total Commanderi versioon (seda ei muudeta alati)</description>
+				</key>
+				<key name="StartupScreen" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.50">
+					<description>Lülitab tiitliakna näitamine käivitamisel sisse/välja (1/0)</description>
+				</key>
+			</category>
+			<category title="Vaataja/Redaktor">
+				<category title="General">
+					<key name="Viewer" file="Wincmd.ini" section="Configuration" default="none" dialog="Open File" version="1.10">
+						<description>Vaikimisi failivaataja Alt+F3 jaoks või "none"</description>
+					</key>
+					<key name="Editor" file="Wincmd.ini" section="Configuration" default="notepad.exe" dialog="Open File" version="1.10">
+						<description>Vaikimisi redaktor F4 jaoks</description>
+					</key>
+					<key name="Viewertype" file="Wincmd.ini" section="Configuration" default="1" version="1.10">
+						<description>0=Sisemine/kursorialune fail, 1=märgitud, 2=väline</description>
+					</key>
+					<key name="EditWaitTime" file="Wincmd.ini" section="Configuration" default="2" advanced="Yes" version="7.00">
+						<description>Ooteaja väärtus arhiivis või FTP-serveris olevate failide redigeerimisel. Kui redaktor sulgub nende sekundite jooksul, eeldatakse, et tegemist on mitmedokumendilise redaktoriga, ning näidatakse dialoogi, kus kasutaja saab kinnitada redigeerimise lõpetamist. Väärtus 0 lülitab selle võimaluse välja. Väärtus -1 keelab dialoogi näitamise ära (näit. kui fail antakse DDE abil edasi seostatud programmile).</description>
+					</key>
+					<key name="WmfAllowed" file="Wincmd.ini" section="Configuration" default="-1" advanced="Yes" version="6.50">
+						<description>0: WMF-failide näitamine keelatud. Keelab ka kausta pisipiltide näitamise.
+1: Lubab näidata WMF (Windows Metafile) pilte Listeris ja pisipiltides
+2: Lubab näidata kaustade pisipilte (mis võivad sisaldada WMF-faile)
+3: Näitab WMF-faile ja kausta pisipilte
+-1: Lubab kaustade pisipilte, kui Windowsi parandus on installitud. WMF-faile EI näidata, need tuleb käsitsi sisse lülitada.
+WMF-id on vaikimisi keelatud mitmete Windowsi turvaaukude tõttu.</description>
+					</key>
+				</category>
+				<section title="Extensions" name="Extensions" file="Wincmd.ini" version="1.30">
+					<description>Failiseosed Alt+F3 jaoks
+pif=c:\windows\pifedit.exe ^.pif näit. Pif editor *.pif jaoks</description>
+				</section>
+				<section title="Internal Associations" name="Associations" file="Wincmd.ini" version="7.50">
+					<description>Võimaldab alistada operatsioonisüsteemi failiseosed Total Commanderis, peamiselt programmi kasutamiseks USB-pulgalt
+Filter1=*.txt Esimene kasutaja defineeritud seosefilter. Filtreid rakendatakse numbrite järjekorras, kuni vaste leidmiseni.
+Filter1_open=""%windir%\notepad.exe" "%1""
+Selle filtri vaiketoiming (Ava), kasutatakse Enteri vajutamisel. Toimingud on filtrist eraldatud alakriipsuga "_".
+Filter1_Vaata=""%commander_path%\totalcmd.exe" /S=L "%1""
+Täiendav toiming (siin: Vaata), mida näidatakse paremklõpsu kohtmenüüs
+Filter1.icon=notepad.exe,-1 Defineerib ikooni esimese filtri jaoks. Negatiivne number tähendab ikooni indeksit, positiivne ikooni ressursi numbrit.
+Filter2=*.ini Teine kasutaja defineeritud filter
+jne.</description>
+				</section>
+			</category>
+			<category title="Kopeerimine">
+				<key name="AlwaysCopyInBackground" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="4.00">
+					<description>1: Total Commander kopeerib alati taustal
+2: Kasutab alati taustaülekannete korraldajat</description>
+				</key>
+				<key name="CopyDefaultMethod" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>Kasutab NT-põhistes süsteemides alati vaikimisi kopeerimismeetodit (praegu on selleks ühilduv moodus)</description>
+				</key>
+				<key name="CopyBlockSize" file="Wincmd.ini" section="Configuration" default="32" version="4.52">
+					<description>Määratleb ploki suuruse kopeerimisel (kilobaitides=1024 baiti). Vaikimisi ja minimaalne on 32 (=32768 baiti).</description>
+				</key>
+				<key name="CopyBlockSizeOther" file="Wincmd.ini" section="Configuration" default="32" version="5.00">
+					<description>Määratleb ploki suuruse erinevatel füüsilistel ketastel olevate loogiliste ketaste vahel kopeerimisel. Erinevate ketaste vahel kopeerimisel on parem kasutada väiksemat ploki suurust, kuna mõlemad kettad võivad lugeda ja kirjutada üheaegselt. Sama ketta piires kopeerimisel peab lugemispea hüppama lähte- ja sihtkoha vahel, seega on suurem ploki suurus parem.</description>
+				</key>
+				<key name="CopyHugeBlockSize" file="Wincmd.ini" section="Configuration" default="10240" version="5.00">
+					<description>Määratleb ploki suuruse väga suurte failide kopeerimisel. Failid loetakse ja kirjutatakse otse, kettapuhvrist möödudes. Minimaalne suurus on 10 MB. Ainult sellest plokisuurusest suuremad failid kopeeritakse niimoodi. Väiksemate failide korral kasutatakse CopyBlockSize. Vaikimisi, ilma selle kirjeta INI-failis, on see võimalus välja lülitatud.</description>
+				</key>
+				<key name="CopyHugeBlockSizeOther" file="Wincmd.ini" section="Configuration" default="32" version="5.00">
+					<description>Määratleb ploki suuruse väga suurte failide kopeerimisel erinevate ketaste vahel. Minimaalne suurus: 256 kB.
+Soovitavad väärtused (proovige ise teisi):
+	CopyBlockSize=1024
+	CopyHugeBlockSize=10240
+	CopyBlockSizeOther=128
+	CopyHugeBlockSizeOther=32</description>
+				</key>
+				<key name="UsbBufSize" file="Wincmd.ini" section="Configuration" default="-1" advanced="Yes" version="7.55">
+					<description>Puhvri suurus USB ühendusel kilobaitides (-1= maksimaalne võimalik suurus, praegu 64 kB)</description>
+				</key>
+				<key name="SamePartitions" file="Wincmd.ini" section="Configuration" default="drives,drives" version="5.00">
+					<description>Vt. eespool Copy(Huge)BlockSize(Other)</description>
+				</key>
+				<key name="CopyCompatDrives" file="Wincmd.ini" section="Configuration" default="drives" version="6.00">
+					<description>Kettad, millelt/millele kopeerides Total Commander peaks kasutama ühilduvat moodust. Soovitav USB-pulkade ja eksootiliste ketaste korral, kui tavaline kopeerimine tekitab probleeme. \ = Võrgunaabrus, * = kõik kettad. See moodus ei tööta Windows 9x/ME all.</description>
+				</key>
+				<key name="CopyCompatUsbSticks" file="Wincmd.ini" section="Configuration" default="1" version="7.00">
+					<description>Kasutab ühilduvat moodust USB-pulkade korral</description>
+				</key>
+				<key name="ExplorerForCopy" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>Kasutatakse sisemist kopeerimisfunktsiooni (palju paindlikum) või Exploreri oma (kopeerib ja kleebib) F5 ja F6 korral (0/1)</description>
+				</key>
+				<key name="UseFastCtrlC" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.55a">
+					<description>Kui kasutaja vajutab Ctrl+C või Ctrl+X, laaditakse kohtmenüü ning valitakse 'kopeeri' või 'lõika' (kohtmenüüd tegelikult näitamata).
+1: Kohtmenüü laaditakse ilma kesta laiendusteta (väga kiire, ent kasutada ei saa ühtegi Exploreri kopeerimislaiendust)
+0: Laaditakse terve kohtmenüü, nii nagu paremklõpsu korral (aeglasem, kuid võimaldab kasutada kopeerimislaiendusi)</description>
+				</key>
+				<key name="CopyDirTimeStamp" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>1: Kopeeritakse kaustade ajatemplid</description>
+				</key>
+				<key name="SizeCheck" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.00">
+					<description>Enne kopeerimist kontrollitakse, kas sihtkettal on piisavalt ruumi</description>
+				</key>
+				<key name="UseFindForTime" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.50">
+					<description>Kopeerimisel hangitakse faili aeg funktsiooni FindFirstFile abil, funktsiooni GetFileTime asemel (1/0)</description>
+				</key>
+				<key name="XPMoveMethod" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="5.50">
+					<description>1: Failide teisaldamisel sama ketta piires kasutatakse sihtkausta lubasid
+2: Nagu 1, aga kaustade teisaldamisel saavad kõik failid ja ka alamkaustad sihtkoha load
+0: Failide load jäävad samaks
+Vaikimisi: XP: 1, teised süsteemid: 0</description>
+				</key>
+				<key name="XPMoveMethodAdmin" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.04">
+					<description>Sama nagu XPMoveMethod, aga teisaldamiseks "Administraatorina" tcmadmin.exe abil.
+Vaikeväärtus on alati 1.</description>
+				</key>
+				<key name="CountMarked" file="Wincmd.ini" section="Configuration" default="1" version="2.11">
+					<description>1: Enne kopeerimist/kustutamist loetakse kokku alamkaustades olevad failid, et näidata teist edenemisriba
+0: Faile ei loeta kokku (kiirem)</description>
+				</key>
+				<key name="CopyStreams" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="5.51">
+					<description>1: NTFS-vood kopeeritakse
+0: NTFS-voogusid ignoreeritakse</description>
+				</key>
+				<key name="VersionInOverwrite" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.50">
+					<description>Näitab faili versiooniinfot ülekirjutamise dialoogis. Aeglaste võrkude korral pange 0.</description>
+				</key>
+				<key name="CustomFieldsInDlg" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>1: Ülekirjutamisdialoogis kasutatakse kohandatud välju (näit. [tc.comment])</description>
+				</key>
+				<key name="CopyToDirWarn" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>1: F5 kopeerimine: kasutajat hoiatatakse, kui ta sisestab faili sihtkohana olemasoleva kausta nime</description>
+				</key>
+				<key name="MoveToDirWarn" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>1: F6 teisaldamine, Shift+F6 kohapeal ümbernimetamine: kasutajat hoiatatakse, kui ta sisestab faili sihtkohana olemasoleva kausta nime</description>
+				</key>
+				<key name="LongNameCopy" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.55">
+					<description>Failioperatsiooni ajal hoiatatakse, kui sihtnimi on pikem kui 259 märki:
+	0=alati
+	1=mitte kunagi
+	2=kui lähtenimi ei ole pikem kui 259 märki</description>
+				</key>
+				<key name="ESCcheck" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>Enne kopeerimist kontrollib, kas Esc-klahv pole kinni kiilunud (mis võib kopeerimise katkestada)</description>
+				</key>
+				<key name="ShowCopyOptions" file="Wincmd.ini" section="Configuration" default="0" version="7.55">
+					<description>1: F5 kopeerimisdialoogi lisavalikute osa on alati avatud (nööpnõelaga kinnitatult)</description>
+				</key>
+			</category>
+			<category title="Rename">
+				<key name="RenameSelOnlyName" file="Wincmd.ini" section="Configuration" default="0" version="6.02">
+					<description>Kohapeal ümbernimetamisel märgitakse ainult nimi, mitte laiend (1), või nimi ja laiend (0)</description>
+				</key>
+				<key name="InplaceRename" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.50">
+					<description>Lubab/keelab kohapeal ümbernimetamise kahekordse hiireklõpsuga failinimel (1/0)</description>
+				</key>
+				<key name="InplaceRenamePath" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="5.51">
+					<description>Lubab (1) või keelab (0) aktiivse tee kohapeal muutmise. Vaikeväärtus on sama mis InplaceRename, kui see on olemas, muidu 1.
+2: Keelab tee kohapeal muutmise, kuid lubab kausta kiirvahetust ühe klõpsuga (ilma Shift-klahvita)</description>
+				</key>
+				<key name="SetArchiveBitOnRename" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="5.51">
+					<description>Failide ümbernimetamisel seatakse arhiivibitt nüüd vaikimisi. Selle mitteseadmiseks pange väärtuseks 0.</description>
+				</key>
+				<key name="MultiRenameEdit" file="Wincmd.ini" section="Configuration" default="path" dialog="Open File" version="7.00">
+					<description>Hulgiümbernimetamisel kasutatav redaktor uute nimede käsitsi redigeerimiseks</description>
+				</key>
+				<key name="RenameEditUnicode" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.55a">
+					<description>Hulgiümbernimetuse seaded: nimede redigeerimisel
+0: Tekstifail salvestatakse ANSI (liht)tekstina, v.a. siis, kui märgitud nimed sisaldavad Unicode märke teisest kooditabelist (näit. kirillitsa, kui vaikimisi on inglise).
+1: Tekstifail salvestatakse alati Unicode'is. Kasulik näit. ingliskeelsete failinimede muutmisel venekeelseteks.</description>
+				</key>
+				<key name="MultiRenameLoadSettings" file="Wincmd.ini" section="Configuration" default="saved_name" advanced="Yes" version="7.55">
+					<description>Defineerib, milliste seadetega hulgiümbernimetus alustab:
+(tühi): Alustab viimati kasutatud seadetega (sulgemisel ei jäeta meelde)
+Nimi: Laadib seaded, mida hoitakse antud nime all
+Tundmatu nimi: Alustab vaikeseadetega</description>
+				</key>
+			</category>
+			<category title="Kustutamine">
+				<key name="Win95Delete" file="Wincmd.ini" section="Configuration" default="-1" advanced="Yes" version="3.02">
+					<description>Määratleb Total Commanderi poolt kasutatava kustutamismeetodi:
+	0: Kasutatakse Total Commanderi oma funktsiooni failide kustutamiseks (enamus konfiguratsioonivalikuid)
+	1: Kasutatakse Exploreri meetodit failide kustutamiseks
+	-1 (vaikimisi): Kui Cleansweep töötab, kasutatakse Exploreri meetodit krahhi vältimiseks (mida põhjustab sobimatus Cleansweepi ja Total Commanderi kustutamismeetodi vahel). Kui Cleansweep ei tööta, kasutab Total Commander oma meetodit.</description>
+				</key>
+				<key name="VistaDelete" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.50">
+					<description>Kui =1, kasutatakse Windows Vista või hilisemate uut kustutamismeetodit failide kustutamiseks prügikasti. Teisaldab eraldi failide asemel terved kaustad prügikasti. Hoiatus: See meetod ei hoiata kirjutuskaitstud, peidetud või süsteemifailide ning mittetühjade kaustade puhul, just nagu Explorer! Ärge kasutage seda, kui olete mõnel kettal prügikasti käsitsi välja lülitanud!</description>
+				</key>
+				<key name="UseTrash" file="Wincmd.ini" section="Configuration" default="1" version="2.11">
+					<description>Kasutatakse Prügikasti, kui see on saadaval ja sisse lülitatud</description>
+				</key>
+				<key name="DeleteDelay" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.02">
+					<description>Total Commander ootab määratletud ajavahemiku (millisekundites) peale faili kustutamist prügikasti. Proovige seda väärtust suurendada (vaikimisi on 0), kui Cleansweepi töötamise ajal tuleb ette krahhe.</description>
+				</key>
+			</category>
+			<category title="Värskendamine">
+				<key name="NoReread" file="Wincmd.ini" section="Configuration" default="AB\" version="2.00">
+					<description>Neid kettaid ei värskendata; \ tähendab 'Võrgunaabrus', / failisüsteemi pluginaid ja koolon : virtuaalkaustu, nagu Töölaud</description>
+				</key>
+				<key name="NoReread2" file="Wincmd.ini" section="Configuration" default="AB\" version="6.52">
+					<description>Neid kettaid ei värskendata Total Commanderi sulgemisel ja taaskäivitamisel. Kui noreread2 puudub, kasutatakse kirje noreread= sisu, mis annab sama tulemuse kui Total Commanderi versioonid enne 6.52. Näide:
+Noreread=ABC\ ja Noreread2=AB\  : diskette, C-ketast ja võrku ei värskendata, kuid Total Commanderi sulgemisel ja taaskäivitamisel jäetakse meelde kaustad C-kettal.</description>
+				</key>
+				<key name="WatchDirs" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Bits Sum" version="6.52">
+					<description>Juhib kaustaloendite automaatse uuendamise funktsiooni. Tuvastab, kui teised programmid lisavad, muudavad või kustutavad faile, mida näidatakse aktiivsetel failipaneelidel.
+Lihtsalt liitke järgmised arvud:
+	1: Lülitab toimingu sisse (vaikimisi: väljas)
+	2: Tuvastab ka suuruse, daatumi ja atribuutide muutumise
+	4: Lisab uued failid loendi LÕPPU (vaikimisi: sorditult)
+	8: Ei reageeri uuendustele, kui TC ei ole esiplaanil
+	16: Uuendab jaluse (failide koguarvu). Hoiatus: võib olla aeglane suurte kaustade korral!
+	32: Uuendab päise (vaba kettaruumi). Hoiatus: võib olla aeglane suurte kõvaketaste korral!
+	256: Piiks iga uuenduse korral (kasulik veaotsingul)</description>
+				</key>
+				<key name="WatchDirsExclude" file="Wincmd.ini" section="Configuration" default="Drives" version="6.52">
+					<description>Nende ketaste muutusi ei jälgita, kui WatchDirs= on sisse lülitatud.
+Kasulik näit. automaatvärskenduse väljalülitamiseks aeglastel ketastel.</description>
+				</key>
+				<key name="UpdateEnv" file="Wincmd.ini" section="Configuration" default="3" advanced="Yes" dialog="Bits Sum" version="7.02">
+					<description>Määrab ära, kas süsteemi keskkonnamuutujad võetakse Total Commanderi poolt arvesse kohe muutuste järel. Summa väärtustest:
+	1: Lülitab funktsiooni sisse/välja
+	2: Lisab ka uued keskkonnamuutujad (lisaks muutunutele)</description>
+				</key>
+			</category>
+			<category title="Kiirotsing">
+				<key name="AltSearch" file="Wincmd.ini" section="Configuration" default="0" version="1.61">
+					<description>Otsimine: 0=Ctrl+Alt, 1=Alt, 2=ainult täht, 3=täht koos otsimisdialoogiga, 4=välja lülitatud</description>
+				</key>
+				<key name="QuickSearchMatchBeginning" file="Wincmd.ini" section="Configuration" default="1" version="7.00">
+					<description>0: Otsistring, nagu win, loetakse kui *win
+1: Täpne ühtivus: tippides win leiab ainult win.ini, aga mitte otherwin.ini</description>
+				</key>
+				<key name="QuickSearchExactMatch" file="Wincmd.ini" section="Configuration" default="0" version="6.50">
+					<description>0: Punkti tippimine loetakse kui *. , win.i leiab ka wincmd.ini
+1: Täpne ühtivus: tippides win.i leiab ainult win.ini, aga ei leia wincmd.ini</description>
+				</key>
+				<key name="QuickSearchAutoFilter" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.50">
+					<description>0: Automaatne kiirotsingu filter (Ctrl+S) välja lülitatud
+1: Automaatne kiirotsingu filter (Ctrl+S) sisse lülitatud
+-1: Nagu 0, aga ei salvesta seisu TC sulgemisel (filter on käivitamisel alati välja lülitatud)
+2: Nagu 1, aga ei salvesta seisu (filter on käivitamisel alati sisse lülitatud)</description>
+				</key>
+				<key name="tcmatch" file="Wincmd.ini" section="Configuration" default="%Commander_Path%\tcmatch.dll" advanced="Yes" dialog="Open File" version="7.50">
+					<description>Määratleb faili tcmatch.dll asukoha käsitsi. Peab sisaldama täisteed ja failinime, toetab keskkonnamuutujaid. Faili tcmatch.dll kasutatakse kohandatud kiirotsinguks, näit hiina märkidega.</description>
+				</key>
+			</category>
+			<category title="Auto complete">
+				<key name="AutoComplete" file="Wincmd.ini" section="Configuration" default="3" dialog="Bits Sum" version="7.00">
+					<description>Kombinatsioon (summa) järgmistest valikutest:
+	1: Näita automaatse lõpetamise ripploendit
+	2: Lisa pakutav nimi automaatselt</description>
+				</key>
+				<key name="AutoCompleteTab" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>0: Tab lülitab ümber aktiivsele paneelile
+1: Valib järgmise faili automaatse lõpetamise loendist, selle puudumisel nagu '0'
+2: Valib järgmise faili automaatse lõpetamise loendist, selle puudumisel ignoreeritakse Tab-i</description>
+				</key>
+			</category>
+			<category title="Comments">
+				<key name="CopyComments" file="Wincmd.ini" section="Configuration" default="6" dialog="Bits Sum" version="5.50">
+					<description>See on kombinatsioon (summa) järgmistest väärtustest:
+	1: Vaikimisi kommentaaritüüp on files.bbs
+	2: Vaikimisi kommentaaritüüp on descript.ion
+	4: Loetakse kommentaare mõlemast tüübist
+	8: Kopeeritakse failide juurde kuuluvad kommentaarid. Kommentaarifailid ise jäävad vahele.
+	16: Kasutatakse DOS-i märgistikku descript.ion failide korral (files.bbs failid kasutavad alati DOS-i märgistikku)
+Märkus: Kui määratud on nii 1 kui 2, saab 2 eelistuse</description>
+				</key>
+				<key name="CmtOemFont" file="Wincmd.ini" section="Configuration" default="0" version="5.50">
+					<description>1: Kasutab OEM (DOS-i) märgistikku descript.ion failides (soovitatav ainult 4dos või 4nt kasutamisel)</description>
+				</key>
+			</category>
+			<category title="Pisipildid">
+				<key name="ThumbsLocation" file="Wincmd.ini" section="Configuration" default="%$LOCAL_APPDATA%\GHISLER" dialog="Open Folder" version="6.50">
+					<description>Pisipiltide andmebaasi asukoht</description>
+				</key>
+				<key name="ThumbsCopyDel" file="Wincmd.ini" section="Configuration" default="1" version="6.50">
+					<description>Failide kopeerimisel/kustutamisel kopeeritakse/kustutatakse pisipildid koos nendega</description>
+				</key>
+				<key name="ThumbsCustomField" file="Wincmd.ini" section="Configuration" default="[field_contents]" version="7.00">
+					<description>Kohandatud väljad, mida näidatakse pisipiltide all</description>
+				</key>
+				<key name="ThumbsCustomFieldsEnabled" file="Wincmd.ini" section="Configuration" default="1" version="6.50">
+					<description>Näitab kohandatud välju pisipiltide all</description>
+				</key>
+				<key name="ThumbWidthNoCache" file="Wincmd.ini" section="Configuration" default="96" version="6.50">
+					<description>Pisipiltide laius, kui pisipiltide andmebaasi ei kasutata</description>
+				</key>
+				<key name="ThumbHeightNoCache" file="Wincmd.ini" section="Configuration" default="96" version="6.50">
+					<description>Pisipiltide kõrgus, kui pisipiltide andmebaasi ei kasutata</description>
+				</key>
+				<key name="ThumbExplTypes" file="Wincmd.ini" section="Configuration" default="*.* | *.htm *.html" version="6.50">
+					<description>Metamärgid pisipiltide jaoks, mida ekstraktitakse Exploreri meetodil. HTML-failid on turvakaalutlustel välja arvatud (need ekstraktitakse Internet Exploreri abil)</description>
+				</key>
+				<key name="ThumbPlgTypes" file="Wincmd.ini" section="Configuration" default="*.*" version="6.50">
+					<description>Metamärgid pisipiltide jaoks, mida ekstraktitakse Listeri pluginate abil</description>
+				</key>
+				<key name="ThumbIrfXnTypes" file="Wincmd.ini" section="Configuration" default="*.*" version="6.50">
+					<description>Metamärgid pisipiltide jaoks, mida ekstraktitakse Irfanview või Xnview abil</description>
+				</key>
+				<key name="ThumbTxtTypes" file="Wincmd.ini" section="Configuration" default="*.txt *.ini" version="6.50">
+					<description>Metamärgid pisipiltide jaoks, mida ekstraktitakse lihttekstina</description>
+				</key>
+				<key name="ThumbOptions" file="Wincmd.ini" section="Configuration" default="15" dialog="Bits Sum" version="6.50">
+					<description>Järgmiste valikute summa:
+	1: Pisipildid ekstraktitakse Exploreri meetodil
+	2: Pisipildid ekstraktitakse Listeri pluginate abil
+	4: Pisipildid ekstraktitakse Irfanview/Xnview abil (tee on Listeris konfigureeritud)
+	8: Pisipildid ekstraktitakse lihttekstina</description>
+				</key>
+				<key name="ThumbnailMemoryLimit" file="Wincmd.ini" section="Configuration" default="500" advanced="Yes" version="6.50">
+					<description>Kehtestab mälus puhverdatavate pisipiltide arvu paneeli kohta (vaikimisi: 200 Win9x all, 500 NT/2000/XP all, miinimum: 100)</description>
+				</key>
+				<key name="ThumbnailPrealloc" file="Wincmd.ini" section="Configuration" default="100000" advanced="Yes" version="6.50">
+					<description>Määratleb fragmenteerumise vältimiseks pisipiltide andmebaasi loomisel etteeraldatava baitide hulga. Pisipiltide andmebaas on OLE liitdokument, nagu on Wordi doc-fail. Ilma loomise ajal mälu ette eraldamata fragmenteeruvad sellised failid kohutavalt, eriti NTFS-ketastel.</description>
+				</key>
+				<key name="PreloadThumbnails" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.50">
+					<description>1: Laadib pisipildid juba kausta avamisel, mitte alles vastava reani kerimisel
+2: Sama nagu 1, ent ka haru vaates
+3: Eellaaditakse ainult kaks järgmist rida nähtavatest pisipiltidest allpool
+0: Välja lülitatud, pisipildid laaditakse ainult nende vaatevälja kerimisel</description>
+				</key>
+				<key name="ThumbsInDlg" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>1: Näitab pisipilte ülekirjutamise dialoogis</description>
+				</key>
+			</category>
+			<category title="Logimine">
+				<key name="LogFile" file="Wincmd.ini" section="Configuration" default="%TEMP%\totalcmd.log" dialog="Open File" version="7.00">
+					<description>Logifaili nimi failioperatsioonide logimiseks (mitte FTP)</description>
+				</key>
+				<key name="LogOptions" file="Wincmd.ini" section="Configuration" default="7198" dialog="Bits Sum" version="7.00">
+					<description>Määratleb, millised operatsioonid tuleb logida. Summa väärtustest:
+	1: Funktsioon on sisse lülitatud
+	2: Kopeerimine, teisaldamine, otsetee loomine
+	4: Failide kustutamine
+	8: Kaustade loomine/kustutamine
+	16: Arhiivitoimingud
+	32: Praegu kasutamata
+	64: Failisüsteemi pluginate operatsioonid
+	1024: Operatsioon oli edukas
+	2048: Operatsioon nurjus
+	4096: Operatsioon käivitati, aga fail jäeti vahele</description>
+				</key>
+				<key name="LogRotateLimit" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>Väärtuse -1 korral alustatakse iga päev peale keskööd uut logifaili.
+Väärtuse korral v&gt;0 alustatakse uut logifaili, kui faili suurus jõuab v kB-ni.</description>
+				</key>
+				<key name="LogKeepCount" file="Wincmd.ini" section="Configuration" default="30" version="7.00">
+					<description>Maksimaalne alleshoitav logifailide hulk logifaili rotatsiooni kasutamisel</description>
+				</key>
+			</category>
+			<category title="Ignoreerimisloend">
+				<key name="IgnoreListFileEnabled" file="Wincmd.ini" section="Configuration" default="1" version="7.00">
+					<description>Määrab ära, kas kirjes IgnoreListFile= viidatud fail toimib või mitte. Võimaldab selle funktsiooni ajutiselt välja lülitada, ilma faili teed eemaldamata. Sisekäsk cm_SwitchIgnoreList lülitab selle valiku sisse ja välja.</description>
+				</key>
+				<key name="IgnoreListFile" file="Wincmd.ini" section="Configuration" default="path" dialog="Open File" version="7.00">
+					<description>Osutab lihttekstifailile (tee+nimi), mis sisaldab loendit nimedest, mida Total Commander peab ignoreerima (ei näita, ei kopeeri, ei kustuta jne). Toetab metamärke ja nimesid teega või ilma (kettanimega või ilma). Read võivad olla ühel järgnevatest kujudest:
+filename.ext Peidab filename.ext kõigis alamkaustades
+c:\test\filename.ext Peidab filename.ext ainult kaustas c:\test
+\System volume information Peidab selle kausta kõigil ketastel
+*.bak *.~* Peidab need failitüübid kõigis kaustades
+c:\test\*.bak *.~* Peidab need failitüübid ainult kaustas c:\test
+\test\*.bak *.~* Peidab need failitüübid kõikide ketaste alamkaustades test
+c:\test\"abc def.*" *.~* Tühikuid sisaldavad nimed peavad olema jutumärkides "", kui need sisaldavad metamärke (* või ?)</description>
+				</key>
+			</category>
+			<category title="Drives">
+				<key name="CdCloseDoor" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.50">
+					<description>Üritab sulgeda CD sahtlit, kui kettavahetus CD-ROM-ile ei õnnestu. Saab keelata väärtusega CdCloseDoor=0</description>
+				</key>
+				<key name="DeviceChange" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.52">
+					<description>1= reageerib wm_devicechange teadetele (kettamuutuste tuvastamiseks), 0= ignoreerib</description>
+				</key>
+				<key name="DriveisCD" file="Wincmd.ini" section="Configuration" default="drive_list" advanced="Yes" version="4.54">
+					<description>Defineerib CD-ROM draividena kettad F, G ja H. Nendelt ketastelt kopeerimisel ei kopeeri Total Commander atribuuti "kirjutuskaitstud". Kasulik võrgus olevate CD-draivide korral, mida ei tuvastata automaatselt.</description>
+				</key>
+				<key name="DriveTipDelay" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="2.11">
+					<description>Viivitus millisekundites enne ketaste kirjelduste näitamist ketaste ripploendis (vaikimisi = 0)</description>
+				</key>
+				<key name="AlwaysToRoot" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>Väärtuse 1 korral lülitub Total Commander ketaste vahetamisel alati juurkausta (nagu Explorer).</description>
+				</key>
+				<key name="DrivesShowUpcase" file="Wincmd.ini" section="Configuration" default="-1" advanced="Yes" version="7.50">
+					<description>1: Näitab kettaid suurtähtedega eri kohtades, nagu kettariba, kettaloend, aktiivne tee jne.</description>
+				</key>
+				<key name="DrivesExportUpcase" file="Wincmd.ini" section="Configuration" default="-1" advanced="Yes" version="7.50">
+					<description>1: Ekspordib ketaste tähised suurtähelistena, kui kasutatakse näit. cm_CopyFullNamesToClip, või programmide käivitamisel (programmi nimes ja aktiivses kaustas).
+Märkus: Kui DrivesShowUpcase on seatud ja DrivesExportUpcase ei ole, saab see esimese väärtuse.</description>
+				</key>
+				<key name="HideRemovableNoMedia" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.55a">
+					<description>Kui on 1, siis eemaldatavaid kettaseadmeid, nagu USB-kaardilugejad, ei näidata, kui andmekandjat pole sisestatud. Pange tähele, et CD-ROM ja disketiseadmeid näidatakse alati. See funktsioon toimib ainult kettanuppude ribal, mitte kettavaliku ripploendis, kaustapuus või kaustatee menüüs.
+See funktsioon võib teatavate seadmete korral olla väga aeglane, seega lülitage see jälle välja, kui märkate aeglustumist.</description>
+				</key>
+			</category>
+			<category title="Kaustalehed">
+				<key name="LockedGoToDriveRoot" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="6.50">
+					<description>0: Klõps nupul [ \ ] lülitab lukustatud kaustalehe baaskausta
+1: Klõps nupul [ \ ] lülitab ketta juurkausta</description>
+				</key>
+				<key name="LockedTabChange" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.02">
+					<description>Mis juhtub kaustavahetuse korral lukustatud kaustalehel:
+	0: Luuakse alati uus kaustaleht
+	1: Kasutatakse sama kaustaga kaustalehte
+	2: Kasutatakse esimest lukustamata kaustalehte
+	3: Kasutatakse viimast lukustamata kaustalehte</description>
+				</key>
+				<key name="TabDir" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" version="7.00">
+					<description>Säilitab asukoha, kus kaustalehtede fail salvestati/laaditi</description>
+				</key>
+				<key name="TabEnterDirChange" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.02">
+					<description>Mis juhtub, kui kasutaja vajutab lukustatud kaustalehel oleval kaustal Enter?
+	0: Mitte midagi
+	1: Avatakse uus kaustaleht
+	2: Küsitakse kasutajalt</description>
+				</key>
+				<key name="TabSwitchMode" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>0: Ctrl+Tab vahetab kaustalehe alles Ctrl-klahvi vabastamisel
+1: Ctrl+Tab vahetab kaustalehe kohe Tab-klahvi vajutamisel.</description>
+				</key>
+			</category>
+			<category title="Kaustapuu">
+				<key name="OldStyleTree" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>See valik toimib ainult ühel kahest failipaneelil olevast kaustapuust:
+	0: Näidatakse Exploreri stiilis kaustapuud kõigi ketastega
+	1: Laaditakse alati aktiivse ketta täielik puu
+	2: Näidatakse aktiivse ketta puud ainult vajalikul määral laiendatult</description>
+				</key>
+				<key name="AutoTreeChange" file="Wincmd.ini" section="Configuration" default="0" version="4.53">
+					<description>Väärtuse 1 korral avab puuvaates klõps mingil kaustal selle kausta kõrvalpaneelil.</description>
+				</key>
+				<key name="UpdateTreeAtStartup" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>Määratleb, kas eraldi kaustapuu laiendatakse aktiivse kaustani kohe (1) või alles esimesel kaustavahetusel kasutaja poolt (0)</description>
+				</key>
+				<key name="AllowSetCursorPos" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>Määrab käitumise puuvaates suure kausta laiendamisel hiirega, näit. klõpsates [+] märgil:
+	1: Hiirekursor liigub nii, et jääb laiendatud kausta
+	0: Hiirekursor ei liigu</description>
+				</key>
+				<key name="TreeUpdateLimit" file="Wincmd.ini" section="Configuration" default="2048" advanced="Yes" version="7.00">
+					<description>Suurus (kilobaitides), milleni fail treeinfo.wc uuendatakse automaatselt failioperatsioonide käigus, nagu kopeerimine või kustutamine. See uuendamine võib väga suurte kaustapuude korral kaua aega võtta.</description>
+				</key>
+				<key name="TreeFileLocation" file="Wincmd.ini" section="Configuration" default="Tree_File_Path" advanced="Yes" dialog="Open File" version="6.50">
+					<description>Defineerib failide treeinfo.wc teise asukoha, näit. treefilelocation=c:\mingikaust\treeinfo%D%.wc
+%D% asendatakse ketta tähisega (või jagatud juurkaustaga, \ asendab _)
+%R% asendatakse juurkausta teega
+%L% asendatakse ketta nimesildiga.
+Pange tähele, et need muutujad PEAVAD olema suurtähelised, muidu hakkab TC otsima selliste nimedega keskkonnamuutujaid!</description>
+				</key>
+				<key name="TreeFileLocationE" file="Wincmd.ini" section="Configuration" default="Path" advanced="Yes" dialog="Open File" version="6.50">
+					<description>Määratleb ainult E-ketta treeinfo faili asukoha. Toimib ainult siis, kui treefilelocation= on samuti antud!</description>
+				</key>
+				<key name="TreeFileLocation__server_share" file="Wincmd.ini" section="Configuration" default="Path" advanced="Yes" dialog="Open File" version="6.50">
+					<description>Määratleb ketta \\server\share treeinfo faili asukoha (treefilelocation= PEAB olema ka antud).</description>
+				</key>
+			</category>
+			<category title="Breadcrumb">
+				<key name="BreadcrumbSeparator" file="Wincmd.ini" section="Configuration" default="-3" advanced="Yes" version="7.50">
+					<description>Määratleb tsooni alguse, kuhu kursor tuleb viia alamkausta avamiseks kaustatee menüüs:
+0...100: Tsooni alguse väärtus protsentides. 0= terve menüü on kasutuses.
+-1, -2 jne: Eraldaja absoluutne asukoht rea kõrguse kordsetes, mõõdetuna paremalt</description>
+				</key>
+				<key name="BreadcrumbDelayButton" file="Wincmd.ini" section="Configuration" default="250" advanced="Yes" version="7.50">
+					<description>Aeg millisekundites, mille jooksul kursor peab püsima kaustatee ribal, et ilmuks rippnupp aktiivse kausta alla (kaustamenüü avamiseks). Negatiivsete väärtuste korral näidatakse rippmenüüd kohe (ilma nuputa)</description>
+				</key>
+				<key name="BreadcrumbDelayDir" file="Wincmd.ini" section="Configuration" default="250" advanced="Yes" version="7.50">
+					<description>Aeg millisekundites, mille jooksul kursor peab olema alamkausta avamise tsoonis, et kaust avaneks</description>
+				</key>
+				<key name="BreadcrumbDelayFtp" file="Wincmd.ini" section="Configuration" default="500" advanced="Yes" version="7.50">
+					<description>Nagu ülalolev, aga FTP-ühenduste jaoks</description>
+				</key>
+				<key name="BreadcrumbDelayPlugin" file="Wincmd.ini" section="Configuration" default="500" advanced="Yes" version="7.50">
+					<description>Nagu ülalolev, aga failisüsteemi pluginate jaoks</description>
+				</key>
+				<key name="BreadcrumbDelayVirtual" file="Wincmd.ini" section="Configuration" default="500" advanced="Yes" version="7.50">
+					<description>Nagu ülalolev, aga virtuaalkaustade jaoks, nagu Töölaud</description>
+				</key>
+				<key name="BreadCrumbMaxWidth" file="Wincmd.ini" section="Configuration" default="-1" advanced="Yes" version="7.50">
+					<description>Piirab kaustatee menüü laiuse etteantud pikslite arvuga.
+-1 tähendab poolt ekraani laiust.
+Laius on piiratud 100 pikslist (miinimum) kuni kasutuses oleva ekraani laiuseni (maksimum).</description>
+				</key>
+			</category>
+			<category title="Võrk">
+				<key name="AllHiddenNetNames" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>0: Käsu "Näita jagatud adminkaustu" valimisel näidatakse ainult peidetud kettaid, nagu C$
+1: Näidatakse kõiki peidetud jagatud ressursse</description>
+				</key>
+				<key name="Netwarebugfix" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="2.00">
+					<description>1: EI luba failide ümbernimetamist võrguketastel</description>
+				</key>
+				<key name="PortInDriver" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="4.50">
+					<description>1: Terved plokid kantakse üle draiveri kaudu (vaikimisi) -&gt; kiirem, kuid arvutit ei saa ülekande ajal kasutada
+0: Ülekanded tehakse kasutaja re˛iimis -&gt; aeglasem, aga parem multitegum
+Need seaded mõjutavad ainult Win95/98/ME. WinNT/2000 korral on kõik ülekanded draiveri kaudu.</description>
+				</key>
+				<key name="TestIfSharedDir" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>Testitakse, kas kaust on võrgus välja jagatud -&gt; ikooni all näidatakse kätt (1/0)</description>
+				</key>
+				<key name="UseShellConnect" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="5.00">
+					<description>Kui =1, kasutatakse vana meetodit jagatud võrguressursside ühendamiseks (probleemilahendus VINES kasutamisel)</description>
+				</key>
+				<key name="NetHoodInThread" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>Võrgunaabrus laaditakse taustaharus</description>
+				</key>
+				<key name="ThreadFindFirst" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>Kui väärtus on 1, läheb funktsioon FindFirstFile eraldi harusse, nii et kasutaja saab katkestada lugemise hangunud võrguühendusest</description>
+				</key>
+				<key name="AdminShares" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.55a">
+					<description>1: Administreerimiseks väljajagatud ressursse (näit. C$) näidatakse alati, ainult WinNT-põhistel süsteemidel</description>
+				</key>
+				<key name="PromptForUser" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.55">
+					<description>0: Võrgukettaga ühendamisel seatakse ainult parameeter CONNECT_INTERACTIVE
+1: Seatakse ka parameeter CONNECT_PROMPT, seega küsitakse kasutajat alati</description>
+				</key>
+			</category>
+			<category title="Privacy">
+				<key name="Savepath" file="Wincmd.ini" section="Configuration" default="1" version="1.10">
+					<description>Salvestab aktiivsed teed Total Commanderi sulgemisel (1/0)</description>
+				</key>
+				<key name="Savepanels" file="Wincmd.ini" section="Configuration" default="1" version="1.10">
+					<description>Salvestab paneelide seaded Total Commanderi sulgemisel (1/0)</description>
+				</key>
+				<key name="SaveCommands" file="Wincmd.ini" section="Configuration" default="1" version="2.00">
+					<description>Salvestab käsuread Total Commanderi sulgemisel (1/0)</description>
+				</key>
+				<key name="SaveHistory" file="Wincmd.ini" section="Configuration" default="1" version="7.00">
+					<description>Salvestab eelnevalt külastatud kaustade ajaloo (Alt+Allanool) jaotistesse [LeftHistory] ja [RightHistory]</description>
+				</key>
+			</category>
+			<category title="Security">
+				<key name="RestrictInterface" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Bits Sum" version="3.50">
+					<description>Lülitab välja kasutajaliidese osad. Lihtsalt moodustage järgmiste valikute summa:
+	1=Menüü Käivitus
+	2=Käsurida
+	4=Nupuriba muutmine
+	8=Ketta paremklõpsu menüü
+	16=Faili paremklõpsu menüü
+	32=Kaustamenüü muutmine
+	64=FTP (Ctrl+N, Ctrl+F)
+	128=Enter klahvi kasutamine (programmide käivitamine, failide avamine)
+	256=Failisüsteemi pluginad
+	512=Port ühendus (USB või LPT kaudu)</description>
+				</key>
+				<key name="Allowed" file="Wincmd.ini" section="Configuration" default="drive_list" advanced="Yes" version="2.00">
+					<description>Lubatud kettad -&gt; piirab ketastele juurdepääsu! Näide: 	Allowed=cde
+	\ tähendab 'Võrgunaabrus'</description>
+				</key>
+				<key name="AdminTimeout" file="Wincmd.ini" section="Configuration" default="180" advanced="Yes" version="7.00">
+					<description>Määrab ära mitu sekundit kestva tegevusetuse järel tcmadmin.exe (kasutatakse kopeerimiseks, kustutamiseks jne. administraatorina) töö lõpetatakse. Väärtus 0 keelab automaatse lõpetamise, -1 keelab täielikult operatsioonid administraatorina.</description>
+				</key>
+				<key name="x64DisableRedirection" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>1: Keelab 64-bitistes Windowsi versioonides windows\system32 edasisuunamise windows\syswow64 kausta. Võib anda mõningaid negatiivseid kõrvalefekte, nagu mittetöötavad pluginad.</description>
+				</key>
+			</category>
+			<category title="Kinnitus">
+				<key name="deleteDirs" file="Wincmd.ini" section="Confirmation" default="1" version="1.30">
+					<description>Küsitakse enne mittetühjade kaustade kustutamist (1/0)</description>
+				</key>
+				<key name="OverwriteFiles" file="Wincmd.ini" section="Confirmation" default="1" version="1.30">
+					<description>Küsitakse enne failide ülekirjutamist (1/0)</description>
+				</key>
+				<key name="OverwriteReadonly" file="Wincmd.ini" section="Confirmation" default="1" version="1.30">
+					<description>Küsitakse enne kirjutuskaitstud failide ülekirjutamist/kustutamist (1/0)</description>
+				</key>
+				<key name="OverwriteHidSys" file="Wincmd.ini" section="Confirmation" default="1" version="2.11">
+					<description>Küsitakse enne peidetud/süsteemifailide ülekirjutamist/kustutamist (1/0)</description>
+				</key>
+				<key name="MouseActions" file="Wincmd.ini" section="Confirmation" default="1" version="1.30">
+					<description>Küsitakse failide kukutamisel hiirega lohistades (1/0)</description>
+				</key>
+				<key name="AppendWarning" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="5.00">
+					<description>Kui on 0, ei näita Total Commander hoiatust enne lisamist teisele failile</description>
+				</key>
+			</category>
+			<category title="Hiirega">
+				<key name="SingleClickStart" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.51">
+					<description>0: Topeltklõps käivitab programme (vaikimisi)
+1: Üksik klõps käivitab programme ning avab faile (Win98 veebistiilis)
+2: Üksik klõps avab ainult kaustad, failide jaoks on vajalik topeltklõps
+4 liidetud: Tekstikursor ei järgne enam hiirekursorile</description>
+				</key>
+				<key name="UseRightButton" file="Wincmd.ini" section="Configuration" default="1" version="1.10">
+					<description>Märkimisel kasutatakse 1=paremat / 0=vasakut hiirenuppu</description>
+				</key>
+				<key name="IgnoreWheel" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>1: Ignoreerib Intellimouse'i hiireratast</description>
+				</key>
+				<key name="DropExtensions" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>Lubab lohistamise kestalaiendusi (kohtmenüüd) parema hiirenupuga lohistamisel (1/0)</description>
+				</key>
+				<key name="ContextProgress" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>Näitab edenemisriba, kui hiire paremat nuppu all hoida kohtmenüü avamiseks (1/0)</description>
+				</key>
+			</category>
+			<category title="Keyboard">
+				<category title="General">
+					<key name="CmdUpDown" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.02">
+						<description>Kursor liigub faililoendis üles/alla ka siis kui käsurida on aktiivne (1/0)</description>
+					</key>
+					<key name="CtrlArrow" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.03">
+						<description>1: Ctrl+nooleklahvide korral kasutatakse sisemist liikumismeetodit redigeerimiskastides, nagu käsurida (kursor peatub märkidel \ / . - _ ja tühik)
+0: Kasutatakse Windowsi vaikemeetodit</description>
+					</key>
+					<key name="MarkDirectories" file="Wincmd.ini" section="Configuration" default="1" version="1.30">
+						<description>Märgitakse ka kaustad (Num +)</description>
+					</key>
+					<key name="CountSpace" file="Wincmd.ini" section="Configuration" default="1" version="5.00">
+						<description>1: Failid loetakse kokku tühikuklahviga märkimisel
+0: Faile ei loeta kokku (kiirem)</description>
+					</key>
+					<key name="SpaceMovesDown" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="4.52">
+						<description>1= Failide märkimisel &lt;Tühikuklahviga&gt; liigub kursor järgmisele failile (nagu &lt;Insertiga&gt;)</description>
+					</key>
+					<key name="SpecialCursorMovement" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Bits Sum" version="7.00">
+						<description>Uus kursori liikumisviis. Järgmiste väärtuste summa:
+	1: Vasaknool hüppab esimesele failile, paremnool viimasele
+	2: Vasaknool läheb kausta võrra ülespoole, paremnool avab kursorialuse kausta/arhiivi
+	4: Alistab horisontaalse kerimisriba kohandatud vaate puhul. Kui see valik ei ole seatud, hüppab kursor esimesele failile ainult siis, kui kerimisriba liugur on juba vasakpoolses asendis.
+	8: Hüppab lehekülje võrra üles/alla, selmet esimesele/viimasele failile minna</description>
+					</key>
+					<key name="KeyboardID" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.55">
+						<description>Vahetab klaviatuuripaigutuse etteantud numbrile Total Commanderi aktiveerimisel või kohapeal ümbernimetamise järel
+0: Välja lülitatud, klaviatuuripaigutus ei muutu
+1: Seab vaikelokaadile, näit. eesti klaviatuur eesti lokaadi korral
+Teised väärtused (näited):
+	$0409: inglise klaviatuur (QWERTY)
+	$0407: saksa klaviatuur (QWERTZ)
+	$0807: šveitsi-saksa klaviatuur
+	$040C: prantsuse klaviatuur (AZERTY)
+	$0408: helleni (kreeka) klaviatuur
+	$0419: vene (kirillitsa) klaviatuur
+	$0425: eesti klaviatuur
+	$e00e0804: hiina Microsofti PinYin IME
+	$e0010411: jaapani vaikimisi IME
+Märk $ tähendab heksadetsimaalnumbrit. Keeleidentifikaatoreid võib leida siit (kasutage esimest tulpa):
+http://msdn.microsoft.com/en-us/library/dd318693(VS.85).aspx</description>
+					</key>
+				</category>
+				<section title="Shortcuts" name="Shortcuts" file="Wincmd.ini" version="4.50">
+					<description>Defineerib vaikekiirklahve asendavad klahvikäsud
+CAS+F2=cm_renameonly Selles näites, Ctrl+Alt+Shift+F2 kutsub välja sisefunktsiooni cm_renameonly.
+(C=Ctrl, A=Alt, S=Shift)</description>
+				</section>
+				<section title="ShortcutsWin" name="ShortcutsWin" file="Wincmd.ini" version="7.50">
+					<description>Sama mis [shortcuts], kuid Windows-klahvi sisaldavate klahvikäskude jaoks</description>
+				</section>
+				<section title="Alias" name="Alias" file="Wincmd.ini" version="7.00">
+					<description>Alias käskude definitsioonid lehel Konfiguratsioon - Muud</description>
+				</section>
+			</category>
+			<category title="Run once">
+				<key name="FirstTime" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="1.10">
+					<description>Esmakordsel Total Commanderi käivitamisel -&gt; näidatakse konfiguratsioonidialoogi</description>
+				</key>
+				<key name="FirstTimeUnpack" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="2.00">
+					<description>Esmakordsel lahtipakkimisel -&gt; näidatakse soovitust vajutada failil Enter-klahvi</description>
+				</key>
+				<key name="FirstTimeZIP" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="1.30">
+					<description>Esmakordsel pakkimisel/lahtipakkimisel -&gt; näidatakse pakkijate konfiguratsioonidialoogi</description>
+				</key>
+				<key name="FirstFTPSync" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>Esmakordsel sünkroniseerimisel FTP-ga -&gt; näidatakse hoiatust</description>
+				</key>
+				<key name="FirstMLSDsync" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.55">
+					<description>Esmakordsel sünkroniseerimisel üle FTP, kui LIST asemel kasutatakse MLSD-d -&gt; näidatakse hoiatust</description>
+				</key>
+				<key name="UnicodeListWarn" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>See parameeter ei ole enam kasutusel TC 7.5 või uuemate korral</description>
+				</key>
+			</category>
+			<category title="Programs opening">
+				<key name="LongNamesToDos" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="4.52">
+					<description>Shift+Enteri kasutamisel antakse DOS-i aknale edasi lühikesed/pikad nimed (0/1)</description>
+				</key>
+				<key name="LastRunAs" file="Wincmd.ini" section="Configuration" default="Administrator" advanced="Yes" version="7.00">
+					<description>Viimane kasutajanimi, mida kasutati käsuga cm_OpenAsUser</description>
+				</key>
+			</category>
+			<category title="Muud">
+				<key name="AppendLnk" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>Otsetee-failid (*.lnk) luuakse järgmiselt:
+	0: file.ext -&gt; file.lnk
+	1: file.ext -&gt; file.ext.lnk</description>
+				</key>
+				<key name="SearchInFiles" file="Wincmd.ini" section="Configuration" default="*.ext" advanced="Yes" version="5.50">
+					<description>Siin saab määratleda täiendavad arhiivitüübid, mille sees tuleb otsida Otsimisfunktsiooni abil. Näide: SearchInFiles=*.EXE *.JAR</description>
+				</key>
+				<key name="SoundDelay" file="Wincmd.ini" section="Configuration" default="10" version="5.00">
+					<description>Aeg (sekundites), mida failioperatsioon vajab enne "toiming lõpetatud" heli mängimist. Negatiivse väärtuse korral heli ei mängita.</description>
+				</key>
+				<key name="OldStyleDir" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>Kausta olemasolu kontrollimiseks kasutatakse SetCurDir / Kasutatakse otse FindFirstFile (1/0)</description>
+				</key>
+				<key name="FlushFile" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>Allow user to turn on/off flush before closing files.
+	0= Off;
+	1= when copying;
+	2= when unpacking;
+	3= when copying and unpacking.
+It's strongly recommended to disable this mode, otherwise TC will be very slow.</description>
+				</key>
+				<key name="WipeDir" file="Wincmd.ini" section="Configuration" default="%temp%\_tc0\" advanced="Yes" dialog="Open Folder" version="7.00">
+					<description>Total Commanderi ajutiste failide kausta tee (tühjendatakse TC taasavamisel).
+Ignoreeritakse, kui see ei sisalda \$wc või (TC7 korral) \_tc</description>
+				</key>
+				<key name="BrushForCursor" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>Andke väärtuseks 1, kui Total Commander jätab kursori liikumisel märkimata failide ümber maha kastidest saba (graafikakaardi viga)</description>
+				</key>
+				<key name="ClearListBackground" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>0: Vähendab vilkumist kaustade vahetamisel (tausta ei kustutata enne)
+1: Taust kustutatakse (vaikimisi)</description>
+				</key>
+				<key name="X64WaitTime" file="Wincmd.ini" section="Configuration" default="15" advanced="Yes" version="7.50">
+					<description>Maksimaalne ooteaeg, mille jooksul tcmdx64 peab tagastama X64 alammenüü 64-bitisel Windowsil, enne kui Total Commander näitab viga. Pange tähele, et see aeg ei sisalda tcmdx64.exe käivitamise aega.</description>
+				</key>
+				<key name="Firstmnu" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>The internal counter. This key is mainly used to check whether the wincmd.ini is writable. Now it does not contain any meaningful information and does not affect any configurations. It is reserved for the future to count how many days you use Total Commander already.</description>
+				</key>
+				<key name="Test" file="Wincmd.ini" section="Configuration" default="128" advanced="Yes" version="5.50">
+					<description>Seda võtit kasutatakse sisemiselt kontrollimaks, kas INI-fail on kirjutatav. Kui ei ole, näidatakse veateadet.</description>
+				</key>
+			</category>
+		</category>
+		<category title="Pakkija">
+			<category title="General">
+				<key name="AlwaysPackInBackground" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="6.50">
+					<description>1: Sisemine zip-pakkija taustal
+2: Sisemine zip ja välised pakkijad taustal
+3: Nagu 2, aga välised pakkijad töötavad minimeeritult</description>
+				</key>
+				<key name="AlwaysUnpackInBackground" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="6.50">
+					<description>1: Sisemine zip-lahtipakkija taustal
+2: Sisemine ja välised lahtipakkijad taustal
+3: Nagu 2, aga välised lahtipakkijad töötavad minimeeritult</description>
+				</key>
+				<key name="ZIPlikeDirectory" file="Wincmd.ini" section="Packer" default="1" version="1.10">
+					<description>Arhiive käsitletakse kaustadena</description>
+				</key>
+				<key name="ExpertMode" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" version="3.51">
+					<description>1: Enteri vajutamisel käivitatakse arhiivis olevad failid otse; 0: näidatakse omaduste lehte</description>
+				</key>
+				<key name="LastUsedPacker" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>Viimati kasutatud pakkija</description>
+				</key>
+				<key name="DefPlugin" file="Wincmd.ini" section="Packer" default="cab" version="6.00">
+					<description>Viimati kasutatud pakkimisplugin</description>
+				</key>
+				<key name="UnZIPSeparateSubdirs" file="Wincmd.ini" section="Packer" default="-1" advanced="Yes" version="7.55">
+					<description>Salvestab valiku "Paki lahti iga arhiiv eraldi kausta" oleku:
+	0: Valik välja lülitatud, muutused jäetakse meelde
+	1: Valik sisse lülitatud, muutused jäetakse meelde
+	-1: Valik välja lülitatud, muutusi EI jäeta meelde (vaikimisi)
+	-2: Valik sisse lülitatud, muutusi EI jäeta meelde
+	-3: Nagu -2, aga ainult siis, kui märgitud on rohkem kui üks arhiiv</description>
+				</key>
+				<key name="ZIPDirectoryOfFile" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>Teed pakitakse koos failidega</description>
+				</key>
+				<key name="ZIPRecurseSubdirs" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>Kaustad pakitakse koos alamkaustadega</description>
+				</key>
+				<key name="ExtractPathInZIP" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>Koos failidega pakitakse lahti ka salvestatud teed</description>
+				</key>
+				<key name="UnZIPOverwrite" file="Wincmd.ini" section="Packer" default="0" version="2.00">
+					<description>1: Lahtipakkimisel kirjutatakse failid alati üle</description>
+				</key>
+				<key name="WipeEncrypted" file="Wincmd.ini" section="Packer" default="1" advanced="Yes" version="7.04">
+					<description>Krüpteeritud arhiivis oleva faili vaatamisel/redigeerimisel/käivitamisel/võrdlemisel hoitakse krüpteerimata andmeid ajutiselt TEMP kaustas. Turvakaalutlustel kirjutatakse see ajutine fail enne kustutamist vaikimisi üle null-baitidega. WipeEncrypted=0 lülitab selle aja säästmiseks välja.</description>
+				</key>
+			</category>
+			<category title="ZIP-pakkija">
+				<key name="InternalZip" file="Wincmd.ini" section="Packer" default="1" version="2.11">
+					<description>Kasutatakse sisemist ZIP-pakkijat</description>
+				</key>
+				<key name="InternalUnzip" file="Wincmd.ini" section="Packer" default="1" version="1.10">
+					<description>Kasutatakse sisemist ZIP-lahtipakkijat</description>
+				</key>
+				<key name="ZIP" file="Wincmd.ini" section="Packer" default="pkzip.exe" dialog="Open File" version="1.10">
+					<description>PKzipi tee ja failinimi</description>
+				</key>
+				<key name="UnZIP" file="Wincmd.ini" section="Packer" default="pkunzip.exe" dialog="Open File" version="1.10">
+					<description>PKunzipi tee ja failinimi</description>
+				</key>
+				<key name="InternalZipRate" file="Wincmd.ini" section="Packer" default="6" version="2.11">
+					<description>Sisemise ZIP-pakkija pakkimistihedus (0=tihendamata, 1=kiireim, 9=tihedaim)</description>
+				</key>
+				<key name="InternalzipTemp" file="Wincmd.ini" section="Packer" default="%temp%" version="2.11">
+					<description>Sisemise ZIP-pakkija ajutine kaust</description>
+				</key>
+				<key name="OpenPartial" file="Wincmd.ini" section="Packer" default="0" version="5.50">
+					<description>1: Lubab avada poolikuid ZIP-arhiive, näit. osaliselt allalaetud ZIP-e</description>
+				</key>
+				<key name="nodelete" file="Wincmd.ini" section="Packer" default="0" version="5.50">
+					<description>1: Lahtipakitud vale CRC-kontrollsummaga faile ei kustutata</description>
+				</key>
+				<key name="PluginOverrideZip" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" version="7.00">
+					<description>1: Võimaldab kasutada pakkimispluginat ZIP-vormingu jaoks
+0: Sisemine pakkija saab alati eesõiguse</description>
+				</key>
+				<key name="RemovableInTemp" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" version="4.00">
+					<description>1: Total Commander muudab eemaldatavatel ketastel olevaid ZIP-faile nii:
+loob uue arhiivi TEMP kaustas, kustutab vana arhiivi, kopeerib uue eemaldatavale kettale
+0: Diskettide jaoks nagu 1, suuremate andmekandjate korral (ZIP, JAZ) otse andmekandjal, ilma TEMP kausta kasutamata</description>
+				</key>
+				<key name="VerifyZIP" file="Wincmd.ini" section="Packer" default="1" advanced="Yes" version="2.11">
+					<description>1=ZIP-faili testitakse peale pakkimist, 0=ei testita</description>
+				</key>
+				<key name="WarnTooBig" file="Wincmd.ini" section="Packer" default="1" advanced="Yes" version="7.04">
+					<description>Hoiatatakse, et mõned pakkijad ei suuda lahti pakkida, kui ZIP-fail on &gt; 2GB peale pakkimist</description>
+				</key>
+				<key name="ZipUnicode" file="Wincmd.ini" section="Packer" default="0" version="7.50">
+					<description>Määrab kindlaks, kuidas pakkida Unicode nimed ZIP-arhiivi:
+	0: Küsitakse iga kord Unicode nime esinemisel
+	1: Unicode nimed salvestatakse UTF-8na (Pkzip 4.5 / Winzip 11.2 meetod)
+	2: Kõik UTF-8na, kui vähemalt üks sisaldab Unicode'i
+	3: Kõik UTF-8na, kui vähemalt üks sisaldab mitte inglise keele märke
+	4: Unicode nimed salvestatakse lisaväljale (Info-Zipi meetod)
+	5: Kõik mitte inglise keele märke sisaldavad nimed salvestatakse lisaväljale
+	6: Unicode märkide asemel salvestatakse küsimärgid '?'</description>
+				</key>
+				<key name="Zip83Name" file="Wincmd.ini" section="Packer" default="0" version="3.00">
+					<description>Failid pakitakse nende alternatiivsete nimedega (8 märki nimes ja 3 laiendis) ning ei kasuta pikki nimesid (1/0)</description>
+				</key>
+				<key name="ZipAES" file="Wincmd.ini" section="Packer" default="0" version="7.00">
+					<description>Määratleb krüpteerimisvormingu:
+	0: ZIP2.0 krüpteering
+	1: AES 128-bitise võtmega
+	2: AES 192-bitise võtmega
+	3: AES 256-bitise võtmega</description>
+				</key>
+				<key name="ZipAnsiNames" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" version="7.00">
+					<description>1: Salvestab failinimed ZIP-i ANSI (Windowsi), mitte OEM (DOS-i) märgistikus. Pange tähele, et mõned lahtipakkijad ei suuda sel juhul käsitleda rõhumärkidega arhiive.</description>
+				</key>
+				<key name="ZipSetDateToNewest" file="Wincmd.ini" section="Packer" default="0" version="3.00">
+					<description>Sisemise ZIP-pakkija kasutamisel pannakse arhiivi daatumiks uusima arhiivis oleva faili daatum (1/0)</description>
+				</key>
+				<key name="ZipMagic" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>Jätab vahele ZipMagicu tuvastamise ZIP-failide avamisel (1/0)</description>
+				</key>
+				<key name="zipnt" file="Wincmd.ini" section="Packer" default="0" version="2.00">
+					<description>Info-zip NT jaoks kasutamine (0 = ei, 1 = Zip-NT 2.0.1 (Total Commanderi poolt paigatud), 2 = tundmatu versioon)</description>
+				</key>
+				<key name="LzmaAllowed" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" version="7.50">
+					<description>1: ZIP-pakkija: Lubab LZMA-tihendust (mittesoovitatav, vajab lahtipakkimiseks WinZip &gt;=12). Kui on sisse lülitatud, saate valida LZMA jaoks tihenduse 10.</description>
+				</key>
+			</category>
+			<category title="Other packers">
+				<key name="ARJ" file="Wincmd.ini" section="Packer" default="arj.exe" dialog="Open File" version="1.10">
+					<description>ARJ-i tee ja failinimi</description>
+				</key>
+				<key name="ARJlongnames" file="Wincmd.ini" section="Packer" default="0" version="3.50">
+					<description>Pakkimisel antakse ARJ-ile edasi pikad failinimed (1/0)</description>
+				</key>
+				<key name="ACE" file="Wincmd.ini" section="Packer" default="ace.exe" dialog="Open File" version="3.50">
+					<description>ACE pakkija tee ja failinimi</description>
+				</key>
+				<key name="LHA" file="Wincmd.ini" section="Packer" default="lha.exe" dialog="Open File" version="1.10">
+					<description>LHA tee ja failinimi</description>
+				</key>
+				<key name="RAR" file="Wincmd.ini" section="Packer" default="rar.exe" dialog="Open File" version="2.00">
+					<description>RAR-i tee ja failinimi</description>
+				</key>
+				<key name="UC2" file="Wincmd.ini" section="Packer" default="uc2.exe" dialog="Open File" version="2.00">
+					<description>UC2 tee ja failinimi</description>
+				</key>
+				<key name="InternalUnarj" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>Sama ARJ-i jaoks</description>
+				</key>
+				<key name="InternalUnace" file="Wincmd.ini" section="Packer" default="1" version="3.50">
+					<description>Sama ACE jaoks</description>
+				</key>
+				<key name="InternalUnlzh" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>Sama LHA jaoks</description>
+				</key>
+				<key name="InternalUnrar" file="Wincmd.ini" section="Packer" default="1" version="3.50">
+					<description>Sama RAR-i jaoks</description>
+				</key>
+				<key name="LinuxCompatible" file="Wincmd.ini" section="Packer" default="1" version="5.00">
+					<description>1: Luuakse Linuxiga ühilduvad TAR-arhiivid
+0: Luuakse SunOS-iga ühilduvad TAR-arhiivid</description>
+				</key>
+			</category>
+		</category>
+		<category title="Pluginad">
+			<category title="General">
+				<key name="AutoInstallPlugins" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.50">
+					<description>Väärtus 0 keelab pluginate automaatse installi nende arhiivifailide avamisel</description>
+				</key>
+				<key name="PluginBaseDir" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" dialog="Open Folder" version="6.50">
+					<description>Standard-asukoht, mille alla pluginad automaatselt installitakse. TC lisab uue plugina installimisel plugina tüübi ja vaikekausta.
+Näide: pluginbasedir=%COMMANDER_PATH%\plugins
+Pakutav tee pakkimispluginale sample_packer:
+%COMMANDER_PATH%\plugins\wcx\sample_packer\</description>
+				</key>
+				<key name="MrtReplacePluginChars" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>0: Lülitab hulgiümbernimetamisel välja pluginatest saadud sobimatute märkide automaatse asendamise (näit. ':' -&gt; '.') -&gt; kasutaja peab ise selle eest hoolitsema</description>
+				</key>
+			</category>
+			<section title="Pakkimispluginad" name="PackerPlugins" file="Wincmd.ini" dialog="Dialogs List" version="4.00">
+				<description>Loetleb kõik konfigureeritud pakkimispluginad (vt. Konfiguratsioon - Pakkijad)
+bz2=27,c:\totalcmd\bzip2dll.dll Plugin bzip2-pakkijale. 27 on kõigi plugina võimaluste summa:
+	1: Võib luua uusi arhiive
+	2: Võib muuta olemasolevaid arhiive
+	4: Võib käsitleda mitut faili ühes arhiivis
+	8: Võib faile arhiivist kustutada
+	16: Toetab valikute dialoogi
+	32: Toetab pakkimist mälus
+	64: Tuvastab arhiivi tüübi sisu järgi
+	128: Lubab teksti otsimist arhiivides
+	256: Ei saa avada Enteriga, ainult Ctrl+PgDn
+	512: Toetab krüpteerimist
+ÄRGE lisage seda numbrit ise, Total Commander lisab selle plugina esimesel laadimisel.</description>
+			</section>
+			<section title="Failisüsteemi pluginad" name="FileSystemPlugins" file="Wincmd.ini" dialog="Open File" version="5.50">
+				<description>Installitud failisüsteemi pluginad
+&lt;pluginanimi&gt;=&lt;pluginatee&gt; Failisüsteemi plugina tee (salvestatud nime järgi)
+ </description>
+			</section>
+			<section title="Listeri pluginad" name="ListerPlugins" file="Wincmd.ini" dialog="Open File" version="5.51">
+				<description>Installitud Listeri pluginad
+0=&lt;pluginanimi&gt; Esimese plugina tee
+0_detect=&lt;tuvastusstring&gt; Esimese plugina fakultatiivne tuvastusstring. Võimaldab Total Commanderil ilma pluginat laadimata kontrollida, kas plugin toetab seda faili.</description>
+			</section>
+			<section title="Sisupluginad" name="ContentPlugins" file="Wincmd.ini" dialog="Open File" version="6.50">
+				<description>Installitud sisupluginad
+0=&lt;pluginatee&gt; Esimese plugina tee
+0_detect=&lt;tuvastusstring&gt; Esimese plugina fakultatiivne tuvastusstring. Võimaldab Total Commanderil ilma pluginat laadimata kontrollida, kas plugin toetab seda faili.</description>
+			</section>
+		</category>
+		<category title="FTP">
+			<category title="General">
+				<key name="ConnectRetries" file="Wcx_ftp.ini" section="General" default="10" version="4.00">
+					<description>Korduskatsete arv anonüümse ühenduse korral, kui server on hõivatud</description>
+				</key>
+				<key name="WaitDelay" file="Wcx_ftp.ini" section="General" default="5" version="4.00">
+					<description>Viivitus kahe ühendusevõtmise katse vahel (sekundites)</description>
+				</key>
+				<key name="transfermode" file="Wcx_ftp.ini" section="General" default="I" version="3.52">
+					<description>Ülekandeviis Total Commanderi käivitamisel:
+	A=Tekstina
+	I=Binaarne
+	X=Automaatne</description>
+				</key>
+				<key name="Ascii" file="Wcx_ftp.ini" section="General" default="*.txt *.htm* *.pas *.c *.cpp *.h *.bas *.tex" version="4.00">
+					<description>Nende failide laiendid, mida tuleb ära tunda tekstifailidena</description>
+				</key>
+				<key name="FtpOpenIn" file="Wcx_ftp.ini" section="General" default="0" version="7.00">
+					<description>Avab FTP ühendused vaikimisi:
+	0: Aktiivsel paneelil
+	1: Vasakul paneelil
+	2: Paremal paneelil</description>
+				</key>
+				<key name="LogFile" file="Wcx_ftp.ini" section="General" default="%TEMP%\totalcmd.log" dialog="Open File" version="4.00">
+					<description>Kirjutab määratletud nimega logifaili</description>
+				</key>
+				<key name="LogFile2" file="Wcx_ftp.ini" section="General" default="path\filename" advanced="Yes" dialog="Open File" version="5.00">
+					<description>Kirjutab logifaili ainult kõige tähtsamate andmetega (ülekantud failid)</description>
+				</key>
+				<key name="FtpInBackground" file="Wcx_ftp.ini" section="General" default="0" version="4.52">
+					<description>Kui =1, algavad FTP ülekanded alati taustal (eraldi ühendusena)</description>
+				</key>
+				<key name="pasvmode" file="Wcx_ftp.ini" section="default" default="0" version="3.50">
+					<description>1: Kasutatakse alati passiivset ülekandeviisi uute ühenduste korral
+0: Kasutatakse alati aktiivset ülekandeviisi</description>
+				</key>
+				<key name="PortFrom" file="Wcx_ftp.ini" section="General" default="10000" version="7.00">
+					<description>Algusport port mooduse jaoks (aktiivne ühendusmoodus)</description>
+				</key>
+				<key name="PortTo" file="Wcx_ftp.ini" section="General" default="11000" version="7.00">
+					<description>Lõpuport port mooduse jaoks</description>
+				</key>
+				<key name="ModeZ" file="Wcx_ftp.ini" section="General" default="1" version="7.00">
+					<description>Lubab/keelab tihendatud ülekanded:
+	0: Keelatud
+	1: Lubatud Internetis (mitte kohtvõrgus)
+	2: Lubatud ka kohtvõrgus (LAN)</description>
+				</key>
+				<key name="AutoResume" file="Wcx_ftp.ini" section="General" default="30" version="7.00">
+					<description>Ajavahemik sekundites, mille järel Total Commander üritab taastada hangunud ühendust ning uuesti alustada faili ülekannet. Väärtus -1 lülitab selle välja.</description>
+				</key>
+				<key name="E-Mail" file="Wcx_ftp.ini" section="General" default="xyz@server.com" version="3.50">
+					<description>E-posti aadress, mida kasutatakse paroolina anonüümsete ühenduste korral</description>
+				</key>
+				<key name="FtpShowHidden" file="Wcx_ftp.ini" section="General" default="0" version="4.54">
+					<description>1: Kontrollib käivitamisel valikut "Näita peidetud FTP faile" (1/0)</description>
+				</key>
+				<key name="Lastmd5" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>1: Viimati kasutatud valik CRC-kontrollsumma loomisel oli MD5
+2: Viimati kasutatud valik oli SHA1</description>
+				</key>
+				<key name="ListName" file="Wincmd.ini" section="Configuration" default="%COMMANDER_PATH%\ftplist.txt" version="7.00">
+					<description>Viimati kasutatud allalaadimisloendi nimi funktsioonidele "Laadi alla hiljem" ja "FTP allalaadimine loendi järgi"</description>
+				</key>
+				<key name="LowercaseUpload" file="Wcx_ftp.ini" section="default" default="0" version="4.00">
+					<description>1: Failinimed muudetakse üleslaadimisel väiketähelisteks
+0: Failinimed jäetakse üleslaadimisel nii, nagu nad on kettal</description>
+				</key>
+				<key name="MDTM" file="Wcx_ftp.ini" section="General" default="3" dialog="Bits Sum" version="7.00">
+					<description>Käsu MDTM kasutamine üleslaaditud failidele ajatempli seadmiseks (praegu toetatud ainult funktsiooni SYNC korral). See on summa väärtustest:
+	1: Lubab/keelab funktsiooni
+	2: Saadab ajatempli universaalajas (GMT). Enamus servereid eeldab seda kohaliku aja asemel.</description>
+				</key>
+				<key name="AutoDisconnect" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="4.01">
+					<description>Määrab kindlaks, mis juhtub, kui kasutaja üritab ühendust võtta teise serveriga samal paneelil, kus teine ühendus on aktiivne:
+	0: Küsitakse kasutajalt (vaikimisi)
+	1: Lahutatakse eelmine
+	2: Hoitakse eelmine alles</description>
+				</key>
+				<key name="GetModeFromLocalFile" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="6.52">
+					<description>1: Kohaliku faili laiend määrab ära, kas automaatselt kantakse fail üle binaarselt või tekstina (vaikimisi määrab kaugfaili laiend).</description>
+				</key>
+				<key name="Httptimeout" file="Wcx_ftp.ini" section="General" default="30" advanced="Yes" version="4.53">
+					<description>HTTP allalaadimiste korral oodatakse veebiserveri vastust xx sekundit</description>
+				</key>
+				<key name="KeepAliveTransfer" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="7.00">
+					<description>1: Saadab alalhoidmise käske ka ülekande ajal. See saadab ainult reavahetuse märke ühenduse juhtimiseks, et tulemüür/lüüs ei katkestaks ühendust. Saab määrata eraldi igale serverile (sel juhul see ei toimi taustaülekannete korraldajas). Pange tähele, et see võib mõningaid FTP-servereid segadusse ajada, kuid võib olla ainus võimalus sageli katkevate ühenduste korral.</description>
+				</key>
+				<key name="KeepMasterPassword" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="7.50">
+					<description>Võimaldab hoida ülemparooli mälus, kui:
+	1: programm on minimeeritud
+	2: ekraanisäästja käivitub
+	3: mõlemal juhul</description>
+				</key>
+				<key name="PreferIPv6" file="Wcx_ftp.ini" section="General" default="-1" advanced="Yes" version="6.52">
+					<description>-1: IPv6 keelatud (vaikimisi)
+1: Eelistatakse IPv6 serverite korral, mis toetavad nii IPv4 kui ka IPv6
+0: Eelistatakse IPv4 (tavalisi Interneti aadresse)</description>
+				</key>
+				<key name="PreventFEAT" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="7.00">
+					<description>1: Serveritele ei saadeta käsku FEAT (toetatud võimalused). Mõned proksid näivad selle käsu saatmisel hanguvat.</description>
+				</key>
+				<key name="SpecialFlags" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" dialog="Bits Sum" version="7.02">
+					<description>Järgmiste valikute summa:
+	1: Sunnitud ilmutamata SSL (ilma avatekstita ühendus)
+	2: Sunnitud ilmutatud SSL
+	4: Sunnitud TLS autentimine
+	8: Sunnitud SSL23 autentimine
+	16: Üksikasjaline logi taustalolevate FTP ühenduste kohta
+	32: Failide terviklikku üleslaadimist ei testita (käsuga SIZE)
+	64: Allalaaditud faili suurust ei kontrollita (käsuga SIZE), kui allalaetud suurus erineb faililistingus teada antud suurusest
+	128: Ühendusi ei taaskasutata SSL andmeühenduste jaoks (SSL_copy_session_id abil)
+	256: Taustaharus ei saadeta käske väljalt "Saada käsud"
+	512: Peidetud failide päringuks saadetakse MLSD -la (enamus servereid ei toeta seda)
+	1024: Käsu PASV poolt tagastatud kohalikku aadressi ei teisendata serveri aadressiks</description>
+				</key>
+				<key name="sslwarn" file="Wcx_ftp.ini" section="General" default="1" advanced="Yes" version="7.00">
+					<description>0: Lülitab välja hoiatuse kehtetute SSL-sertifikaatide kohta. Total Commander näitab ikkagi punast avatud lukuga ikooni.</description>
+				</key>
+				<key name="TcpKeepAlive" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="6.02">
+					<description>1: Kasutatakse TCP alalhoidmise käsku kõigi ühenduste korral. See on kasulik teatud tulemüüride/ruuterite korral, kui ühendus katkeb väga tihti.</description>
+				</key>
+				<key name="UploadBlockSize" file="Wcx_ftp.ini" section="General" default="512" advanced="Yes" version="6.03">
+					<description>Üleslaadimise puhvri suurus. Kiirete võrkude korral võite proovida suuremaid väärtusi, nagu 1492 või isegi 8192.</description>
+				</key>
+				<key name="WarnWrongMode" file="Wcx_ftp.ini" section="General" default="1" advanced="Yes" version="4.00">
+					<description>1: Hoiatab, kui binaarfaile tekstina üles või alla laaditakse
+0: Ilma hoiatamata (nagu Total Commander 3.5x)</description>
+				</key>
+				<key name="Zlibratiobin" file="Wcx_ftp.ini" section="General" default="3" advanced="Yes" version="6.54">
+					<description>0...9: Zip-teegi tihendusmäär üleslaadimisel. 0=pole, 1=kiireim, 9=tugevaim</description>
+				</key>
+				<key name="Zlibratiotxt" file="Wcx_ftp.ini" section="General" default="3" advanced="Yes" version="6.54">
+					<description>0...9: Sama mis ZlibRatioBin, kuid tekstifailidele. Võite siin pruukida suuremat väärtust, kuna tekstifaile annab tavaliselt tihedamalt kokku suruda. Tähelepanu: Cisco PIX tulemüür ei salli väärtust 1 ning katkestab üleslaadimise!</description>
+				</key>
+				<key name="PreserveDates" file="Wcx_ftp.ini" section="default" default="0" version="7.00">
+					<description>1: Allalaadimisel säilitatakse faili kuupäev/kellaaeg</description>
+				</key>
+				<key name="SpeedLimit" file="Wincmd.ini" section="Configuration" default="5.0" version="7.00">
+					<description>Taustaülekannete korraldajas viimati kasutatud kiirusepiirang kB/s</description>
+				</key>
+				<key name="SpeedLimitEnabled" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.50">
+					<description>1: Lülitab kiirusepiirangu sisse kohe taustaülekannete korraldaja avamisel</description>
+				</key>
+				<key name="Wsock32" file="Wincmd.ini" section="Configuration" default="%windir%\wsock32.dll" advanced="Yes" dialog="Open File" version="3.50">
+					<description>Defineerib Socket-teegi asukoha FTP jaoks</description>
+				</key>
+				<key name="AESVerify" file="Wcx_ftp.ini" section="General" default="??" advanced="Yes" version="7.50">
+					<description>Kasutatakse kontrollimaks, kas kasutaja on sisestanud paroolihalduri jaoks õige AES ülemparooli.</description>
+				</key>
+				<key name="Allowhook" file="Wcx_ftp.ini" section="General" default="2" advanced="Yes" version="7.50">
+					<description>See valik reguleerib klaviatuurisisestust ülemparooli dialoogis:
+	0: Ei luba klaviatuurihaagi seadmist, näitab hoiatusikooni
+	1: Võimaldab klaviatuurihaagi seadmise, näitab sellele osutavat ikooni
+	2: Võimaldab klaviatuurihaagi seadmise, ei näita sellele osutavat ikooni (vaikimisi)
+Selgitus: Total Commander loeb klahvivajutusi ülesüsteemse klaviatuurihaagi kaudu ja lähtestab siis klahvi, nii et lihtsad klahvilogerid ei saa enam klahve lugeda samal meetodil. Seda saab välja lülitada, kuna mõned viirusetõrje programmid võivad selle haagi pärast kurtma hakata.</description>
+				</key>
+				<key name="ForceHTTP11" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="7.50">
+					<description>0: Kasutab HTTP 1.0 kõigi ülekannete korral peale jätkatud allalaadimiste
+1: Kasutab HTTP 1.1 kõigi ülekannete korral
+HTTP 1.1 puudus: Paljud serverid saadavad siis dünaamilisi lehti (näit. PHP) tükikaupa, ilma kogumahtu teatamata. Seega pole edenemisriba võimalik näidata.
+Eelis: Server võib juba alustada dünaamilise lehe saatmist, kui seda alles luuakse.</description>
+				</key>
+				<key name="UserAgent" file="Wcx_ftp.ini" section="General" default="&quot;Mozilla/4.0 (compatible; Totalcmd; Windows x)&quot;" advanced="Yes" version="7.55">
+					<description>Määrab kasutajaagendi HTTP ühendustele.
+Vaikimisi: "Mozilla/4.0 (compatible; Totalcmd; Windows x)", kus x on aktiivse Windowsi versioon</description>
+				</key>
+				<key name="PortIP" file="Wcx_ftp.ini" section="General" default="IP" advanced="Yes" version="7.50">
+					<description>Selle arvuti väline IPv4 aadress. Siia võite panna kas fikseeritud IP-aadressi, DNS nime (näit. DynDNS) või URL-i algusega http:// . Viimasel juhul peab see veebileht tagastama IP-aadressi tekstikujul.</description>
+				</key>
+				<key name="PortIPEnabled" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="7.50">
+					<description>Lülitab ülaloleva IP-aadressi sisse/välja.</description>
+				</key>
+				<key name="DisconnectOnSuspend" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Bits Sum" version="7.50">
+					<description>Järgmiste väärtuste summa:
+	1: Arvuti peatamisel lahutatakse kõik FTP ühendused
+	2: Lahutatakse kõik failisüsteemi pluginad, millel on lahutamise võimalus</description>
+				</key>
+			</category>
+			<category title="Connections">
+				<section title="URL" name="OldConnections" file="Wcx_ftp.ini" version="3.50">
+					<description>Dialoogis Uus FTP ühendus varem tehtud ühenduste loend
+0=ftp://ftp.anysite.com/pub/subdir/
+1=user@ftp.anyprovider.com</description>
+				</section>
+				<category title="Predefined connections">
+					<section title="Connections list" name="Connections" file="Wcx_ftp.ini" version="3.50">
+						<description>Konfigureeritud ühenduste loend, mida näidatakse FTP ühenduse dialoogis
+1=Sait1
+2=Sait2</description>
+					</section>
+					<section title="[%Connection_Name%]" name="[%Connection_Name%]" file="Wcx_ftp.ini" version="3.50">
+						<description>Ühe jaotise [connections] all oleva ühenduse üksikasjad
+anonymous=1 1: Anonüümne ühendus, 0: Parooliga ühendus
+directory=/pub/subdir Serveri kaust, millesse minnakse peale ühendusevõtmist
+localdir=c:\kohalik Kohaliku masina kaust, millesse minnakse peale ühendusevõtmist
+firewall=1 1: Jaotise [Firewall] all konfigureeritud serverit kasutatakse tulemüüri/proksina
+host=ftp.site1.com:2121 Serveri nimi, vajadusel ka port (kooloniga eraldatult)
+password=00000000000000 Salastatud parool (skrambleeritud, MITTE krüpteeritud, see on põhimõtteliselt võimatu!)
+acct=00000000000000 Konto parool, tuleb sisestada käsitsi, kopeerides parooli realt
+pasvmode=0 0: Kasutatakse aktiivset ülekandeviisi (käsk PORT)
+1: Kasutatakse passiivset ülekandeviisi (käsk PASV) - kasulik teatud tulemüüride korral
+username=test Kasutajanimi serveris
+hosttype= Kasutaja-defineeritud serveritüüp (nimi)
+InitCommands= Serverile sisselogimise järel saadetavad käsud
+keepalive= Ühenduse alalhoidmise käsu kordamisaeg sekundites, selle järel alalhoidmise käsk, näit. 90,NOOP
+CacheDirs=1 0: Kausta värskendatakse iga kord selle külastamisel
+1: Külastatud kaustade sisu säilitatakse vahemälus
+SpecialFlags=0 Vt. jaotist [General]. Ühenduse kohta antud valikud on eelistatud.</description>
+					</section>
+				</category>
+			</category>
+			<category title="Server Types">
+				<section title="[%Server_Type%]" name="[%Server_Type%]" file="Wcx_ftp.ini" version="7.00">
+					<description>Kasutaja-defineeritud serveritüüp
+Template1= Serveri definitsioonid, vt. Serveritüübi defineerimine
+Template2=</description>
+				</section>
+			</category>
+			<section title="Server aliases" name="CertAlias" file="Wcx_ftp.ini" version="7.00">
+				<description>Salvestab serveri aliased, kui kasutaja usaldab FTPS (FTP üle SSL) serverit, klõpsates avatud lukuga ikoonil
+server.com=hostcompany.com Näide: Kasutaja võtab ühendust serveriga server.com, aga serveri sertifikaat kuulub serverile hostcompany.com</description>
+			</section>
+			<section title="Firewall" name="Firewall" file="Wcx_ftp.ini" version="3.50">
+				<description>Tulemüüri või proksi-serveri seaded
+host=localhost:80 Tulemüüri nimi ja pordi number
+password= Parool (kõigi tulemüüride korral pole vajalik)
+username= Kasutajanimi (kõigi tulemüüride korral pole vajalik)
+Method=1 Tulemüüri ühendusmeetod (järjekord sama mis tulemüüri dialoogikastis)
+default=1 1: Tulemüüri kasutatakse alati uute ühenduste korral
+0: Tulemüüri ei kasutata uute ühenduste korral
+See valik muutub automaatselt iga kord ühenduse salvestamisel.
+httphost= Need 3 valikut on HTTP-ülekannete jaoks
+Tulemüüri nimi ja pordi number
+httpuser= Kasutajanimi (HTTP)
+httppass= Parool (HTTP)</description>
+			</section>
+			<section title="Time zone" name="TimeZone" file="Wcx_ftp.ini" version="7.00">
+				<description>Salvestab ajavööndite vahe eraldi serverite kaupa (kaustade sünkroniseerimise jaoks)</description>
+			</section>
+			<section title="Empty folders" name="|empty_folders|" file="Wcx_ftp.ini" version="7.50">
+				<description>List of empty folders (non-connection) of any nested levels in the dialog box "Connect to ftp server". Folders containing a connection, not specified here.</description>
+			</section>
+		</category>
+		<separator title="--------"/>
+		<category title="Lister">
+			<category title="General">
+				<key name="TabWidth" file="Wincmd.ini" section="Lister" default="8" advanced="Yes" version="2.00">
+					<description>Tabulaatori samm (vaikimisi: 8)</description>
+				</key>
+				<key name="textwidth" file="Wincmd.ini" section="Lister" default="81" version="1.61">
+					<description>Teksti laius (märkides)</description>
+				</key>
+				<key name="binwidth" file="Wincmd.ini" section="Lister" default="75" version="1.61">
+					<description>Binaarvaate laius</description>
+				</key>
+				<key name="Wrap" file="Wincmd.ini" section="Lister" default="1" version="3.50">
+					<description>Lülitab ridade murdmine sisse (1) või välja (0)</description>
+				</key>
+				<key name="IView" file="Wincmd.ini" section="Lister" default="0" version="4.00">
+					<description>Kasutatakse Irfanview'd / Xnview'd teiste pildifailide laadimiseks, nagu JPG jne.</description>
+				</key>
+				<key name="IViewPath" file="Wincmd.ini" section="Lister" default="Path" dialog="Open File" version="4.00">
+					<description>Irfanview / Xnview EXE-faili tee</description>
+				</key>
+				<key name="IviewAdditionalTypes" file="Wincmd.ini" section="Lister" default="*.xyz" advanced="Yes" version="6.50">
+					<description>Täiendavad failitüübid, mis tuleb teisendamiseks Irfanview'le / Xnview'le edasi anda.
+Näide: *.xyz *.abc
+Kui siin on loetletud juba toetatud failitüüp, näit. *.jpg, siis ka seda faili ei tuvastata sisu järgi. Järgmised failitüübid saadetakse Irfanview'le / Xnview'le ilma selle seadeta:
+gif, jpg, jpeg, jfif, tga, tif, tiff, pcx, png, ani, acr, cam, clp, cpt, cur, dcx, dib, eps, g3, iff, img, lbm, lwf, pbm, pgm, pcd, ppm, psd, psp, ps, ras, rle, sfw, iw44, djvu, rgb, dcm, acr, wbmp, mos, kdc, xbm, xpm, swf, fpx, sgi, jp2, j2k.</description>
+				</key>
+				<key name="SearchGoBack" file="Wincmd.ini" section="Lister" default="3" version="4.00">
+					<description>Ridade arv, mida Lister näitab otsingul leitud tekstist kõrgemal</description>
+				</key>
+				<key name="CenterBitmap" file="Wincmd.ini" section="Lister" default="0" version="7.00">
+					<description>Näidatav pilt tsentreeritakse Listeris (1/0)</description>
+				</key>
+				<key name="ShrinkBitmap" file="Wincmd.ini" section="Lister" default="0" version="4.00">
+					<description>1: Pildid kahandatakse/suurendatakse aknasuuruseks
+2: Kahandatakse ainult liiga suuri, ei suurendata liiga väikeseid pilte</description>
+				</key>
+				<key name="Startup" file="Wincmd.ini" section="Lister" default="0" dialog="Bits Sum" version="1.61">
+					<description>Salvestab vaate ja fondi, mida kasutatakse Listeri avamisel:
+	0=automaatne, 1=tekst, 2=binaar, 3=heksadets.
+	0=automaatne, 16=ANSI, 32=ASCII, 48=muutuv</description>
+				</key>
+				<key name="BmpStartup" file="Wincmd.ini" section="Lister" default="1" version="4.00">
+					<description>1: Püütakse alati laadida ja näidata pildifaile
+0: Laaditakse binaarvaates, aga näidatakse pildina, kui kasutaja valib vaate 'Pilt/multimeedia'</description>
+				</key>
+				<key name="Multimedia" file="Wincmd.ini" section="Lister" default="1" version="4.00">
+					<description>1: Püütakse alati laadida ning mängida heli- ja videofaile
+0: Laaditakse binaarvaates, aga mängitakse, kui kasutaja valib vaate 'Pilt/multimeedia'</description>
+				</key>
+				<key name="RTF" file="Wincmd.ini" section="Lister" default="1" version="5.50">
+					<description>RTF-failid tuvastatakse automaatselt</description>
+				</key>
+				<key name="HTMLasText" file="Wincmd.ini" section="Lister" default="1" version="5.00">
+					<description>HTML teisendatakse linkidega tekstiks</description>
+				</key>
+				<key name="LinkBraces" file="Wincmd.ini" section="Lister" default="1" version="5.00">
+					<description>HTML-vaates: linkide ümber näidatakse loogelisi sulge { }</description>
+				</key>
+				<key name="Caret" file="Wincmd.ini" section="Lister" default="1" version="7.00">
+					<description>Näidatakse tekstikursorit, näit. teksti märkimiseks klahvidega.</description>
+				</key>
+				<key name="HebrewListerFix" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="5.00">
+					<description>Kui =1, kasutatakse koordinaadikorrektsiooni ingliskeelse teksti märkimisel Listeris heebrea keelses Windowsis (ainult siis, kui Uniscribe'i ei kasutata)</description>
+				</key>
+				<key name="Uniscribe" file="Wincmd.ini" section="Lister" default="1" advanced="Yes" version="7.50">
+					<description>Listeris kasutatakse Uniscribe'i Unicode'i ja võõrkeelsete kooditabelite korral. Uniscribe on teek, mis võimaldab korrektselt käsitleda paremalt vasakule teksti (araabia, heebrea)</description>
+				</key>
+				<key name="Codepage" file="Wincmd.ini" section="Lister" default="-1" version="7.50">
+					<description>Kasutaja defineeritud kooditabel alammenüüst "Kodeerimine". -1: Defineeritud aktiivse fondi poolt.</description>
+				</key>
+				<key name="UserEncodings" file="Wincmd.ini" section="Lister" default="codepage" version="7.55">
+					<description>Kasutaja defineeritud kodeeringud kujul "Kodeeringu nimi (Kodeeringu number)" vertikaaljoonega | eraldatult</description>
+				</key>
+			</category>
+			<category title="Font">
+				<key name="Font1" file="Wincmd.ini" section="Lister" default="Arial,-15,b" version="1.61">
+					<description>Font (kui ei ole vaikefont)</description>
+				</key>
+				<key name="Font2" file="Wincmd.ini" section="Lister" default="Arial,-15,b" version="1.61">
+					<description>Font2=Arial,-15,b</description>
+				</key>
+				<key name="Font3" file="Wincmd.ini" section="Lister" default="Arial,-15,b" version="1.61">
+					<description>Font3=Arial,-15,b</description>
+				</key>
+			</category>
+			<category title="Position">
+				<key name="X" file="Wincmd.ini" section="Lister" default="24" version="1.61">
+					<description>Asend (x)</description>
+				</key>
+				<key name="Y" file="Wincmd.ini" section="Lister" default="8" version="1.61">
+					<description>Asend (y)</description>
+				</key>
+				<key name="DX" file="Wincmd.ini" section="Lister" default="750" version="1.61">
+					<description>Laius</description>
+				</key>
+				<key name="DY" file="Wincmd.ini" section="Lister" default="550" version="1.61">
+					<description>Kõrgus </description>
+				</key>
+				<key name="Maximized" file="Wincmd.ini" section="Lister" default="0" version="1.61">
+					<description>Täisekraanil</description>
+				</key>
+			</category>
+			<category title="Printer">
+				<key name="Font4" file="Wincmd.ini" section="Lister" default="Courier New,18,b" version="4.00">
+					<description>New,18,b Printeri font (fikseeritud laiusega)</description>
+				</key>
+				<key name="Font5" file="Wincmd.ini" section="Lister" default="Arial,20" version="4.00">
+					<description>Printeri font (muutuva laiusega)</description>
+				</key>
+				<key name="LeftMargin" file="Wincmd.ini" section="Lister" default="200" version="4.00">
+					<description>Veerised printimiseks (1/10 millimeetrites)</description>
+				</key>
+				<key name="RightMargin" file="Wincmd.ini" section="Lister" default="200" version="4.00">
+					<description></description>
+				</key>
+				<key name="TopMargin" file="Wincmd.ini" section="Lister" default="200" version="4.00">
+					<description></description>
+				</key>
+				<key name="BottomMargin" file="Wincmd.ini" section="Lister" default="200" version="4.00">
+					<description></description>
+				</key>
+			</category>
+		</category>
+		<category title="Sisu järgi võrdlemine">
+			<key name="CompareCaseSensitive" file="Wincmd.ini" section="Configuration" default="0" version="5.00">
+				<description>1: Sisu järgi võrdlemine suur- ja väiketähe tundlikult
+0: Ignoreerib tähesuurust (a ja A käsitletakse võrdsetena)</description>
+			</key>
+			<key name="CompareIgnoreRepeatedLines" file="Wincmd.ini" section="Configuration" default="1" version="7.00">
+				<description>1: Sisu järgi võrdlemine ignoreerib korduvalt esinevaid ridu (näit. alguses/lõpus). Kasulik enamasti lähtekoodide ning muude võrdlemise seisukohalt ebaoluliste kordustega teksti sisaldavate failide võrdlemisel.
+0: Funktsioon keelatud. Kasulik loendite korral, kus ka olulised read sageli korduvad, näit. osade loendid.</description>
+			</key>
+			<key name="CompareIgnoreRepSpace" file="Wincmd.ini" section="Configuration" default="1" version="6.00">
+				<description>1: Ignoreerib erineva pikkusega tühikuid, näit. "a b" on sama mis "a       b"
+0: Tuvastab erineva tühikute arvu erinevusena</description>
+			</key>
+			<key name="CompareVertical" file="Wincmd.ini" section="Configuration" default="0" version="5.00">
+				<description>1: Sisu järgi võrdlemisel paneelid üksteise kohal
+0: Paneelid kõrvuti</description>
+			</key>
+			<key name="CompareSaveOriginal" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+				<description>1: Fail kopeeritakse salvestamisel failiks failinimi.bak, seejärel salvestatakse andmed failiks failinimi. Eelis: säiluvad lisavood, eriatribuudid jne.
+0: Salvestamisel kirjutatakse andmed faili failinimi.tmp, seejärel nimetatakse algne fail ümber failinimi.bak, ning lõpuks nimetatakse failinimi.tmp ümber failiks failinimi. Eelis: faili kirjutatakse ainult üks kord ja see jääb kirjutamisvea korral kahjustamata.</description>
+			</key>
+			<key name="CompareAlwaysSaveWithBom" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.50">
+				<description>1: Sisu järgi võrdlemise redaktor lisab UTF-8/16 failide salvestamisel alati baidijärjestuse märgise (BOM)
+0: BOM salvestatakse ainult siis, kui see on failis juba algselt olemas</description>
+			</key>
+			<key name="Comparetool" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" dialog="Open File" version="6.54">
+				<description>Määratleb välise võrdlusvahendi "Võrdlemiseks sisu järgi", näit. WinMerge</description>
+			</key>
+			<key name="CompareSkipFirstL" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+				<description>Skip the first x characters in each line of left file during compare by content (e.g. the date/time in a log file).</description>
+			</key>
+			<key name="CompareSkipFirstR" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+				<description>Skip the first x characters in each line of right file during compare by content (e.g. the date/time in a log file).</description>
+			</key>
+		</category>
+		<category title="Kaustade sünkroniseerimine">
+			<key name="SyncButtons" file="Wincmd.ini" section="Configuration" default="63" dialog="Bits Sum" version="5.00">
+				<description>See salvestab "Kaustade sünkroniseerimise" nuppude seisu. See on summa järgmistest:
+	1: Vasakult paremale
+	2: Samad failid
+	4: Erinevad failid
+	8: Paremalt vasakule
+	16: Dublikaadid (esinevad mõlemal pool)
+	32: Üksikud failid (esinevad ainult ühel pool)</description>
+			</key>
+			<key name="SyncFlags" file="Wincmd.ini" section="Configuration" default="0" dialog="Bits Sum" version="4.00">
+				<description>Säilitab 'Kaustade sünkroniseerimise' viimased seaded. Liidetakse järgmised väärtused:
+	1: Koos alamkaustadega
+	2: Sisu järgi võrdlemine
+	4: Ilma daatumiteta
+	8: Asümmetriliselt</description>
+			</key>
+			<key name="SyncHideHiddenSystem" file="Wincmd.ini" section="Configuration" default="0" version="7.55">
+				<description>Võimaldab sünkroniseerimisest välja jätta peidetud/süsteemifailid:
+	0: Peidetud/süsteemifaile ei peideta
+	1: Peidetakse, kui mõlema poole failidel on peidetud või süsteemi atribuut
+	2: Peidetakse, kui ühel kahest failist on peidetud või süsteemi atribuut
+	Lisatud 4: Arvestatakse põhiprogrammi peidetud/süsteemi parameetrit</description>
+			</key>
+			<key name="SyncIgnoreJunctions" file="Wincmd.ini" section="Configuration" default="0" version="7.55">
+				<description>0: Sünkroniseerimisel järgitakse ka ühenduskohti (reparse points) kaustadele
+1: Kaustade ühenduskohad jäetakse sünkroniseerimisest välja
+Hoiatus: Kui teisel pool on olemas samanimeline kaust, näivad selles olevad failid olevat ainult sellel poolel, sest esimese poole ühenduskoht on võrdlusest välja jäetud!</description>
+			</key>
+			<key name="SyncWarnErrors" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.55">
+				<description>Kaustade sünkroniseerimisel: reguleerib, millal kasutajat hoiatatakse kaustalugemise vigade puhul:
+	0: Mitte kunagi
+	1: Kui lugemine nurjub (näit. võrguühenduse kadumisel)
+	2: Kui juurdepääs on keelatud (viga 5, puuduvad kasutamisõigused)
+	3: Mõlemal juhul</description>
+			</key>
+			<key name="1hourdif" file="Wincmd.ini" section="Configuration" default="0" version="4.53">
+				<description>1: Failide võrdlemisel ignoreeritakse täpselt ühetunnilist aja erinevust. See on kasulik NTFS ja FAT ketaste võrdlemisel (suveaeg!).</description>
+			</key>
+		</category>
+		<category title="Kausta printimine">
+			<key name="FontName" file="Wincmd.ini" section="PrintDir" default="Arial" dialog="Font" version="5.00">
+				<description>Font name.
+Tip: Press &lt;Ctrl+B&gt; to set Font Name and Size at once.</description>
+			</key>
+			<key name="FontSize" file="Wincmd.ini" section="PrintDir" default="12" version="5.00">
+				<description>Font size.</description>
+			</key>
+			<key name="FontFlags" file="Wincmd.ini" section="PrintDir" default="BI" version="5.00">
+				<description>Font flag:
+	B= bold;
+	I= italic.</description>
+			</key>
+			<key name="HeaderText" file="Wincmd.ini" section="PrintDir" default="%d - Page %p/%t" version="5.00">
+				<description>Format of the printed pages header:
+	%d= inserts directory path.
+	%D= inserts system date.
+	%p= inserts current page number.
+	%t= inserts total pages number.</description>
+			</key>
+			<key name="HeaderMargin" file="Wincmd.ini" section="PrintDir" default="50" version="5.00">
+				<description>Header margin for printing (in 1/10 of a mm).</description>
+			</key>
+			<key name="LeftMargin" file="Wincmd.ini" section="PrintDir" default="200" version="5.00">
+				<description>Left margin for printing (in 1/10 of a mm).</description>
+			</key>
+			<key name="RightMargin" file="Wincmd.ini" section="PrintDir" default="200" version="5.00">
+				<description>Right margin for printing (in 1/10 of a mm).</description>
+			</key>
+			<key name="BottomMargin" file="Wincmd.ini" section="PrintDir" default="200" version="5.00">
+				<description>Bottom margin for printing (in 1/10 of a mm).</description>
+			</key>
+		</category>
+		<separator title="--------"/>
+		<category title="Redirect settings">
+			<key name="AlternateUserIni" file="Wincmd.ini" section="Configuration" default="&lt;somename&gt;" advanced="Yes" version="7.00">
+				<description>Kui on olemas, suunab see kõigi kasutaja poolt muudetavate jaotiste salvestamise edasi teise INI-faili (selles näites minginimi.ini), välja arvatud jaotised:
+	Configuration
+	Layout
+	Packer
+	Confirmation
+	Extensions
+	Associations
+	Shortcuts
+	ShortcutsWin
+	PackerPlugins
+	FileSystemPlugins
+	ListerPlugins
+	ContentPlugins
+
+Neid jaotisi saab siiski ükshaaval edasi suunata.
+Igasse jaotisse võib lisada kirje RedirectSection= selle vaikekäitumise muutmiseks. See lubab vastava jaotise edasi suunata (või mitte) teise INI-faili. Võimalikud väärtused on:
+	0: Ilma edasisuunamata
+	1: Edasisuunamine AlternateUserIni=&lt;asendus-ini-fail.ini&gt; poolt määratud INI-faili
+	&lt;ininimi.ini&gt;: Edasisuunamine sellesse INI-faili</description>
+			</key>
+			<category title="Sections NOT redirected by default">
+				<key name="RedirectSection" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>Vt. AlternateUserIni kirjeldust. Märkus: Kui on pandud jaotisesse [Configuration], suunatakse kõik selle jaotise muutujad edasi, välja arvatud AlternateUserIni ja UseIniInProgramDir, mida loetakse alati peamisest INI-failist.</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Layout" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Layout
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Packer
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Confirmation" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Confirmation
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Extensions" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Extensions
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Associations" default="0" advanced="Yes" dialog="Open File" version="7.50">
+					<description>
+	Associations
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Shortcuts" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Shortcuts
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="ShortcutsWin" default="0" advanced="Yes" dialog="Open File" version="7.50">
+					<description>
+	ShortcutsWin
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="PackerPlugins" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	PackerPlugins
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="FileSystemPlugins" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	FileSystemPlugins
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="ListerPlugins" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	ListerPlugins
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="ContentPlugins" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	ContentPlugins
+	************</description>
+				</key>
+			</category>
+			<category title="Sections redirected by default">
+				<key name="RedirectSection" file="Wincmd.ini" section="Left" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Left
+	************
+Values:
+---------
+	RedirectSection=0  -&gt; no redirect;
+	RedirectSection=1  -&gt; redirect to AlternateUserIni;
+	RedirectSection="ininame" -&gt; redirect to that specific ini.
+
+These values are apply to all RedirectSection under all other sections.</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Right" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Right
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Lefttabs" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Lefttabs
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Righttabs" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Righttabs
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Colors" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Colors
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Buttonbar" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Buttonbar
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Command line history" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Command line history
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="DriveHints" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	DriveHints
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Lister" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Lister
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="CustomFields" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	CustomFields
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="HintsCustomField" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	HintsCustomField
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="OverwriteCustomField" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	OverwriteCustomField
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="CompareCustomField" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	CompareCustomField
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="LeftHistory" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	LeftHistory
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="RightHistory" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	RightHistory
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="MkDirHistory" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	MkDirHistory
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="SyncOptions" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	SyncOptions
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Tabstops" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Tabstops
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="attrplugin" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	attrplugin
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Alias" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Alias
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="User" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	User
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="DirMenu" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	DirMenu
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Searches" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Searches
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="SearchName" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	SearchName
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="SearchIn" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	SearchIn
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="SearchText" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	SearchText
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Selection" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Selection
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Rename" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Rename
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="RenameTemplates" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	RenameTemplates
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="RenameSearchFind" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	RenameSearchFind
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="RenameSearchReplace" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	RenameSearchReplace
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="PrintDir" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	PrintDir
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="SplitPerFile" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	SplitPerFile
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="IgnoreMenuExtensions" default="1" advanced="Yes" dialog="Open File" version="7.50">
+					<description>
+	IgnoreMenuExtensions
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="[%Screen_Resolution%]" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Screen resolution-dependent data
+	************
+
+"Configuration Editor" automatically detecting this section actual name.</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="AllResolutions" default="1" advanced="Yes" version="7.00">
+					<description>
+	AllResolutions
+	************
+
+Note: Used only when ResolutionSpecific=0.</description>
+				</key>
+			</category>
+		</category>
+		<separator title="--------"/>
+		<category title="Lisa seadistused">
+			<category title="Start and Directory menu">
+				<section title="Start menu" name="User" file="Wincmd.ini" dialog="Open File" version="1.10">
+					<description>Kasutaja defineeritud Käivitusmenüü
+menu1=Vahetus C-juurkausta Nimetus
+cmd1=cd c:\ Käsk
+param1= Parameetrid
+path1= Käivitustee
+iconic1= Käivitada: 1=minimeeritult, -1=maksimeeritult
+key1= Kiirklahv</description>
+				</section>
+				<section title="Directory menu" name="DirMenu" file="Wincmd.ini" dialog="Open Folder" version="3.50">
+					<description>Kasutaja defineeritud kaustamenüü (Ctrl+D)
+Samad kirjed kui [user] jaoks</description>
+				</section>
+			</category>
+			<category title="History sections">
+				<section title="Command line history" name="Command line history" file="Wincmd.ini" dialog="Open File" version="1.20">
+					<description>Loetleb viimati kasutatud käsud
+0=regedit 0: Viimane käsk jne.
+1=calc</description>
+				</section>
+				<section title="Selection" name="Selection" file="Wincmd.ini" version="3.00">
+					<description>Säilitab märkimisel (Num +) viimati kasutatud metamärke</description>
+				</section>
+				<section title="Search for" name="SearchName" file="Wincmd.ini" version="3.00">
+					<description>Need kolm jaotist sisaldavad varasemaid otsinguid</description>
+				</section>
+				<section title="Search in" name="SearchIn" file="Wincmd.ini" dialog="Open Folder" version="3.00">
+					<description>Last used search paths.</description>
+				</section>
+				<section title="Find text" name="SearchText" file="Wincmd.ini" version="3.00">
+					<description>Last used find text in "Find files" dialog box and lister "Find" dialog.</description>
+				</section>
+				<section title="Searches" name="Searches" file="Wincmd.ini" version="3.00">
+					<description>Otsimisdialoogi salvestatud valikud</description>
+				</section>
+				<section title="Rename mask" name="RenameTemplates" file="Wincmd.ini" version="4.50">
+					<description>Hulgiümbernimetuses viimati kasutatud ümbernimetamisstringid</description>
+				</section>
+				<section title="Rename search for" name="RenameSearchFind" file="Wincmd.ini" version="6.50">
+					<description>Hulgiümbernimetuses viimati kasutatud otsingustringid (otsingu ja asenduse jaoks)</description>
+				</section>
+				<section title="Rename replace with" name="RenameSearchReplace" file="Wincmd.ini" version="6.50">
+					<description>Hulgiümbernimetuses viimati kasutatud asendusstringid (otsingu ja asenduse jaoks)</description>
+				</section>
+				<section title="Rename" name="Rename" file="Wincmd.ini" version="5.50">
+					<description>Hulgiümbernimetuse salvestatud valikud</description>
+				</section>
+				<section title="Left history" name="LeftHistory" file="Wincmd.ini" dialog="Open Folder" version="7.00">
+					<description>Viimati külastatud kaustade loendid vasaku ja parema paneeli jaoks. Salvestamise saab välja lülitada SaveHistory=0 abil.</description>
+				</section>
+				<section title="Right history" name="RightHistory" file="Wincmd.ini" dialog="Open Folder" version="7.00">
+					<description>Viimati külastatud kaustade loendid vasaku ja parema paneeli jaoks. Salvestamise saab välja lülitada SaveHistory=0 abil.</description>
+				</section>
+				<section title="New directory" name="MkDirHistory" file="Wincmd.ini" version="7.00">
+					<description>Loodud kaustade loend (F7-ga)</description>
+				</section>
+				<section title="Synchronize options" name="SyncOptions" file="Wincmd.ini" version="7.00">
+					<description>"Kaustade sünkroniseerimise" salvestatud valikud
+&lt;nimi&gt;_L=D:\ Vasak tee
+&lt;nimi&gt;_R=E:\ Parem tee
+&lt;nimi&gt;_Wcs=*.* Metamärgid
+&lt;nimi&gt;_Flags=11|63|-8 Valikud. Need 3 plokki tähendavad:
+Plokk 1: Võrdlemise valikud. Summa väärtustest
+   1: Alamkaustadega
+   2: Sisu järgi
+   4: Ilma daatumiteta
+   8: Asümmeetriliselt
+Plokk 2: Näitamise valikud. Summa väärtustest
+   1: Vasakult paremale
+   2: Samad
+   4: Erinevad
+   8: Paremalt vasakule
+   16: Dublikaadid
+   32: Üksikud
+Plokk 3: Sortimisjärjestus (negatiivne, kui on vastupidine)</description>
+				</section>
+				<section title="Plugin attributes" name="AttrPlugin" file="Wincmd.ini" version="7.00">
+					<description>Atribuutide dialoog: salvestatud pluginate valikud</description>
+				</section>
+				<section title="Split sizes" name="SplitPerFile" file="Wincmd.ini" version="7.00">
+					<description>Säilitab kasutaja defineeritud suurusi failide tükeldamisel ja mitmeosaliste arhiivide loomisel.</description>
+				</section>
+			</category>
+			<category title="Kaustalehed">
+				<section title="Left tabs" name="LeftTabs" file="Wincmd.ini" dialog="Open Folder" version="6.00">
+					<description>Kaustalehtede konfiguratsioon vasaku ja parema paneeli jaoks vastavalt. Aktiivse kaustalehe konfiguratsiooni ei hoita siin, vaid jaotistes [left] ja [right].</description>
+				</section>
+				<section title="Right tabs" name="RightTabs" file="Wincmd.ini" dialog="Open Folder" version="6.00">
+					<description>Kaustalehtede konfiguratsioon vasaku ja parema paneeli jaoks vastavalt. Aktiivse kaustalehe konfiguratsiooni ei hoita siin, vaid jaotistes [left] ja [right].</description>
+				</section>
+			</category>
+			<category title="Kohandatud vaated">
+				<category title="Custom columns (WFX plugins)">
+					<section title="[%CustomFields_WFX%]" name="[%CustomFields_WFX%]" file="Wincmd.ini" version="7.00">
+						<description>Salvestatud kohandatud vaadete konfiguratsioonid failisüsteemi pluginatele</description>
+					</section>
+				</category>
+				<section title="Custom columns" name="CustomFields" file="Wincmd.ini" version="6.50">
+					<description>Salvestatud kohandatud vaadete konfiguratsioonid</description>
+				</section>
+				<section title="Custom hints" name="HintsCustomField" file="Wincmd.ini" version="6.50">
+					<description>Failivihjetes näidatavad kohandatud väljad</description>
+				</section>
+				<section title="Overwrite custom fields" name="OverwriteCustomField" file="Wincmd.ini" version="7.00">
+					<description>Ülekirjutamise dialoogis näidatavad kohandatud väljad</description>
+				</section>
+				<section title="Custom comparison by content" name="CompareCustomField" file="Wincmd.ini" version="7.55">
+					<description>Synchronize dirs: Custom comparison by content with plugins.</description>
+				</section>
+			</category>
+			<category title="Positions">
+				<category title="Main window">
+					<key name="X" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="1.10">
+						<description>Total Commanderi x-asend</description>
+					</key>
+					<key name="Y" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="1.10">
+						<description>y-asend</description>
+					</key>
+					<key name="DX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="1.10">
+						<description>Laius</description>
+					</key>
+					<key name="DY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="1.10">
+						<description>Kõrgus</description>
+					</key>
+					<key name="Maximized" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="1.61">
+						<description>0=tavaline, 1=maksimeeritud aken</description>
+					</key>
+					<key name="Divider" file="Wincmd.ini" section="[%Screen_Resolution%]" default="500" version="3.00">
+						<description>Paneelide eraldaja asend promillides (0...1000)</description>
+					</key>
+					<key name="DividerComments" file="Wincmd.ini" section="[%Screen_Resolution%]" default="500" version="6.00">
+						<description>Paneelide eraldaja asend promillides kommentaarivaates (Ctrl+Shift+F2)</description>
+					</key>
+					<key name="DividerQuickView" file="Wincmd.ini" section="[%Screen_Resolution%]" default="500" version="3.50">
+						<description>Paneelide eraldaja asend promillides, kui kiirvaate paneeli (Ctrl+Q) näidatakse. Need kaks eraldajat saab seada eraldi, valides vastavas vaates 'Salvesta asend' (koos ja ilma kiirvaate paneelita).</description>
+					</key>
+					<key name="Tabstops" file="Wincmd.ini" section="[%Screen_Resolution%]" default="124,127,186,76,429,93" version="4.00">
+						<description>Tulpade asendid</description>
+					</key>
+				</category>
+				<category title="Choose command">
+					<key name="CmdSelX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="7.00">
+						<description>x-asend</description>
+					</key>
+					<key name="CmdSelY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="7.00">
+						<description>y-asend</description>
+					</key>
+					<key name="CmdSelDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="7.00">
+						<description>Laius</description>
+					</key>
+					<key name="CmdSelDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="7.00">
+						<description>Kõrgus</description>
+					</key>
+					<key name="CmdSelMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="7.00">
+						<description>0=tavaline, 1=maksimeeritud aken</description>
+					</key>
+				</category>
+				<category title="Synchronize directories">
+					<key name="SyncX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="4.00">
+						<description>x-asend</description>
+					</key>
+					<key name="SyncY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="4.00">
+						<description>y-asend</description>
+					</key>
+					<key name="SyncDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="4.00">
+						<description>Laius</description>
+					</key>
+					<key name="SyncDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="4.00">
+						<description>Kõrgus</description>
+					</key>
+					<key name="SyncMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="4.00">
+						<description>0=tavaline, 1=maksimeeritud aken</description>
+					</key>
+					<key name="SyncTabs" file="Wincmd.ini" section="[%Screen_Resolution%]" default="165,257,352,384,476,551" version="4.00">
+						<description>Tulpade asendid</description>
+					</key>
+				</category>
+				<category title="Compare contents">
+					<key name="CompareX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="5.50">
+						<description>x-asend</description>
+					</key>
+					<key name="CompareY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="5.50">
+						<description>y-asend</description>
+					</key>
+					<key name="CompareDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="5.50">
+						<description>Laius</description>
+					</key>
+					<key name="CompareDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="5.50">
+						<description>Kõrgus</description>
+					</key>
+					<key name="CompareMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="5.50">
+						<description>0=tavaline, 1=maksimeeritud aken</description>
+					</key>
+				</category>
+				<category title="Find files">
+					<key name="SearchX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="4.00">
+						<description>x-asend</description>
+					</key>
+					<key name="SearchY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="4.00">
+						<description>y-asend</description>
+					</key>
+					<key name="SearchDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="4.00">
+						<description>Laius</description>
+					</key>
+					<key name="SearchDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="4.00">
+						<description>Kõrgus</description>
+					</key>
+					<key name="SearchMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="4.00">
+						<description>0=tavaline, 1=maksimeeritud aken</description>
+					</key>
+				</category>
+				<category title="Drive selection">
+					<key name="DriveSelX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="-118" version="7.55">
+						<description>x-asend
+Note: X is relative to the upper left corner of the search dialog.</description>
+					</key>
+					<key name="DriveSelY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="-108" version="7.55">
+						<description>y-asend
+Note: Y is relative to the upper left corner of the search dialog.</description>
+					</key>
+					<key name="DriveSelDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="799" version="7.55">
+						<description>Laius</description>
+					</key>
+					<key name="DriveSelDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="332" version="7.55">
+						<description>Kõrgus</description>
+					</key>
+					<key name="DriveSelMax" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="7.55">
+						<description>0=tavaline, 1=maksimeeritud aken</description>
+					</key>
+				</category>
+				<category title="Multi-Rename tool">
+					<key name="RenameX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="4.50">
+						<description>x-asend</description>
+					</key>
+					<key name="RenameY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="4.50">
+						<description>y-asend</description>
+					</key>
+					<key name="RenameDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="4.50">
+						<description>Laius</description>
+					</key>
+					<key name="RenameDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="4.50">
+						<description>Kõrgus</description>
+					</key>
+					<key name="RenameMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="4.50">
+						<description>0=tavaline, 1=maksimeeritud aken</description>
+					</key>
+					<key name="RenameTabs" file="Wincmd.ini" section="[%Screen_Resolution%]" default="115,145,345,518,715" version="4.50">
+						<description>Tulpade asendid</description>
+					</key>
+				</category>
+				<category title="Change start menu">
+					<key name="MenuChangeX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="5.00">
+						<description>x-asend</description>
+					</key>
+					<key name="MenuChangeY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="5.00">
+						<description>y-asend</description>
+					</key>
+					<key name="MenuChangeDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="5.00">
+						<description>Laius</description>
+					</key>
+					<key name="MenuChangeDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="5.00">
+						<description>Kõrgus</description>
+					</key>
+					<key name="MenuChangeMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="5.00">
+						<description>0=tavaline, 1=maksimeeritud aken</description>
+					</key>
+				</category>
+				<category title="Directories tree">
+					<key name="TreeDlgX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="5.00">
+						<description>x-asend</description>
+					</key>
+					<key name="TreeDlgY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="5.00">
+						<description>y-asend</description>
+					</key>
+					<key name="TreeDlgDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="5.00">
+						<description>Laius</description>
+					</key>
+					<key name="TreeDlgDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="5.00">
+						<description>Kõrgus</description>
+					</key>
+					<key name="TreeDlgMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="5.00">
+						<description>0=tavaline, 1=maksimeeritud aken</description>
+					</key>
+				</category>
+				<category title="Print preview">
+					<key name="PrintX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="5.00">
+						<description>x-asend</description>
+					</key>
+					<key name="PrintY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="5.00">
+						<description>y-asend</description>
+					</key>
+					<key name="PrintDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="5.00">
+						<description>Laius</description>
+					</key>
+					<key name="PrintDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="5.00">
+						<description>Kõrgus</description>
+					</key>
+					<key name="PrintMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="5.00">
+						<description>0=tavaline, 1=maksimeeritud aken</description>
+					</key>
+				</category>
+				<category title="Connect to ftp server">
+					<key name="ConnectX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="7.00">
+						<description>x-asend</description>
+					</key>
+					<key name="ConnectY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="7.00">
+						<description>y-asend</description>
+					</key>
+					<key name="ConnectDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="7.00">
+						<description>Laius</description>
+					</key>
+					<key name="ConnectDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="7.00">
+						<description>Kõrgus</description>
+					</key>
+					<key name="ConnectMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="7.00">
+						<description>0=tavaline, 1=maksimeeritud aken</description>
+					</key>
+				</category>
+				<category title="Custom columns">
+					<key name="CustColumnX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="6.50">
+						<description>x-asend</description>
+					</key>
+					<key name="CustColumnY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="6.50">
+						<description>y-asend</description>
+					</key>
+					<key name="CustColumnDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="6.50">
+						<description>Laius</description>
+					</key>
+					<key name="CustColumnDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="6.50">
+						<description>Kõrgus</description>
+					</key>
+					<key name="CustColumnMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="6.50">
+						<description>0=tavaline, 1=maksimeeritud aken</description>
+					</key>
+				</category>
+			</category>
+			<category title="Left">
+				<key name="Path" file="Wincmd.ini" section="Left" default="path" dialog="Open Folder" version="1.10">
+					<description>Viimane aktiivne kaust</description>
+				</key>
+				<key name="ShowAllDetails" file="Wincmd.ini" section="Left" default="1" version="1.10">
+					<description>0=ainult failinimed, 1=kõik andmed, 2=kaustapuu</description>
+				</key>
+				<key name="Show" file="Wincmd.ini" section="Left" default="1" version="1.10">
+					<description>1=kõik, 2=ainult programmid, 3=kasutaja defineeritud</description>
+				</key>
+				<key name="UserSpec" file="Wincmd.ini" section="Left" default="file_mask" version="2.00">
+					<description>Kasutaja defineeritud metamärgid</description>
+				</key>
+				<key name="SpecialView" file="Wincmd.ini" section="Left" default="100" version="6.50">
+					<description>Kohandatud vaate number, alistab show= väärtuse. Hoitakse eraldi muutujas, et vältida probleeme Total Commanderi varasemate versioonidega.</description>
+				</key>
+				<key name="SortOrder" file="Wincmd.ini" section="Left" default="0" version="1.10">
+					<description>Sortimine 0=nime, 1=laiendi, 2=suuruse, 3=daatumi järgi, 4=sortimata</description>
+				</key>
+				<key name="CustomSortOrder" file="Wincmd.ini" section="Left" default="0" version="6.50">
+					<description>Sortimine kohandatud tulpade järgi (ainult kohandatud vaates), 100=esimene kohandatud tulp, 101=teine jne.</description>
+				</key>
+				<key name="Negative Sortorder" file="Wincmd.ini" section="Left" default="0" version="1.10">
+					<description>Vastupidine sortimisjärjestus</description>
+				</key>
+				<key name="AddSortOrders" file="Wincmd.ini" section="Left" default="1" version="7.00">
+					<description>Täiendavad sortimisjärjestused. Näide: 1,-3,2 tähendab täiendavat sortimist esimese tulba järgi kasvavalt, kolmanda tulba järgi kahanevalt ning teise tulba järgi kasvavalt (tulpade lugemine algab 1-st).</description>
+				</key>
+			</category>
+			<category title="Right">
+				<key name="Path" file="Wincmd.ini" section="Right" default="path" dialog="Open Folder" version="1.10">
+					<description>Viimane aktiivne kaust</description>
+				</key>
+				<key name="ShowAllDetails" file="Wincmd.ini" section="Right" default="1" version="1.10">
+					<description>0=ainult failinimed, 1=kõik andmed, 2=kaustapuu</description>
+				</key>
+				<key name="Show" file="Wincmd.ini" section="Right" default="1" version="1.10">
+					<description>1=kõik, 2=ainult programmid, 3=kasutaja defineeritud</description>
+				</key>
+				<key name="UserSpec" file="Wincmd.ini" section="Right" default="file_mask" version="2.00">
+					<description>Kasutaja defineeritud metamärgid</description>
+				</key>
+				<key name="SpecialView" file="Wincmd.ini" section="Right" default="100" version="6.50">
+					<description>Kohandatud vaate number, alistab show= väärtuse. Hoitakse eraldi muutujas, et vältida probleeme Total Commanderi varasemate versioonidega.</description>
+				</key>
+				<key name="SortOrder" file="Wincmd.ini" section="Right" default="0" version="1.10">
+					<description>Sortimine 0=nime, 1=laiendi, 2=suuruse, 3=daatumi järgi, 4=sortimata</description>
+				</key>
+				<key name="CustomSortOrder" file="Wincmd.ini" section="Right" default="0" version="6.50">
+					<description>Sortimine kohandatud tulpade järgi (ainult kohandatud vaates), 100=esimene kohandatud tulp, 101=teine jne.</description>
+				</key>
+				<key name="Negative Sortorder" file="Wincmd.ini" section="Right" default="0" version="1.10">
+					<description>Vastupidine sortimisjärjestus</description>
+				</key>
+				<key name="AddSortOrders" file="Wincmd.ini" section="Right" default="1" version="7.00">
+					<description>Täiendavad sortimisjärjestused. Näide: 1,-3,2 tähendab täiendavat sortimist esimese tulba järgi kasvavalt, kolmanda tulba järgi kahanevalt ning teise tulba järgi kasvavalt (tulpade lugemine algab 1-st).</description>
+				</key>
+			</category>
+			<section title="x64 Menu Extensions" name="IgnoreMenuExtensions" file="Wincmd.ini" version="7.50">
+				<description>Filtreerib välja teatud kohtmenüü laiendused X64 (64-bit) alammenüü kasutamisel.
+0=Laienduse nimi1
+1=Laienduse nimi2</description>
+			</section>
+		</category>
+	</main_category>
+</ultra_tc_editors_data_file>

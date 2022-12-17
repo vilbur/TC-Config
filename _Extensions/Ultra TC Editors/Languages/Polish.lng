@@ -1,0 +1,848 @@
+; Polish language for Ultra TC Editors 6.42
+; Polski jÍzyk do programu Ultra TC Editors 6.42
+; Translated by dmocha(at)gmail.com https://1drv.ms/f/s!ACBEMiarr_u1nUk
+
+;----------------------------------------------------------------
+;    File menu
+;----------------------------------------------------------------
+
+5001="&Plik"
+5002="&Nowy"
+5003="&OtwÛrz..."
+5004="&Zapisz"
+5005="Zapisz j&ako..."
+5006="Zapisz i zrestartuj Total &Commander"
+5007="Tworzenie pe≥nego &menu"
+5008="Spra&wdü mnemoniki..."
+5009="Dostosuj plik &totalcmd.inc..."
+5010="Dostosuj plik ma&powania..."
+5011="O&statnio uøywane pliki"
+5012="Lista jest pusta"
+5013="WyczyúÊ listÍ"
+5014="W&yjúcie"
+
+5031="&Eksport..."
+5032="&Import..."
+5033="Eksportuj do &totalcmd.inc..."
+
+5051="OtwÛrz plik &danych..."
+5052="Zap&isz plik danych..."
+
+5071="Eksportuj do g≥Ûwnego &menu..."
+5072="&Eksportuj do pliku tekstowego..."
+
+;----------------------------------------------------------------
+;    Edit menu
+;----------------------------------------------------------------
+
+5101="&Edycja"
+5102="Dodaj &menu"
+5103="Dodaj &podmenu"
+5104="Dodaj sepa&rator"
+5105="Dodaj &komentarz"
+5106="Pow&tÛrz"
+5107="MenuSt&art"
+5108="S&eparacja Pomocy"
+5109="PrzesuÒ w &gÛrÍ"
+5110="PrzesuÒ w &dÛ≥"
+5111="Przes&uÒ do..."
+5112="&Importowanie podpisÛw..."
+5113="Mapuj do..."
+5114="U&suÒ"
+5115="&ZmieÒ nazwÍ"
+5116="De&finicja"
+5117="Cofnij"
+5118="PonÛw"
+
+5131="Dodaj pole&cenie"
+5132="Dod&aj ten program (Ultra TC)"
+5133="Wy&tnij"
+5134="&Kopiuj"
+5135="&Wklej"
+5136="Sortowanie ca≥ego m&enu"
+5137="Sortowanie wy&branych menu"
+5138="&OtwÛrz w TC (przejdü do)"
+5139="W≥aúciw&oúci"
+
+5151="Dodaj podrzÍdny pasek"
+5152="Wstaw &liniÍ podzia≥u"
+5153="Dodaj &przycisk"
+
+5171="Dod&aj pozycjÍ"
+5172="UsuÒ wszyst&ko"
+
+5191="Co&fnij"
+5192="PowtÛ&rz"
+5193="&Edycja wartoúci"
+5194="WartoúÊ = &1"
+5195="WartoúÊ = &0"
+5196="Znaj&dü wartoúÊ..."
+5197="&Nowy klucz..."
+5198="Z&mieÒ nazwÍ..."
+5199="Komenta&rz"
+5200="Plik dany&ch"
+5201="Dod&aj klucz..."
+5202="Z&mieÒ klucz..."
+5203="UsuÒ k&lucz"
+
+;----------------------------------------------------------------
+;    View menu
+;----------------------------------------------------------------
+
+5301="Wi&dok"
+5302="Pas&ek narzÍdzi"
+5303="Pase&k stanu"
+5304="Lista pole&ceÒ"
+5305="Lista kate&gorii"
+5306="Piono&we panele"
+5307="ZamieÒ pane&le"
+5308="&RozwiÒ drzewo"
+5309="ZwiÒ drzew&o"
+5310="Po&sortowana lista"
+5311="O&pcje..."
+
+5331="Z&awsze na wierzchu"
+5332="Menu Start"
+5333="Menu ulubionych katalogÛw"
+5334="Polecenia rozszerzone"
+
+5351="&Pasek przyciskÛw"
+5352="D&rzewo paska przyciskÛw"
+5353="Opcje paska przyciskÛ&w"
+5354="&G≥Ûwny pasek przyciskÛw"
+5355="P&ionowy pasek przyciskÛw"
+
+5371="Op&is"
+5372="Wszystkie &klucze"
+5373="&Aktywne klucze"
+5374="N&ieaktywne klucze"
+5375="Tylko zaa&wansowane klucze"
+5376="Widok ga≥Íz&i"
+
+;----------------------------------------------------------------
+;    Search menu
+;----------------------------------------------------------------
+
+5401="&Szukaj"
+5402="Znaj&dü..."
+5403="Znajdü &nastÍpny"
+
+;----------------------------------------------------------------
+;    Help menu
+;----------------------------------------------------------------
+
+5501="Pomo&c"
+5502="&Tematy pomocy"
+5503="O progr&amie..."
+5504=&Darowizna...
+
+;----------------------------------------------------------------
+;    Favorites menu (Configuration Editor)
+;----------------------------------------------------------------
+
+5601="Ulub&ione"
+5602="Dod&aj do ulubionych..."
+5603="&Organizuj ulubione..."
+
+;----------------------------------------------------------------
+;    Context menu (Main Menu Editor)
+;----------------------------------------------------------------
+
+5701="Do&daj"
+5702="Us&uÒ"
+5703="Zazn&acz wszystko"
+5704="De&finicja"
+5705="Wybierz wszystkie ak&tywne"
+5706="Wybierz wszystkie n&ieaktywne"
+
+;----------------------------------------------------------------
+;    Parameters menu (Start Menu & Button Bar Editor)
+;----------------------------------------------------------------
+
+5801="?  jako pierwszy parametr: wywo≥uje okno dialogowe do wprowadzania parametrÛw"
+5802="%P  wstawia rzeczywistπ úcieøkÍ ürÛd≥owπ"
+5803="%N  wstawia nazwÍ pliku pod kursorem"
+5804="%T  wstawia rzeczywistπ úcieøkÍ docelowπ"
+5805="%M  wstawia bieøπcπ nazwÍ pliku w katalogu docelowym"
+5806="%O  wstawia bieøπcπ nazwÍ pliku bez rozszerzenia"
+5807="%E  wstawia aktualne rozszerzenie (bez kropki)"
+5808="%%  wstawia znak procentu"
+5809="%p  wstawia rzeczywistπ úcieøkÍ ürÛd≥owπ (krÛtka)"
+5810="%n  wstawia nazwÍ pliku pod kursorem (krÛtka)"
+5811="%t  wstawia rzeczywistπ úcieøkÍ docelowπ (krÛtka)"
+5812="%m  wstawia bieøπcπ nazwÍ pliku w katalogu docelowym (krÛtka)"
+5813="%o  wstawia aktualnπ nazwÍ pliku bez rozszerzenia (krÛtka)"
+5814="%e  wstawia aktualne rozszerzenie (bez kropki) (krÛtkie)"
+5815="%L  d≥ugie nazwy plikÛw, w≥πczajπc w to pe≥nπ úcieøkÍ"
+5816="%l  krÛtkie nazwy plikÛw, w≥πczajπc w to pe≥nπ úcieøkÍ"
+5817="%F  d≥ugie nazwy plikÛw bez úcieøki, np. D≥uga nazwa.exe"
+5818="%f  krÛtkie nazwy plikÛw bez úcieøki, np. D£UGAN~1.EXE"
+5819="%D  krÛtkie nazwy plikÛw, w≥πczajπc w to pe≥nπ úcieøkÍ, (zest. znakÛw DOS)"
+5820="%d  krÛtkie nazwy plikÛw bez úcieøki, (zest. znakÛw DOS)"
+5821="%S  wstawia nazwy wszystkich wybranych plikÛw"
+5822="%s  wstawia nazwy wszystkich wybranych plikÛw (krÛtkie)"
+5823="%S10  wstawia nazwy 10ciu pierwszych wybranych plikÛw"
+5824="%s10  wstawia nazwy 10ciu pierwszych wybranych plikÛw (krÛtkie)"
+5825="%A  wstawia resztÍ wprowadzonego wiersza poleceÒ"
+5826="%A0  taki sam jak %A, stosowany, gdy parametr musi byÊ zakoÒczony cyfrπ"
+5827="%A1  do %A9 wstawia pierwszy aø do dziewiπtego parametru"
+5828="%Z  przekazuje archiwa jako úcieøkÍ do programÛw dla %P lub %T gdy wewnπtrz archiwum"
+5829="%R  wstawia nazwy wszystkich wybranych plikÛw z panelu docelowego"
+5830="%r  wstawia nazwy wszystkich wybranych plikÛw z panelu docelowego (krÛtkie)"
+5831="%R10  wstawia nazwy pierwszych 10ciu wybranych plikÛw z panelu docelowego"
+5832="%r10  wstawia nazwy pierwszych 10ciu wybranych plikÛw z panelu docelowego (krÛtkie)"
+5833="%X  interpretuje nastÍpujπce parametry jako Lewy/Prawy zamiast èrÛd≥owego/Docelowego"
+5834="%x  Interpretuje nastÍpujπce parametry ponownie jako èrÛd≥owe/Docelowe"
+5835="%UL  jak %L, ale z plikiem listy UTF-8 Unicode"
+5836="%WL  jak %L, ale z plikiem listy UTF-16 Unicode"
+5837="%UF  jak %F, ale z plikiem listy UTF-8 Unicode"
+5838="%WF  jak %F, ale z plikiem listy UTF-16 Unicode"
+5839="%v Wstawia nazwÍ wirtualnego pliku w przypadku wtyczki systemu plikÛw takich jak 'Virtual Panel'"
+5840="%V Jak %v, ale wraz z pe≥nπ úcieøkπ (w tym nazwÍ wtyczki)"
+5841="%C1  wstawia pierwszy wybrany plik lub plik pod kursorem myszy"
+5842="%C2  wstawia drugi wybrany plik lub pierwszy wybrany w panelu docelowym lub plik o tej samej nazwie w panelu docelowym"
+5843="%C3  wstawia do %C9 wybrane pliki w panelu ürÛd≥owym, puste jeúli nie sπ wystarczajπco zaznaczone"
+5844="%c1  wstawia pierwszy wybrany plik lub plik pod kursorem (krÛtki)"
+5845="%c2  wstawia drugi wybrany plik lub pierwszy wybrany w panelu docelowym lub plik o tej samej nazwie w panelu docelowym (krÛtki)"
+5846="%c3  wstawia do %c9 wybrane pliki w panelu ürÛd≥owym, puste jeúli nie sπ wystarczajπco zaznaczone (krÛtki)"
+
+;----------------------------------------------------------------
+;    Message Boxes
+;----------------------------------------------------------------
+
+5901="Nie moøna znaleüÊ pliku ustawieÒ Total Commander [wincmd.ini]"
+5902="Nie moøna znaleüÊ pliku totalcmd.inc!"
+5903="Nieprawid≥owy format pliku menu!"
+5904="W pliku znajduje siÍ b≥πd "%s"\nLinia: %i\n%s"
+5905="Nie moøna otworzyÊ pliku "%s""
+5906="Program nie moøe kontynuowaÊ!"
+5907="Nie moøna przenieúÊ Menu jako w≥asne Podmenu!!!"
+5908="Nie moøna umieúciÊ tutaj polecenia."
+5909="Nie moøna umieúciÊ separacji Pomocy w menu."
+5910="To menu "%s" nie jest puste. Jesteú pewien?"
+5911="Blok komentarza "%s" nie jest pusty. Jesteú pewien?"
+5912="Niestety nie moøna powtÛrzyÊ tej pozycji"
+5913="Zapisz zmiany w "%s""
+5914="Nie ma nic do zapisania!"
+5915="Nie moøna znaleüÊ "%s""
+5916="Nie moøna znaleüÊ tego polecenia "%s""
+5917="Nie moøna znaleüÊ tego pliku "%s"\n\nUpewnij siÍ, øe podano prawid≥owπ úcieøkÍ i nazwÍ pliku."
+5918="Nie znaleziono powtarzajπcych siÍ mnemonikÛw"
+5919="Wszystkie pozycje zawierajπce mnemoniki."
+5920="Znaleziono powtarzajπce siÍ mnemoniki: '%s'\nJest on juø uøywany w: '%s'\n\nNastÍpujπce mnemoniki sπ dostÍpne do wykorzystania: %s"
+5921="Znaleziono powtarzajπce siÍ mnemoniki: '%s'\nJest on juø uøywany w: '%s'\n\nNie ma dostÍpnych unikalnych mnemonikÛw."
+5922="Czy napewno?"
+5923="Obraz jest za duøy, wskaø inny."
+5924="Nieprawid≥owa ikona, sprÛbuj innπ."
+5925="Dopuszczalnymi wartoúciami sπ liczby ca≥kowite od 1 do 32."
+5926="Poniewaø menu g≥Ûwne zawiera polecenia zewnÍtrzne, naleøy je zapisaÊ przed dostosowaniem pliku mapowania. Jest to waøne, aby dopasowaÊ zewnÍtrzne polecenia do ich kodu. \n\nZapisaÊ zmiany teraz?"
+5927="Polecenie zewnÍtrzne musi znajdowaÊ siÍ w menu g≥Ûwnym, aby zmapowaÊ dla niego ikonÍ."
+5928="%s\nTen plik jest zakodowany przy uøyciu UTF-8.\n\nOSTRZEØENIE: Kaøda pozycja zawierajπca znaki ze strony kodowej innej niø domyúlna strona kodowa twojego systemu zostanie utracona, jeúli zosta≥a przemianowana w ramach tego programu.\n\nUwaga: Pozycje zawierajπce takie znaki ale nie zmienione w ramach tego programu nie zostanπ naruszone. KontynuowaÊ?"
+
+5941="DostÍp do menu Start w tym pliku zosta≥ ograniczony."
+5942="DostÍp do menu katalogu w tym pliku zosta≥ ograniczony."
+5943="Plik ten nie zawiera wpisu menu ulubionych katalogÛw!"
+5944="Plik ten nie zawiera wpisu menu Start!"
+5945="Menu ulubionych katalogÛw nie moøe zawieraÊ wiÍcej niø 199 pozycji."
+5946="Menu Start nie moøe zawieraÊ wiÍcej niø 199 pozycji."
+5947="EksportowaÊ zmiany do pliku totalcmd.inc?"
+5948="Menu Start naleøy zapisaÊ przed wyeksportowaniem. Jest waøne, aby nie wystπpi≥o øadne niedopasowanie wpisÛw w pliku Totalcmd.inc podczas eksportowania niezapisanego menu.\n\nZapisaÊ zmiany teraz?"
+5949="Nie znaleziono pliku."
+5950="Nie znaleziono folderu."
+5951="Nie znaleziono pod≥πczonego paska narzÍdzi "%s""
+5952="Nie moøna otworzyÊ schowka."
+5953="Ten plik nie zawiera øadnych ikon, wskaø proszÍ inny plik."
+5954="Ustawienia ikon zostanπ uwzglÍdnione przy kolejnym uruchomieniu programu."
+5955="SkrÛt ten jest juø przypisany do: "%s"\n\nChcesz przypisaÊ go do: "%s""
+5956=""%s"\n Istnieje juø w [%s]\n\nChcesz dodaÊ go ponownie?"
+5957="Czy chcesz, aby ten pasek przyciskÛw by≥ trwa≥y?\nBÍdzie on ≥adowany przy kaødym uruchamianiu Total Commander."
+
+5971="Panel podglπdu. Brak edycji tutaj!"
+5972="Tylko %i pozycji moøe byÊ dodawane do sekcji."
+
+5991="Nie moøna znaleüÊ pliku ustawieÒ Total Commander [wcx_ftp.ini]"
+5992="Nie moøna odnaleüÊ pliku danych! ProszÍ otworzyÊ jeden, aby kontynuowaÊ"
+5993="ZapisaÊ zmiany w pliku danych programu?"
+5994="Nie moøna znaleüÊ ulubionego klucza!"
+5995="Lista ulubionych nie moøe zawieraÊ wiÍcej niø 99 elementÛw."
+5996="Istnieje juø pozycja ulubione z tym kluczem."
+5997="Zapisz zmiany na liúcie ulubionych?"
+5998="Czy na pewno chcesz usunπÊ klucz '%s' z pliku danych?"
+5999="Klucz o tej nazwie juø istnieje. Podaj innπ nazwÍ klucza."
+6000="W przypadku tego klucza "%s" brakuje pÛl danych lub pola te sπ nieprawid≥owe.\nPopraw ten b≥πd w bieøπcym pliku danych.\n\nPola to: %s"
+6001="Plik danych zawiera nastÍpujπcy b≥πd:\n\nLinia: %i\nPozycja: %i\nPowÛd: %s\n"
+
+6021="Domyúlny klawisz skrÛtu dla: "%s"\n\nChcesz przypisaÊ go do: "%s""
+6022="Aktualny klawisz skrÛtu dla: "%s"\n\nChcesz przypisaÊ go do: "%s""
+6023="Aktualny alias dla: "%s"\n\nChcesz przypisaÊ go do: "%s""
+6024="Aktualny klawisz skrÛtu dla: "%s" w twoim menu Start w Total Commander\n\nChcesz przypisaÊ go do: "%s""
+6025="Zamierzasz usunπÊ skrÛty klawiszowe zdefiniowane przez uøytkownika dla WSZYSTKICH poleceÒ.\n\nJesteú pewien?"
+6026="Zamierzasz usunπÊ aliasy dla WSZYSTKICH poleceÒ.\n\nJesteú pewien?"
+6027="Przed wyeksportowaniem do pliku g≥Ûwnego Menu, naleøy zapisaÊ skrÛty klawiszowe. Jest to bardzo waøne, aby nie mieÊ øadnych niezgodnoúci podczas eksportowania niezapisanej listy skrÛtÛw."
+6028="%s\nTen plik jest zakodowany przy uøyciu UTF-8.\n\nWyeksportowanie skrÛtÛw klawiszowych do pliku zakodowanego w UTF-8 moøe spowodowaÊ jego uszkodzenie. KontynuowaÊ?"
+
+;----------------------------------------------------------------
+;    About dialog
+;----------------------------------------------------------------
+
+6101="O programie"
+6102="Autor:"
+6103="Wersja:"
+6104="Program zarejestrowany dla:"
+6105="Odwiedü stronÍ domowπ aby uzyskaÊ najnowsze informacje na temat programu."
+6106="WWW:"
+6107="Odwiedü stronÍ"
+6108="e-mail:"
+6109=&Darowizna
+
+;----------------------------------------------------------------
+;    Customize Toolbar dialog
+;----------------------------------------------------------------
+
+6201="Do&stosuj..."
+6202="Dostosuj pasek narzÍdzi"
+
+;----------------------------------------------------------------
+;    Progress dialog
+;----------------------------------------------------------------
+
+6301="Czytanie...ProszÍ czekaÊ"
+6302="Zapisywanie... ProszÍ czekaÊ"
+6303="Tworzenie... ProszÍ czekaÊ"
+6304="Dodawanie... ProszÍ czekaÊ."
+6305="Usuwanie... ProszÍ czekaÊ."
+6306="Importowanie... ProszÍ czekaÊ"
+6307="Eksportowanie... ProszÍ czekaÊ"
+
+;----------------------------------------------------------------
+;    Options dialog
+;----------------------------------------------------------------
+
+6401="Opcje"
+6402="OK"
+6403="Anuluj"
+6404="Z&astosuj"
+6405="War&toúci domyúlne"
+
+;----------------------------------------------------------------
+;    Layout page
+;----------------------------------------------------------------
+
+6501="Uk≥ad"
+6502="Efekty wizualne:"
+6503="Pokaø &ikony w widoku drzewa"
+6504="Pokaø &linie w widoku drzewa"
+6505="Pokaø linie &siatki"
+6506="Sta≥e &granice"
+6507="P≥aski inter&fejs uøytkownika"
+6508="Pokaø tryb na przycisku zapi&sz"
+6509="Pokaø ikony dla wewnÍtrznych pole&ceÒ"
+6510="Linia se&paratora:"
+6511="Po&kaø plik ikony"
+
+6531="Pokaø wartoúÊ &klucza bezpoúrednio po nazwie klucza"
+6532="Pokaø wartoúÊ &domyúlnπ dla nieaktywnego klucza"
+6533="Pokaø &minimalnπ wersjÍ wymaganπ do uøycia zaznaczonego klucza"
+
+6551="Pokaø klawisze skrÛtÛw w &odwrotnej kolejnoúci"
+6552="Modyfikatory:"
+6553="Se&kwencja:"
+6554="Se&parator:"
+
+;----------------------------------------------------------------
+;    Icons page
+;----------------------------------------------------------------
+
+6601="Ikony"
+6602="Ikony stylu:"
+6603="Uøyj standar&dowych ikon"
+6604="Rozmi&ar:"
+
+6621="Ikona TC"
+6622="Menu"
+6623="Aktualne menu"
+6624="Aktywne polecenie"
+6625="Nieaktywne polecenie"
+6626="Separator"
+6627="MenuStart"
+6628="Separacja Pomocy"
+6629="Komentarz"
+6630="Polecenie wewnÍtrzne"
+6631="Polecenia zewnÍtrzne"
+6632="Polecenie rozszerzone"
+6633="£πcze folderu"
+6634="Uszkodzony link"
+6635="Podzia≥ wiersza"
+
+6651="Ro&zmiar ikon drzewa:"
+6652="Rozm&iar ikon paska:"
+
+;----------------------------------------------------------------
+;    Color and Font page
+;----------------------------------------------------------------
+
+6701="Kolor i czcionka"
+6702="Tekst:"
+6703="Bieøπce menu:"
+6704="Na wierzchu"
+6705="W tle"
+
+6721="Zablokowana zak≥adka"
+
+6741="Aktywny klucz (wincmd.ini)"
+6742="Aktywny klucz (wcx_ftp.ini)"
+6743="Nieaktywny klucz"
+
+6761="Za pomocπ klawisza skrÛtu"
+6762="Polecenie bez klawisza skrÛtu"
+
+6781="Inne kolory tekstu:"
+6782="Komentarz"
+6783="Separator"
+
+6801="Czcionka:"
+6802="&ZmieÒ..."
+6803="Zastosuj u&stawienia czcionek do pÛl w≥aúciwoúci polecenia"
+6804="Opis:"
+6805="SzerokoúÊ zak≥a&dki;"
+
+;----------------------------------------------------------------
+;    Operation page
+;----------------------------------------------------------------
+
+6901="Operacje"
+6902="Czytaj polecenia wewnÍtrzne TC z:"
+6903="&Domyúlny plik totalcmd.inc"
+6904="Inny pl&ik:"
+
+6921="RÛøne:"
+6922="Automa&tycznie ≥aduj ostatnio uøywany plik"
+6923="Powiπø pliki TC menu (*.mnu) z program&em"
+6924="Grupuj komentarze (zale&cane)"
+6925="Automatyczny &restart Total Commander po zapisaniu zmian"
+6926="&Liczba miejsc wciÍcia w menu podczas zapisywania pliku:"
+
+6941="Wyszukiwanie istniejπcych &plikÛw lub folderÛw w otoczeniu sieciowym"
+6942="Wyszukiwanie istniejπcych plikÛw lub folderÛw w &dyskach wymiennych"
+
+6961="Automatyczny wybÛr na&stÍpnego klucza po edycji wybranego klucza"
+6962="Automatyczn&e rozwijanie drzewa kategorii przy starcie"
+6963="Odczyt k&luczy wymienionych tylko w pliku danych"
+
+6981="Automatyczne wskazywanie &nastÍpnego polecenia po edycji wybranego polecenia"
+
+7001="Autouzupe≥nianie:"
+7002="Automatycznie &uøyj polecenia jako tytu≥u pozycji"
+7003="UsuÒ rozszerzenie pliku z tytu≥u e&lementu"
+7004="Automatycznie utwÛrz nowe pole&cenie lub wybierz nastÍpne"
+
+7021="Eksport:"
+7022="&Eksportuj zawsze do pliku totalcmd.ini po zapisaniu menu"
+7023="Przypominaj zawsze o eksportowaniu z&mian"
+7024="Zawsze eksportuj do pliku g≥Ûwnego menu po zapisaniu zmian"
+
+;----------------------------------------------------------------
+;    Language page
+;----------------------------------------------------------------
+
+7101="JÍzyk"
+7102="ZmieÒ jÍzyk:"
+7103="Uøyj &domyúlnego jÍzyka"
+7104="Inn&y:"
+
+;----------------------------------------------------------------
+;    Open/Save dialog titles
+;----------------------------------------------------------------
+
+7201="OtwÛrz"
+7202="Zapisz"
+7203="Zapisz jako"
+
+;----------------------------------------------------------------
+;    Find dialog
+;----------------------------------------------------------------
+
+7301="Znajdü"
+7302="&Szukaj:"
+7303="Szukaj w:"
+
+7321="Op&is"
+7322="Polece&nie"
+7323="&Kod"
+
+7341="&Tytu≥"
+7342="å&cieøka"
+
+7361="Nazwie &klucza"
+7362="Opisie k&lucza"
+7363="&Wartoúci klucza"
+
+7381="Domyúlny skrÛt klawiaturow&y"
+7382="Definicja &uøytkownika"
+7383="&Alias"
+
+7401="&Znajdü tylko ca≥e wyrazy"
+7402="Uøyj dopa&sowania do wzorca"
+
+;----------------------------------------------------------------
+;    Customize Totalcmd.inc dialog (Main Menu Editor)
+;----------------------------------------------------------------
+
+7501="Dostosuj totalcmd.inc"
+7502="Wed≥ug kategorii"
+7503="Alfabetycznie"
+7504="Tak jak jest"
+7505="Styl separatora:"
+7506="Plik"
+7507="Drukuj"
+7508="Dod&aj separator dla kaødego podmenu"
+7509="&Uøyj menu podpis do opisu"
+7510="Dodaj kod pole&cenia do opisu"
+7511="Podglπd:"
+7512="Zapisz..."
+7513="Zamknij"
+7514="Podglπd"
+7515="Brak w menu"
+
+;----------------------------------------------------------------
+;    Import captions dialog (Main Menu Editor)
+;----------------------------------------------------------------
+
+7601="Importuj podpisy"
+7602="Importowanie podpisÛw dl&a wszystkich poleceÒ."
+7603="Importowanie podpisÛw tylko dla pole&ceÒ pod menu '%s'."
+
+;----------------------------------------------------------------
+;    Customize Mapping File dialog (Main Menu Editor)
+;----------------------------------------------------------------
+
+7701="Dostosuj plik mapowania"
+7702="Ma≥e &ikony"
+7703="&Mapuj do..."
+7704="WybÛr ikony dla "%s""
+7705="(Øadna)"
+7721=Nowe polecenie uøytkownika: "%s"
+7722=Edycja polecenia uøytkownika: "%s"
+7723=Kopiuj polecenie uøytkownika: "%s"
+7724=&Nazwa:
+
+;----------------------------------------------------------------
+;    Choose Command dialog (Main & Start Menu Editor)
+;----------------------------------------------------------------
+
+7801="Wybierz polecenie"
+7802="&Znajdü:"
+7803="Pokaø polecenia z wpi&sem w pliku mapowania"
+
+;----------------------------------------------------------------
+;    Check mnemonics dialog (Main & Start Menu Editor)
+;----------------------------------------------------------------
+
+7901="Sprawdü mnemoniki"
+7902="Po&dúwietlono powtarzajπce siÍ mnemoniki"
+7903="Zaznacz elementy nie zawierajπ&ce mnemonikÛw."
+7904="Zduplikowane mnemoniki"
+7905="Brakujπce mnemoniki"
+
+;----------------------------------------------------------------
+;    Move To dialog (Main & Start Menu Editor)
+;----------------------------------------------------------------
+
+8001="PrzesuÒ do"
+8002="PrzesuÒ "%s" do..."
+
+;----------------------------------------------------------------
+;    Export to Totalcmd.inc file dialog (Start Menu Editor)
+;----------------------------------------------------------------
+
+8101="Eksport do pliku totalcmd.inc"
+8102="NastÍpujπce polecenia zostanπ dodane do pliku Totalcmd.inc.\nMoøesz uøyÊ dowolnego z tych poleceÒ do G≥Ûwnego menu."
+8103="Komenda &Eksport tylko (zalecane)"
+8104="Akt&ualizacja wincmd.ini [SkrÛty], [SkrÛtyWin] i sekcje [Alias]"
+8105="&Prefiks polecenia:"
+8106="&Nazwa kategorii:"
+
+;----------------------------------------------------------------
+;    Edit Parameters dialog (Start Menu & Button Bar Editor)
+;----------------------------------------------------------------
+
+8201="Edytuj listÍ parametrÛw"
+8202="Dom&yúlny"
+8203="&W gÛrÍ"
+8204="W &dÛ≥"
+8205="Dod&aj"
+8206="Parametr"
+8207="Opis"
+
+;----------------------------------------------------------------
+;    Add New Parameter dialog (Start Menu & Button Bar Editor)
+;----------------------------------------------------------------
+
+8301="Dodaj nowy parametr"
+8302="&Parametr:"
+8303="&Opis:"
+8304="Edytuj parametr"
+
+;----------------------------------------------------------------
+;    Delete All dialog  (History Editor)
+;----------------------------------------------------------------
+
+8401="UsuÒ wszystko"
+8402="Sprawdü sekcje ktÛre chcesz usunπÊ."
+8403="UsuÒ rÛwnieø z&ablokowane zak≥adki"
+
+;----------------------------------------------------------------
+;    Add/Modify data key dialog (Configuration Editor)
+;----------------------------------------------------------------
+
+8501="Dodaj nowy klucz danych"
+8502="Modyfikacja klucza danych"
+8503="&Nazwa"
+8504="&Plik"
+8505="&Sekcja"
+8506="We&rsja"
+8507="Domyúlna &wartoúÊ"
+8508="Z&aawansowane"
+8509="Tak"
+8510="Nie"
+8511="Dialo&g"
+8512="(Øaden)"
+8513="OtwÛrz plik"
+8514="OtwÛrz folder"
+8515="Kolor"
+8516="Czcionka"
+8517="Suma bitÛw"
+8518="Biblioteka ikon podglπd"
+8519="Wybierz z listy okien dialogowych"
+8520="Op&is"
+
+;----------------------------------------------------------------
+;    Add Favorite dialog (Configuration Editor)
+;----------------------------------------------------------------
+
+8601="Dodaj ulubione"
+8602="Organizuj ulubione"
+8603="Nazwa &ulubionych:"
+
+;----------------------------------------------------------------
+;    Import/Export dialog (Configuration & History Editor)
+;----------------------------------------------------------------
+
+8701="Import"
+8702="Wybierz kategorie do importu"
+8703="Opcje importu:"
+8704="Aktywne klucze"
+8705="Nieaktywne klucze"
+8706="Wyklucz klucze przekierowania (zalecane)"
+8707="Eksport"
+8708="Wybierz kategorie do eksportu."
+8709="Opcje eksportu:"
+
+8721="Sprawdü sekcjÍ do importu."
+8722="Sprawdü sekcjÍ do eksportu."
+
+;----------------------------------------------------------------
+;    Export to Main Menu dialog (Hotkeys Editor)
+;----------------------------------------------------------------
+
+8801="Eksport do g≥Ûwnego menu"
+8802="Wskaø kolumny do eksportu:"
+8803="Opcje:"
+8804="UsuÒ spacje z klawiszy sk&rÛtÛw"
+8805="Eksport prze&definiowanych domyúlnych klawiszy skrÛtÛw"
+8806="Oznacz przedefiniowane domyúlne &klawisze skrÛtÛw"
+8807="Eksportuj tylko pie&rwszπ wartoúÊ w kaødej kolumnie"
+8808="Eksportuj tylko jednπ k&olumnÍ dla kaødego polecenia"
+8809="Sekwencja kolu&mn:"
+8810="Kolu&mny priorytet:"
+8811="&Separator:"
+8812="Prze&glπdaj..."
+
+;----------------------------------------------------------------
+;    Export to Text File dialog (Hotkeys Editor)
+;----------------------------------------------------------------
+
+8901="Eksportuj do pliku tekstowego"
+8902="Eksportuj wszystkie po&lecenia"
+8903="Eksportuj jako kod HTML"
+8904="Dodaj sepa&rator"
+8905="Podglπd cz&cionki"
+8906="Ctrl"
+8907="Alt"
+8908="Shift"
+8909="Win"
+8910="Total Commander lista skrÛtÛw klawiaturowych"
+8911="Total Commander menu Start lista skrÛtÛw klawiaturowych:"
+8912="Waøny"
+8913="Klawisze skrÛtÛw na tej liúcie nie zosta≥y zapisane jeszcze w pliku konfiguracyjnym Total Commander."
+
+;----------------------------------------------------------------
+;    Main Menu Editor Window
+;----------------------------------------------------------------
+
+9001="Menu g≥Ûwne Total Commander"
+9002="Kategoria"
+9003="Opis"
+9004="Polecenie"
+9005="Kod"
+9006="MenuStart"
+9007="Separacja Pomocy"
+9008="Komentarze"
+9009="Wpisz tutaj swÛj komentarz"
+9010="Zapisz polecenie jako tekst"
+9011="Zapisz polecenie jako dziÍsietne"
+9012="Zapisz polecenie jako szestnastkowe"
+9013="Wybrane polecenia: %i"
+9014="Liczba poleceÒ w [%s]: %i"
+9015="Liczba poleceÒ w kategorii [%s]: %i"
+9016=Nowy...
+9017=Edycja...
+9018=Kopiuj...
+9019=Skasuj
+
+;----------------------------------------------------------------
+;    Start Menu Editor Window
+;----------------------------------------------------------------
+
+9101="Menu Start TC"
+9102="Menu ulubionych katalogÛw TC"
+9103="Polecenia rozszerzone TC"
+9104="Menu Start"
+9105="Menu ulubionych katalogÛw"
+9106="Polecenia rozszerzone"
+9107="Pole&cenie:"
+9108="&Parametry:"
+9109="åcieø&ka pocz.:"
+9110="åcieøka docelow&a:"
+9111="&Klawisz skrÛtu:"
+9112="Plik &ikony:"
+9113="Etykieta po&dpow.:"
+9114="Lista parametrÛw"
+9115="Pokaø &jako menu"
+9116="ZmieÒ ikonÍ"
+9117="(Øaden)"
+9118="Uruchom normalny"
+9119="Uruchom zminimalizowany"
+9120="Uruchom zmaksymalizowany"
+9121="Pokaø jako pasek"
+9122="Pokaø jako menu"
+9123="Pozycja %i Menu Start"
+9124="Pozycja %i Menu ulubionych katalogÛw"
+9125="Rozszerzone_Polecenie_%i"
+9126="Konfiguruj Edytorem menu Start"
+9127="Konfiguruj Edytorem menu ulubionych katalogÛw"
+9128="Ultra_TC_Extended_Commands_Editor"
+
+;----------------------------------------------------------------
+;    Button Bar Editor Window
+;----------------------------------------------------------------
+
+9201="G≥Ûwny pasek przyciskÛw Total Commander"
+9202="Pionowy pasek przyciskÛw Total Commander"
+9203="G≥Ûwny pasek przyciskÛw"
+9204="Pionowy pasek przyciskÛw"
+9205="Lista plikÛw paska przyciskÛw"
+9206="WrÛÊ do g≥Ûwnego paska przyciskÛw"
+9207="Edytuj po≥πczony pasek przyciskÛw"
+9208="Przycisk %i"
+9209="Edytuj ten pasek uøywajπc edytora Ultra TC"
+9210="Edytuj ten pasek uøywajπc edytora Ultra TC"
+9211="Wyglπd"
+9212="Ro&zmiar:"
+9213="St&yl XP"
+9214="P≥&askie ikony"
+9215="&Ma≥e ikony"
+9216="Rozmiar ikon pop-&up:"
+
+;----------------------------------------------------------------
+;    History Editor Window
+;----------------------------------------------------------------
+
+9301="Historia Total Commander"
+9302="Wiersz poleceÒ"
+9303="WybÛr"
+9304="Szukana sekw.:"
+9305="Szukaj w:"
+9306="Znajdü tekst:"
+9307="£aduj/Zapisz"
+9308="Wtyczka duplikaty"
+9309="Duplikaty wybÛr katalogu"
+9310="NarzÍdzie wielokrotnej zamiany Matryca zamiany: nazwa pliku"
+9311="NarzÍdzie wielokrotnej zamiany Szukaj & ZamieÒ: Szukaj:"
+9312="NarzÍdzie wielokrotnej zamiany Szukaj & ZamieÒ: ZamieÒ na:"
+9313="NarzÍdzie wielokrotnej zamiany F2 £aduj/zapisz ustawienia"
+9314="Zak≥adki lewego panelu"
+9315="Zak≥adki prawego panelu"
+9316="Historia lewego panelu"
+9317="Historia prawego panelu"
+9318="Nowy katalog"
+9319="Nowy plik"
+9320="Opcje synchronizacji"
+9321="Atrybuty wtyczek"
+9322="Rozmiar podzia≥u"
+9323="FTP stare po≥πczenia"
+9324="&Podpis:"
+9325="Zab&lokuj tÍ zak≥adkÍ"
+9326="Za&blokowana, ale moøliwa zmiana katalogÛw"
+9327="Pusty"
+
+;----------------------------------------------------------------
+;    Configuration Editor Window
+;----------------------------------------------------------------
+
+9401="Klucz"
+9402="WartoúÊ"
+9403="Sekcja"
+9404="Plik"
+9405="Domyúlnie"
+9406="Zaawansowane"
+9407="Wersja"
+9408="Tak"
+9409="-"
+9410="Opis nie jest dostÍpny!"
+9411="%i Klucz(-e)"
+9412="Plik danych:"
+9413="Cel:"
+9414="Total Commander %s i wyøszy"
+9415="Suma bitÛw"
+9416="Nowy klucz"
+9417="ZmieÒ nazwÍ"
+9418="&Nazwa klucza:"
+9419="Podglπd biblioteki ikon"
+9420="P&lik biblioteki:"
+
+;----------------------------------------------------------------
+;    Hotkeys Editor Window
+;----------------------------------------------------------------
+
+9501="Domyúlny klawisz skrÛtu"
+9502="Klawisz skrÛtu zdefiniowany przez uøytkownika"
+9503="Alias"
+9504="Klawisz skrÛtu:"
+9505="Alias:"
+9506="&Control +"
+9507="&Alt +"
+9508="&Shift +"
+9509="&Win +"
+9510="Dodaj klawisz skrÛtu"
+9511="UsuÒ wszystkie klawisze skrÛtÛw"
+9512="Dodaj alias"
+9513="UsuÒ wszystkie aliasy"
+9514="Num"
+9515="Ins|Del|Home|End|PgUp|PgDn|Spacja|Back|Tab|Enter|Esc|Lewy|Prawy|GÛra|DÛ≥"
+
+;----------------------------------------------------------------
+;    Ultra TC Editors Window
+;----------------------------------------------------------------
+
+9601="Edytor g≥Ûwnego menu"
+9602="Edytor menu start"
+9603="Edytor menu ulubionych katalogÛw"
+9604="Edytor rozszerzonych poleceÒ"
+9605="Edytor paska przyciskÛw"
+9606="Edytor pionowego paska przyciskÛw"
+9607="Edytor historii"
+9608="Edytor konfiguracji"
+9609="Edytor skrÛtÛw klawiaturowych"
+9610="Zawsze na wierzchu"
+9611="Zamknij wszystkie Ultra TC edytory przy wyjúciu"

@@ -1,0 +1,792 @@
+; Swedish language for Ultra TC Editors 5.54
+; Translated by Leif Larsson - Leif.Larsson@gmail.com
+
+;----------------------------------------------------------------
+;    File menu
+;----------------------------------------------------------------
+5001="&Arkiv"
+5002="&Nytt"
+5003="&Öppna ..."
+5004="&Spara"
+5005="Spara so&m ..."
+5006="Spara och starta om Total &Commander"
+5007="Skapa fullständig &meny (alla kommandon)"
+5008="&Kontrollera bokstäver för tangentbordsstyrning ..."
+5009="Anpassa &Totalcmd.inc..."
+5010="Customize Ma&pping File..."
+5011="Se&nast använda filer"
+5012="Inga filer"
+5013="&Töm listan"
+5014="&Avsluta"
+
+5031="&Exportera ..."
+5032="&Importera ..."
+5033="Exportera till &Totalcmd.inc..."
+
+5051="Öppna &datafil ..."
+5052="S&para datafil"
+
+5071="Exportera till &huvudmenyn ..."
+5072="&Exportera till textfil ..."
+
+;----------------------------------------------------------------
+;    Edit menu
+;----------------------------------------------------------------
+5101="&Redigera"
+5102="Lägg till &meny"
+5103="Lägg till &undermeny"
+5104="Lägg till &avskiljare"
+5105="Lägg till &kommentar"
+5106="&Upprepa"
+5107="S&tartmeny"
+5108="&Help Break"
+5109="Flytta &upp"
+5110="Flytta ne&d"
+5111="&Flytta till ..."
+5112="&Importera överskrifter ..."
+5113="Map To..."
+5114="&Ta bort"
+5115="Byt &namn"
+5116="De&finition"
+
+5131="Lägg till &kommando"
+5132="&Lägg till detta program"
+5133="Cu&t"
+5134="&Copy"
+5135="&Paste"
+5136="Sortera alla m&enyer"
+5137="Sortera markerade menyer"
+5138="Öppna i &TC"
+5139="&Egenskaper"
+
+5151="Add Sub-bar"
+5152="Add &Line Break"
+5153="Add &Button"
+
+5171="&Lägg till post"
+5172="Ta &bort alla ..."
+
+5191="&Ångra"
+5192="&Gör om"
+5193="&Redigera värde"
+5194="Värde = &1"
+5195="Värde = &0"
+5196="&Bläddra bland värden ..."
+5197="N&y inställning ..."
+5198="Byt &namn ..."
+5199="&Kommentar"
+5200="Data &File"
+5201="&Add Key..."
+5202="&Modify Key..."
+5203="&Delete Key"
+
+;----------------------------------------------------------------
+;    View menu
+;----------------------------------------------------------------
+5301="&Visa"
+5302="&Verktygsfält"
+5303="&Statusfält"
+5304="&Kommandolista"
+5305="K&ategoriserad lista"
+5306="V&ertikala paneler"
+5307="Ski&fta paneler"
+5308="&Expandera trädet"
+5309="Ko&mprimera trädet"
+5310="S&orterad lista"
+5311="A&lternativ ..."
+
+5331="&Alltid överst"
+5332="Startmeny"
+5333="Favoritmeny"
+5334="Utvidgade kommandon"
+
+5351="&Button Bar"
+5352="Button Bar T&ree"
+5353="Button Bar Optio&ns"
+5354="&Main Button Bar"
+5355="&Vertical Button Bar"
+
+5371="&Beskrivning"
+5372="&Alla inställningar"
+5373="A&ktiva inställningar"
+5374="&Inaktiva inställningar"
+5375="&Endast avancerade inställningar"
+5376="&Branch View"
+
+;----------------------------------------------------------------
+;    Search menu
+;----------------------------------------------------------------
+5401="&Sök"
+5402="&Sök ..."
+5403="Sök &nästa"
+
+;----------------------------------------------------------------
+;    Help menu
+;----------------------------------------------------------------
+5501="&Hjälp"
+5502="&Index"
+5503="&Om ..."
+
+;----------------------------------------------------------------
+;    Favorites menu (Configuration Editor)
+;----------------------------------------------------------------
+5601="&Favoriter"
+5602="&Lägg till i favoriter ..."
+5603="&Organisera favoriter ..."
+
+;----------------------------------------------------------------
+;    Context menu (Main Menu Editor)
+;----------------------------------------------------------------
+5701="&Lägg till"
+5702="&Ta bort"
+5703="Markera &allt"
+5704="De&finition"
+5705="Select All Ac&tive"
+5706="Select All &Inactive"
+
+;----------------------------------------------------------------
+;    Parameters menu (Start Menu & Button Bar Editor)
+;----------------------------------------------------------------
+5801="?  som första parameter öppnar dialogruta för parameterval"
+5802="%P  infogar aktuell källsökväg"
+5803="%N  infogar filnamnet på markörraden"
+5804="%T  infogar aktuell destination"
+5805="%M  infogar aktuellt filnamn i destinationsmappen"
+5806="%O  infogar aktuell filnamn utan filtyp"
+5807="%E  infogar aktuell filtyp (utan inledande punkt)"
+5808="%%  infogar procenttecknet"
+5809="%p  infogar aktuell källsökväg (kort)"
+5810="%n  infogar filnamnet på markörraden (kort)"
+5811="%t  infogar aktuell destionationssökväg (kort)"
+5812="%m  infogar aktuellt filnamn i destinationsmappen (kort)"
+5813="%o  infogar aktuell filnamn utan filtyp (kort)"
+5814="%e  infogar aktuell filtyp (utan inledande punkt) (kort)"
+5815="%L  långa filnamn inkl. fullständig sökväg"
+5816="%l  korta filnamn inkl. fullständig sökväg"
+5817="%F  långa filnamn utan sökväg, t.ex. Long name.exe"
+5818="%f  korta filnamn utan sökväg, t.ex. LONGNA~1.EXE"
+5819="%D  korta filnamn inkl. fullständig sökväg, (DOS-teckenuppsättning)"
+5820="%d  korta filnamn utan sökväg, (DOS-teckenuppsättning)"
+5821="%S  infogar namnen på alla markerade filer"
+5822="%s  infogar namnen på alla markerade filer (kort)"
+5823="%S10  infogar namnen på de första 10 markerade filerna."
+5824="%s10  infogar namnen på de första 10 markerade filerna. (kort)"
+5825="%A  infogar resten av en angivna kommandoraden"
+5826="%A0  samma som %A, kan användas när parametern måste följas av en siffra"
+5827="%A1 till %A9  infogar den första till den nionde parametern"
+5828="%Z  pass archives as path to programs for %P or %T when inside an archive"
+5829="%R  inserts the names of all selected files from the target panel"
+5830="%r  inserts the names of all selected files from the target panel (short)"
+5831="%R10  inserts the names of the first 10 selected files from the target panel"
+5832="%r10  inserts the names of the first 10 selected files from the target panel (short)"
+5833="%X  interprets the following parameters as Left/Right instead of Source/Target"
+5834="%x  Interprets the following parameters again as Source/Target"
+5835="%UL  like %L, but with an UTF-8 Unicode list file"
+5836="%WL  like %L, but with an UTF-16 Unicode list file"
+5837="%UF  like %F, but with an UTF-8 Unicode list file"
+5838="%WF  like %F, but with an UTF-16 Unicode list file"
+5839="%v Inserts virtual file name in case of file system plugins like 'Virtual Panel'"
+5840="%V Like %v, but including the full path (including the plugin name)"
+5841="%C1  inserts first selected file, or file under cursor"
+5842="%C2  inserts second selected file, or first selected in target panel, or file with same name in target panel"
+5843="%C3  to %C9  inserts selected files in source panel, empty if not enough selected"
+5844="%c1  inserts first selected file, or file under cursor (short)"
+5845="%c2  inserts second selected file, or first selected in target panel, or file with same name in target panel (short)"
+5846="%c3  to %c9  inserts selected files in source panel, empty if not enough selected (short)"
+
+;----------------------------------------------------------------
+;    Message Boxes
+;----------------------------------------------------------------
+5901="Hittar inte Total Commanders ini-fil [Wincmd.ini]"
+5902="Hittar inte totalcmd.inc!"
+5903="Ogiltigt format på menyfilen!"
+5904="There is an error in the file "%s"\nLine: %i\n%s"
+5905="Cannot open the file "%s""
+5906="Programmet kan inte fortsätta!"
+5907="Det går inte att flytta en meny till sin egen undermeny!"
+5908="Du kan inte placera ett kommando här."
+5909="Help_Break kan inte placeras i en meny."
+5910="The menu "%s" is not empty. Are you sure?"
+5911="The comment block "%s" is not empty. Are you sure?"
+5912="Du kan tyvärr inte upprepa denna post"
+5913="Save changes to "%s""
+5914="Det finns inget att spara!"
+5915="Cannot find "%s""
+5916="Cannot find this command "%s""
+5917="Cannot find this file "%s"\n\nPlease verify that the correct path and file name are given."
+5918="Hittar inga dubbletter för tangentbordsstyrning."
+5919="Alla poster innehåller bokstäver för tangentbordsstyrning."
+5920="Dubblettbokstäver till tangentbordsstyrning: '%s'\nDen används redan i: '%s'\n\nFöljande tangenter är tillgängliga: %s"
+5921="Dubblettbokstäver till tangentbordsstyrning: '%s'\nDen används redan i: '%s'\n\nInga tangenter är tillgängliga."
+5922="Är du säker?"
+5923="För stor bild. Välj en annan!"
+5924="Ogiltig ikon. Välj en annan!"
+5925="Giltiga värden är hela tal från 1 till 32."
+5926="Because the main menu contains external commands, it must be saved before customizing the mapping file. This is important in order to match external commands with their code.\n\nSave changes now?"
+5927="External command must be in the main menu in order to map an icon for it."
+5928="%s\nThis file is UTF-8 encoded.\n\nWARNING: Any item contains characters from a code page different from your system's default code page will lose these characters if it had been renamed within the program.\n\nNote: Items that contains such characters but never renamed within the program will not be affected. Continue?"
+
+5941="Access to Start Menu in this file has been restricted."
+5942="Access to Directory Menu in this file has been restricted."
+5943="Denna fil innehåller inga poster till favoritmenyn!"
+5944="Denna fil innehåller inga poster till startmenyn!"
+5945="Favoritmenyn kan inte innehålla fler än 199 poster."
+5946="Startmenyn kan inte innehålla fler än 199 poster."
+5947="Exportera ändringarna till totalcmd.inc?"
+5948="You must save the Start Menu before exporting it. This is important in order to not have any mismatch entries in Totalcmd.inc file when you export unsaved menu.\n\nSave changes now?"
+5949="Hittar inte filen."
+5950="Hittar inte mappen."
+5951="Cannot find linked button bar "%s""
+5952="Cannot open the clipboard."
+5953="Denna fil innehåller inga ikoner. Välj en annan fil."
+5954="Ändringar i inställningarna för ikoner genomförs nästa gång programmet startas."
+5955="This shortcut is already assigned to: "%s"\n\nDo you want assign it to: "%s""
+5956=""%s"\n Already exists in [%s]\n\nDo you want to add it again?"
+5957="Do you want to make this button bar permanent?\nIt will then be loaded each time Total Commander is started."
+
+5971="Förhandsgranskning. Ingen redigering!"
+5972="Endast 20 poster kan läggas till i en sektion."
+
+5991="Hittar inte Total Commanders ini-fil [Wcx_ftp.ini]"
+5992="Hittar inte datafilen! Öppna en för att fortsätta."
+5993="Spara förändringar i programdatafilen?"
+5994="Hittar inte denna favorit!"
+5995="Listan med favoriter kan inte innehålla fler än 99 poster."
+5996="Det finns redan en favorit med den inställningen."
+5997="Save changes to the favorites list?"
+5998="Do you really want to delete the key "%s" from the data file?"
+5999="Det finns redan en inställning med det namnet. Ange ett annat namn."
+6000="There are missing or incorrect data fields for this key "%s"\nPlease correct this error in the current data file.\n\nFields are: %s"
+6001="The data file contains the following error:\n\nLine: %i\nPosition: %i\nReason: %s\n"
+
+6021="Default hotkey for: "%s"\n\nDo you want assign it to: "%s""
+6022="Current hotkey for: "%s"\n\nDo you want assign it to: "%s""
+6023="Current alias for: "%s"\n\nDo you want assign it to: "%s""
+6024="Current hotkey for: "%s" in your Total Commander Start Menu\n\nDo you want assign it to: "%s""
+6025="You are about to delete User-defined Hotkeys for ALL commands.\n\nAre you sure?"
+6026="You are about to delete Aliases for ALL commands.\n\nAre you sure?"
+6027="Du måste spara snabbtangenterna innan du exporterar dem till huvudmenyfilen. Detta är viktigt för att förhindra felaktiga poster när du exporterar en osparad lista över snabbtangenter."
+6028="%s\nThis file is UTF-8 encoded.\n\nExporting hotkeys to UTF-8 encoded file may be corrupting it. Continue?"
+
+;----------------------------------------------------------------
+;    About dialog
+;----------------------------------------------------------------
+6101="Om"
+6102="Upphovsman:"
+6103="Version:"
+6104="Detta program är registrerat till:"
+6105="Aktuell information om detta program hittar du på webbplatsen."
+6106="Webbplats:"
+6107="besök den nu"
+6108="E-post:"
+
+;----------------------------------------------------------------
+;    Customize Toolbar dialog
+;----------------------------------------------------------------
+6201="&Customize..."
+6202="Customize Toolbar"
+
+;----------------------------------------------------------------
+;    Progress dialog
+;----------------------------------------------------------------
+6301="Läser ... Vänta!"
+6302="Sparar ... Vänta!"
+6303="Skapar ... Vänta!"
+6304="Lägger till ... Vänta!"
+6305="Tar bort ... Vänta!"
+6306="Importerar ... Vänta!"
+6307="Exporterar ... Vänta!"
+
+;----------------------------------------------------------------
+;    Options dialog
+;----------------------------------------------------------------
+6401="Alternativ"
+6402="OK"
+6403="Avbryt"
+6404="&Verkställ"
+6405="&Återställ"
+
+;----------------------------------------------------------------
+;    Layout page
+;----------------------------------------------------------------
+6501="Utseende"
+6502="Visuella effekter"
+6503="Visa träd&ikoner"
+6504="Visa &trädlinjer"
+6505="Visa &rutnät"
+6506="Låsta &kanter"
+6507="&Platt gränssnitt"
+6508="Visa &metoder i Spara-knappen"
+6509="Show icons for internal &commands"
+6510="&Avskiljare:"
+6511="Visa &filikon"
+
+6531="Visa &inställningens värde direkt efter inställningsnamnet"
+6532="Visa &standardvärde för inaktiva inställningar"
+6533="Show &minimum version required to use the selected key"
+
+6551="V&isa snabbtangenter i omvänd ordning"
+6552="Modifierare:"
+6553="&Sekvens:"
+6554="&Avskiljare:"
+
+;----------------------------------------------------------------
+;    Icons page
+;----------------------------------------------------------------
+6601="Ikoner"
+6602="Ikoner"
+6603="&Använd standardikoner"
+6604="&Storlek:"
+
+6621="TC-ikon"
+6622="Meny"
+6623="Aktuell meny"
+6624="Active command"
+6625="Inactive command"
+6626="Avskiljare"
+6627="Startmeny"
+6628="Help break"
+6629="Kommentar"
+6630="Internt kommando"
+6631="Externt kommando"
+6632="Utvidgat kommando"
+6633="Mapplänk"
+6634="Bruten länk"
+6635="Line break"
+
+6651="Tree icons &size:"
+6652="&Button bar icons size:"
+
+;----------------------------------------------------------------
+;    Color and Font page
+;----------------------------------------------------------------
+6701="Färg och teckensnitt"
+6702="Text"
+6703="Aktuell meny"
+6704="Förgrund"
+6705="Bakgrund"
+
+6721="Låst flik"
+
+6741="Aktiv inställning (Wincmd.ini)"
+6742="Aktiv inställning (Wcx_ftp.ini)"
+6743="Inaktiv inställning"
+
+6761="Command with hotkey"
+6762="Command without hotkey"
+
+6781="Förgrundsfärg på övriga poster"
+6782="Kommentar"
+6783="Avskiljare"
+
+6801="Teckensnitt"
+6802="&Ändra ..."
+6803="&Använd valet av teckensnitt i fälten för kommandoegenskaper"
+6804="Beskrivning"
+6805="&Tabbredd:"
+
+;----------------------------------------------------------------
+;    Operation page
+;----------------------------------------------------------------
+6901="Funktioner"
+6902="Hämta TC:s interna kommandon från:"
+6903="&Standardfilen Totalcmd.inc"
+6904="&Annan fil:"
+
+6921="Diverse"
+6922="&Läs automatiskt in den senaste filen"
+6923="Asso&ciera menyfiler för TC (*.mnu) med detta program"
+6924="Samla &kommentarer i gruppen (Rekommenderas)"
+6925="S&tarta om Total Commander när ändringar sparats"
+6926="&Antal mellanrum vid indragning av varje meny i den sparade filen:"
+
+6941="&Sök efter filer eller mappar i nätverket"
+6942="S&ök efter filer eller mappar på flyttbara enheter"
+
+6961="Välj &nästa inställning automatiskt efter redigering"
+6962="&Expandera kategoriträdet vid start"
+6963="&Läs endast inställningar som finns i datafilen"
+
+6981="Välj nästa &kommando automatiskt efter redigering"
+
+7001="Automatik"
+7002="Använd &kommandot som titel på posten"
+7003="Ta bort &filtypen från titeln"
+7004="Skapa &nytt kommando automatiskt eller välj nästa"
+
+7021="Export"
+7022="&Exportera alltid till Totalcmd.inc när menyn sparas"
+7023="&Påminn alltid om att exportera ändringar"
+7024="&Exportera alltid till huvudmenyfilen efter sparande"
+
+;----------------------------------------------------------------
+;    Language page
+;----------------------------------------------------------------
+7101="Språk (Language)"
+7102="Byt språk"
+7103="Använd &standardspråket"
+7104="&Annat:"
+
+;----------------------------------------------------------------
+;    Open/Save dialog titles
+;----------------------------------------------------------------
+7201="Öppna"
+7202="Spara"
+7203="Spara som"
+
+;----------------------------------------------------------------
+;    Find dialog
+;----------------------------------------------------------------
+7301="Sök"
+7302="&Sök efter:"
+7303="Sök i:"
+
+7321="&Beskrivning"
+7322="&Kommando"
+7323="K&od"
+
+7341="&Title"
+7342="&Sökväg"
+
+7361="Namn på &inställning"
+7362="&Beskrivning"
+7363="&Värde för inställning"
+
+7381="&Standardtangent"
+7382="A&nvändardefinierad snabbtangent"
+7383="A&lias"
+
+7401="Endast hela &ord"
+7402="U&se pattern matching"
+
+;----------------------------------------------------------------
+;    Customize Totalcmd.inc dialog (Main Menu Editor)
+;----------------------------------------------------------------
+7501="Redigera Totalcmd.inc"
+7502="Kategoriserat"
+7503="Alfabetiskt"
+7504="Som den är"
+7505="Utseende på avskiljare:"
+7506="Fil"
+7507="Skriv ut"
+7508="&Lägg till avskiljare vid varje undermeny"
+7509="&Använd menyöverskrift som beskrivning"
+7510="Lägg till kommando&koden till beskrivningen"
+7511="Exempel:"
+7512="Spara ..."
+7513="Stäng"
+7514="Förhandsgranska"
+7515="EJ I HUVUDMENYN"
+
+;----------------------------------------------------------------
+;    Import captions dialog (Main Menu Editor)
+;----------------------------------------------------------------
+7601="Import captions"
+7602="Importera överskrifter för &alla kommandon."
+7603="Importera endast överskrifter för &kommandon under menyn '%s'."
+
+;----------------------------------------------------------------
+;    Customize Mapping File dialog (Main Menu Editor)
+;----------------------------------------------------------------
+7701="Customize Mapping File"
+7702="Small &icons"
+7703="&Map to..."
+7704="Choose icon for "%s""
+7705="(None)"
+
+;----------------------------------------------------------------
+;    Choose Command dialog (Main & Start Menu Editor)
+;----------------------------------------------------------------
+7801="Välj kommando"
+7802="&Find:"
+7803="&Show commands that has an entry in the mapping file"
+
+;----------------------------------------------------------------
+;    Check mnemonics dialog (Main & Start Menu Editor)
+;----------------------------------------------------------------
+7901="Check mnemonics"
+7902="Markera &dubbletter för tangentbordsstyrning."
+7903="markera poster som saknar &bokstäver för tangentbordsstyrning."
+7904="Duplicated mnemonics"
+7905="Missed mnemonics"
+
+;----------------------------------------------------------------
+;    Move To dialog (Main & Start Menu Editor)
+;----------------------------------------------------------------
+8001="Flytta till"
+8002="Move "%s" to..."
+
+;----------------------------------------------------------------
+;    Export to Totalcmd.inc file dialog (Start Menu Editor)
+;----------------------------------------------------------------
+8101="Exportera till Totalcmd.inc"
+8102="The following commands will be added to Totalcmd.inc file.\nYou can use any of these commands into your Main Menu."
+8103="&Exportera endast kommando (Rekommenderas)"
+8104="&Uppdatera Wincmd.ini, sektionerna [Shortcuts] och [Alias]"
+8105="Kommando&prefix:"
+8106="Kategori&namn:"
+
+;----------------------------------------------------------------
+;    Edit Parameters dialog (Start Menu & Button Bar Editor)
+;----------------------------------------------------------------
+8201="Redigera parameterlista"
+8202="&Återställ"
+8203="&Upp"
+8204="&Ned"
+8205="&Lägg till"
+8206="Parameter"
+8207="Description"
+
+;----------------------------------------------------------------
+;    Add New Parameter dialog (Start Menu & Button Bar Editor)
+;----------------------------------------------------------------
+8301="Add New Parameter"
+8302="&Parameter:"
+8303="&Description:"
+8304="Edit Parameter"
+
+;----------------------------------------------------------------
+;    Delete All dialog  (History Editor)
+;----------------------------------------------------------------
+8401="Ta bort alla"
+8402="Markera sektion(er) som ska tas bort."
+8403="&Ta även bort låsta flikar"
+
+;----------------------------------------------------------------
+;    Add/Modify data key dialog (Configuration Editor)
+;----------------------------------------------------------------
+8501="Add new data key"
+8502="Modify data key"
+8503="&Name"
+8504="&File"
+8505="&Section"
+8506="Ve&rsion"
+8507="Default &value"
+8508="&Advanced"
+8509="Yes"
+8510="No"
+8511="Dialo&g"
+8512="(None)"
+8513="Open File"
+8514="Open Folder"
+8515="Color"
+8516="Font"
+8517="Bits Sum"
+8518="Icon Library Preview"
+8519="Choose from dialogs list"
+8520="&Description"
+
+;----------------------------------------------------------------
+;    Add Favorite dialog (Configuration Editor)
+;----------------------------------------------------------------
+8601="Lägg till favorit"
+8602="Organisera favoriter"
+8603="&Favoritnamn:"
+
+;----------------------------------------------------------------
+;    Import/Export dialog (Configuration & History Editor)
+;----------------------------------------------------------------
+8701="Importera"
+8702="Check categories to import."
+8703="Import options:"
+8704="Active keys"
+8705="Inactive keys"
+8706="Exclude redirection keys (Recommended)"
+8707="Exportera"
+8708="Check categories to export."
+8709="Export options:"
+
+8721="Välj sektion(er) att importera."
+8722="Välj sektion(er) att exportera."
+
+;----------------------------------------------------------------
+;    Export to Main Menu dialog (Hotkeys Editor)
+;----------------------------------------------------------------
+8801="Exportera till huvudmenyn"
+8802="Markera de kolumner som ska exporteras"
+8803="Alternativ"
+8804="&Ta bort mellanslag från snabbtangenter"
+8805="&Exportera omdefinierade standardsnabbtangenter"
+8806="&Markera omdefinierade standardsnabbtangenter"
+8807="E&xportera endast första värdet i varje kolumn"
+8808="Exportera endast &1 kolumn för varje kommando"
+8809="Sekvens:"
+8810="&Prioritering:"
+8811="&Avskiljare:"
+8812="&Bläddra ..."
+
+;----------------------------------------------------------------
+;    Export to Text File dialog (Hotkeys Editor)
+;----------------------------------------------------------------
+8901="Exportera till textfil"
+8902="&Exportera alla kommandon"
+8903="E&xportera som HTML-kod"
+8904="L&ägg till avskiljare"
+8905="&Teckensnitt:"
+8906="Ctrl"
+8907="Alt"
+8908="Skift"
+8909="Win"
+8910="Lista över alla snabbtangenter i Total Commander"
+8911="Snabbtangenter för startmenyn i Total Commander:"
+8912="Viktigt"
+8913="Snabbtangenterna i denna lista har inte sparats än i din konfigurationsfil för Total Commander."
+
+;----------------------------------------------------------------
+;    Main Menu Editor Window
+;----------------------------------------------------------------
+9001="Total Commanders huvudmeny"
+9002="Kategori"
+9003="Beskrivning"
+9004="Kommando"
+9005="Kod"
+9006="STARTMENU"
+9007="Help_Break"
+9008="Kommentarer"
+9009="Skriv din kommentar här"
+9010="Spara kommando som text"
+9011="Spara kommando som decimaltal"
+9012="Spara kommando som hexadecimaltal"
+9013="%i kommandon markerade"
+9014="%i kommando(n) i [%s] meny"
+9015="%i kommando(n) i [%s] kategori"
+
+;----------------------------------------------------------------
+;    Start Menu Editor Window
+;----------------------------------------------------------------
+9101="Total Commanders startmeny"
+9102="Total Commanders snabblista"
+9103="Total Commanders utvidgade kommandon"
+9104="Start Menu"
+9105="Directory Menu"
+9106="Extended Commands"
+9107="&Kommando:"
+9108="&Parameter:"
+9109="St&arta i:"
+9110="&Målmapp:"
+9111="&Snabbtangent:"
+9112="Ik&onfil:"
+9113="Prat&bubbla:"
+9114="Parameters List"
+9115="&Show as menu"
+9116="Byt ikon"
+9117="(ingen)"
+9118="Kör normalt"
+9119="Kör minimerad"
+9120="Kör maximerad"
+9121="Show as bar"
+9122="Show as menu"
+9123="Startmenypost %i"
+9124="Favoritmenypost %i"
+9125="Utvidgat_Kommando_%i"
+9126="Redigera med Ultra TC Start Menu Editor"
+9127="Redigera med Ultra TC Directory Menu Editor"
+9128="Ultra_TC_Extended_Commands_Editor"
+
+;----------------------------------------------------------------
+;    Button Bar Editor Window
+;----------------------------------------------------------------
+9201="Total Commander Main Button Bar"
+9202="Total Commander Vertical Button Bar"
+9203="Main Button Bar"
+9204="Vertical Button Bar"
+9205="Button bar files list"
+9206="Back to the main button bar"
+9207="Edit linked button bar"
+9208="Button %i"
+9209="Change with Ultra TC Button Bar Editor"
+9210="Change with Ultra TC Vertical Button Bar Editor"
+9211="Appearance"
+9212="Si&ze:"
+9213="XP st&yle"
+9214="F&lat icons"
+9215="S&mall icons"
+9216="Pop&up icons size:"
+
+;----------------------------------------------------------------
+;    History Editor Window
+;----------------------------------------------------------------
+9301="Total Commander - Tidigare"
+9302="Kommandorad"
+9303="Val"
+9304="Sök efter:"
+9305="Sök i:"
+9306="Söktext:"
+9307="Hämta/Spara"
+9308="Plugin Duplicates"
+9309="Duplicates Directory Selection"
+9310="Mask för nytt namn:"
+9311="Nytt namn för Sök:"
+9312="Nytt namn för Ersätt med:"
+9313="F2 Hämta/Spara"
+9314="Flikar (vänster)"
+9315="Flikar (höger)"
+9316="Tidigare (vänster)"
+9317="Tidigare (höger)"
+9318="Ny mapp"
+9319="New File"
+9320="Alternativ för synkronisering"
+9321="Plugin-attribut"
+9322="Storlek vid uppdelning"
+9323="FTP Old Connections"
+9324="&Överskrift:"
+9325="&Lås denna flik"
+9326="Låst &men mappbyte tillåtet"
+9327="Tom"
+
+;----------------------------------------------------------------
+;    Configuration Editor Window
+;----------------------------------------------------------------
+9401="Inställning"
+9402="Värde"
+9403="Section"
+9404="File"
+9405="Default"
+9406="Advanced"
+9407="Version"
+9408="Yes"
+9409="-"
+9410="Ingen beskrivning tillgänglig!"
+9411="%i inställning(ar)"
+9412="Datafil:"
+9413="Målsektion:"
+9414="Total Commander %s and higher"
+9415="Bit-sum"
+9416="Ny inställning"
+9417="Byt namn"
+9418="&Namn på inställning:"
+9419="Visa ikonbibliotet"
+9420="&DLL-/ICL-/EXE-fil:"
+
+;----------------------------------------------------------------
+;    Hotkeys Editor Window
+;----------------------------------------------------------------
+9501="Standardsnabbtangent"
+9502="Egendefinierad snabbtangent"
+9503="Alias"
+9504="Snabbtang.:"
+9505="Alias:"
+9506="&Control +"
+9507="&Alt +"
+9508="S&kift +"
+9509="&Win +"
+9510="Lägg till snabbtangent"
+9511="Ta bort alla snabbtangenter"
+9512="Lägg till alias"
+9513="Ta bort alla alias"
+9514="Num"
+9515="Ins|Del|Home|End|PgUp|PgDn|Mellanslag|Backspace|Tab|Enter|Esc|Vänster|Höger|Upp|Ned"
+
+;----------------------------------------------------------------
+;    Ultra TC Editors Window
+;----------------------------------------------------------------
+9601="Redigera huvudmenyn"
+9602="Redigera startmenyn"
+9603="Redigera favoritmappar"
+9604="Redigera utvidgade kommandon"
+9605="Run Button Bar Editor"
+9606="Run Vertical Button Bar Editor"
+9607="Redigera historiken"
+9608="Redigera Konfigurera"
+9609="Redigera snabbtangenter"
+9610="Alltid överst"

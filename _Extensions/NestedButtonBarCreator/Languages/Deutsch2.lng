@@ -1,0 +1,50 @@
+; English language for Nested Button Bar Creator 2.00
+
+; You can send translations of this file
+; to me at   ( utcmedit@yahoo.com )
+; and I will publish it with the program
+
+[UserLanguage]
+101=&Datei
+110=&Beenden
+150=&Optionen...
+
+161=&Hilfe
+162=Hilfe &Themen
+163=&Über...
+
+601=Schritt 1
+602=Schritt 2
+603=Schritt 3
+604=&Weiter
+605=&Zurück
+606=&Erzeugen
+607=/E
+610=&Dateiname Präfix
+611=&Sprachdatei
+
+620=Geben Sie an, wieviele Buttonbars Sie brauchen?
+621=Geben Sie an, wo die Buttonbardateien gespeichert werden.
+622=Es wird empfohlen, sie in einen anderen Ordner zu legen.
+623=Drücken Sie obige Zahl und wählen Sie irgend eine Buttonbardatei (*.bar), deren Inhalt importiert werden soll.
+624=Sie können diesen Schritt überspringen und auf 'Erzeugen' klicken.
+625=Die Buttonbardateien wurden erzeugt, folgen Sie diesen Schritten um alles zu übernehmen:
+626=1- Total Commander starten.
+627=2- Den 'Buttonbar ändern'-Dialog anzeigen.
+628=3- Drücken Sie 'Buttonbar einfügen >>', wählen Sie die Datei 'Bar_01.bar' und klicken Sie dann auf OK.
+629=4- Drücken Sie 'Ja', wenn Sie gefragt werden: Wollen Sie diese Buttonbar zur Hauptbuttonbar machen?
+
+1001=Optionen
+1008=OK
+1009=Abbrechen
+
+1501=Über
+1502=Programmiert von :
+1503-Version
+1504=Dieses Programm ist registriert auf :
+1505=Die neuesten Informationen zu diesem Programm finden Sie auf der Programm-Homepage.
+1506=Webseite
+1507=Email
+1508=Jetzt besuchen
+
+3056=Datei nicht gefunden.

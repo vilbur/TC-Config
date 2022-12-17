@@ -1,0 +1,791 @@
+; Idioma Español para Ultra TC Editors 5.50
+
+;----------------------------------------------------------------
+;    File menu
+;----------------------------------------------------------------
+5001="&Archivo"
+5002="&Nuevo"
+5003="&Abrir..."
+5004="&Guardar"
+5005="Guardar &Como..."
+5006="Guardar y reiniciar Total &Commander"
+5007="Crear &Menú completo"
+5008="Chec&k Mnemonics..."
+5009="Personalizar Totalcmd.inc..."
+5010="Customize Ma&pping File..."
+5011="Archivos &Recientes"
+5012="Sin Archivos Recientes"
+5013="Borrar Lista"
+5014="Salir"
+
+5031="E&xportar..."
+5032="&Importar..."
+5033="&Exportar a Totalcmd.inc..."
+
+5051="Abrir archivo de &Data..."
+5052="G&uardar archivo de Data"
+
+5071="Exportar al &Menú Principal..."
+5072="&Export to Text File..."
+
+;----------------------------------------------------------------
+;    Edit menu
+;----------------------------------------------------------------
+5101="&Editar"
+5102="Agregar &Menú"
+5103="Agregar &Submenú"
+5104="Agregar Se&parador"
+5105="Agregar &Comentario"
+5106="R&epetir"
+5107="Menú de &Inicio"
+5108="&Help Break"
+5109="Mover Arri&ba"
+5110="Mover Abaj&o"
+5111="Mo&ver A..."
+5112="&Import Captions..."
+5113="Map To..."
+5114="&Borrar"
+5115="&Renombrar"
+5116="De&finición"
+
+5131="Agregar &Comando"
+5132="&Agregarme"
+5133="Cu&t"
+5134="&Copy"
+5135="&Paste"
+5136="Ord&enar todos los menús"
+5137="Ordenar menú se&leccionado"
+5138="Abrir en &TC"
+5139="Propie&dades"
+
+5151="Add Sub-bar"
+5152="Add &Line Break"
+5153="Add &Button"
+
+5171="A&gregar Ítem"
+5172="B&orrar Todo..."
+
+5191="&Deshacer"
+5192="&Rehacer"
+5193="&Editar Valor"
+5194="Valor = &1"
+5195="Valor = &0"
+5196="E&xaminar Valor..."
+5197="&New Key..."
+5198="Rena&me..."
+5199="&Comentario"
+5200="Data &File"
+5201="&Add Key..."
+5202="&Modify Key..."
+5203="&Delete Key"
+
+;----------------------------------------------------------------
+;    View menu
+;----------------------------------------------------------------
+5301="&Ver"
+5302="Barra de &Herramientas"
+5303="&Barra de Estado"
+5304="Lista de &Comandos"
+5305="Lista de cate&gorías"
+5306="Paneles &Verticales"
+5307="&Intercambiar Paneles"
+5308="&Expandir Árbol"
+5309="Cola&psar Árbol"
+5310="&Lista Ordenada"
+5311="&Opciones..."
+
+5331="Siempre &visible"
+5332="Menú de Inicio"
+5333="Menú de Directorio"
+5334="Comandos extendidos"
+
+5351="&Button Bar"
+5352="Button Bar T&ree"
+5353="Button Bar Optio&ns"
+5354="&Main Button Bar"
+5355="&Vertical Button Bar"
+
+5371="&Descripción"
+5372="Todas las &Claves"
+5373="Claves &Activas"
+5374="Claves &Desactivadas"
+5375="Ad&vanced Keys Only"
+5376="&Branch View"
+
+;----------------------------------------------------------------
+;    Search menu
+;----------------------------------------------------------------
+5401="&Buscar"
+5402="&Buscar..."
+5403="Buscar &siguiente"
+
+;----------------------------------------------------------------
+;    Help menu
+;----------------------------------------------------------------
+5501="Ay&uda"
+5502="&Temas de &Ayuda"
+5503="&Acerca de..."
+
+;----------------------------------------------------------------
+;    Favorites menu (Configuration Editor)
+;----------------------------------------------------------------
+5601="Favori&tos"
+5602="&Agregar a favoritos..."
+5603="&Organizar favoritos..."
+
+;----------------------------------------------------------------
+;    Context menu (Main Menu Editor)
+;----------------------------------------------------------------
+5701="A&gregar"
+5702="&Remover"
+5703="Seleccionar &Todo"
+5704="De&finición"
+5705="Select All Ac&tive"
+5706="Select All &Inactive"
+
+;----------------------------------------------------------------
+;    Parameters menu (Start Menu & Button Bar Editor)
+;----------------------------------------------------------------
+5801="?   como primer parámetro: invoca al diálogo para ingresar parámetros"
+5802="%P  inserta ruta de origen actual"
+5803="%N  inserta nombre de archivo bajo el cursor"
+5804="%T  inserta la ruta del destino actual"
+5805="%M  inserta el nombre del archivo actual en el directorio destino"
+5806="%O  inserta el nombre del archivo actual sin extensión"
+5807="%E  inserta la extensión actual (sin punto inicial)"
+5808="%%  inserta el signo de porcentaje"
+5809="%p  inserta la ruta de origen actual (corta)"
+5810="%n  inserta nombre del archivo bajo el cursor (corto)"
+5811="%t  inserta la ruta de destino actual (corta)"
+5812="%m  inserta el nombre del archivo actual en el directorio de destino (corto)"
+5813="%o  inserta el nombre del archivo actual sin extensión (corto)"
+5814="%e  inserta la extensión actual (sin punto inicial) (corta)"
+5815="%L  nombres archivo largos incluyen la ruta completa"
+5816="%l  nombres de archivo cortos incluyen la ruta completa"
+5817="%F  nombres de archivo largos sin ruta, p.e. Nombre largo.exe"
+5818="%f  nombres de archivo cortos sin ruta, p.e. LONGNA~1.EXE"
+5819="%D  nombres de archivo cortos incluyen la ruta completa, (DOS chr set)"
+5820="%d  nombres de archivo cortos sin ruta, (DOS chr set)"
+5821="%S  insertar los nombres de todos los archivos seleccionados."
+5822="%s  insertar los nombres de todos los archivos seleccionados. (corto)"
+5823="%S10  insertar los nombres de los 10 primeros archivos seleccionados."
+5824="%s10  insertar los nombres de los 10 primeros archivos seleccionados. (corto)"
+5825="%A  inserts the rest of the entered command line"
+5826="%A0  same as %A, used when the parameter must be followed by a digit"
+5827="%A1  to %A9 inserts the first until the ninth parameter"
+5828="%Z  pass archives as path to programs for %P or %T when inside an archive"
+5829="%R  inserts the names of all selected files from the target panel"
+5830="%r  inserts the names of all selected files from the target panel (short)"
+5831="%R10  inserts the names of the first 10 selected files from the target panel"
+5832="%r10  inserts the names of the first 10 selected files from the target panel (short)"
+5833="%X  interprets the following parameters as Left/Right instead of Source/Target"
+5834="%x  Interprets the following parameters again as Source/Target"
+5835="%UL  like %L, but with an UTF-8 Unicode list file"
+5836="%WL  like %L, but with an UTF-16 Unicode list file"
+5837="%UF  like %F, but with an UTF-8 Unicode list file"
+5838="%WF  like %F, but with an UTF-16 Unicode list file"
+5839="%v Inserts virtual file name in case of file system plugins like 'Virtual Panel'"
+5840="%V Like %v, but including the full path (including the plugin name)"
+5841="%C1  inserts first selected file, or file under cursor"
+5842="%C2  inserts second selected file, or first selected in target panel, or file with same name in target panel"
+5843="%C3  to %C9  inserts selected files in source panel, empty if not enough selected"
+5844="%c1  inserts first selected file, or file under cursor (short)"
+5845="%c2  inserts second selected file, or first selected in target panel, or file with same name in target panel (short)"
+5846="%c3  to %c9  inserts selected files in source panel, empty if not enough selected (short)"
+
+;----------------------------------------------------------------
+;    Message Boxes
+;----------------------------------------------------------------
+5901="No se encuentra el archivo de configuración de Total Commander [Wincmd.ini]"
+5902="¡No se encuentra su archivo Totalcmd.inc!"
+5903="¡Formato no válido de archivo de menú!"
+5904="There is an error in the file "%s"\nLine: %i\n%s"
+5905="Cannot open the file "%s""
+5906="¡El programa no puede continuar!"
+5907="No puede mover un Menú a su propio Submenú !!!"
+5908="No puede colocar un comando aquí."
+5909="Help_Break no se puede colocar dentro de un menú."
+5910="The menu "%s" is not empty. Are you sure?"
+5911="The comment block "%s" is not empty. Are you sure?"
+5912="Lo siento, no puede repetir este ítem"
+5913="Save changes to "%s""
+5914="¡No hay nada para guardar!"
+5915="Cannot find "%s""
+5916="Cannot find this command "%s""
+5917="Cannot find this file "%s"\n\nPlease verify that the correct path and file name are given."
+5918="No duplicate mnemonics have been found."
+5919="All items contains mnemonic."
+5920="Duplicate mnemonic found: "%s"\nIt is already used in: "%s"\n\nThe following mnemonics are available for use: %s"
+5921="Duplicate mnemonic found: "%s"\nIt is already used in: "%s"\n\nNo unique mnemonic is available for use."
+5922="¿Esta seguro?"
+5923="Imagen muy grande, Por favor seleccione otra."
+5924="Icono no válido, intente con otro."
+5925="Valores Válidos son números enteros del 1 al 32."
+5926="Because the main menu contains external commands, it must be saved before customizing the mapping file. This is important in order to match external commands with their code.\n\nSave changes now?"
+5927="External command must be in the main menu in order to map an icon for it."
+5928="%s\nThis file is UTF-8 encoded.\n\nWARNING: Any item contains characters from a code page different from your system's default code page will lose these characters if it had been renamed within the program.\n\nNote: Items that contains such characters but never renamed within the program will not be affected. Continue?"
+
+5941="Access to Start Menu in this file has been restricted."
+5942="Access to Directory Menu in this file has been restricted."
+5943="¡Este archivo no contiene una entrada de Menú de Directorio!"
+5944="¡Este archivo no contiene una entrada de Menú de Inicio!"
+5945="El Menú de Directorio no puede contener más de 199 ítems"
+5946="El Menú de Inicio no puede contener más de 199 ítems"
+5947="¿Exportar los cambios al archivo Totalcmd.inc?"
+5948="You must save the Start Menu before exporting it. This is important in order to not have any mismatch entries in Totalcmd.inc file when you export unsaved menu.\n\nSave changes now?"
+5949="Archivo no hallado."
+5950="Carpeta no hallada."
+5951="Cannot find linked button bar "%s""
+5952="Cannot open the clipboard."
+5953="Este archivo no contiene iconos, debe especificar otro archivo"
+5954="Los ajustes de Icono tendrán efecto la próxima vez que inicie el programa."
+5955="This shortcut is already assigned to: "%s"\n\nDo you want assign it to: "%s""
+5956=""%s"\n Already exists in [%s]\n\nDo you want to add it again?"
+5957="Do you want to make this button bar permanent?\nIt will then be loaded each time Total Commander is started."
+
+5971="Panel de revisión. ¡no editar aquí!"
+5972="Solo 20 ítems pueden agregarse a esta sección."
+
+5991="No se encuentra el archivo de configuración de Total Commander [Wcx_ftp.ini]"
+5992="¡No se encuentra el archivo de data! Por favor abra uno para continuar"
+5993="¿Guardar cambios al archivo de data del programa?"
+5994="¡No se halla esta clave en favoritos!"
+5995="La lista de favoritos no puede contener más de 99 ítems"
+5996="Ya hay un favorito con esa clave"
+5997="Save changes to the favorites list?"
+5998="Do you really want to delete the key "%s" from the data file?"
+5999="A key with the name you specified already exists. Specify a different key name."
+6000="There are missing or incorrect data fields for this key "%s"\nPlease correct this error in the current data file.\n\nFields are: %s"
+6001="The data file contains the following error:\n\nLine: %i\nPosition: %i\nReason: %s\n"
+
+6021="Default hotkey for: "%s"\n\nDo you want assign it to: "%s""
+6022="Current hotkey for: "%s"\n\nDo you want assign it to: "%s""
+6023="Current alias for: "%s"\n\nDo you want assign it to: "%s""
+6024="Current hotkey for: "%s" in your Total Commander Start Menu\n\nDo you want assign it to: "%s""
+6025="You are about to delete User-defined Hotkeys for ALL commands.\n\nAre you sure?"
+6026="You are about to delete Aliases for ALL commands.\n\nAre you sure?"
+6027="Debe guardar los atajos antes de exportar al archivo de Menú principal. Esto es importante a fin de no tener ningún error cuando exporte la lista de claves no guardadas."
+6028="%s\nThis file is UTF-8 encoded.\n\nExporting hotkeys to UTF-8 encoded file may be corrupting it. Continue?"
+
+;----------------------------------------------------------------
+;    About dialog
+;----------------------------------------------------------------
+6101="Acerca de"
+6102="Programado por:"
+6103="Versión:"
+6104="Programa registrado para :"
+6105="Para información más reciente sobre este programa visite la página web del programa."
+6106="Web:"
+6107="Visitar ahora"
+6108="e-mail:"
+
+;----------------------------------------------------------------
+;    Customize Toolbar dialog
+;----------------------------------------------------------------
+6201="&Customize..."
+6202="Customize Toolbar"
+
+;----------------------------------------------------------------
+;    Progress dialog
+;----------------------------------------------------------------
+6301="Leyendo... Espere por favor."
+6302="Grabando... Espere por favor."
+6303="Creando... Espere por favor."
+6304="Agregando ...Espere por favor."
+6305="Removiendo ...Espere por favor."
+6306="Importando... Espere por favor."
+6307="Exportando... Espere por favor."
+
+;----------------------------------------------------------------
+;    Options dialog
+;----------------------------------------------------------------
+6401="Opciones"
+6402="Aceptar"
+6403="Cancelar"
+6404="&Aplicar"
+6405="Página Predefinida"
+
+;----------------------------------------------------------------
+;    Layout page
+;----------------------------------------------------------------
+6501="Esquema"
+6502="Efectos Visuales :"
+6503="Mostrar Árbol de &Iconos"
+6504="Mostrar &Líneas del Árbol"
+6505="Mostrar &Líneas de Cuadrícula"
+6506="&Bordes Fijos"
+6507="&Interfaz de Usuario Plana"
+6508="Mostrar Modo &Guardar en Botón de Guardar"
+6509="Show icons for internal &commands"
+6510="Línea de Separación"
+6511="&Mostrar Icono de Archivo"
+
+6531="M&ostrar valor de clave después del nombre de la Clave"
+6532="Mostrar Valor pre&determinado para Clave inactiva"
+6533="Show &minimum version required to use the selected key"
+
+6551="Mostrar Atajos en &Orden inverso."
+6552="Modificadores:"
+6553="&Secuencia:"
+6554="Se&parador:"
+
+;----------------------------------------------------------------
+;    Icons page
+;----------------------------------------------------------------
+6601="Iconos"
+6602="Estilo de Iconos :"
+6603="Usar Iconos &Predefinidos"
+6604="Tamaño"
+
+6621="Icono de TC"
+6622="Menú"
+6623="Menú Actual"
+6624="Active command"
+6625="Inactive command"
+6626="Separador"
+6627="Menú de Inicio"
+6628="Help Break"
+6629="Comentario"
+6630="Comando Interno"
+6631="Comando Externo"
+6632="Comando extendido"
+6633="Enlace a Carpeta"
+6634="Enlace Roto"
+6635="Line break"
+
+6651="Tree icons &size:"
+6652="&Button bar icons size:"
+
+;----------------------------------------------------------------
+;    Color and Font page
+;----------------------------------------------------------------
+6701="Color y Fuente"
+6702="Texto:"
+6703="Menú Actual :"
+6704="Primer Plano"
+6705="Fondo"
+
+6721="Pestaña Bloqueada"
+
+6741="Clave Activa (Wincmd.ini)"
+6742="Clave Activa (Wcx_ftp.ini)"
+6743="Clave inactiva"
+
+6761="Command with hotkey"
+6762="Command without hotkey"
+
+6781="Primer plano de Otros ítems :"
+6782="Comentario"
+6783="Separador"
+
+6801="Fuente :"
+6802="&Cambiar..."
+6803="Aplicar Ajustes de Fuente a Campos de Propiedades de Comando."
+6804="Descripción:"
+6805="Ancho de &Tab:"
+
+;----------------------------------------------------------------
+;    Operation page
+;----------------------------------------------------------------
+6901="Operación"
+6902="Leer Comandos Internos de TC desde :"
+6903="Archivo &Predefinido Totalcmd.inc."
+6904="&Otro Archivo."
+
+6921="Misc :"
+6922="&Automaticamente Cargar Archivo Anterior."
+6923="A&sociar los Archivos de Menú TC (*.mnu) con el Programa."
+6924="&Recolectar Comentarios en Grupo mientras se Lee el archivo.(Recomendado)"
+6925="Auto &reiniciar Total Commander luego de guardar cambios."
+6926="&Número de Espacios para Identar cada Menú guardado en el Archivo."
+
+6941="Buscar archivos o carpetas existentes en los sitios de red."
+6942="Buscar archivos o carpetas existentes en uni&dades removibles."
+
+6961="&Autoseleccionar la clave siguiente luego de editar."
+6962="Auto &expandir árbol de categorías al iniciar."
+6963="Read keys &listed in the data file only"
+
+6981="Auto seleccio&nar el comando siguiente tras editar el comando actual"
+
+7001="Auto Completar :"
+7002="Usar automaticamente el comando como Título del ítem."
+7003="Remover la e&xtensión de archivo para el título del ítem."
+7004="Automaticamente crear un Nuevo Comando o Seleccionar el Siguiente."
+
+7021="Exportar"
+7022="Siempre Exportar al archivo  Totalcmd.inc cuando Guarda el Menú."
+7023="Siempre Recordarme exportar los cambios."
+7024="Siempre &Exportar al archivo de Menú principal al guardar."
+
+;----------------------------------------------------------------
+;    Language page
+;----------------------------------------------------------------
+7101="Idioma"
+7102="Cambiar Idioma :"
+7103="Usar Idioma &Predefinido"
+7104="&Otro"
+
+;----------------------------------------------------------------
+;    Open/Save dialog titles
+;----------------------------------------------------------------
+7201="Abrir"
+7202="Guardar"
+7203="Guardar como"
+
+;----------------------------------------------------------------
+;    Find dialog
+;----------------------------------------------------------------
+7301="Buscar"
+7302="&Que buscar"
+7303="Buscar en:"
+
+7321="&Description"
+7322="Co&mando"
+7323="&Código"
+
+7341="Título"
+7342="Ruta"
+
+7361="&Nombre de clave"
+7362="&Descripción de clave"
+7363="Key &value"
+
+7381="Atajo pre&definido"
+7382="Atajo definido por el &usuario"
+7383="&Alias"
+
+7401="Solo palabras completas"
+7402="U&se pattern matching"
+
+;----------------------------------------------------------------
+;    Customize Totalcmd.inc dialog (Main Menu Editor)
+;----------------------------------------------------------------
+7501="Personalizar Totalcmd.inc"
+7502="Categorizada"
+7503="Alfabética"
+7504="Tal como esta"
+7505="Estilo de Separador :"
+7506="Archivo"
+7507="Imprimir"
+7508="&Agregar separador para cada submenú."
+7509="&Usar título del menú para la descripción."
+7510="Agregar &Código del Comando a la Descripción."
+7511="Vista previa:"
+7512="Guardar..."
+7513="Cerrar"
+7514="Preview"
+7515="ESTOS COMANDOS NO ESTAN EN EL MENU"
+
+;----------------------------------------------------------------
+;    Import captions dialog (Main Menu Editor)
+;----------------------------------------------------------------
+7601="Import captions"
+7602="Import captions for &all commands."
+7603="Import captions for &commands under "%s" menu only."
+
+;----------------------------------------------------------------
+;    Customize Mapping File dialog (Main Menu Editor)
+;----------------------------------------------------------------
+7701="Customize Mapping File"
+7702="Small &icons"
+7703="&Map to..."
+7704="Choose icon for "%s""
+7705="(None)"
+
+;----------------------------------------------------------------
+;    Choose Command dialog (Main & Start Menu Editor)
+;----------------------------------------------------------------
+7801="Elegir comando"
+7802="&Find:"
+7803="&Show commands that has an entry in the mapping file"
+
+;----------------------------------------------------------------
+;    Check mnemonics dialog (Main & Start Menu Editor)
+;----------------------------------------------------------------
+7901="Check mnemonics"
+7902="Highlight &duplicate mnemonics."
+7903="Highlight items not &containing mnemonics."
+7904="Duplicated mnemonics"
+7905="Missed mnemonics"
+
+;----------------------------------------------------------------
+;    Move To dialog (Main & Start Menu Editor)
+;----------------------------------------------------------------
+8001="Mover A"
+8002="Move "%s" to..."
+
+;----------------------------------------------------------------
+;    Export to Totalcmd.inc file dialog (Start Menu Editor)
+;----------------------------------------------------------------
+8101="Exportar al archivo Totalcmd.inc"
+8102="The following commands will be added to Totalcmd.inc file.\nYou can use any of these commands into your Main Menu."
+8103="Exportar solo Comando.  (Recomendado)"
+8104="&Actualizar secciones [Shortcuts] y [Alias] en Wincmd.ini"
+8105="&Prefijo de comando"
+8106="&Nombre de categoría"
+
+;----------------------------------------------------------------
+;    Edit Parameters dialog (Start Menu & Button Bar Editor)
+;----------------------------------------------------------------
+8201="Editar Lista de Parámetros"
+8202="&Predefinido"
+8203="Arri&ba"
+8204="Abaj&o"
+8205="&Agregar"
+8206="Parameter"
+8207="Description"
+
+;----------------------------------------------------------------
+;    Add New Parameter dialog (Start Menu & Button Bar Editor)
+;----------------------------------------------------------------
+8301="Add New Parameter"
+8302="&Parameter:"
+8303="&Description:"
+8304="Edit Parameter"
+
+;----------------------------------------------------------------
+;    Delete All dialog  (History Editor)
+;----------------------------------------------------------------
+8401="Borrar Todo"
+8402="Comprobar Seccion(es) que quiere borrar."
+8403="Borrar también Pestañas Bloqueadas."
+
+;----------------------------------------------------------------
+;    Add/Modify data key dialog (Configuration Editor)
+;----------------------------------------------------------------
+8501="Add new data key"
+8502="Modify data key"
+8503="&Name"
+8504="&File"
+8505="&Section"
+8506="Ve&rsion"
+8507="Default &value"
+8508="&Advanced"
+8509="Yes"
+8510="No"
+8511="Dialo&g"
+8512="(None)"
+8513="Open File"
+8514="Open Folder"
+8515="Color"
+8516="Font"
+8517="Bits Sum"
+8518="Icon Library Preview"
+8519="Choose from dialogs list"
+8520="&Description"
+
+;----------------------------------------------------------------
+;    Add Favorite dialog (Configuration Editor)
+;----------------------------------------------------------------
+8601="Agregar a favoritos"
+8602="Organizar favoritos"
+8603="Nombre de &favorito:"
+
+;----------------------------------------------------------------
+;    Import/Export dialog (Configuration & History Editor)
+;----------------------------------------------------------------
+8701="Importar"
+8702="Check categories to import."
+8703="Import options:"
+8704="Active keys"
+8705="Inactive keys"
+8706="Exclude redirection keys (Recommended)"
+8707="Exportar"
+8708="Check categories to export."
+8709="Export options:"
+
+8721="Comprobar Seccion(es) a Importar."
+8722="Comprobar Seccion(es) a Exportar."
+
+;----------------------------------------------------------------
+;    Export to Main Menu dialog (Hotkeys Editor)
+;----------------------------------------------------------------
+8801="Exportar al Menú principal"
+8802="Seleccionar columnas a exportar:"
+8803="Opciones:"
+8804="&Remover espacios de atajos"
+8805="Exportar atajos pre&determinados redefinidos"
+8806="&Marcar atajos pre&determinados redefinidos"
+8807="Exportar &solo el primer valor de cada columna"
+8808="Exportar solo &una columna por cada comando"
+8809="Secuencia de &columnas:"
+8810="&Prioridad de columnas:"
+8811="&Separador:"
+8812="E&xaminar..."
+
+;----------------------------------------------------------------
+;    Export to Text File dialog (Hotkeys Editor)
+;----------------------------------------------------------------
+8901="Export to Text File"
+8902="Exportar t&odos los comandos"
+8903="Export as HTML code"
+8904="Agregar se&parador"
+8905="Pre&visualizar fuente"
+8906="Ctrl"
+8907="Alt"
+8908="Shift"
+8909="Win"
+8910="Total Commander hotkeys list"
+8911="Total Commander Start Menu hotkeys:"
+8912="Importante"
+8913="Los atajos en esta lista aún no se han guardado a su archivo de configuración de Total Commander."
+
+;----------------------------------------------------------------
+;    Main Menu Editor Window
+;----------------------------------------------------------------
+9001="Menú Principal de Total Commander"
+9002="Categoría"
+9003="Descripción"
+9004="Comando"
+9005="Código"
+9006="STARTMENU"
+9007="Help_Break"
+9008="Comentarios"
+9009="Escriba su comentario aquí"
+9010="Guardar Comando como Texto"
+9011="Guardar Comando como Decimal"
+9012="Guardar Comando como Hexadecimal"
+9013="%i Comando(s) Seleccionado(s)"
+9014="%i Comando(s) en %s"
+9015="%i Command(s) in [%s] category"
+
+;----------------------------------------------------------------
+;    Start Menu Editor Window
+;----------------------------------------------------------------
+9101="Menú de Inicio de Total Commander"
+9102="Menú de Directorio de Total Commander"
+9103="Comandos Extendidos de Total Commander"
+9104="Start Menu"
+9105="Directory Menu"
+9106="Extended Commands"
+9107="Comando:"
+9108="&Parámetros:"
+9109="R&uta de Inicio:"
+9110="Ruta de &Destino:"
+9111="Tecla de &Atajo:"
+9112="Archivo de &Iconos"
+9113="&Tooltip:"
+9114="Parameters List"
+9115="&Show as menu"
+9116="Cambiar icono"
+9117="(ninguno)"
+9118="Ejecutar en Ventana Normal"
+9119="Ejecutar Minimizado"
+9120="Ejecutar Maximizado"
+9121="Show as bar"
+9122="Show as menu"
+9123="Start Menu Item %i"
+9124="Directory Menu Item %i"
+9125="Extended_Command_%i"
+9126="Change With Ultra TC Start Menu Editor"
+9127="Change With Ultra TC Directory Menu Editor"
+9128="Ultra_TC_Extended_Commands_Editor"
+
+;----------------------------------------------------------------
+;    Button Bar Editor Window
+;----------------------------------------------------------------
+9201="Total Commander Main Button Bar"
+9202="Total Commander Vertical Button Bar"
+9203="Main Button Bar"
+9204="Vertical Button Bar"
+9205="Button bar files list"
+9206="Back to the main button bar"
+9207="Edit linked button bar"
+9208="Button %i"
+9209="Change with Ultra TC Button Bar Editor"
+9210="Change with Ultra TC Vertical Button Bar Editor"
+9211="Appearance"
+9212="Si&ze:"
+9213="XP st&yle"
+9214="F&lat icons"
+9215="S&mall icons"
+9216="Pop&up icons size:"
+
+;----------------------------------------------------------------
+;    History Editor Window
+;----------------------------------------------------------------
+9301="Historial de Total Commander"
+9302="Línea de Comando"
+9303="Selección"
+9304="Buscar por:"
+9305="Buscar en:"
+9306="Hallar texto:"
+9307="Cargar/Guardar"
+9308="Plugin Duplicates"
+9309="Duplicates Directory Selection"
+9310="Máscara para renombrar:"
+9311="Buscar y renombrar:"
+9312="Renombrar y Reemplazar con:"
+9313="F2 Cargar/Guardar"
+9314="Pestañas a la Izquierda"
+9315="Pestañas a la Derecha"
+9316="Historial izquierdo"
+9317="Historial derecho"
+9318="Nuevo directorio"
+9319="New File"
+9320="Opciones de sincronizar"
+9321="Atributos de plugin"
+9322="Tamaño para dividir"
+9323="FTP Old Connections"
+9324="Título:"
+9325="&Bloquear esta pestaña"
+9326="Bloqueado, &pero permite cambiar directorio."
+9327="Vacío"
+
+;----------------------------------------------------------------
+;    Configuration Editor Window
+;----------------------------------------------------------------
+9401="Clave"
+9402="Valor"
+9403="Section"
+9404="File"
+9405="Default"
+9406="Advanced"
+9407="Version"
+9408="Yes"
+9409="-"
+9410="¡Descripción no disponible!"
+9411="%i Clave(s)"
+9412="Archivo de Data:"
+9413="Sección Objetivo:"
+9414="Total Commander %s and higher"
+9415="Bits Sum"
+9416="New Key"
+9417="Rename"
+9418="Key &name:"
+9419="Icon Library Preview"
+9420="&Library File:"
+
+;----------------------------------------------------------------
+;    Hotkeys Editor Window
+;----------------------------------------------------------------
+9501="Atajo predefinido"
+9502="Atajo definido por el usuario"
+9503="Alias"
+9504="Atajo"
+9505="Alias:"
+9506="&Control +"
+9507="&Alt +"
+9508="&Shift +"
+9509="&Win +"
+9510="Agregar Atajo"
+9511="Borrar todos los atajos"
+9512="Agregar alias"
+9513="Borrar todos los alias"
+9514="Num:"
+9515="Ins|Del|Home|End|PgUp|PgDn|Space|Back|Tab|Enter|Esc|Left|Right|Up|Down"
+
+;----------------------------------------------------------------
+;    Ultra TC Editors Window
+;----------------------------------------------------------------
+9601="Ejecutar Editor del Menú Principal"
+9602="Ejecutar Editor del Menú de Inicio"
+9603="Ejecutar Editor del Menú de Directorio"
+9604="Ejecutar Editor de Comandos Extendidos"
+9605="Run Button Bar Editor"
+9606="Run Vertical Button Bar Editor"
+9607="Ejecutar Editor de Historial"
+9608="Ejecutar Editor de Configuración"
+9609="Ejecutar Editor de Atajos"
+9610="Siempre visible"

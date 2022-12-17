@@ -1,0 +1,50 @@
+; Deutsche Sprachdatei für Nested Button Bar Creator 2.00
+
+; Übersetzer: Icfu
+; E-Mail: icfu@gmx.de
+; Anmerkung: Dies ist keine wortwörtliche Übersetzung sondern eine verständliche, habe mich jedenfalls bemüht. ;)
+
+[UserLanguage]
+101=&Datei
+110=&Beenden
+150=&Einstellungen
+
+161=&Hilfe
+162=&Hilfethemen
+163=&Über...
+
+601=Schritt 1
+602=Schritt 2
+603=Schritt 3
+604=&Weiter
+605=&Zurück
+606=&Erstellen
+607=/E
+610=&Präfix für Dateinamen:
+611=&Sprachdatei:
+
+620=Wieviele Buttons benötigen Sie?
+621=Wo sollen die Buttonleisten-Dateien erstellt werden?
+622=Ein separater Ordner ist empfehlenswert.
+623=Klicken Sie auf die obigen Zahlen und wählen jeweils eine Buttonleisten-Datei (*.bar) aus, um deren Inhalt zu importieren.
+624=Wenn Sie damit fertig sind oder aber nichts importieren möchten, drücken Sie den "Erstellen"-Button.
+625=Die Buttonleisten-Dateien wurden erstellt, folgen Sie nun diesen Schritten:
+626=1. Starten Sie den Total Commander.
+627=2. Rufen Sie die "Konfigurieren -> Buttonbar ändern..."-Dialogbox auf.
+628=3. Drücken Sie den ">>"-Button, wählen Sie die neu erstellte "Bar_01.bar"-Datei aus und bestätigen Sie mit "OK".
+629=4. Drücken Sie "Ja", wenn Sie gefragt werden: "Möchten Sie, dass dieser Buttonbar zum neuen Haupt-Buttonbar wird?"
+
+1001=Einstellungen
+1008=&OK
+1009=&Abbrechen
+
+1501=Über
+1502=Programmiert von:
+1503=Version:
+1504=Dieses Programm ist registriert an:
+1505=Besuchen Sie bitte die Homepage, um aktuelle Informationen zum Programm zu erhalten.
+1506=Webseite
+1507=E-Mail:
+1508=jetzt besuchen!
+
+3056=Datei nicht gefunden.

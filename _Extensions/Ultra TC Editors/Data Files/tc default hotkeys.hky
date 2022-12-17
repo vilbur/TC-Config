@@ -1,0 +1,113 @@
+;********************************************************
+; This file contains Total Commander default hotkeys	*
+;							*
+; The format is:					*
+; --------------					*
+; Internal_command_code = Hotkey			*
+;							*
+;  OR (if the command has two or more hotkey)		*
+;							*
+; Internal_command_code = Hotkey = Hotkey		*
+;							*
+;********************************************************
+
+[TC Default Hotkeys]
+131=Alt + F1
+132=Alt + F11
+231=Alt + F2
+232=Alt + F12
+269=Ctrl + Shift + F1
+270=Shift + F1
+300=Ctrl + Shift + F2
+301=Ctrl + F1
+302=Ctrl + F2
+303=Ctrl + F8
+304=Ctrl + Q
+311=Ctrl + F11
+312=Ctrl + F10
+314=Ctrl + F12
+321=Ctrl + F3
+322=Ctrl + F4
+323=Ctrl + F6
+324=Ctrl + F5
+325=Ctrl + F7
+500=Alt + F10
+501=Alt + F7
+503=Ctrl + L
+504=Ctrl + F9
+508=Alt + F5
+509=Alt + F9 = Alt + F6
+510=Alt + Enter
+518=Alt + Shift + F9 = Alt + Shift + F6
+521=Num +
+522=Num -
+523=Ctrl + A = Ctrl + Num +
+524=Ctrl + Num -
+525=Num *
+526=Ctrl + D
+527=Alt + Num +
+528=Alt + Num -
+529=Num /
+531=Ctrl + U
+533=Shift + F2
+535=Ctrl + Shift + U
+540=F2 = Ctrl + R
+545=Alt + Shift + F7
+550=Ctrl + F
+551=Ctrl + N
+552=Ctrl + Shift + F
+556=Ctrl + Shift + M
+570=Alt + Left
+571=Alt + Right
+572=Alt + Down
+610=F1
+903=F3
+904=F4
+905=F5
+906=F6
+907=F7
+908=F8 = Del = Shift + F8 = Shift + Del
+911=Shift + F7
+1001=Enter
+1002=Shift + F6
+1004=Ctrl + Shift + F5
+1006=Alt + Shift + F3
+2000=Shift + Esc
+2001=Ctrl + \
+2002=Ctrl + PgUp = Back
+2003=Ctrl + PgDn
+2004=Ctrl + Y
+2006=Ctrl + E
+2007=Ctrl + X = Shift + Ins
+2008=Ctrl + C = Ctrl + Ins
+2009=Ctrl + V
+2014=Alt + Shift + Enter
+2019=Ctrl + P
+2024=Ctrl + Left
+2025=Ctrl + Right
+2026=Ctrl + B
+2046=Ctrl + Shift + B
+2400=Ctrl + M
+2500=Shift + F10 = Shift + F9
+2700=Ctrl + Z
+2915=Ctrl + S = Ctrl + Shift + S
+2931=Shift + F4
+2941=Ctrl + Shift + Q
+3001=Ctrl + T
+3002=Ctrl + Shift + T
+3003=Ctrl + Up
+3004=Ctrl + Shift + Up
+3005=Ctrl + Tab
+3006=Ctrl + Shift + Tab
+3007=Ctrl + W
+3008=Ctrl + Shift + W
+3100=Shift + F5
+3203=Ctrl + Shift + F8
+3302=Ctrl + Shift + Num +
+3304=Ctrl + Shift + Num -
+3312=Shift + Num +
+3314=Shift + Num -
+3322=Shift + Num *
+4003=Shift + Left = Shift + Right
+4004=Alt + Shift + F11
+24340=Alt + F4

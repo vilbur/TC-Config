@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  This file is a special data file, it is used to show all sections as they are listed in Wincmd.ini and Wcx_ftp.ini file. (no categories, no descriptions)-->
+<ultra_tc_editors_data_file>
+	<main_category title="Total Commander Configuration">
+		<category title="Wincmd.ini">
+			<section name="[%Entire_File_Sections%]" file="Wincmd.ini"></section>
+		</category>
+		<category title="Wcx_ftp.ini">
+			<section name="[%Entire_File_Sections%]" file="Wcx_ftp.ini"></section>
+		</category>
+	</main_category>
+</ultra_tc_editors_data_file>

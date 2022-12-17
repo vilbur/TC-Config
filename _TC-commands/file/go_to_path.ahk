@@ -54,12 +54,14 @@ TC_goToFile($file_path:=""){
 	}
 
 	WinGet, $process_name , ProcessName, ahk_class TTOTAL_CMD
+	;MsgBox,262144,process_name, %$process_name%,3
 
 	$commander_path	= %Commander_Path%\%$process_name%
 
-	if FileExist($file_path)
-		Run, % $commander_path " /S /O """ $file_path """"
+	;MsgBox,262144,commander_path, %$commander_path%,3
 
+	if FileExist($commander_path)
+		Run, % $commander_path " /S /O """ $file_path """"
 }
 
 
@@ -71,14 +73,14 @@ getKomodoFileFromTitle()
 	RegExMatch( $win_title, "Project\s(\S+)", $project_match )
 
 	if ( $file_path_match ){
-		$filePath	 = %$file_path_match2%\%$file_path_match1% 
+		$filePath	 = %$file_path_match2%\%$file_path_match1%
 		return $filePath
 	}
-				
+
 	if ( $project_match )
 		return $project_match1
 }
-	
+
 
 
 $file_path = %1%

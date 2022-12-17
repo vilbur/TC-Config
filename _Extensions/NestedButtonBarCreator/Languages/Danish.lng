@@ -1,0 +1,50 @@
+; English language for Nested Button Bar Creator 2.00
+
+; You can send translations of this file
+; to me at   ( utcmedit@yahoo.com )
+; and I will publish it with the program
+
+[UserLanguage]
+101=&Fil
+110=&Aslut
+150=&Indstillinger...
+
+161=&Hjælp
+162=&Emner i Hjælp
+163=&Om...
+
+601=Trin 1
+602=Trin 2
+603=Trin 3
+604=&Næste
+605=Fo&rrige
+606=&Opret
+607=/E
+610=Start af &filnavn (prefix)
+611=&Sprogfil
+
+620=Angiv, hvor mange knappaneler du ønsker?
+621=Angiv, hvor filerne med knappanelerne skal gemmes.
+622=Det anbefales at bruge en separat mappe.
+623=Tryk på en af de nummerede knapper herover for at lede efter knappanelfiler (*.bar) som skal importeres.
+624=Du kan springe dette trin over og i stedet klikke knappen Opret.
+625=Knappanelfiler er blevet oprettet, følg disse trin for at få dem til at virke:
+626=1: Start Total Commander.
+627=2: Tryk på 'Opsætning' -> 'Ændre knappanel...'
+628=3: Tryk på knappen >> ved 'Knappanel:' og vælg filen '\nested bar creator\bars\Bar_01.bar', og tryk derefter på OK.
+629=4: Tryk 'Ja' når du bliver spurgt: Ønsker du at gemme dette knappanel som standard?
+
+1001=Indstillinger
+1008=OK
+1009=Annuller
+
+1501=Om
+1502=Programmet af:
+1503=Version:
+1504=Dette program er registeret til:
+1505=Besøg venligst programmets hjemmeside for den seneste information om dette program.
+1506=Hjemmeside:
+1507=E-mail:
+1508=Besøg nu
+
+3056=Fil ikke fundet.

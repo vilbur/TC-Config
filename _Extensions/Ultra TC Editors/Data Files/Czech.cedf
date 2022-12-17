@@ -1,0 +1,3101 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<?xml-stylesheet href="style.xsl" type="text/xsl" ?>
+<!--  This file contain all Total Commander 7.55a (Wincmd.ini and Wcx_ftp.ini) configuration keys.-->
+<!--  for more information about this file please read the Help Topics.-->
+<!--  to view the contents of this file as a web page, open it with IE6+, Firefox or Opera.-->
+<ultra_tc_editors_data_file>
+	<main_category title="Total Commander Configuration">
+		<category title="Display">
+			<category title="Main window">
+				<category title="Layout">
+					<key name="ButtonBar" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= Show button bar.
+0= Hide button bar.</description>
+					</key>
+					<key name="DriveBar1" file="Wincmd.ini" section="Layout" default="0" version="3.00">
+						<description>1= Show drive buttons.
+0= Hide drive buttons.</description>
+					</key>
+					<key name="DriveBar2" file="Wincmd.ini" section="Layout" default="0" version="4.00">
+						<description>1= Show two drive button bars. (fixed width, above file windows).
+0= Hide two drive button bars.
+
+Has no effect if DriveBar1=0.</description>
+					</key>
+					<key name="DriveBarHide" file="Wincmd.ini" section="Configuration" default="drive_list" advanced="Yes" version="7.03">
+						<description>Umožňuje skrýt určité části tlačítkové lišty:
+	A-Z=disky
+	0-9=FTP
+	\ =místa v síti
+	. =nadřazená a kořenová složka
+	- =název disku a volný a celkový prostor
+Na rozdíl od položky Allowed= zůstanou disky přístupné prostřednictvím rozevíracího seznamu disků (Alt+F1, Alt+F2), příkazu cd atd.
+Pokud chcete skrýt jednotky terminálového serveru, musí být uvedeny za znakem dolaru ($):
+Položka DriveBarHide=A$CDE skryje místní jednotku A a hostitelské jednotky CDE.</description>
+					</key>
+					<key name="DriveBarFlat" file="Wincmd.ini" section="Layout" default="1" version="3.50">
+						<description>1= drive buttons appear flat.
+0= drive buttons appear 3D.</description>
+					</key>
+					<key name="DriveCombo" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= Show drive combobox.
+0= Hide drive combobox.</description>
+					</key>
+					<key name="DirectoryTabs" file="Wincmd.ini" section="Layout" default="1" version="6.00">
+						<description>1= Show directory tabs.
+0= Hide directory tabs.</description>
+					</key>
+					<key name="CurDir" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= Show current directory.
+0= Hide current directory.</description>
+					</key>
+					<key name="BreadCrumbBar" file="Wincmd.ini" section="Layout" default="1" version="7.50">
+						<description>1= Show clickable path parts ("breadcrumb bar").</description>
+					</key>
+					<key name="HistoryHotlistButtons" file="Wincmd.ini" section="Layout" default="1" version="6.00">
+						<description>1= Show buttons for history list and hotlist.
+0= Hide buttons for history list and hotlist.</description>
+					</key>
+					<key name="TabHeader" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= Show tabstop header.
+0= Hide tabstop header.</description>
+					</key>
+					<key name="StatusBar" file="Wincmd.ini" section="Layout" default="1" version="3.50">
+						<description>1= Show status bar.
+0= Hide status bar.</description>
+					</key>
+					<key name="CmdLine" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= Show command line.
+0= Hide command line.</description>
+					</key>
+					<key name="KeyButtons" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= Show function key buttons.
+0= Hide function key buttons.</description>
+					</key>
+					<key name="InterfaceFlat" file="Wincmd.ini" section="Layout" default="1" version="3.50">
+						<description>1= Flat user interface.
+0= 3D user interface.</description>
+					</key>
+					<key name="XPthemeBg" file="Wincmd.ini" section="Layout" default="1" version="7.00">
+						<description>Windows XP theme background (menu+button bar+drive bar).</description>
+					</key>
+				</category>
+				<category title="Visual style">
+					<key name="PanelsVertical" file="Wincmd.ini" section="Configuration" default="0" version="5.00">
+						<description>Panely souborů budou vedle sebe (0) nebo pod sebou (1).</description>
+					</key>
+					<key name="NewStyleProgress" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+						<description>1: Bude používán indikátor průběhu převzatý z operačního systému (standardně pro systém Windows XP a novější verze).
+0: Bude používán vlastní indikátor průběhu z programu Total Commander (standardně pro všechny starší verze systému Windows).
+2: Jako hodnota 1, ale bez děleného indikátoru (podporováno pouze v klasickém motivu).</description>
+					</key>
+					<key name="WantXPLook" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.50">
+						<description>Pouze v systémech Windows XP a novějších verzích: Tlačítka hlavního okna (kromě tlačítkové lišty) budou zobrazena: 
+	0: V klasickém stylu.
+	1: Ve stylu systému Windows XP.</description>
+					</key>
+					<key name="OverrideDPI" file="Wincmd.ini" section="Configuration" default="96" advanced="Yes" version="7.00">
+						<description>Scales all dialog boxes (except for the main window!) to the given size in dots per inch. Normal is 96 dpi.</description>
+					</key>
+					<key name="ShowInstanceNr" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.00">
+						<description>Pokud bude spuštěna více než jedna instance programu Total Commander, bude v záhlaví zobrazeno její číslo (1/0).</description>
+					</key>
+					<key name="TabHeaderThemed" file="Wincmd.ini" section="Layout" default="1" advanced="Yes" version="7.50">
+						<description>0: Podpora motivů v zarážkách sloupců bude zakázána.</description>
+					</key>
+					<key name="TabHeaderBoldArrow" file="Wincmd.ini" section="Layout" default="1" advanced="Yes" version="7.50">
+						<description>0: Silné šipky v zarážkách sloupců budou zakázány (výchozí je stejná hodnota jako u položky TabHeaderThemed).</description>
+					</key>
+				</category>
+			</category>
+			<category title="File list">
+				<key name="ShowHiddenSystem" file="Wincmd.ini" section="Configuration" default="0" version="1.10">
+					<description>1: Skryté a systémové soubory budou zobrazovány.</description>
+				</key>
+				<key name="UseLongNames" file="Wincmd.ini" section="Configuration" default="1" version="2.00">
+					<description>Budou používány dlouhé názvy souborů (1/0).</description>
+				</key>
+				<key name="Small83Names" file="Wincmd.ini" section="Configuration" default="0" version="3.00">
+					<description>Staré názvy souborů (8 znaků pro název a 3 pro příponu) budou zobrazeny malými písmeny jako v programu Průzkumník v systému Windows 9x (1/0).</description>
+				</key>
+				<key name="ShowParentDirInRoot" file="Wincmd.ini" section="Configuration" default="0" version="6.00">
+					<description>Nadřazená složka [..] bude zobrazována také v kořenové složce (c:\ atd.).</description>
+				</key>
+				<key name="DirBrackets" file="Wincmd.ini" section="Configuration" default="1" version="3.52">
+					<description>Složky budou zobrazovány v hranatých závorkách (1/0, výchozí je hodnota 1).</description>
+				</key>
+				<key name="BriefViewWidthLimit" file="Wincmd.ini" section="Configuration" default="0" version="6.50">
+					<description>U zobrazení Seznam bude nastavena maximální šířka sloupce (pixely).</description>
+				</key>
+				<key name="SortUpper" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>0: Bude použita výchozí metoda řazení.
+1: Při řazení souborů budou soubory začínající podtržítkem _ umístěny na konec seznamu.
+2: Bude používáno smíšené abecední a číselné řazení, např. soubor10.txt bude umístěn ZA souborem soubor1.txt.
+3: Jako hodnota 2, ale pro porovnání bude použita funkce StrCmpLogicalW. Pro tuto možnost je nutné, aby byla nainstalována aplikace Internet Explorer 6.x.</description>
+				</key>
+				<key name="SortDirsByName" file="Wincmd.ini" section="Configuration" default="1" version="1.30">
+					<description>Složky budou vždy seřazeny podle názvu (1/0).</description>
+				</key>
+				<key name="SortDirExt" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>Řazení složek podle přípony bude povoleno (pouze pokud bude nastaveno SortDirsByName=0).</description>
+				</key>
+				<key name="Tips" file="Wincmd.ini" section="Configuration" default="3" version="2.00">
+					<description>Nápovědné texty budou zobrazovány:
+	1: U tlačítek.
+	2: U disků.
+	3: U obou typů.</description>
+				</key>
+				<key name="FileTipWindows" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>U názvů souborů, které jsou pro úplné zobrazení v režimu 'Podrobnosti' příliš dlouhé, budou zobrazeny nápovědné texty (popisy) (1/0).</description>
+				</key>
+				<key name="OleComments" file="Wincmd.ini" section="Configuration" default="1" version="5.50">
+					<description>Načítat komentáře ze souborů:
+	0: Pouze soubory komentářů descript.ion a files.bbs.
+	1: Z programu Průzkumník (datové proudy NTFS a dokumenty aplikace Word) a soubory komentářů.
+	2: Pouze komentáře z programu Průzkumník.
+	3: Nic z uvedeného (pouze z doplňků, pokud je tak určeno).</description>
+				</key>
+				<key name="Win32TipWindows" file="Wincmd.ini" section="Configuration" default="0" version="5.50">
+					<description>Nápovědné texty budou zobrazovány stylem Win32 (budou posunuty doprava dolů).</description>
+				</key>
+				<key name="MinLineHeight" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.03">
+					<description>Pokud bude uvedená hodnota větší než nula, nastaví minimální výšku řádku (pixely) v panelech souborů. Pokud bude záporná, bude k běžné výšce řádku připočtena absolutní hodnota, např. pokud MinLineHeight=-2 a výška bude 16, bude celková výška 18 pixelů.</description>
+				</key>
+			</category>
+			<category title="Tabstops and status bar">
+				<key name="Aligned extension" file="Wincmd.ini" section="Configuration" default="1" version="1.30">
+					<description>Přípona souboru bude zarovnána doleva.</description>
+				</key>
+				<key name="0" file="Wincmd.ini" section="Tabstops" default="90" version="1.30">
+					<description>  Velikost</description>
+				</key>
+				<key name="1" file="Wincmd.ini" section="Tabstops" default="93" version="1.30">
+					<description>  Datum a čas</description>
+				</key>
+				<key name="3" file="Wincmd.ini" section="Tabstops" default="152" version="1.30">
+					<description>  Atributy</description>
+				</key>
+				<key name="4" file="Wincmd.ini" section="Tabstops" default="42" version="1.30">
+					<description>  Přípona</description>
+				</key>
+				<key name="5" file="Wincmd.ini" section="Tabstops" default="93" version="6.50">
+					<description>  Komentáře</description>
+				</key>
+				<key name="6" file="Wincmd.ini" section="Tabstops" default="457" advanced="Yes" version="6.50">
+					<description>Referenční šířka (použita v režimu AdjustWidth)</description>
+				</key>
+				<key name="AdjustWidth" file="Wincmd.ini" section="Tabstops" default="0" version="4.00">
+					<description>Automatické přizpůsobení šířky názvu při změně velikosti okna.</description>
+				</key>
+				<key name="ShowCentury" file="Wincmd.ini" section="Configuration" default="1" version="3.00">
+					<description>V panelech souborů bude u dat zobrazeno století (1/0).</description>
+				</key>
+				<key name="ShowAMPM" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>Hodiny budou zobrazeny ve 12hodinovém formátu AM/PM (americký styl).</description>
+				</key>
+				<key name="DirsInFooter" file="Wincmd.ini" section="Configuration" default="1" version="6.50">
+					<description>V zápatí bude zobrazován počet vybraných složek a jejich celkový počet.</description>
+				</key>
+				<key name="SizeStyle" file="Wincmd.ini" section="Configuration" default="0" version="5.00">
+					<description>Styl zobrazení velikosti v panelech souborů: 
+	0: V bajtech.
+	1: V kilobajtech.
+	2: Dynamicky.
+	3: Dynamicky včetně desetinných míst.
+	4/5: Jako hodnoty 2/3, ale bez jednotky GB (velikosti souborů větší než 1 GB budou stále zobrazeny v MB).</description>
+				</key>
+				<key name="SizeFooter" file="Wincmd.ini" section="Configuration" default="1" version="5.50">
+					<description>Styl zobrazení velikosti v záhlaví a zápatí: 
+	0: V bajtech.
+	1: V kilobajtech.
+	2: Dynamicky.
+	3: Dynamicky včetně desetinných míst.
+	4/5: Jako hodnoty 2/3, ale bez jednotky GB (velikosti souborů větší než 1 GB budou stále zobrazeny v MB).</description>
+				</key>
+				<key name="LongInStatus" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>U zobrazení Podrobnosti bude na stavovém řádku zobrazován dlouhý název (1/0).</description>
+				</key>
+				<key name="AccessTime" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="6.02">
+					<description>1: Umožňuje programu Total Commander pracovat s časovým údajem 'posledního přístupu' místo 'poslední změny', např. pro kopírování souborů s posledním přístupem během minulých n dní.</description>
+				</key>
+			</category>
+			<category title="Tree">
+				<key name="SeparateTree" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>Bude zobrazen jeden samostatný strom složek (1), dva samostatné stromy (2) nebo žádný (0).</description>
+				</key>
+				<key name="SeparateTreeWidth" file="Wincmd.ini" section="Configuration" default="160" version="7.00">
+					<description>Šířka panelů samostatných stromů složek.</description>
+				</key>
+				<key name="Tree" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="2.00">
+					<description>Strom složek bude zobrazován: 1: Bez řazení.
+0: Seřazený podle názvu.</description>
+				</key>
+			</category>
+			<category title="Button bar">
+				<key name="Buttonbar" file="Wincmd.ini" section="Buttonbar" default="%COMMANDER_PATH%\default.bar" dialog="Open File" version="1.30">
+					<description>Výchozí tlačítková lišta.</description>
+				</key>
+				<key name="Buttonheight" file="Wincmd.ini" section="Buttonbar" default="29" version="1.30">
+					<description>Velikost ikon.</description>
+				</key>
+				<key name="FlatIcons" file="Wincmd.ini" section="Buttonbar" default="1" version="3.50">
+					<description>1: Ikony budou bez trojrozměrného efektu.
+0: Ikony budou s trojrozměrným efektem.</description>
+				</key>
+				<key name="SmallIcons" file="Wincmd.ini" section="Buttonbar" default="1" version="3.50">
+					<description>1: Budou používány malé ikony v rozměru 16×16 pixelů.
+0: Ikony budou mít velikost definovanou uživatelem.</description>
+				</key>
+				<key name="SmallIconSize" file="Wincmd.ini" section="Buttonbar" default="16" version="7.00">
+					<description>Uses small icons with user-defined size.
+Works only if SmallIcons=1.</description>
+				</key>
+				<key name="PopupIconSize" file="Wincmd.ini" section="Buttonbar" default="16" advanced="Yes" version="7.50">
+					<description>Určuje velikost ikon v roletové nabídce, pokud je soubor BAR zobrazen jako nabídka. Výchozí hodnota je stejná jako velikost ikon v právě zobrazené tlačítkové liště.</description>
+				</key>
+				<key name="XPstyle" file="Wincmd.ini" section="Buttonbar" default="1" version="7.00">
+					<description>Show buttons:
+	0= Classic style;
+	1= XP style (if available).</description>
+				</key>
+				<key name="ToolTipDelay" file="Wincmd.ini" section="Configuration" default="500" advanced="Yes" version="2.11">
+					<description>Prodleva (milisekundy) před zobrazením popisů tlačítek v tlačítkové liště (standardní hodnota je 500).</description>
+				</key>
+				<key name="PopupOverlay" file="Wincmd.ini" section="Buttonbar" default="1" advanced="Yes" version="7.50">
+					<description>1: Zobrazí ikonu malé šipky jako překryv na tlačítkách, která otevírají podnabídku.</description>
+				</key>
+				<key name="BarLimitLines" file="Wincmd.ini" section="Buttonbar" default="0" advanced="Yes" version="7.50">
+					<description>Omezuje počet řádků v tlačítkové liště. Hodnota 0 znamená bez omezení.</description>
+				</key>
+			</category>
+			<category title="Folder tabs">
+				<key name="DirTabOptions" file="Wincmd.ini" section="Configuration" default="824" dialog="Bits Sum" version="6.00">
+					<description>Součet následujících možností:
+	1: Záložky budou vždy viditelné.
+	2: Záložky budou zobrazeny ve více řadách.
+	4: Všechny záložky budou mít stejnou šířku.
+	8: Omezení délky textu na záložce bude povoleno (viz položka DirTabLimit).
+	16: Příkaz Zavřít všechny záložky bude nutné potvrzovat.
+	32: Záložky bude možné zavřít dvojitým kliknutím.
+	64: Nové záložky budou otevírány v popředí.
+	128: Nové záložky budou otevírány vedle aktuální záložky.
+	256: U uzamčených záložek bude zobrazována hvězdička (*).
+	512: Při kliknutí na jednu ze záložek cílového panelu bude panel aktivován.
+	1024: V názvu záložky bude zobrazováno písmeno aktuálního disku.</description>
+				</key>
+				<key name="DirTabLimit" file="Wincmd.ini" section="Configuration" default="32" version="6.00">
+					<description>Maximální počet znaků zobrazených na záložce.</description>
+				</key>
+				<key name="TabSeparator" file="Wincmd.ini" section="Configuration" default=":" advanced="Yes" version="7.00">
+					<description>Nastavuje oddělovač mezi zobrazeným písmenem disku a aktuální složkou na záložce.</description>
+				</key>
+			</category>
+			<category title="Directory history">
+				<key name="HistoryAppend" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.51">
+					<description>1: Složka vybraná ze seznamu historie (Alt+Šipka dolů) bude přidána na konec seznamu historie (výchozí).
+0: Aktuální pozice v seznamu historie bude přesunuta na vybranou položku.</description>
+				</key>
+				<key name="ReverseHistory" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="6.02">
+					<description>1: Historie navštívených složek bude zobrazena v opačném pořadí (naposledy navštívené složky budou zobrazeny nahoře).</description>
+				</key>
+			</category>
+			<category title="Drive hints">
+				<key name="CDlabel" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.01">
+					<description>Při stisknutí kombinace kláves Alt+F1 nebo Alt+F2 budou u disků CD (a u dalších vyměnitelných disků) zobrazovány názvy (1/0).</description>
+				</key>
+				<key name="tsclient" file="Wincmd.ini" section="Configuration" default="\\tsclient" advanced="Yes" version="7.55">
+					<description>Určuje název vzdáleného hostitele, z něhož mají být zobrazena písmena disků v rozevíracím seznamu disků a na liště s disky. Budou zobrazeny pouze jednoznakové sdílené položky. Zakážete nastavením na prázdný řetězec (tsclient=). Tato možnost se běžně používá pouze pro službu Windows XP Mode v systému Windows 7 a na terminálovém serveru.</description>
+				</key>
+				<key name="A" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive A</description>
+				</key>
+				<key name="B" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive B</description>
+				</key>
+				<key name="C" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive C</description>
+				</key>
+				<key name="D" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive D</description>
+				</key>
+				<key name="E" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive E</description>
+				</key>
+				<key name="F" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive F</description>
+				</key>
+				<key name="G" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive G</description>
+				</key>
+				<key name="H" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive H</description>
+				</key>
+				<key name="I" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive I</description>
+				</key>
+				<key name="J" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive J</description>
+				</key>
+				<key name="K" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive K</description>
+				</key>
+				<key name="L" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive L</description>
+				</key>
+				<key name="M" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive M</description>
+				</key>
+				<key name="N" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive N</description>
+				</key>
+				<key name="O" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive O</description>
+				</key>
+				<key name="P" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive P</description>
+				</key>
+				<key name="Q" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive Q</description>
+				</key>
+				<key name="R" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive R</description>
+				</key>
+				<key name="S" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive S</description>
+				</key>
+				<key name="T" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive T</description>
+				</key>
+				<key name="U" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive U</description>
+				</key>
+				<key name="V" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive V</description>
+				</key>
+				<key name="W" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive W</description>
+				</key>
+				<key name="X" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive X</description>
+				</key>
+				<key name="Y" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive Y</description>
+				</key>
+				<key name="Z" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for drive Z</description>
+				</key>
+				<key name="\" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Hint for Network Neighborhood/FS-plugins
+Note: This hint appears only for drive buttons bar not drive dropdown list.</description>
+				</key>
+			</category>
+			<category title="Icons">
+				<category title="File list">
+					<key name="Showicons" file="Wincmd.ini" section="Configuration" default="2" version="1.10">
+						<description>Budou zobrazovány tyto ikony:
+	0: Bez ikon.
+	1: Standardní ikony.
+	2: Všechny ikony.</description>
+					</key>
+					<key name="ShowEXEandLNKicons" file="Wincmd.ini" section="Configuration" default="2" version="3.00">
+						<description>U souborů EXE a LNK budou zobrazovány tyto ikony:
+	0: Pouze standardní ikony.
+	1: Ikony EXE/LNK (pomalé).
+	2: Stejné jako hodnota 1, ale ne u disket.</description>
+					</key>
+					<key name="ShellExtIcons" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="4.50">
+						<description>1: Budou zobrazovány ikony rozšíření systému (jiná ikona na soubor).
+0: Ikony rozšíření systému nebudou zobrazovány.</description>
+					</key>
+					<key name="IconsOnNet" file="Wincmd.ini" section="Configuration" default="1" version="4.53">
+						<description>Ikony souborů EXE a LNK budou načteny také u síťových disků (1/0).</description>
+					</key>
+					<key name="IconsSpecialFolders" file="Wincmd.ini" section="Configuration" default="3" version="5.50">
+						<description>Povolí nebo zakáže zobrazení ikon zvláštních složek (0=žádné, 1=místní systém souborů, 2=virtuální složky a síť, 3=obojí).</description>
+					</key>
+					<key name="IconOverlays" file="Wincmd.ini" section="Configuration" default="0" version="6.50">
+						<description>Povolí nebo zakáže překryvné ikony, např. malou šipku u zástupců (1/0).</description>
+					</key>
+					<key name="Iconsize32" file="Wincmd.ini" section="[%Screen_Resolution%]" default="16" version="3.00">
+						<description>File list icons size in pixels.</description>
+					</key>
+					<key name="IconLib" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" dialog="Icon Library Preview" version="4.00">
+						<description>Z uvedené knihovny DLL budou načteny všechny standardní ikony pro panely souborů. Ukázkovou knihovnu ICL naleznete na adrese www.ghisler.com.</description>
+					</key>
+					<key name="IconsInThread" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="4.00">
+						<description>Ikony souborů EXE a LNK budou načteny v odděleném podprocesu (1/0).</description>
+					</key>
+					<key name="IconWin95" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" advanced="Yes" version="1.52">
+						<description>If set to 1, use 16 pixels size for file list icons independently of Iconsize32 value.</description>
+					</key>
+				</category>
+				<category title="Drive bar">
+					<key name="DriveLib" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" dialog="Open File" version="6.50">
+						<description>Z uvedené knihovny DLL budou načteny ikony pro tlačítka disků.</description>
+					</key>
+					<key name="OldDriveIcons" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+						<description>1: Pro tlačítkovou lištu s disky budou použity původní ikony disků z programu Total Commander 6.5x.
+0: Budou používány nové ikony disků.</description>
+					</key>
+					<key name="IconsInDriveList" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+						<description>V rozevíracím seznamu disků (Alt+F1, Alt+F2) a v dialogovém okně Jednotka nebyla nalezena budou zobrazovány ikony disků.</description>
+					</key>
+				</category>
+				<category title="Main menu">
+					<key name="IconsInMenus" file="Wincmd.ini" section="Configuration" default="17" dialog="Bits Sum" version="7.00">
+						<description>Umožňuje zobrazit ikony ze souboru wcmicons.dll a wciconex.dll v hlavní nabídce. Je to součet hodnot:
+	1: Ikony v nabídce budou povoleny.
+	2: Ikony budou ohraničeny rámečkem.
+	4: Ikony budou místo rozměru 16×16 pixelů zobrazeny v rozměru 24×24 pixelů.
+	8: Ikony budou zobrazeny v rozměru 32×32 pixelů.
+	4+8: Ikony budou zobrazeny v rozměru 48×48 pixelů (pro obrazovky s velmi vysokým rozlišením).</description>
+					</key>
+				</category>
+			</category>
+			<category title="Font">
+				<category title="File list">
+					<key name="FontName" file="Wincmd.ini" section="[%Screen_Resolution%]" default="Microsoft Sans Serif" dialog="Font" version="1.10">
+						<description>Písmo.</description>
+					</key>
+					<key name="FontSize" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="1.10">
+						<description>Velikost písma.</description>
+					</key>
+					<key name="FontWeight" file="Wincmd.ini" section="[%Screen_Resolution%]" default="700" version="1.30">
+						<description>Řez písma (400=normální, 700=tučné).</description>
+					</key>
+					<key name="FontCharset" file="Wincmd.ini" section="[%Screen_Resolution%]" default="1" version="3.50">
+						<description>Znaková sada písma (západní, cyrilice atd.) pro panel souborů.</description>
+					</key>
+				</category>
+				<category title="Main window">
+					<key name="FontNameWindow" file="Wincmd.ini" section="[%Screen_Resolution%]" default="Microsoft Sans Serif" dialog="Font" version="3.00">
+						<description>Písmo pro ostatní části hlavního okna.</description>
+					</key>
+					<key name="FontSizewindow" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="3.00">
+						<description>Velikost písma pro ostatní části hlavního okna.</description>
+					</key>
+					<key name="FontWeightWindow" file="Wincmd.ini" section="[%Screen_Resolution%]" default="400" version="3.00">
+						<description>Řez písma pro ostatní části hlavního okna.</description>
+					</key>
+					<key name="FontCharsetWindow" file="Wincmd.ini" section="[%Screen_Resolution%]" default="1" version="3.50">
+						<description>Totéž, ale pro písmo hlavního okna.</description>
+					</key>
+				</category>
+				<category title="Dialog boxes">
+					<key name="FontNameDialog" file="Wincmd.ini" section="[%Screen_Resolution%]" default="Microsoft Sans Serif" dialog="Font" version="4.00">
+						<description>Font name.
+Tip: Press &lt;Ctrl+B&gt; to set Font Name, Size, Weight and Charset at once.</description>
+					</key>
+					<key name="FontSizeDialog" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="4.00">
+						<description>Font size.</description>
+					</key>
+					<key name="FontWeightDialog" file="Wincmd.ini" section="[%Screen_Resolution%]" default="400" version="4.00">
+						<description>Font weight:
+	400= Normal.
+	700= Bold.</description>
+					</key>
+					<key name="FontCharsetDialog" file="Wincmd.ini" section="[%Screen_Resolution%]" default="1" version="4.00">
+						<description>Font character set (Western, Cyrillic etc).</description>
+					</key>
+				</category>
+			</category>
+			<category title="Color">
+				<category title="File list">
+					<key name="ForeColor" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="1.10">
+						<description>Barva popředí (-1=výchozí).</description>
+					</key>
+					<key name="BackColor" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="1.10">
+						<description>Barva pozadí (RGB: červená+256*zelená+65536*modrá, každá hodnota v rozsahu 0 až 255).</description>
+					</key>
+					<key name="BackColor2" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="7.00">
+						<description>Background color for all even lines.
+It's recommended to define a color which differs only slighly from the normal background color.
+
+Tip: Press &lt;Ctrl+B&gt; to choose a color.</description>
+					</key>
+					<key name="MarkColor" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="1.61">
+						<description>Barva výběru.</description>
+					</key>
+					<key name="CursorColor" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="1.61">
+						<description>Barva kurzoru.</description>
+					</key>
+					<key name="CursorText" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="2.11">
+						<description>Barva textu kurzoru (pouze pro plný kurzor).</description>
+					</key>
+					<key name="ActiveTitle" file="Wincmd.ini" section="Colors" default="14898176" advanced="Yes" dialog="Color" version="7.55">
+						<description>Barva záhlaví aktivního panelu.</description>
+					</key>
+					<key name="ActiveTitleText" file="Wincmd.ini" section="Colors" default="16777215" advanced="Yes" dialog="Color" version="7.55">
+						<description>Barva textu záhlaví aktivního panelu.</description>
+					</key>
+					<key name="InactiveTitle" file="Wincmd.ini" section="Colors" default="14653050" advanced="Yes" dialog="Color" version="7.55">
+						<description>Barva záhlaví neaktivního panelu.</description>
+					</key>
+					<key name="InactiveTitleText" file="Wincmd.ini" section="Colors" default="16311512" advanced="Yes" dialog="Color" version="7.55">
+						<description>Barva textu záhlaví neaktivního panelu.</description>
+					</key>
+					<key name="ThumbnailFrame" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="6.50">
+						<description>Nastavuje barvu rámečku kolem miniatur. Jedná se o hodnotu RGB nebo:
+	-1: Výchozí.
+	-2: Neviditelný.</description>
+					</key>
+					<key name="TreeLineColor" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="7.00">
+						<description>Nastavuje barvu spojovacích čar u stromu složek v panelech souborů, v samostatných stromech složek, v dialogovém okně se stromem složek (Alt+F10) a u připojení k serveru FTP. Jedná se o hodnotu RGB nebo:
+	-1: Výchozí.
+	-2: Neviditelný.</description>
+					</key>
+					<key name="InverseCursor" file="Wincmd.ini" section="Colors" default="0" version="3.00">
+						<description>Kurzor bude zobrazen jako plná lišta (1).</description>
+					</key>
+					<key name="InverseSelection" file="Wincmd.ini" section="Colors" default="0" version="5.00">
+						<description>Vybrané soubory budou zobrazeny jako plné lišty (1).</description>
+					</key>
+				</category>
+				<category title="Lister">
+					<key name="FgColor" file="Wincmd.ini" section="Lister" default="0" dialog="Color" version="6.00">
+						<description>Barva textu. Standardně je předvolena výchozí barva textu v systému Windows.</description>
+					</key>
+					<key name="BgColor" file="Wincmd.ini" section="Lister" default="16777215" dialog="Color" version="6.00">
+						<description>Barva pozadí. Standardně je předvolena výchozí barva pozadí v systému Windows.</description>
+					</key>
+					<key name="FgSelColor" file="Wincmd.ini" section="Lister" default="16777215" dialog="Color" version="6.00">
+						<description>Barva popředí výběru. Standardně je to barva pozadí.</description>
+					</key>
+					<key name="BgSelColor" file="Wincmd.ini" section="Lister" default="0" dialog="Color" version="6.00">
+						<description>Barva pozadí výběru. Standardně je to barva textu.</description>
+					</key>
+					<key name="LinkColor" file="Wincmd.ini" section="Lister" default="8388608" dialog="Color" version="6.00">
+						<description>Barva odkazů. Standardně je to tmavě modrá (128*65536).</description>
+					</key>
+				</category>
+				<category title="Compare by content">
+					<key name="CompareText" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="4.11">
+						<description> Porovnání souborů, textový režim: Barva rozdílů.</description>
+					</key>
+					<key name="CompareTextSel" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="4.11">
+						<description>Totéž, ale pro vybraný text.</description>
+					</key>
+					<key name="CompareBinary" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="4.11">
+						<description>Porovnání souborů, binární režim: Barva rozdílů.</description>
+					</key>
+					<key name="CompareBinarySel" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="4.11">
+						<description>Totéž, ale pro vybraný text.</description>
+					</key>
+					<key name="CompareDifferenceBack" file="Wincmd.ini" section="Colors" default="-2" advanced="Yes" dialog="Color" version="7.55">
+						<description>Barva pozadí pro řádky s rozdíly:
+	-1: stejná barva jako u řádků bez rozdílů
+	-2: mírně tmavší nebo světlejší (podle barvy pozadí)
+	jiná: hodnota RGB</description>
+					</key>
+					<key name="CompareNormalBack" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="7.55">
+						<description>Barva pozadí pro řádky bez rozdílů.
+-1: výchozí: COLOR_WINDOW</description>
+					</key>
+					<key name="CompareNormalText" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="7.55">
+						<description>Barva textu pro řádky bez rozdílů.
+-1: výchozí: COLOR_WINDOWTEXT</description>
+					</key>
+					<key name="CompareSelBack" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="7.55">
+						<description>Barva pozadí vybraného textu.
+-1: výchozí: COLOR_HIGHLIGHT</description>
+					</key>
+					<key name="CompareSelText" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="7.55">
+						<description>Barva vybraného textu.
+-1: výchozí: COLOR_HIGHLIGHTTEXT</description>
+					</key>
+				</category>
+				<category title="File types">
+					<key name="ColorFilters" file="Wincmd.ini" section="Configuration" default="1" version="4.50">
+						<description>Bude povoleno nebo zakázáno barevné zvýraznění podle typu souborů.</description>
+					</key>
+					<key name="ColorFilter1" file="Wincmd.ini" section="Colors" default="*.exe" version="4.50">
+						<description>Define file type e.g *.exe
+also you can defined many file types at the same filter e.g. *.exe; *.com; *.bat; *.cmd
+
+				IMPORTANT:
+				===========
+These keys must be in sequence, that is don't set (ColorFilter4 &amp; ColorFilter4Color) before you set the previous (ColorFilter1 &amp; ColorFilter1Color), (ColorFilter2 &amp; ColorFilter2Color) and (ColorFilter3 &amp; ColorFilter3Color).
+Also, the key 'ColorFilters' must set to 1 in order to apply color filter settings.
+
+This category contain only 25 predefined values, if you need more, open this data file in Notepad and add up to ColorFilter250 &amp; ColorFilter250Color value under [File types] category.</description>
+					</key>
+					<key name="ColorFilter1Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter2" file="Wincmd.ini" section="Colors" default="*.dll" version="4.50">
+						<description>Define file type e.g *.dll.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter2Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter3" file="Wincmd.ini" section="Colors" default="*.zip" version="4.50">
+						<description>Define file type e.g *.zip
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter3Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color
+
+See important note in the descriptions of (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter4" file="Wincmd.ini" section="Colors" default="*.rar" version="4.50">
+						<description>Define file type e.g *.rar.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter4Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter5" file="Wincmd.ini" section="Colors" default="*.txt" version="4.50">
+						<description>Define file type e.g *.txt.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter5Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter6" file="Wincmd.ini" section="Colors" default="*.ini" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter6Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter7" file="Wincmd.ini" section="Colors" default="*.bmp" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter7Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter8" file="Wincmd.ini" section="Colors" default="*.jpg" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter8Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter9" file="Wincmd.ini" section="Colors" default="*.gif" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter9Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter10" file="Wincmd.ini" section="Colors" default="*.tif" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter10Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter11" file="Wincmd.ini" section="Colors" default="*.ico" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter11Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter12" file="Wincmd.ini" section="Colors" default="*.icl" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter12Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter13" file="Wincmd.ini" section="Colors" default="*.avi" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter13Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter14" file="Wincmd.ini" section="Colors" default="*.mpg" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter14Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter15" file="Wincmd.ini" section="Colors" default="*.mpeg" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter15Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter16" file="Wincmd.ini" section="Colors" default="*.wmv" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter16Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter17" file="Wincmd.ini" section="Colors" default="*.asf" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter17Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter18" file="Wincmd.ini" section="Colors" default="*.mp3" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter18Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter19" file="Wincmd.ini" section="Colors" default="*.wav" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter19Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter20" file="Wincmd.ini" section="Colors" default="*.mid" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter20Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter21" file="Wincmd.ini" section="Colors" default="*.htm" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter21Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter22" file="Wincmd.ini" section="Colors" default="*.html" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter22Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter23" file="Wincmd.ini" section="Colors" default="*.mht" version="4.50">
+						<description>Define file type
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter23Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter24" file="Wincmd.ini" section="Colors" default="*.doc" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter24Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter25" file="Wincmd.ini" section="Colors" default="*.*" version="4.50">
+						<description>Define file type.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+					<key name="ColorFilter25Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Press &lt;Ctrl+B&gt; to choose color.
+
+See important note in the descriptions of (ColorFilter1).</description>
+					</key>
+				</category>
+			</category>
+			<category title="Language">
+				<key name="LanguageIni" file="Wincmd.ini" section="Configuration" default="lng_file" dialog="Open File" version="3.00">
+					<description>Soubor jazyka (WCMD_CZ.LNG atd.), který bude používán.</description>
+				</key>
+				<key name="Mainmenu" file="Wincmd.ini" section="Configuration" default="path\mnu_file" dialog="Open File" version="1.30">
+					<description>Obsahuje umístění a název souboru vlastní hlavní nabídky.</description>
+				</key>
+			</category>
+		</category>
+		<category title="Operation">
+			<category title="Main program">
+				<key name="OnlyOnce" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="2.00">
+					<description>1: Bude spuštěna pouze jedna instance programu Total Commander na uživatele (např. spuštění pomocí příkazu RunAs).
+-1: V tomto počítači bude spuštěna pouze jedna instance programu Total Commander (pro všechny uživatele).
+x&gt;0: Totéž jako hodnota 1, ale na jednoho uživatele je povoleno více instancí.
+x&lt;0: Totéž jako hodnota -1, ale v tomto počítači bude povoleno více instancí (všichni uživatelé dohromady).</description>
+				</key>
+				<key name="ActiveRight" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="4.50">
+					<description>1: Pravý panel bude při spuštění programu Total Commander aktivní (1/0).</description>
+				</key>
+				<key name="TrayIcon" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>Při minimalizaci bude ikona programu Total Commander přemístěna do oznamovací oblasti hlavního panelu (1/0).</description>
+				</key>
+				<key name="UseIniInProgramDir" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Bits Sum" version="6.50">
+					<description>Tato položka bude načtena, pouze pokud bude soubor wincmd.ini umístěn ve stejné složce jako program Total Commander. Musí být umístěna přímo v souboru wincmd.ini, položka RedirectSection nemá na tuto položku vliv.
+Je to součet následujících hodnot: 
+	1: Pokud nebude nastaveno jiné umístění pomocí registru nebo parametrů, bude použit soubor wincmd.ini ve složce programu.
+	2: Pokud nebude nastaveno jiné umístění pomocí registru nebo parametrů, bude použit soubor wcx_ftp.ini ve složce programu.
+	4: Nastavení v registru bude přepsáno (parametry příkazového řádku ale přepsány nebudou).</description>
+				</key>
+				<key name="ResolutionSpecific" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>0: Informace o rozlišení, např. styl a velikost písma, budou uloženy v samostatné části s názvem [AllResolutions].
+1: Informace o rozlišení budou uloženy v částech jako [1024×768 (10×20)].</description>
+				</key>
+				<key name="KeyPath" file="Wincmd.ini" section="Configuration" default="%COMMANDER_PATH%" advanced="Yes" dialog="Open Folder" version="3.02">
+					<description>Cesta k registračnímu klíči (BEZ názvu souboru). Program Total Commander hledá klíč standardně ve vlastní složce. Je to užitečné, pokud klíč nelze načíst z místní sítě.
+Pomocí hodnoty KeyPath=$ bude klíč hledán v registru (binární hodnota "key" v podklíči "Software/Ghisler/Total Commander").</description>
+				</key>
+				<key name="InstallDir" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" dialog="Open Folder" version="4.00">
+					<description>Poslední instalační složka programu Total Commander (totéž jako v registru).</description>
+				</key>
+				<key name="Version" file="Wincmd.ini" section="Configuration" default="7.01" advanced="Yes" version="1.30">
+					<description>Verze programu Total Commander (není vždy změněna).</description>
+				</key>
+				<key name="StartupScreen" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.50">
+					<description>Úvodní obrazovka při spouštění programu Total Commander bude povolena nebo zakázána (1/0).</description>
+				</key>
+			</category>
+			<category title="Edit/View">
+				<category title="General">
+					<key name="Viewer" file="Wincmd.ini" section="Configuration" default="none" dialog="Open File" version="1.10">
+						<description>Výchozí prohlížeč pro kombinaci kláves Alt+F3 nebo hodnota none (žádný).</description>
+					</key>
+					<key name="Editor" file="Wincmd.ini" section="Configuration" default="notepad.exe" dialog="Open File" version="1.10">
+						<description>Výchozí editor pro klávesu F4.</description>
+					</key>
+					<key name="Viewertype" file="Wincmd.ini" section="Configuration" default="1" version="1.10">
+						<description>0: V interním prohlížeči bude otevřen aktuální soubor.
+1: V interním prohlížeči budou otevřeny vybrané soubory.
+2: Bude spuštěn externí prohlížeč.</description>
+					</key>
+					<key name="EditWaitTime" file="Wincmd.ini" section="Configuration" default="2" advanced="Yes" version="7.00">
+						<description>Časový limit při úpravě souborů otevřených z archivu nebo serveru FTP. Pokud bude editor během této doby (sekundy) uzavřen, bude předpokládáno, že se jedná o editor více dokumentů a bude zobrazeno dialogové okno, kde můžete potvrdit ukončení úprav. Nastavením na hodnotu 0 tuto funkci zakážete. Při nastavení na hodnotu -1 nebude toto dialogové okno vůbec zobrazeno (např. při předávání souboru pomocí DDE do přidruženého programu).</description>
+					</key>
+					<key name="WmfAllowed" file="Wincmd.ini" section="Configuration" default="-1" advanced="Yes" version="6.50">
+						<description>0: Zobrazování souborů WMF bude zakázáno. Zakáže také zobrazení miniatur všech složek. 
+1: Zobrazování obrázků WMF (metasoubory systému Windows) bude povoleno v prohlížeči Lister a v miniaturách.
+2: Zobrazování miniatur bude povoleno u složek (které mohou obsahovat soubory WMF).
+3: Budou zobrazovány soubory WMF a miniatury složek. 
+-1: Pokud bude nainstalována oprava systému Windows, budou miniatury složek povoleny. Soubory WMF NEBUDOU zobrazeny, musí být povoleny ručně. 
+Soubory WMF byly standardně zakázány kvůli kritické chybě v zabezpečení systému Windows.</description>
+					</key>
+				</category>
+				<section title="Extensions" name="Extensions" file="Wincmd.ini" version="1.30">
+					<description>Přidružení pro kombinaci kláves Alt+F3.</description>
+				</section>
+				<section title="Internal Associations" name="Associations" file="Wincmd.ini" version="7.50">
+					<description>Umožňuje přepsat přidružení souborů operačního systému pouze v programu Total Commander, především při používání programu z klíčenky USB. 
+Filter1=*.txt První filtr přidružení definovaný uživatelem. Filtry budou používány v číselném pořadí, dokud nebude nalezena shoda. 
+Filter1_open=""%windir%\notepad.exe" "%1"" Výchozí sloveso (zde open – otevřít) pro tento filtr, který bude použit při stisknutí klávesy Enter. Slovesa jsou od filtru oddělena podtržítkem _. 
+Filter1_View=""%commander_path%\totalcmd.exe" /S=L "%1"" Další sloveso (zde View – zobrazit), které bude zobrazeno v místní nabídce po stisknutí pravého tlačítka myši. 
+Filter1.icon=notepad.exe,-1 Určuje ikonu pro první filtr. Záporná čísla znamenají index ikony, kladná pak číslo v úložišti ikon. 
+Filter2=*.ini
+etc. Druhý filtr definovaný uživatelem. 
+
+Examples:
+----------------
+	Filter1=*.txt
+	Filter1_open=" "%windir%\notepad.exe" "%1" "
+	Filter1_View=""%commander_path%\totalcmd.exe" /S=L "%1""
+	Filter1.icon=notepad.exe,-1
+
+	Filter2=*.bmp
+	Filter2_open=" "%windir%\system32\mspaint.exe" "%1" "
+	Filter2_View=""%commander_path%\totalcmd.exe" /S=L "%1""
+	Filter2.icon=%windir%\system32\mspaint.exe,-1</description>
+				</section>
+			</category>
+			<category title="Copy">
+				<key name="AlwaysCopyInBackground" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="4.00">
+					<description>1: Program Total Commander bude vždy kopírovat na pozadí.
+2: Vždy bude používán správce přenosů na pozadí.</description>
+				</key>
+				<key name="CopyDefaultMethod" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>V systémech založených na technologii NT bude vždy používána výchozí metoda kopírování (momentálně je to režim kompatibility).</description>
+				</key>
+				<key name="CopyBlockSize" file="Wincmd.ini" section="Configuration" default="32" version="4.52">
+					<description>Nastavení velikosti bloku pro kopírování (kilobajty; 1 kB=1024 bajtů). Výchozí a minimální velikost je 32 kB (tj. 32768 bajtů).</description>
+				</key>
+				<key name="CopyBlockSizeOther" file="Wincmd.ini" section="Configuration" default="32" version="5.00">
+					<description>Nastavení velikosti bloku pro kopírování mezi jednotkami na různých fyzických discích. Při kopírování mezi různými disky je lepší použít menší velikost bloku, protože oba disky mohou číst i zapisovat současně. Jeden disk musí během kopírování přeskakovat mezi zdrojovým a cílovým souborem, proto je lepší velká velikost bloku.</description>
+				</key>
+				<key name="CopyHugeBlockSize" file="Wincmd.ini" section="Configuration" default="10240" version="5.00">
+					<description>Nastavení velikosti bloku při kopírování velmi velkých souborů. Soubory budou načítány a zapisovány přímo, bez využití vyrovnávací paměti. Minimální velikost je 10 MB. Tímto způsobem budou kopírovány pouze soubory větší než tato velikost bloku. Pro menší soubory bude použita funkce CopyBlockSize. Pokud tato položka není v souboru INI uvedena, bude tato funkce standardně vypnuta.</description>
+				</key>
+				<key name="CopyHugeBlockSizeOther" file="Wincmd.ini" section="Configuration" default="32" version="5.00">
+					<description>Nastavení velikosti bloku při kopírování velmi velkých souborů mezi různými disky. Minimální velikost je 256 kB. 
+Doporučené hodnoty (ostatní hodnoty je třeba vyzkoušet): 
+	CopyBlockSize=1024 
+	CopyHugeBlockSize=10240 
+	CopyBlockSizeOther=128 
+	CopyHugeBlockSizeOther=32</description>
+				</key>
+				<key name="UsbBufSize" file="Wincmd.ini" section="Configuration" default="-1" advanced="Yes" version="7.55">
+					<description>Velikost mezipaměti (v kilobajtech) pro spojení přes port USB (-1=maximální možná velikost, momentálně 64 kB).</description>
+				</key>
+				<key name="SamePartitions" file="Wincmd.ini" section="Configuration" default="drives,drives" version="5.00">
+					<description>Umožňuje nastavit, které logické jednotky (oddíly) patří ke stejnému pevnému disku. Příklad: Máte dva pevné disky, jeden s jednotkami C, E a F a druhý s jednotkami D, G a H. Položka pak musí být SamePartitions=CEF,DGH.
+Při kopírování mezi jednotkami E a F (stejný fyzický disk) budou použity hodnoty prvních dvou položek, při kopírování mezi jednotkami C a D (různé disky) pak hodnoty položek, které mají v názvu slovo 'Other'.</description>
+				</key>
+				<key name="CopyCompatDrives" file="Wincmd.ini" section="Configuration" default="drives" version="6.00">
+					<description>Disky, ze kterých nebo na které bude program Total Commander kopírovat v režimu kompatibility. Doporučeno pro klíčenky USB a pro zvláštní disky, u nichž běžné kopírování způsobuje problémy. \ = Místa v síti, * = Všechny disky. Tento režim není funkční v systému Windows 9x/ME.</description>
+				</key>
+				<key name="CopyCompatUsbSticks" file="Wincmd.ini" section="Configuration" default="1" version="7.00">
+					<description>Pro klíčenky USB bude používán režim kompatibility.</description>
+				</key>
+				<key name="ExplorerForCopy" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>Pro klávesy F5 a F6 bude používána vestavěná funkce kopírování (flexibilnější) nebo funkce programu Průzkumník (kopírování a vložení) (0/1).</description>
+				</key>
+				<key name="UseFastCtrlC" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.55a">
+					<description>Když stisknete kombinaci kláves Ctrl+C nebo Ctrl+X, načte se místní nabídka a zvolí se položka 'Kopírovat' nebo 'Vyjmout' (místní nabídka nebude ve skutečnosti zobrazena).
+1: Místní nabídka bude načtena bez jakýchkoli rozšíření prostředí (je to velmi rychlé, ale nelze použít žádná rozšíření pro kopírování v Průzkumníkovi).
+0: Bude načtena celá místní nabídka jako při kliknutí pravým tlačítkem myši (je to pomalejší, ale je možné použít rozšíření pro kopírování).</description>
+				</key>
+				<key name="CopyDirTimeStamp" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>Bude kopírován časový údaj složek.</description>
+				</key>
+				<key name="SizeCheck" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.00">
+					<description>Před kopírováním bude ověřeno, zda je na cílovém disku dostatek volného prostoru.</description>
+				</key>
+				<key name="UseFindForTime" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.50">
+					<description>Při kopírování bude k získání času souboru místo funkce GetFileTime použita funkce FindFirstFile (1/0).</description>
+				</key>
+				<key name="XPMoveMethod" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="5.50">
+					<description>1: Při přesouvání souborů v rámci disku budou použita práva cílové složky.
+2: Jako hodnota 1, ale při přesouvání složek budou všechny soubory a podsložky v nich také změněny na cílová práva.
+0: Práva souborů budou zachována.
+V systému Windows XP je výchozí hodnota 1, v ostatních systémech hodnota 0.</description>
+				</key>
+				<key name="XPMoveMethodAdmin" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.04">
+					<description>Totéž jako položka XPMoveMethod, ale je určena pro přesouvání pomocí možnosti Jako správce prostřednictvím programu tcmadmin.exe.
+Výchozí je vždy hodnota 1.</description>
+				</key>
+				<key name="CountMarked" file="Wincmd.ini" section="Configuration" default="1" version="2.11">
+					<description>1: Před kopírováním a odstraňováním budou spočteny soubory v podsložkách, aby mohla být zobrazena druhá (procentuální) lišta průběhu.
+0: Soubory nebudou počítány (rychlejší).</description>
+				</key>
+				<key name="CopyStreams" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="5.51">
+					<description>1: Budou kopírovány datové proudy NTFS.
+0: Datové proudy NTFS budou ignorovány.</description>
+				</key>
+				<key name="VersionInOverwrite" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.50">
+					<description>V dialogovém okně přepsání budou zobrazovány informace o verzi souboru. U pomalých sítí nastavte na hodnotu 0.</description>
+				</key>
+				<key name="CustomFieldsInDlg" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>V dialogovém okně přepsání budou zobrazena vlastní pole (např. [tc.comment]).</description>
+				</key>
+				<key name="CopyToDirWarn" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>1: Pokud při kopírování (klávesa F5) jako cíl pro soubor uvedete již existující název složky, bude zobrazeno upozornění.</description>
+				</key>
+				<key name="MoveToDirWarn" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>1: Pokud u funkcí přesunutí (F6) nebo přejmenování v řádku (Shift+F6) jako cíl souboru uvedete název složky, která již existuje, bude zobrazeno upozornění.</description>
+				</key>
+				<key name="LongNameCopy" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.55">
+					<description>Během operací se soubory se zobrazí upozornění, pokud bude cílový název delší než 259 znaků:
+	0: Vždy
+	1: Nikdy
+	2: Pokud zdrojový název není delší než 259 znaků</description>
+				</key>
+				<key name="ESCcheck" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>Před kopírováním bude ověřeno, zda není klávesa Esc ve stavu stisknuto (čímž by došlo ke zrušení operace kopírování).</description>
+				</key>
+				<key name="ShowCopyOptions" file="Wincmd.ini" section="Configuration" default="0" version="7.55">
+					<description>1: Rozšířené možnosti dialogu kopírování (F5) budou zobrazovány trvale (budou připnuty).</description>
+				</key>
+			</category>
+			<category title="Rename">
+				<key name="RenameSelOnlyName" file="Wincmd.ini" section="Configuration" default="0" version="6.02">
+					<description>U přejmenování v řádku bude vybrán pouze název bez přípony (1) nebo název včetně přípony (0).</description>
+				</key>
+				<key name="InplaceRename" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.50">
+					<description>Při dvojitém kliknutí na název souboru bude povoleno nebo zakázáno přejmenování v řádku (1/0).</description>
+				</key>
+				<key name="InplaceRenamePath" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="5.51">
+					<description>Změna aktuální cesty v záhlaví panelu souborů bude povolena (1) nebo zakázána (0). Pokud je uvedena hodnota InplaceRename, bude brána jako výchozí, v opačném případě bude hodnota 1.
+2: Přejmenování cesty v záhlaví bude zakázáno, ale rychlá změna složky kliknutím (bez nutnosti stisknutí klávesy Shift) bude umožněna. </description>
+				</key>
+				<key name="SetArchiveBitOnRename" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="5.51">
+					<description>Při přejmenovávání souborů bude standardně nastavován archivní bit. Pokud nastavíte na hodnotu 0, nastavován nebude.</description>
+				</key>
+				<key name="MultiRenameEdit" file="Wincmd.ini" section="Configuration" default="path" dialog="Open File" version="7.00">
+					<description>Editor, který bude v hromadném přejmenování používán k ruční úpravě nových názvů.</description>
+				</key>
+				<key name="RenameEditUnicode" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.55a">
+					<description>Jedná se o nastavení nástroje hromadného přejmenování: Upravit názvy
+0: Textový soubor bude uložen jako text ANSI (prostý text), kromě případu, kdy vybrané názvy obsahují znaky Unicode z jiných znakových stránek (např. cyrilice, když je výchozí angličtina).
+1: Textový soubor bude vždy uložen v kódu Unicode. Je to užitečné např. tehdy, když chcete změnit anglické názvy souborů na ruské.</description>
+				</key>
+				<key name="MultiRenameLoadSettings" file="Wincmd.ini" section="Configuration" default="saved_name" advanced="Yes" version="7.55">
+					<description>Určuje, s jakým nastavením se bude nástroj hromadného přejmenování spouštět:
+(Bez názvu): Nástroj bude spuštěn s naposledy použitým nastavením (při ukončení programu nebude zapamatováno).
+Název: Bude načteno nastavení, které bylo uloženo pod uvedeným názvem.
+Neznámý název: Nástroj bude spuštěn s výchozím nastavením.</description>
+				</key>
+			</category>
+			<category title="Delete">
+				<key name="Win95Delete" file="Wincmd.ini" section="Configuration" default="-1" advanced="Yes" version="3.02">
+					<description>Určuje metodu odstraňování, která je používána programem Total Commander: 
+	0: K odstraňování souborů bude používána vlastní funkce programu Total Commander (většina možností nastavení). 
+	1: K odstraňování souborů bude používána metoda programu Průzkumník.
+	-1 (výchozí): Pokud bude spuštěn program Cleansweep, bude používána metoda programu Průzkumník, aby se předešlo zhroucení systému (je způsobena nekompatibilitou mezi programem Cleansweep a metodou odstraňování v programu Total Commander). Pokud program Cleansweep nebude spuštěn, bude použita vlastní funkce programu Total Commander.</description>
+				</key>
+				<key name="VistaDelete" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.50">
+					<description>Pokud nastavíte na hodnotu 1, bude k odstranění souborů do složky Koš použita nová metoda systému Windows Vista a novějších verzí. Místo jednotlivých souborů budou do složky Koš přesunuty celé složky. Upozornění: Tato metoda nebude upozorňovat (stejně jako program Průzkumník) na soubory jen pro čtení, na skryté a systémové soubory ani na složky, které nebudou prázdné. Nepoužívejte ji, pokud jste u některých disků ručně zakázali používání složky Koš.</description>
+				</key>
+				<key name="UseTrash" file="Wincmd.ini" section="Configuration" default="1" version="2.11">
+					<description>Pokud bude složka Koš k dispozici a povolena, bude používána.</description>
+				</key>
+				<key name="DeleteDelay" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.02">
+					<description>Po odstranění souboru do složky Koš bude program Total Commander čekat uvedenou dobu (milisekundy). Pokud dochází k nestabilitě systému, je-li spuštěn program Cleansweep pro systém Windows, zkuste tuto hodnotu zvýšit (výchozí je hodnota 0).</description>
+				</key>
+			</category>
+			<category title="Refresh">
+				<key name="NoReread" file="Wincmd.ini" section="Configuration" default="AB\" version="2.00">
+					<description>Tyto disky nebudou znovu načítány. Zpětné lomítko \ znamená 'Místa v síti', lomítko / doplňky systému souborů a dvojtečka představuje virtuální složky (např. Plocha).</description>
+				</key>
+				<key name="NoReread2" file="Wincmd.ini" section="Configuration" default="AB\" version="6.52">
+					<description>při ukončení a opětovném spuštění programu Total Commander nebudou tyto disky znovu načítány. Pokud položka Noreread2 není uvedena, bude použit obsah položky Noreread=, což představuje stejnou funkci jako ve verzích programu Total Commander starších než 6.52. Příklad: 
+Položky Noreread=ABC\ a Noreread2=AB\ znamenají, že diskety, disk C ani síť nebudou automaticky znovu načítány, ale při ukončení a opětovném spuštění programu Total Commander budou zapamatovány složky na disku C.</description>
+				</key>
+				<key name="WatchDirs" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Bits Sum" version="6.52">
+					<description>Řídí funkci automatických aktualizací seznamu složek. Tato funkce zjistí, pokud nějakým jiným programem než Total Commander dojde k přidání, změně nebo odstranění souborů, které jsou zobrazeny v aktivním panelu souborů.
+Stačí sečíst následující hodnoty: 
+1: Tato položka bude povolena (standardně je zakázána). 
+2: Budou zjišťovány také změny velikosti, data a atributů. 
+4: Nově přidané soubory budou umístěny na KONEC seznamu souborů (standardně budou seřazeny).
+8: Pokud program Total Commander nebude v popředí, nebude na aktualizace reagovat. 
+16: Bude aktualizováno zápatí (celkový počet souborů). Upozornění: U velkých složek může tato funkce trvat dlouho! 
+32: Bude aktualizováno záhlaví (volný prostor na disku). Upozornění: U velkých pevných disků může tato funkce trvat dlouho! 
+256: Při každé automatické aktualizaci zazní zvukový signál (užitečné při ladění).</description>
+				</key>
+				<key name="WatchDirsExclude" file="Wincmd.ini" section="Configuration" default="Drives" version="6.52">
+					<description>Při povolené položce WatchDirs nebudou sledovány změny na uvedených discích. 
+Je to užitečné např. k vypnutí automatické aktualizace u pomalých disků.</description>
+				</key>
+				<key name="UpdateEnv" file="Wincmd.ini" section="Configuration" default="3" advanced="Yes" dialog="Bits Sum" version="7.02">
+					<description>Řídí, zda mají být proměnné prostředí systému převáděny do programu Total Commander ihned po jejich změně v systému. Jedná se o součet:
+1: Povolí nebo zakáže tuto funkci.
+2: Budou přidávány i nové proměnné prostředí (nejen změněné proměnné budou aktualizovány).</description>
+				</key>
+			</category>
+			<category title="Quick search">
+				<key name="AltSearch" file="Wincmd.ini" section="Configuration" default="0" version="1.61">
+					<description>Rychlé hledání pomocí:
+	0: kombinace kláves Ctrl+Alt
+	1: klávesy Alt
+	2: pouze písmena, 3: písmeno se zobrazením editačního okna
+	4: zakázáno</description>
+				</key>
+				<key name="QuickSearchMatchBeginning" file="Wincmd.ini" section="Configuration" default="1" version="7.00">
+					<description>0: Hledaný řetězec např. win bude považován za zápis *win.
+1: Přesná shoda: Zadáním win bude vyhledán pouze soubor win.ini, ale soubor otherwin.ini nalezen nebude.</description>
+				</key>
+				<key name="QuickSearchExactMatch" file="Wincmd.ini" section="Configuration" default="0" version="6.50">
+					<description>0: Zápis tečky bude považován za zápis *., zadáním win.i bude vyhledán také soubor wincmd.ini.
+1: Přesná shoda: Zadáním win.i bude vyhledán pouze soubor win.ini, ale soubor wincmd.ini nalezen nebude.</description>
+				</key>
+				<key name="QuickSearchAutoFilter" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.50">
+					<description>0: Automatický filtr rychlého hledání (Ctrl+S) bude zakázán.
+1: Automatický filtr rychlého hledání (Ctrl+S) bude povolen.
+-1: Jako hodnota 0, ale při ukončení programu Total Commander nebude ukládán stav (filtr bude při spuštění vždy zakázán).
+2: Jako hodnota 1, ale stav také nebude ukládán (filtr bude při spuštění programu Total Commander vždy povolen).</description>
+				</key>
+				<key name="tcmatch" file="Wincmd.ini" section="Configuration" default="%Commander_Path%\tcmatch.dll" advanced="Yes" dialog="Open File" version="7.50">
+					<description>Ruční nastavení umístění souboru TCMATCH.DLL. Je třeba uvést úplnou cestu i název souboru, v nichž můžete použít proměnné prostředí. Soubor TCMATCH.DLL je používán pro vlastní rychlé hledání, např. pro čínské znaky.</description>
+				</key>
+			</category>
+			<category title="Auto complete">
+				<key name="AutoComplete" file="Wincmd.ini" section="Configuration" default="3" dialog="Bits Sum" version="7.00">
+					<description>Kombinace (součet) následujících možností: 
+	1: Rozevírací seznam bude zobrazován s automatickým doplňováním.
+	2: Aktuální navrhovaný název bude přidáván automaticky.</description>
+				</key>
+				<key name="AutoCompleteTab" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>0: Klávesou Tabulátor přepnete na aktivní panel souborů.
+1: Z automatického doplňování bude vybrán další soubor, a pokud nebude co doplnit, bude fungovat jako hodnota 0.
+2: Z automatického doplňování bude vybrán další soubor, a pokud nebude co doplnit, bude klávesa Tabulátor ignorována.</description>
+				</key>
+			</category>
+			<category title="Comments">
+				<key name="CopyComments" file="Wincmd.ini" section="Configuration" default="6" dialog="Bits Sum" version="5.50">
+					<description>Kombinace (součet) následujících příznaků: 
+	1: Výchozí typ komentářů bude soubor files.bbs.
+	2: Výchozí typ komentářů bude soubor descript.ion.
+	4: Komentáře budou načítány z obou typů.
+	8: Budou kopírovány komentáře patřící k souborům. Samotné soubory komentářů budou vynechány.
+	16: Pro soubor descript.ion bude použita znaková sada systému DOS (soubor files.bbs vždy používá znakovou sadu systému DOS). 
+Poznámka: Pokud nastavíte hodnotu 1 i 2, bude mít přednost hodnota 2.</description>
+				</key>
+				<key name="CmtOemFont" file="Wincmd.ini" section="Configuration" default="0" version="5.50">
+					<description>V souborech descript.ion bude používána znaková sada OEM (DOS) (doporučeno, pouze pokud používáte nástroj 4DOS nebo 4NT).</description>
+				</key>
+			</category>
+			<category title="Thumbnails">
+				<key name="ThumbsLocation" file="Wincmd.ini" section="Configuration" default="%$LOCAL_APPDATA%\GHISLER" dialog="Open Folder" version="6.50">
+					<description>Umístění mezipaměti miniatur.</description>
+				</key>
+				<key name="ThumbsCopyDel" file="Wincmd.ini" section="Configuration" default="1" version="6.50">
+					<description>Při kopírování a odstraňování souborů budou miniatury kopírovány a odstraňovány spolu s nimi.</description>
+				</key>
+				<key name="ThumbsCustomField" file="Wincmd.ini" section="Configuration" default="[field_contents]" version="7.00">
+					<description>Vlastní pole, která budou zobrazena pod miniaturami.</description>
+				</key>
+				<key name="ThumbsCustomFieldsEnabled" file="Wincmd.ini" section="Configuration" default="1" version="6.50">
+					<description>Pod miniaturami budou zobrazována vlastní pole.</description>
+				</key>
+				<key name="ThumbWidthNoCache" file="Wincmd.ini" section="Configuration" default="96" version="6.50">
+					<description>Šířka miniatur, pokud pro miniatury není používána mezipaměť.</description>
+				</key>
+				<key name="ThumbHeightNoCache" file="Wincmd.ini" section="Configuration" default="96" version="6.50">
+					<description>Výška miniatur, pokud není pro miniatury používána mezipaměť.</description>
+				</key>
+				<key name="ThumbExplTypes" file="Wincmd.ini" section="Configuration" default="*.* | *.htm *.html" version="6.50">
+					<description>Zástupné znaky pro miniatury, které budou extrahovány pomocí metody programu Průzkumník. Soubory HTML budou z bezpečnostních důvodů vyloučeny (budou extrahovány pomocí aplikace Internet Explorer).</description>
+				</key>
+				<key name="ThumbPlgTypes" file="Wincmd.ini" section="Configuration" default="*.*" version="6.50">
+					<description>Zástupné znaky pro miniatury, které budou extrahovány pomocí doplňků prohlížeče Lister.</description>
+				</key>
+				<key name="ThumbIrfXnTypes" file="Wincmd.ini" section="Configuration" default="*.*" version="6.50">
+					<description>Zástupné znaky pro miniatury, které budou extrahovány pomocí programu IrfanView nebo XnView.</description>
+				</key>
+				<key name="ThumbTxtTypes" file="Wincmd.ini" section="Configuration" default="*.txt *.ini" version="6.50">
+					<description>Zástupné znaky pro miniatury, které budou extrahovány jako prostý text.</description>
+				</key>
+				<key name="ThumbOptions" file="Wincmd.ini" section="Configuration" default="15" dialog="Bits Sum" version="6.50">
+					<description>Součet následujících hodnot:
+	1: Miniatury budou extrahovány pomocí metody programu Průzkumník.
+	2: Miniatury budou extrahovány pomocí doplňků prohlížeče Lister.
+	4: Miniatury budou extrahovány pomocí programu IrfanView nebo XnView (cesta je nastavena v prohlížeči Lister).
+	8: Miniatury budou extrahovány jako prostý text.</description>
+				</key>
+				<key name="ThumbnailMemoryLimit" file="Wincmd.ini" section="Configuration" default="500" advanced="Yes" version="6.50">
+					<description>Udává počet miniatur na panel, které budou uchovávány v paměti (standardní počet je 200 v systému Windows 9x, 500 v systému Windows NT/2000/XP, minimální počet je 100).</description>
+				</key>
+				<key name="ThumbnailPrealloc" file="Wincmd.ini" section="Configuration" default="100000" advanced="Yes" version="6.50">
+					<description>Nastavuje počet předběžně přidělených bajtů při vytváření databáze miniatur, aby se předešlo fragmentaci. Databáze miniatur je složený dokument OLE podobný souboru DOC z aplikace Word. Bez předběžného přidělení paměti v době vytváření by takové soubory byly značně fragmentovány, především na discích NTFS.</description>
+				</key>
+				<key name="PreloadThumbnails" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.50">
+					<description>1: Miniatury obrázků budou načteny už při otevírání složky a ne pouze při přemístění kurzoru na daný řádek.
+2: Stejné jako hodnota 1, ale týká se také zobrazení souborů z podsložek (rozvětvené zobrazení).
+3: Předběžně načteny budou jen další dva řádky pod viditelnými miniaturami.
+0: Bude zakázáno a miniatury budou načteny pouze při viditelném zobrazení v panelu.</description>
+				</key>
+				<key name="ThumbsInDlg" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>V dialogovém okně přepsání budou zobrazovány miniatury.</description>
+				</key>
+			</category>
+			<category title="Log file">
+				<key name="LogFile" file="Wincmd.ini" section="Configuration" default="%TEMP%\totalcmd.log" dialog="Open File" version="7.00">
+					<description>Název souboru protokolu, do něhož budou zaznamenávány operace se soubory (kromě protokolu FTP).</description>
+				</key>
+				<key name="LogOptions" file="Wincmd.ini" section="Configuration" default="7198" dialog="Bits Sum" version="7.00">
+					<description>Určuje, které operace mají být zaznamenávány. Je to součet:
+	1: Funkce je povolena.
+	2: Zaznamenávat kopírování, přesouvání a vytváření zástupců.
+	4: Zaznamenávat odstraňování souborů.
+	8: Zaznamenávat vytváření a odstraňování složek.
+	16: Zaznamenávat operace s archivy.
+	32: Tato hodnota není momentálně používána.
+	64: Zaznamenávat operace doplňků systému souborů.
+	1024: Operace proběhla úspěšně.
+	2048: Operace se nezdařila.
+	4096: Operace byla zahájena, ale soubor byl přeskočen.</description>
+				</key>
+				<key name="LogRotateLimit" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>Pokud nastavíte na hodnotu -1, bude nový soubor protokolu vytvořen každý den po půlnoci.
+Pokud nastavíte na hodnotu h větší než 0, bude nový soubor protokolu vytvořen při dosažení velikosti h kB.</description>
+				</key>
+				<key name="LogKeepCount" file="Wincmd.ini" section="Configuration" default="30" version="7.00">
+					<description>Maximální počet zachovávaných kopií souborů s protokoly, pokud je používána cyklická výměna těchto souborů.</description>
+				</key>
+			</category>
+			<category title="Ignore list">
+				<key name="IgnoreListFileEnabled" file="Wincmd.ini" section="Configuration" default="1" version="7.00">
+					<description>Určuje, zda je soubor uvedený u položky IgnoreListFile povolen nebo zakázán. Tuto funkci tak můžete dočasně zakázat, aniž by bylo nutné odstraňovat cestu k souboru. Vnitřní příkaz cm_SwitchIgnoreList tuto možnost povoluje nebo zakazuje.</description>
+				</key>
+				<key name="IgnoreListFile" file="Wincmd.ini" section="Configuration" default="path" dialog="Open File" version="7.00">
+					<description>Určuje prostý textový soubor (cesta a název), který obsahuje seznam názvů, které má program Total Commander vynechávat (nezobrazovat, nekopírovat, neodstraňovat atd.). Jsou podporovány zástupné znaky a názvy včetně cesty nebo bez ní (s uvedením disku nebo bez něj). Řádky mohou mít jednu z následujících podob:
+soubor.ext – Soubor soubor.ext bude skryt ve všech podsložkách.
+c:\test\soubor.ext – Soubor soubor.ext bude skryt pouze ve složce c:\test.
+\System volume information – Tato složka bude skryta na všech discích.
+*.bak *.~* – Tyto typy souborů budou skryty ve všech složkách.
+c:\test\*.bak *.~* – Tyto typy souborů budou skryty pouze v podsložce c:\test.
+\test\*.bak *.~* – Tyto typy souborů budou skryty v podsložce test na všech discích.
+c:\test\"abc def.*" *.~* – Pokud názvy obsahují mezery a jakékoli zástupné znaky (* nebo ?), musí být uzavřeny v uvozovkách ("").</description>
+				</key>
+			</category>
+			<category title="Drives">
+				<key name="CdCloseDoor" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.50">
+					<description>Pokud se změna disku u jednotky CD-ROM nezdaří, program Total Commander se pokusí zavřít vysouvací lištu CD. Lze zakázat pomocí položky CdCloseDoor=0.</description>
+				</key>
+				<key name="DeviceChange" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.52">
+					<description>1: Zprávy wm_devicechange budou zpracovávány (pro zjištění změny nebo přepnutí disku).
+0: Uvedené zprávy budou ignorovány.</description>
+				</key>
+				<key name="DriveisCD" file="Wincmd.ini" section="Configuration" default="drive_list" advanced="Yes" version="4.54">
+					<description>Určuje disky F, G a H jako jednotky CD-ROM. Při kopírování z těchto disků nebude program Total Commander kopírovat atribut 'jen pro čtení'. Je to užitečné pro síťové disky CD, které nejsou automaticky rozpoznány.</description>
+				</key>
+				<key name="DriveTipDelay" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="2.11">
+					<description>Prodleva (milisekundy) před zobrazením popisů disků v rozevíracím seznamu s disky (výchozí je hodnota 0).</description>
+				</key>
+				<key name="AlwaysToRoot" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>Pokud nastavíte na hodnotu 1, program Total Commander vždy při změně disku přepne do kořenové složky (jako program Průzkumník v systému Windows 95/98).</description>
+				</key>
+				<key name="DrivesShowUpcase" file="Wincmd.ini" section="Configuration" default="-1" advanced="Yes" version="7.50">
+					<description>1: Na různých místech, jako např. na liště disků, v seznamu disků, v aktuální cestě atd., budou disky zobrazeny velkými písmeny.</description>
+				</key>
+				<key name="DrivesExportUpcase" file="Wincmd.ini" section="Configuration" default="-1" advanced="Yes" version="7.50">
+					<description>1: Při používání např. příkazu cm_CopyFullNamesToClip nebo při spouštění programů bude exportováno označení disků velkými písmeny (v názvu programu a aktuální složce).
+Poznámka: Pokud je nastavena možnost DrivesShowUpcase, ale možnost DrivesExportUpcase ne, bude platit první hodnota.</description>
+				</key>
+				<key name="HideRemovableNoMedia" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.55a">
+					<description>Pokud nastavíte na hodnotu 1, nebudou zobrazovány vyměnitelné jednotky (např. čtečky karet pro rozhraní USB), dokud nevložíte médium. Jednotky CD-ROM i disketové jednotky jsou zobrazovány vždy. Funguje to pouze v liště s disky, nikoli v rozevíracím seznamu disků, ve stromové struktuře nebo v aktivním adresním řádku.
+Tato funkce může být u určitých jednotek velmi pomalá, proto pokud dojde ke zpomalení, znovu ji zakažte.</description>
+				</key>
+			</category>
+			<category title="Folder tabs">
+				<key name="LockedGoToDriveRoot" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="6.50">
+					<description>0: Kliknutím na tlačítko [ \ ] dojde k přepnutí do základní složky uzamčené záložky.
+1: Kliknutím na tlačítko [ \ ] dojde k přepnutí do kořenové složky disku.</description>
+				</key>
+				<key name="LockedTabChange" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.02">
+					<description>Při změně složky u uzamčené záložky bude provedena tato činnost:
+	0: Vždy bude vytvořena nová záložka.
+	1: Bude využita záložka se stejnou složkou.
+	2: Bude využita první odemčená záložka.
+	3: Bude využita poslední odemčená záložka.</description>
+				</key>
+				<key name="TabDir" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" version="7.00">
+					<description>Umístění, do něhož jsou ukládány a z něhož jsou načítány záložky, bude zapamatováno.</description>
+				</key>
+				<key name="TabEnterDirChange" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.02">
+					<description>Při stisknutí klávesy Enter na složce v uzamčené záložce dojde k následující činnosti:
+	0: Nebude provedeno nic. 
+	1: Bude otevřena nová záložka. 
+	2: Bude zobrazen dotaz.</description>
+				</key>
+				<key name="TabSwitchMode" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>0: Při stisknutí kombinace kláves Ctrl+Tabulátor dojde k přepnutí záložky až při uvolnění klávesy Ctrl. 
+1: Při stisknutí kombinace kláves Ctrl+Tabulátor dojde k přepnutí záložek okamžitě při stisknutí klávesy Tabulátor.</description>
+				</key>
+			</category>
+			<category title="Tree">
+				<key name="OldStyleTree" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>Tato položka je funkční pouze pro strom složek v jednom ze dvou panelů souborů:
+	0: Strom složek bude zobrazen pro všechny disky ve stylu programu Průzkumník.
+	1: Vždy bude načítán úplný strom složek disku.
+	2: Bude zobrazen rozbalitelný strom složek pouze pro aktuální disk.</description>
+				</key>
+				<key name="AutoTreeChange" file="Wincmd.ini" section="Configuration" default="0" version="4.53">
+					<description>Pokud nastavíte na hodnotu 1, kliknutím na složce v zobrazení stromu přepnete na danou složku v druhém panelu.</description>
+				</key>
+				<key name="UpdateTreeAtStartup" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>Určuje, zda bude samostatný strom složek při aktivování rozbalen až po aktuální složku (1), nebo pouze při první změně složky uživatelem (0).</description>
+				</key>
+				<key name="AllowSetCursorPos" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>Nastaví chování při rozbalování rozsáhlé složky v zobrazení stromu pomocí myši, např. kliknutím na symbol [+]:
+	1: Ukazatel myši se přesune, aby zůstal na rozbalené složce.
+	0: Ukazatel myši se nepřesune.</description>
+				</key>
+				<key name="TreeUpdateLimit" file="Wincmd.ini" section="Configuration" default="2048" advanced="Yes" version="7.00">
+					<description>Udává velikost (kilobajty), až do které bude soubor stromové struktury treeinfo.wc při operacích se soubory, jako např. kopírování a odstraňování, automaticky aktualizován. Tato operace může u velmi velkých stromů trvat značně dlouho.</description>
+				</key>
+				<key name="TreeFileLocation" file="Wincmd.ini" section="Configuration" default="Tree_File_Path" advanced="Yes" dialog="Open File" version="6.50">
+					<description>Určuje jiné umístění souborů treeinfo.wc, např. TreeFileLocation=c:\složka\treeinfo%D%.wc.
+Proměnná %D% bude nahrazena písmenem disku (nebo kořenem sdílené položky, znak \ bude nahrazen podtržítkem _). 
+Proměnná %R% bude nahrazena kořenovou cestou. 
+Proměnná %L% bude nahrazena názvem disku. 
+Pamatujte, že tyto proměnné MUSÍ být uvedeny VELKÝMI písmeny, v opačném případě bude program Total Commander hledat systémové proměnné s těmito názvy.</description>
+				</key>
+				<key name="TreeFileLocationE" file="Wincmd.ini" section="Configuration" default="Path" advanced="Yes" dialog="Open File" version="6.50">
+					<description>Nastavuje umístění souboru treeinfo pouze pro disk E. Bude funkční, pouze pokud bude nastavena také položka TreeFileLocation.</description>
+				</key>
+				<key name="TreeFileLocation__server_share" file="Wincmd.ini" section="Configuration" default="Path" advanced="Yes" dialog="Open File" version="6.50">
+					<description>Nastavuje umístění souboru treeinfo pouze pro disk \\server\sdílená_položka (položka TreeFileLocation MUSÍ být také nastavena).</description>
+				</key>
+			</category>
+			<category title="Breadcrumb">
+				<key name="BreadcrumbSeparator" file="Wincmd.ini" section="Configuration" default="-3" advanced="Yes" version="7.50">
+					<description>Nastavení začátku oblasti, do které je nutné přesunout ukazatel myši, aby došlo k otevření podsložek v nabídce:
+0 až 100: Procentuální hodnota začátku oblasti. Hodnotou 0 bude použita celá nabídka.
+-1,-2 atd.: Absolutní umístění oddělovače měřené zprava (násobky výšky řádku).</description>
+				</key>
+				<key name="BreadcrumbDelayButton" file="Wincmd.ini" section="Configuration" default="250" advanced="Yes" version="7.50">
+					<description>Prodleva (milisekundy), po kterou musí ukazatel myši zůstat nad panelem s cestou, aby bylo zobrazeno tlačítko pod aktuální složkou (za účelem otevření seznamu podsložek). Použijete-li záporná čísla, bude seznam zobrazen ihned (bez tlačítka).</description>
+				</key>
+				<key name="BreadcrumbDelayDir" file="Wincmd.ini" section="Configuration" default="250" advanced="Yes" version="7.50">
+					<description>Prodleva (milisekundy), po kterou musí ukazatel myši zůstat nad oblastí pro otevření složky, aby byla otevřena.</description>
+				</key>
+				<key name="BreadcrumbDelayFtp" file="Wincmd.ini" section="Configuration" default="500" advanced="Yes" version="7.50">
+					<description>Stejné jako výše, ale pro připojení FTP.</description>
+				</key>
+				<key name="BreadcrumbDelayPlugin" file="Wincmd.ini" section="Configuration" default="500" advanced="Yes" version="7.50">
+					<description>Stejné jako výše, ale pro doplňky systému souborů.</description>
+				</key>
+				<key name="BreadcrumbDelayVirtual" file="Wincmd.ini" section="Configuration" default="500" advanced="Yes" version="7.50">
+					<description>Stejné jako výše, ale pro virtuální složky, jako např. Plocha.</description>
+				</key>
+				<key name="BreadCrumbMaxWidth" file="Wincmd.ini" section="Configuration" default="-1" advanced="Yes" version="7.50">
+					<description>Omezení šířky aktivního adresního řádku na uvedený počet pixelů.
+Hodnota -1 znamená poloviční šířku obrazovky.
+Šířka je omezena na 100 pixelů (minimálně) a šířku aktuální obrazovky (maximálně).</description>
+				</key>
+			</category>
+			<category title="Network">
+				<key name="AllHiddenNetNames" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>0: Při výběru položky Zobrazit administrátorská sdílení budou zobrazeny pouze skryté disky jako C$.
+1: Všechny skryté sdílené položky budou zobrazeny.</description>
+				</key>
+				<key name="Netwarebugfix" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="2.00">
+					<description>1: Soubory na vzdálených discích NEBUDOU přejmenovávány.</description>
+				</key>
+				<key name="PortInDriver" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="4.50">
+					<description>1: V rámci ovladače budou přenášeny celé bloky (výchozí). Je to rychlejší, ale během přenosu nebude možné počítač používat.
+0: Přenos bude proveden v uživatelském režimu. Je to pomalejší, ale zpracování více úloh současně bude lepší.
+Toto nastavení ovlivňuje pouze systémy Windows 95/98/ME. V systémech Windows NT/2000 musí být všechny přenosy prováděny v rámci ovladače.</description>
+				</key>
+				<key name="TestIfSharedDir" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>Bude ověřeno, zda je složka sdílena v síti, a pokud ano, bude pod ikonou zobrazena ruka (1/0).</description>
+				</key>
+				<key name="UseShellConnect" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="5.00">
+					<description>Pokud nastavíte na hodnotu 1, bude pro připojování ke sdíleným prostředkům v síti používána původní metoda (alternativní řešení pro protokol VINES).</description>
+				</key>
+				<key name="NetHoodInThread" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>Funkce Místa v síti bude načtena na pozadí.</description>
+				</key>
+				<key name="ThreadFindFirst" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>Pokud nastavíte na hodnotu 1, bude funkce FindFirstFile přemístěna do odděleného podprocesu, aby bylo možné načítání z nereagujícího síťového připojení přerušit.</description>
+				</key>
+				<key name="AdminShares" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.55a">
+					<description>1: Administrátorská sdílení budou zobrazována vždy (např. C$). Platí pouze pro systémy Windows založené na technologii NT.</description>
+				</key>
+				<key name="PromptForUser" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.55">
+					<description>0: Při připojování k síťovému disku bude nastaven pouze parametr CONNECT_INTERACTIVE
+1: Bude nastaven také parametr CONNECT_PROMPT, takže se vždy zobrazí výzva k zadání uživatele</description>
+				</key>
+			</category>
+			<category title="Privacy">
+				<key name="Savepath" file="Wincmd.ini" section="Configuration" default="1" version="1.10">
+					<description>Při ukončení programu Total Commander budou uloženy aktuální cesty (1/0).</description>
+				</key>
+				<key name="Savepanels" file="Wincmd.ini" section="Configuration" default="1" version="1.10">
+					<description>Při ukončení programu Total Commander bude uloženo nastavení (1/0).</description>
+				</key>
+				<key name="SaveCommands" file="Wincmd.ini" section="Configuration" default="1" version="2.00">
+					<description>Při ukončení programu Total Commander budou uloženy příkazové řádky (1/0).</description>
+				</key>
+				<key name="SaveHistory" file="Wincmd.ini" section="Configuration" default="1" version="7.00">
+					<description>Historie navštívených složek (Alt+Šipka dolů) bude uložena do částí [LeftHistory] a [RightHistory].</description>
+				</key>
+			</category>
+			<category title="Security">
+				<key name="RestrictInterface" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Bits Sum" version="3.50">
+					<description>Zakáže části uživatelského rozhraní. Stačí provést součet následujících možností:
+	1: Nabídka Start 
+	2: Příkazový řádek 
+	4: Změna tlačítkové lišty 
+	8: Nabídka pravého tlačítka myši u disků 
+	16: Nabídka pravého tlačítka myši u souborů 
+	32: Změna Oblíbených položek 
+	64: Protokol FTP (Ctrl+N, Ctrl+F) 
+	128: Klávesa Enter (spouštění programů, otevírání souborů) 
+	256: Doplňky systému souborů 
+	512: Spojení přes port (USB nebo LPT)</description>
+				</key>
+				<key name="Allowed" file="Wincmd.ini" section="Configuration" default="drive_list" advanced="Yes" version="2.00">
+					<description>Určuje povolené disky, čímž je možné omezit přístup k diskům. Příklad: Allowed=cde 
+Zpětné lomítko \ představuje položku 'Místa v síti'.</description>
+				</key>
+				<key name="AdminTimeout" file="Wincmd.ini" section="Configuration" default="180" advanced="Yes" version="7.00">
+					<description>Určuje, po kolika sekundách nečinnosti bude program tcmadmin.exe (používaný pro kopírování, odstraňování atd. jako správce) ukončen. Hodnota 0 znamená bez časového limitu, pomocí hodnoty -1 kopírování jako správce zcela zakážete.</description>
+				</key>
+				<key name="x64DisableRedirection" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>1: V 64bitových verzích systému Windows bude zakázáno přesměrování složky windows\system32 do složky windows\syswow64. To se může negativně projevit tím, že např. nebudou funkční doplňky.</description>
+				</key>
+			</category>
+			<category title="Confirmation">
+				<key name="deleteDirs" file="Wincmd.ini" section="Confirmation" default="1" version="1.30">
+					<description>Před odstraněním neprázdných složek bude zobrazen dotaz (1/0).</description>
+				</key>
+				<key name="OverwriteFiles" file="Wincmd.ini" section="Confirmation" default="1" version="1.30">
+					<description>Před přepsáním souborů bude zobrazen dotaz (1/0).</description>
+				</key>
+				<key name="OverwriteReadonly" file="Wincmd.ini" section="Confirmation" default="1" version="1.30">
+					<description>Před přepsáním nebo odstraněním souborů jen pro čtení bude zobrazen dotaz (1/0).</description>
+				</key>
+				<key name="OverwriteHidSys" file="Wincmd.ini" section="Confirmation" default="1" version="2.11">
+					<description>Před přepsáním nebo odstraněním skrytých a systémových souborů bude zobrazen dotaz (1/0).</description>
+				</key>
+				<key name="MouseActions" file="Wincmd.ini" section="Confirmation" default="1" version="1.30">
+					<description>Při upuštění souborů přetažením pomocí myši bude zobrazen dotaz (1/0).</description>
+				</key>
+				<key name="AppendWarning" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="5.00">
+					<description>Pokud nastavíte na hodnotu 0, nebude program Total Commander před připojováním k souboru zobrazovat upozornění.</description>
+				</key>
+			</category>
+			<category title="Mouse">
+				<key name="SingleClickStart" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.51">
+					<description>0: Programy budou spouštěny dvojitým kliknutím (výchozí).
+1: Programy budou spouštěny a soubory otevírány kliknutím (webový styl systému Windows 98).
+2: Kliknutím budou otevřeny pouze složky. U souborů bude nutné dvojité kliknutí.
+4 (přičteno): Textový kurzor se už nebude pohybovat za ukazatelem myši.</description>
+				</key>
+				<key name="UseRightButton" file="Wincmd.ini" section="Configuration" default="1" version="1.10">
+					<description>K výběru bude používáno pravé (1) nebo levé (0) tlačítko myši.</description>
+				</key>
+				<key name="IgnoreWheel" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>Kolečko myši Intellimouse bude ignorováno.</description>
+				</key>
+				<key name="DropExtensions" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>Budou povolena rozšíření systému o metodu přetažení pomocí myši pro pravé tlačítko myši (1/0).</description>
+				</key>
+				<key name="ContextProgress" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>Při stisknutém pravém tlačítku myši bude zobrazen indikátor průběhu, po jehož naplnění dojde k zobrazení místní nabídky (1/0).</description>
+				</key>
+			</category>
+			<category title="Keyboard">
+				<category title="General">
+					<key name="CmdUpDown" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.02">
+						<description>I když bude aktivní příkazový řádek, bude možné pohybovat kurzorem v panelu souborů nahoru a dolů (1/0).</description>
+					</key>
+					<key name="CtrlArrow" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.03">
+						<description>1: V textových polích bude při stisknutí kombinace Ctrl+klávesy se šipkami použita vnitřní metoda pohybu jako na příkazovém řádku.
+0: Bude používána výchozí metoda systému Windows.</description>
+					</key>
+					<key name="MarkDirectories" file="Wincmd.ini" section="Configuration" default="1" version="1.30">
+						<description>Pomocí klávesy Num + budou vybírány také složky.</description>
+					</key>
+					<key name="CountSpace" file="Wincmd.ini" section="Configuration" default="1" version="5.00">
+						<description>1: Při výběru pomocí klávesy Mezerník budou spočteny soubory.
+0: Soubory nebudou počítány (rychlejší).</description>
+					</key>
+					<key name="SpaceMovesDown" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="4.52">
+						<description>1: Při výběru souborů klávesou Mezerník bude kurzor přemístěn dolů na další soubor (jako u klávesy Insert).</description>
+					</key>
+					<key name="SpecialCursorMovement" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Bits Sum" version="7.00">
+						<description>Nový režim pohybu kurzoru. Je to součet následujících hodnot:
+1: Stisknutím klávesy Šipka vlevo dojde k umístění kurzoru na první soubor, pomocí klávesy Šipka vpravo bude kurzor umístěn na poslední soubor.
+2: Stisknutím klávesy Šipka vlevo přejdete o složku výš, pomocí klávesy Šipka vpravo otevřete složku nebo archiv pod kurzorem.
+4: Horizontální posuvník v zobrazení vlastních sloupců bude nahrazen. Pokud není tato položka nastavena a horizontální posuvník už bude zcela vlevo, přeskočí kurzor pouze na první soubor.
+8: Místo přeskočení na první nebo poslední soubor dojde k přeskočení o jednu stránku nahoru nebo dolů.</description>
+					</key>
+					<key name="KeyboardID" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.55">
+						<description>Při aktivaci programu Total Commander nebo při ukončení přejmenování v řádku bude rozložení klávesnice změněno na uvedené číslo.
+0: Zakázáno, rozložení klávesnice nebude měněno.
+1: Nastavit výchozí ID národního prostředí, např. německou klávesnici pro německé národní prostředí.
+Ostatní hodnoty (příklady):
+	$0409: Anglická klávesnice (QWERTY)
+	$0407: Německá klávesnice (QWERTZ)
+	$0807: Německá klávesnice (Švýcarsko)
+	$040C: Francouzská klávesnice (AZERTY)
+	$0408: Helénská (řecká) klávesnice
+	$0419: Ruská klávesnice (cyrilice)
+	$e00e0804: Čínská klávesnice s editorem IME Microsoft PinYin
+	$e0010411: Japonská klávesnice s výchozím editorem IME
+Znak $ představuje hexadecimální číslo. Identifikátory jazyků naleznete na této adrese (použijte první sloupec):
+http://msdn.microsoft.com/en-us/library/dd318693(VS.85).aspx</description>
+					</key>
+				</category>
+				<section title="Shortcuts" name="Shortcuts" file="Wincmd.ini" version="4.50">
+					<description>Určuje klávesové zkratky, kterými budou nahrazeny výchozí zkratky.
+CAS+F2=cm_renameonly V tomto příkladu bude pomocí kombinace kláves Ctrl+Alt+Shift+F2 spuštěn vnitřní příkaz cm_renameonly.
+(C=Ctrl, A=Alt, S=Shift) </description>
+				</section>
+				<section title="ShortcutsWin" name="ShortcutsWin" file="Wincmd.ini" version="7.50">
+					<description>Totéž jako položka [shortcuts], ale ve spojitosti s klávesou Windows.</description>
+				</section>
+				<section title="Alias" name="Alias" file="Wincmd.ini" version="7.00">
+					<description>Definice aliasových příkazů na stránce Různé v nabídce Konfigurace.</description>
+				</section>
+			</category>
+			<category title="Run once">
+				<key name="FirstTime" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="1.10">
+					<description>Program Total Commander byl spuštěn poprvé, a proto budou zobrazeny poznámky k vydání.</description>
+				</key>
+				<key name="FirstTimeUnpack" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="2.00">
+					<description>Funkce Extrahovat vše byla použita poprvé, a proto bude zobrazena rada pro stisknutí klávesy Enter na souboru.</description>
+				</key>
+				<key name="FirstTimeZIP" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="1.30">
+					<description>Komprimace nebo dekomprimace byla použita poprvé, a proto bude zobrazeno dialogové okno s nastavením archivátoru.</description>
+				</key>
+				<key name="FirstFTPSync" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>Synchronizace se serverem FTP byla použita poprvé, a proto bude zobrazeno upozornění.</description>
+				</key>
+				<key name="FirstMLSDsync" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.55">
+					<description>Synchronizace se serverem FTP pomocí příkazu MLSD místo příkazu LIST byla použita poprvé, a proto bude zobrazeno upozornění.</description>
+				</key>
+				<key name="UnicodeListWarn" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>Tato položka není v programu Total Commander 7.50 a novějších verzích již používána.</description>
+				</key>
+			</category>
+			<category title="Programs opening">
+				<key name="LongNamesToDos" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="4.52">
+					<description>Při použití klávesové kombinace Shift+Enter budou do okna systému DOS předány krátké nebo dlouhé názvy (0/1).</description>
+				</key>
+				<key name="LastRunAs" file="Wincmd.ini" section="Configuration" default="Administrator" advanced="Yes" version="7.00">
+					<description>Jméno posledního uživatele, které bylo použito v příkazu cm_OpenAsUser.</description>
+				</key>
+			</category>
+			<category title="Misc">
+				<key name="AppendLnk" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>Vytváření zástupců (soubory LNK) ve formátu: 
+	0: Pro soubor.ext bude vytvořen zástupce soubor.lnk.
+	1: Pro soubor.ext bude vytvořen zástupce soubor.ext.lnk.</description>
+				</key>
+				<key name="SearchInFiles" file="Wincmd.ini" section="Configuration" default="*.ext" advanced="Yes" version="5.50">
+					<description> Zde můžete uvést další typy archivů, ve kterých chcete hledat pomocí funkce hledání. Příklad: SearchInFiles=*.EXE *.JAR</description>
+				</key>
+				<key name="SoundDelay" file="Wincmd.ini" section="Configuration" default="10" version="5.00">
+					<description>Doba operace se souborem (sekundy), která bude muset uplynout, aby byl přehrán zvuk Operace byla dokončena.</description>
+				</key>
+				<key name="OldStyleDir" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>K ověření existence složky bude použita funkce SetCurDir nebo bude použita přímo funkce FindFirstFile (1/0).</description>
+				</key>
+				<key name="FlushFile" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>Allow user to turn on/off flush before closing files.
+	0= Off;
+	1= when copying;
+	2= when unpacking;
+	3= when copying and unpacking.
+It's strongly recommended to disable this mode, otherwise TC will be very slow.</description>
+				</key>
+				<key name="WipeDir" file="Wincmd.ini" section="Configuration" default="%temp%\_tc0\" advanced="Yes" dialog="Open Folder" version="7.00">
+					<description>Cesta k dočasné složce, kterou používá program Total Commander (při opětovném spuštění programu Total Commander bude vyprázdněna). 
+Bude ignorováno, pokud nebude obsahovat řetězec $wc nebo \_tc (v programu Total Commander 7).</description>
+				</key>
+				<key name="BrushForCursor" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>Pokud program Total Commander při pohybu kurzorem zanechává stopy rámečků kolem nevybraných souborů (chyba v grafické kartě), nastavte tuto položku na hodnotu 1.</description>
+				</key>
+				<key name="ClearListBackground" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>0: Při přepínání mezi složkami bude sníženo blikání (pozadí nebude nejdřív vymazáváno).
+1: Pozadí bude vymazáváno (výchozí). </description>
+				</key>
+				<key name="X64WaitTime" file="Wincmd.ini" section="Configuration" default="15" advanced="Yes" version="7.50">
+					<description>Určuje maximální dobu čekání programu tcmdx64.exe před zpětným odesláním podnabídky X64 v 64bitové verzi systému Windows, než bude v programu Total Commander zobrazena chybová zpráva. Do této hodnoty není započtena doba spuštění programu tcmdx64.exe.</description>
+				</key>
+				<key name="Firstmnu" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>The internal counter. This key is mainly used to check whether the wincmd.ini is writable. Now it does not contain any meaningful information and does not affect any configurations. It is reserved for the future to count how many days you use Total Commander already.</description>
+				</key>
+				<key name="Test" file="Wincmd.ini" section="Configuration" default="128" advanced="Yes" version="5.50">
+					<description>Tato položka je interně používána ke zjištění, zda je možné do souboru INI zapisovat. Pokud ne, bude zobrazena chybová zpráva.</description>
+				</key>
+			</category>
+		</category>
+		<category title="Packers">
+			<category title="General">
+				<key name="AlwaysPackInBackground" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="6.50">
+					<description>1: Soubory ZIP budou komprimovány na pozadí.
+2: Archivátor ZIP a externí archivátory budou spuštěny na pozadí.
+3: Jako hodnota 2, ale externí archivátory budou spuštěny minimalizovaně.</description>
+				</key>
+				<key name="AlwaysUnpackInBackground" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="6.50">
+					<description>1: Soubory ZIP budou dekomprimovány na pozadí.
+2: Dekomprimace souborů ZIP a spouštění externích dekomprimátorů bude prováděno na pozadí.
+3: Jako hodnota 2, ale externí dekomprimátory budou spuštěny minimalizovaně.</description>
+				</key>
+				<key name="ZIPlikeDirectory" file="Wincmd.ini" section="Packer" default="1" version="1.10">
+					<description>S komprimovanými soubory bude zacházeno jako se složkami.</description>
+				</key>
+				<key name="ExpertMode" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" version="3.51">
+					<description>1: Soubory uvnitř archivů budou přímo spouštěny stisknutím klávesy Enter.
+0: Bude zobrazeno okno s vlastnostmi.</description>
+				</key>
+				<key name="LastUsedPacker" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>Naposledy použitý archivátor.</description>
+				</key>
+				<key name="DefPlugin" file="Wincmd.ini" section="Packer" default="cab" version="6.00">
+					<description>Naposledy použitý archivační doplněk.</description>
+				</key>
+				<key name="UnZIPSeparateSubdirs" file="Wincmd.ini" section="Packer" default="-1" advanced="Yes" version="7.55">
+					<description>Uloží stav možnosti "Extrahovat archivy do samostatných podsložek":
+	0: Možnost je zakázána, změny budou zapamatovány.
+	1: Možnost je povolena, změny budou zapamatovány.
+	-1: Možnost je zakázána, změny NEBUDOU zapamatovány (výchozí).
+	-2: Možnost je povolena, změny NEBUDOU zapamatovány.
+	-3: Jako hodnota -2, ale pouze pokud bude vybrán více než jeden archiv.</description>
+				</key>
+				<key name="ZIPDirectoryOfFile" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>Soubory budou komprimovány včetně cesty.</description>
+				</key>
+				<key name="ZIPRecurseSubdirs" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>Budou komprimovány složky ve složkách.</description>
+				</key>
+				<key name="ExtractPathInZIP" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>Budou dekomprimovány také uložené cesty k souborům.</description>
+				</key>
+				<key name="UnZIPOverwrite" file="Wincmd.ini" section="Packer" default="0" version="2.00">
+					<description>Při dekomprimaci budou soubory vždy přepisovány.</description>
+				</key>
+				<key name="WipeEncrypted" file="Wincmd.ini" section="Packer" default="1" advanced="Yes" version="7.04">
+					<description>Pokud prohlížíte, upravujete, spouštíte nebo porovnáváte soubor ze zašifrovaného archivu, budou dekódovaná data dočasně uložena do složky TEMP. Tento dočasný soubor bude standardně z bezpečnostních důvodů před odstraněním přepsán nulovými bajty. Pomocí položky WipeEncrypted=0 to můžete zakázat a ušetřit tak čas.</description>
+				</key>
+			</category>
+			<category title="ZIP packer">
+				<key name="InternalZip" file="Wincmd.ini" section="Packer" default="1" version="2.11">
+					<description>Bude používán interní archivátor ZIP.</description>
+				</key>
+				<key name="InternalUnzip" file="Wincmd.ini" section="Packer" default="1" version="1.10">
+					<description>Bude používán interní dekomprimátor ZIP.</description>
+				</key>
+				<key name="ZIP" file="Wincmd.ini" section="Packer" default="pkzip.exe" dialog="Open File" version="1.10">
+					<description>Cesta a název souboru pro archivátor PKZIP.</description>
+				</key>
+				<key name="UnZIP" file="Wincmd.ini" section="Packer" default="pkunzip.exe" dialog="Open File" version="1.10">
+					<description>Cesta a název souboru pro archivátor PKUNZIP.</description>
+				</key>
+				<key name="InternalZipRate" file="Wincmd.ini" section="Packer" default="6" version="2.11">
+					<description>Kompresní poměr pro interní archivátor ZIP (0=bez komprese, 1=nejrychlejší, 9=maximální).</description>
+				</key>
+				<key name="InternalzipTemp" file="Wincmd.ini" section="Packer" default="%temp%" version="2.11">
+					<description>Cesta k dočasná složce pro interní archivátor ZIP. </description>
+				</key>
+				<key name="OpenPartial" file="Wincmd.ini" section="Packer" default="0" version="5.50">
+					<description>1: Neúplné archivy ZIP, např. částečně stažené soubory ZIP, bude možné otevřít.</description>
+				</key>
+				<key name="nodelete" file="Wincmd.ini" section="Packer" default="0" version="5.50">
+					<description>1: Extrahované soubory s chybou kontroly dat CRC nebudou odstraňovány.</description>
+				</key>
+				<key name="PluginOverrideZip" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" version="7.00">
+					<description>1: Archivační doplněk pro formát ZIP bude povolen.
+0: Interní dekomprimátor ZIP bude mít vždy přednost.</description>
+				</key>
+				<key name="RemovableInTemp" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" version="4.00">
+					<description>1: Program Total Commander bude soubory ZIP na vyměnitelných discích upravovat tak, že vytvoří nový archiv ve složce TEMP, odstraní původní archiv a zkopíruje nový archiv na vyměnitelný disk.
+0: U disket bude platit hodnota 1, u větších médií (ZIP, JAZ) bude úprava probíhat přímo na médiu (bez složky TEMP).</description>
+				</key>
+				<key name="VerifyZIP" file="Wincmd.ini" section="Packer" default="1" advanced="Yes" version="2.11">
+					<description>1: Po komprimaci bude soubor ZIP zkontrolován.
+0: Soubor ZIP nebude kontrolován.</description>
+				</key>
+				<key name="WarnTooBig" file="Wincmd.ini" section="Packer" default="1" advanced="Yes" version="7.04">
+					<description>Bude zobrazováno upozornění, že některé archivátory nebudou schopny extrahovat soubory ZIP, které jsou po komprimaci větší než 2 GB.</description>
+				</key>
+				<key name="ZipUnicode" file="Wincmd.ini" section="Packer" default="0" version="7.50">
+					<description>Určuje, jak mají být do archivů ZIP komprimovány názvy Unicode:
+	0: Při každém výskytu názvu v kódování Unicode se dotázat.
+	1: Uložit názvy Unicode v kódování UTF-8 (metoda Pkzip 4.5 a Winzip 11.2).
+	2: Všechny jako UTF-8, pokud alespoň jeden obsahuje kódování Unicode.
+	3: Všechny jako UTF-8, pokud alespoň jeden obsahuje neanglické znaky.
+	4: Uložit název Unicode ve zvláštním poli (metoda Info-Zip).
+	5: Uložit všechny názvy obsahující neanglické znaky ve zvláštním poli.
+	6: Uložit znaky Unicode jako otazníky.</description>
+				</key>
+				<key name="Zip83Name" file="Wincmd.ini" section="Packer" default="0" version="3.00">
+					<description>Soubory budou komprimovány s alternativními názvy (8 znaků pro název a 3 pro příponu) a nebudou používány dlouhé názvy (1/0).</description>
+				</key>
+				<key name="ZipAES" file="Wincmd.ini" section="Packer" default="0" version="7.00">
+					<description>Nastavení formátu šifrování:
+	0: Šifrování ZIP2.0.
+	1: Šifrování AES se 128bitovým klíčem.
+	2: Šifrování AES se 192bitovým klíčem.
+	3: Šifrování AES s 256bitovým klíčem.</description>
+				</key>
+				<key name="ZipAnsiNames" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" version="7.00">
+					<description>1: V archivu ZIP budou názvy souborů místo znaků OEM (DOS) uloženy ve formátu ANSI (Windows). Pamatujte, že některé dekomprimátory nedokáží v tomto případě zacházet s archivy, které obsahují diakritická znaménka.</description>
+				</key>
+				<key name="ZipSetDateToNewest" file="Wincmd.ini" section="Packer" default="0" version="3.00">
+					<description>Při komprimaci pomocí interního archivátoru ZIP bude datum archivu nastaveno na datum nejnovějšího souboru v archivu (1/0).</description>
+				</key>
+				<key name="ZipMagic" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>Při otevírání souborů ZIP bude vynecháváno automatické rozpoznávání programu ZipMagic (1/0).</description>
+				</key>
+				<key name="zipnt" file="Wincmd.ini" section="Packer" default="0" version="2.00">
+					<description>Určuje používání archivátoru Info-zip pro systém Windows NT. 0: Nebude používán.
+1: Bude používán archivátor Zip-NT 2.0.1 (upravený programem Total Commander)
+2: Bude používána nerozpoznaná verze.</description>
+				</key>
+				<key name="LzmaAllowed" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" version="7.50">
+					<description>1: U archivátoru ZIP bude povolena komprese LZMA (není doporučeno, k extrahování bude třeba aplikace WinZip 12 a novější verze). Pokud tuto položku povolíte, můžete pro kompresi LZMA zvolit kompresní poměr 10.</description>
+				</key>
+			</category>
+			<category title="Other packers">
+				<key name="ARJ" file="Wincmd.ini" section="Packer" default="arj.exe" dialog="Open File" version="1.10">
+					<description>Cesta a název souboru pro archivátor ARJ. </description>
+				</key>
+				<key name="ARJlongnames" file="Wincmd.ini" section="Packer" default="0" version="3.50">
+					<description>Při komprimaci budou archivátoru ARJ předávány dlouhé názvy.</description>
+				</key>
+				<key name="ACE" file="Wincmd.ini" section="Packer" default="ace.exe" dialog="Open File" version="3.50">
+					<description>Cesta a název souboru pro archivátor ACE. </description>
+				</key>
+				<key name="LHA" file="Wincmd.ini" section="Packer" default="lha.exe" dialog="Open File" version="1.10">
+					<description>Cesta a název souboru pro archivátor LHA. </description>
+				</key>
+				<key name="RAR" file="Wincmd.ini" section="Packer" default="rar.exe" dialog="Open File" version="2.00">
+					<description>Cesta a název souboru pro archivátor RAR. </description>
+				</key>
+				<key name="UC2" file="Wincmd.ini" section="Packer" default="uc2.exe" dialog="Open File" version="2.00">
+					<description>Cesta a název souboru pro archivátor UC2.</description>
+				</key>
+				<key name="InternalUnarj" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>Totéž pro dekomprimátor ARJ.</description>
+				</key>
+				<key name="InternalUnace" file="Wincmd.ini" section="Packer" default="1" version="3.50">
+					<description>Totéž pro dekomprimátor ACE.</description>
+				</key>
+				<key name="InternalUnlzh" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>Totéž pro dekomprimátor LHA.</description>
+				</key>
+				<key name="InternalUnrar" file="Wincmd.ini" section="Packer" default="1" version="3.50">
+					<description>Totéž pro dekomprimátor RAR.</description>
+				</key>
+				<key name="LinuxCompatible" file="Wincmd.ini" section="Packer" default="1" version="5.00">
+					<description>1: Budou vytvářeny archivy TAR kompatibilní se systémem Linux.
+0: Budou vytvářeny archivy TAR kompatibilní se systémem SunOS.</description>
+				</key>
+			</category>
+		</category>
+		<category title="Plugins">
+			<category title="General">
+				<key name="AutoInstallPlugins" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.50">
+					<description>Pokud nastavíte na hodnotu 0, bude automatická instalace doplňků při otevření archivu s doplňkem zakázána.</description>
+				</key>
+				<key name="PluginBaseDir" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" dialog="Open Folder" version="6.50">
+					<description>Standardní umístění, do něhož budou doplňky automaticky instalovány. Program Total Commander při instalaci nového doplňku přidá jeho typ a výchozí složku.
+Příklad: pluginbasedir=%COMMANDER_PATH%\plugins
+Nabízená cesta pro archivační doplněk ukázkový_archivátor bude:
+%COMMANDER_PATH%\plugins\wcx\ukázkový_archivátor\</description>
+				</key>
+				<key name="MrtReplacePluginChars" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>0: Zakáže v hromadném přejmenování automatické nahrazování neplatných znaků z doplňků (např. ':' -&gt; '.'). Bude je nutné nahradit ručně.</description>
+				</key>
+			</category>
+			<section title="Packer plugins" name="PackerPlugins" file="Wincmd.ini" dialog="Dialogs List" version="4.00">
+				<description>Seznam všech nastavených archivačních doplňků (viz téma Archivátory v nabídce Konfigurace). 
+bz2=27,c:\totalcmd\bzip2dll.dll Doplněk pro archivátor BZIP2. Hodnota 27 je součet všech možností archivační knihovny DLL:
+	1: Dokáže vytvářet nové archivy.
+	2: Dokáže měnit existující archivy.
+	4: Dokáže zpracovat několik souborů v jednom archivu.
+	8: Dokáže odstraňovat soubory z archivu.
+	16: Podporuje dialogové okno nastavení.
+	32: Podporuje komprimaci v paměti.
+	64: Zjišťuje typ archivu podle obsahu.
+	128: Umožňuje hledání textu v archivech.
+	256: Archiv nebude otevírán klávesou Enter, pouze pomocí kombinace kláves Ctrl+Page Down.
+	512: Podporuje šifrování.
+
+Toto číslo NEZADÁVEJTE ručně, bude přidáno programem Total Commander při prvním načtení dané knihovny DLL.</description>
+			</section>
+			<section title="File system plugins" name="FileSystemPlugins" file="Wincmd.ini" dialog="Open File" version="5.50">
+				<description>Nainstalované doplňky systému souborů. </description>
+			</section>
+			<section title="Lister plugins" name="ListerPlugins" file="Wincmd.ini" dialog="Open File" version="5.51">
+				<description>Nainstalované doplňky prohlížeče Lister.</description>
+			</section>
+			<section title="Content plugins" name="ContentPlugins" file="Wincmd.ini" dialog="Open File" version="6.50">
+				<description>Nainstalované obsahové doplňky. </description>
+			</section>
+		</category>
+		<category title="FTP">
+			<category title="General">
+				<key name="ConnectRetries" file="Wcx_ftp.ini" section="General" default="10" version="4.00">
+					<description>Počet opakování připojení (u anonymních připojení).</description>
+				</key>
+				<key name="WaitDelay" file="Wcx_ftp.ini" section="General" default="5" version="4.00">
+					<description>Prodleva před každým opakováním připojení (sekundy).</description>
+				</key>
+				<key name="transfermode" file="Wcx_ftp.ini" section="General" default="I" version="3.52">
+					<description>Přenosový režim při spuštění programu Total Commander:
+	A: Textový režim.
+	I: Binární režim.
+	X: Automatické rozpoznání.</description>
+				</key>
+				<key name="Ascii" file="Wcx_ftp.ini" section="General" default="*.txt *.htm* *.pas *.c *.cpp *.h *.bas *.tex" version="4.00">
+					<description>Přípony souborů, které mají být rozpoznány jako textové soubory.</description>
+				</key>
+				<key name="FtpOpenIn" file="Wcx_ftp.ini" section="General" default="0" version="7.00">
+					<description>Připojení FTP bude standardně otevřeno:
+	0: V aktivním panelu.
+	1: V levém panelu.
+	2: V pravém panelu.</description>
+				</key>
+				<key name="LogFile" file="Wcx_ftp.ini" section="General" default="%TEMP%\totalcmd.log" dialog="Open File" version="4.00">
+					<description>Soubor s protokolem činností bude uložen pod uvedeným názvem.</description>
+				</key>
+				<key name="LogFile2" file="Wcx_ftp.ini" section="General" default="path\filename" advanced="Yes" dialog="Open File" version="5.00">
+					<description>Soubor s protokolem činností bude uložen pouze pro nejdůležitější data (přenášené soubory).</description>
+				</key>
+				<key name="FtpInBackground" file="Wcx_ftp.ini" section="General" default="0" version="4.52">
+					<description>Při nastavení na hodnotu 1 budou přenosy protokolu FTP vždy spuštěny na pozadí (samostatné připojení).</description>
+				</key>
+				<key name="pasvmode" file="Wcx_ftp.ini" section="default" default="0" version="3.50">
+					<description>1: Pro nová připojení bude vždy používán pasivní režim.
+0: Vždy bude používán aktivní režim.</description>
+				</key>
+				<key name="PortFrom" file="Wcx_ftp.ini" section="General" default="10000" version="7.00">
+					<description>Počáteční port pro režim PORT (aktivní režim).</description>
+				</key>
+				<key name="PortTo" file="Wcx_ftp.ini" section="General" default="11000" version="7.00">
+					<description>Koncový port pro režim PORT.</description>
+				</key>
+				<key name="ModeZ" file="Wcx_ftp.ini" section="General" default="1" version="7.00">
+					<description>Komprimované přenosy budou:
+	0: zakázány.
+	1: povoleny pro Internet (v místní síti budou zakázány).
+	2: povoleny také pro místní síť (LAN).</description>
+				</key>
+				<key name="AutoResume" file="Wcx_ftp.ini" section="General" default="30" version="7.00">
+					<description>Časový limit (sekundy) před pokusem programu Total Commander obnovit nereagující připojení a pokračovat v přenosu souboru. Zakážete nastavením na hodnotu -1.</description>
+				</key>
+				<key name="E-Mail" file="Wcx_ftp.ini" section="General" default="xyz@server.com" version="3.50">
+					<description>E-mailová adresa, která bude používána jako heslo pro anonymní připojení.</description>
+				</key>
+				<key name="FtpShowHidden" file="Wcx_ftp.ini" section="General" default="0" version="4.54">
+					<description>1: Při spuštění bude zaškrtnuta možnost Protokol FTP - zobrazit skryté soubory (1/0).</description>
+				</key>
+				<key name="Lastmd5" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>1: Ve funkci Vytvořit kontrolu dat CRC nabídky Soubor byla naposledy použita možnost MD5.</description>
+				</key>
+				<key name="ListName" file="Wincmd.ini" section="Configuration" default="%COMMANDER_PATH%\ftplist.txt" version="7.00">
+					<description>Název posledního seznamu stahování, který byl použit ve funkci Stáhnout později nebo Protokol FTP – stáhnout dle seznamu.</description>
+				</key>
+				<key name="LowercaseUpload" file="Wcx_ftp.ini" section="default" default="0" version="4.00">
+					<description>1: Během odesílání budou názvy souborů převedeny na malá písmena.
+0: Názvy souborů budou odesílány tak, jak jsou na disku.</description>
+				</key>
+				<key name="MDTM" file="Wcx_ftp.ini" section="General" default="3" dialog="Bits Sum" version="7.00">
+					<description>Příkaz MDTM bude použit pro nastavení časového údaje odesílaných souborů (momentálně podporováno pouze u funkce SYNC). Jedná se o součet hodnot:
+1: Funkce bude povolena nebo zakázána.
+2: Časový údaj bude odesílán ve světovém čase (GMT). Většina serverů ho očekává místo místního času.</description>
+				</key>
+				<key name="AutoDisconnect" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="4.01">
+					<description>Určuje akci při pokusu o připojení k dalšímu serveru ve stejném okně, zatímco je aktivní jiné připojení:
+	0: Bude zobrazen dotaz (výchozí).
+	1: Předchozí připojení bude ukončeno.
+	2: Předchozí připojení bude zachováno.</description>
+				</key>
+				<key name="GetModeFromLocalFile" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="6.52">
+					<description>1: Podle přípony místního souboru bude určeno, zda bude soubor přenášen v automatickém režimu jako binární nebo jako textový (standardně je to určováno podle přípony vzdáleného souboru).</description>
+				</key>
+				<key name="Httptimeout" file="Wcx_ftp.ini" section="General" default="30" advanced="Yes" version="4.53">
+					<description>Časová prodleva (sekundy) pro odezvu webového serveru u stahování pomocí protokolu HTTP.</description>
+				</key>
+				<key name="KeepAliveTransfer" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="7.00">
+					<description>1: Příkaz Keepalive bude odesílán také během přenosu. Na řídicí připojení budou odeslány jen znaky nového řádku, aby se zabránilo tomu, že brána firewall přeruší spojení. Lze nastavit také jednotlivě pro každý server (není možné ve správci přenosů na pozadí). Poznámka: Tato možnost bude pro některé servery FTP matoucí, ale může to být poslední řešení v případě, kdy dochází k častému přerušování připojení.</description>
+				</key>
+				<key name="KeepMasterPassword" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="7.50">
+					<description>Uchování hlavního hesla v paměti bude povoleno, pokud je:
+	1: program minimalizován.
+	2: spuštěn spořič obrazovky.
+	3: obojí v platnosti.</description>
+				</key>
+				<key name="PreferIPv6" file="Wcx_ftp.ini" section="General" default="-1" advanced="Yes" version="6.52">
+					<description>-1: IPv6 adresy budou zakázány (výchozí).
+1: IPv6 adresy budou upřednostňovány pro servery, které podporují IPv4 i IPv6 adresy.
+0: Budou upřednostňovány IPv4 adresy (běžné internetové adresy).</description>
+				</key>
+				<key name="PreventFEAT" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="7.00">
+					<description>1: Na servery nebude odesílán příkaz FEAT (podporované funkce). Odesláním tohoto příkazu přestanou některé proxy servery reagovat.</description>
+				</key>
+				<key name="SpecialFlags" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" dialog="Bits Sum" version="7.02">
+					<description>Součet následujících možností:
+	1: Bude vynucen implicitní protokol SSL (žádné příkazy nebudou přeneseny v nešifrované podobě).
+	2: Bude vynucen explicitní protokol SSL.
+	4: Bude vynuceno ověření TLS.
+	8: Bude vynuceno ověření SSL23.
+	16: Bude proveden podrobný záznam připojení FTP na pozadí.
+	32: Nebude zjišťováno, zda byly soubory přeneseny celé (pomocí příkazu SIZE). 64: Nebude ověřována velikost staženého souboru (pomocí příkazu SIZE), pokud je velikost odlišná od velikosti uváděné ve výpisu souborů.
+	128: Relace pro datová spojení pomocí protokolu SSL (prostřednictvím příkazu SSL_copy_session_id) nebudou znovu používány.
+	256: Příkazy z pole Poslat příkazy nebudou odesílány v podprocesu na pozadí.
+	512: Odesláním příkazu MLSD -la budou vyžádány skryté soubory (nepodporuje většina serverů).
+	1024: Místní adresa vrácená příkazem PASV nebude převáděna na adresu serveru.</description>
+				</key>
+				<key name="sslwarn" file="Wcx_ftp.ini" section="General" default="1" advanced="Yes" version="7.00">
+					<description>0: Upozornění o neplatných certifikátech SSL bude zakázáno. Program Total Commander přesto zobrazí červenou ikonu otevřeného zámku.</description>
+				</key>
+				<key name="TcpKeepAlive" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="6.02">
+					<description>1: Příkaz Keepalive bude používán u protokolu TCP pro všechna připojení. Je to užitečné pro určité brány firewall a směrovače, pokud je připojení velice často přerušováno.</description>
+				</key>
+				<key name="UploadBlockSize" file="Wcx_ftp.ini" section="General" default="512" advanced="Yes" version="6.03">
+					<description>Velikost mezipaměti pro odesílání. V rychlých sítích můžete zkusit větší velikost, např. 1492 nebo až 8192.</description>
+				</key>
+				<key name="WarnWrongMode" file="Wcx_ftp.ini" section="General" default="1" advanced="Yes" version="4.00">
+					<description>1: Pokud budou binární soubory odesílány nebo stahovány v textovém režimu, bude zobrazeno upozornění.
+0: Upozornění nebude zobrazeno (jako v programu Total Commander 3.5x).</description>
+				</key>
+				<key name="Zlibratiobin" file="Wcx_ftp.ini" section="General" default="3" advanced="Yes" version="6.54">
+					<description>0 až 9: Kompresní poměr knihovny ZIP pro odesílání. 0=žádný, 1=nejrychlejší, 9=maximální</description>
+				</key>
+				<key name="Zlibratiotxt" file="Wcx_ftp.ini" section="General" default="3" advanced="Yes" version="6.54">
+					<description>0 až 9: Stejné jako parametr ZlibRatioBin, ale pro textové soubory. Můžete zde nastavit vyšší hodnotu, protože textové soubory jsou obvykle zkomprimovány lépe. Upozornění: Brána firewall Cisco PIX odmítá sílu komprese 1 a přerušuje odesílání!</description>
+				</key>
+				<key name="PreserveDates" file="Wcx_ftp.ini" section="default" default="0" version="7.00">
+					<description>Během stahování bude zachováván datum a čas souborů.</description>
+				</key>
+				<key name="SpeedLimit" file="Wincmd.ini" section="Configuration" default="5.0" version="7.00">
+					<description>Omezení rychlosti (kB/s), které bylo naposledy použito ve správci přenosů na pozadí.</description>
+				</key>
+				<key name="SpeedLimitEnabled" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.50">
+					<description>1: Omezení rychlosti bude povoleno ihned po otevření správce přenosů na pozadí.</description>
+				</key>
+				<key name="Wsock32" file="Wincmd.ini" section="Configuration" default="%windir%\wsock32.dll" advanced="Yes" dialog="Open File" version="3.50">
+					<description>Určuje umístění soketové knihovny pro protokol FTP (32bitová verze).</description>
+				</key>
+				<key name="AESVerify" file="Wcx_ftp.ini" section="General" default="??" advanced="Yes" version="7.50">
+					<description>Používá se k overení, že uživatel ve správci hesel zadal správné hlavní heslo šifrování AES.</description>
+				</key>
+				<key name="Allowhook" file="Wcx_ftp.ini" section="General" default="2" advanced="Yes" version="7.50">
+					<description>Tato možnost řídí vstup z klávesnice v dialogovém okně hlavního hesla:
+	0: Vyhrazení klávesnice nebude povoleno a bude zobrazena varovná ikona.
+	1: Vyhrazení klávesnice bude povoleno a bude zobrazena indikační ikona.
+	2: Vyhrazení klávesnice bude povoleno, ale nebude zobrazena indikační ikona (výchozí).
+Vysvětlení: Program Total Commander zjišťuje stisknutí kláves prostřednictvím vyhrazení klávesnice celého systému a pak klávesy vymaže, takže jednoduché programy na zaznamenávání stisknutých kláves (tzv. keylogger) nemohou stejnou metodou tyto klávesy zjistit. Lze to zakázat, protože některé antivirové programy mohou na toto vyhrazení upozorňovat.</description>
+				</key>
+				<key name="ForceHTTP11" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="7.50">
+					<description>0: Pro všechny přenosy s výjimkou navazovaných stahování bude používán protokol HTTP verze 1.0.
+1: Pro všechny přenosy bude používán protokol HTTP verze 1.1.
+Nevýhoda protokolu HTTP verze 1.1: Mnoho serverů pak odesílá dynamické stránky (např. PHP) v režimu bloku dat bez oznámení celkové velikosti. Proto není k dispozici žádný ukazatel průběhu.
+Výhoda: Server může začít odesílat dynamickou stránku už během jejího vytváření.</description>
+				</key>
+				<key name="UserAgent" file="Wcx_ftp.ini" section="General" default="&quot;Mozilla/4.0 (compatible; Totalcmd; Windows x)&quot;" advanced="Yes" version="7.55">
+					<description>Nastavení identifikačního řetězce prohlížeče pro spojení pomocí protokolu HTTP. 
+Výchozí hodnota: "Mozilla/4.0 (compatible; Totalcmd; Windows x)"
+(kde x představuje aktuální verzi systému Windows)</description>
+				</key>
+				<key name="PortIP" file="Wcx_ftp.ini" section="General" default="IP" advanced="Yes" version="7.50">
+					<description>Externí IPv4 adresa tohoto počítače. Můžete zde zadat buď pevnou IP adresu, název DNS (např. DynDNS) nebo adresu URL s předponou http:// na začátku. V posledním případě musí webová stránka vracet IP adresu v textové podobě.</description>
+				</key>
+				<key name="PortIPEnabled" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="7.50">
+					<description>Povolí nebo zakáže výše uvedenou IP adresu.</description>
+				</key>
+				<key name="DisconnectOnSuspend" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Bits Sum" version="7.50">
+					<description>Součet hodnot:
+	1: Při přechodu počítače do režimu spánku budou všechna připojení FTP ukončena.
+	2: Všechny doplňky systému souborů, které podporují funkci odpojení, budou odpojeny.</description>
+				</key>
+			</category>
+			<category title="Connections">
+				<section title="URL" name="OldConnections" file="Wcx_ftp.ini" version="3.50">
+					<description>This section contains list of connections made earlier in the dialog New Connection.</description>
+				</section>
+				<category title="Predefined connections">
+					<section title="Connections list" name="Connections" file="Wcx_ftp.ini" version="3.50">
+						<description>This section contains ftp predefined connections.</description>
+					</section>
+					<section title="[%Connection_Name%]" name="[%Connection_Name%]" file="Wcx_ftp.ini" version="3.50">
+						<description>Each connection has all or some of the following settings:
+
+Anonymous
+	1= Anonymous connection.
+	0= Connection with password.
+
+Directory
+	Directory on the server, which is set after connecting.
+
+LocalDir
+	Directory on the local machine, which is set after connecting.
+
+FireWall
+	Use the server (with specified number) configured under section [Firewall] as firewall/proxy.
+
+Host
+	Name of the server, if necessary the port (separated by a colon).
+	Example: ftp.site1.com:2121
+
+Password
+	Password, disguised (scrambled, NOT encrypted, it's impossible by principle!)
+
+Acct
+	Account password, must be set manually by copying from a password line
+
+PasvMode
+	0= Uses active mode (PORT command).
+	1= Uses passive mode (PASV command) - useful for certain firewalls.
+
+UserName
+	Username for the server.
+
+HostType
+	User-defined host type (name).
+
+InitCommands
+	Commands sent to server just after logging in.
+
+KeepAlive
+	Keep alive repeat time in seconds, followed by keepalive command, e.g. 90,NOOP.
+
+CacheDirs
+	0= Re-read directory every time it is visited
+	1= Keep content of visited dirs in cache
+
+SpecialFlags
+	Sum of the following options:
+	1= Force implicit ssl (no clear text connection);
+	2= force explicit ssl;
+	4= force TLS authentication;
+	8= force SSL23 authentication;
+	16= detailed log for ftp connections in background;
+	32= Do not test whether files have been transferred completely (with SIZE command).
+	32= Do not test whether files have been uploaded completely (with SIZE command).
+	64= Do not verify the downloaded file size (with SIZE command) if the downloaded size differs from the size reported in the file listing.
+	128= Do not re-use sessions for SSL data connections (via SSL_copy_session_id).
+	256= Do not send commands from "Send commands" field in background thread.
+
+	Note: SpecialFlags per site override SpecialFlags under [General] section.
+
+KeepAliveTransfer
+	1= Send keepalive also during a transfer. See details under [General] section.
+	If set individually per server, the latter not working in BTM.
+Encoding
+specify encoding of file names on the server, the default is "Auto-detect" or one of the following values:
+0= ANSI (local code page)
+1= ASCII/DOS (local code page)
+65001= UTF-8
+1250= Eastern Europe
+1251= Cyrillic Windows
+1252= Western Latin1
+1253= Greek
+1254= Turkish
+1255= Hebrew
+1256= Arabic
+1257= Baltic
+1258= Vietnamese
+936= Chinese Main Land
+950= Chinese Taiwan
+932= Japanese
+949= Korean
+874= Thai
+437= DOS-USA
+850= DOS-LATIN1
+20866= Cyrillic KOI8-R</description>
+					</section>
+				</category>
+			</category>
+			<category title="Server Types">
+				<section title="[%Server_Type%]" name="[%Server_Type%]" file="Wcx_ftp.ini" version="7.00">
+					<description>Server definitions.</description>
+				</section>
+			</category>
+			<section title="Server aliases" name="CertAlias" file="Wcx_ftp.ini" version="7.00">
+				<description>This section stores server aliases when the user chooses to trust an ftps (ftp over ssl) server by clicking on the open locker icon.
+
+Example: server.com=hostcompany.com
+User connects to server.com, but the server certificate belongs to hostcompany.com</description>
+			</section>
+			<section title="Firewall" name="Firewall" file="Wcx_ftp.ini" version="3.50">
+				<description>Nastavení brány firewall nebo proxy serveru. 
+host=localhost:80 Název a číslo portu brány firewall. 
+password= Heslo (u některých bran firewall není nutné). 
+username= Jméno uživatele (u některých bran firewall není nutné). 
+Method=1 Režim brány firewall (pořadí jako v dialogovém okně Nastavení brány firewall). 
+default=1 1: U nových připojení bude vždy používána brána firewall.
+0: U nových připojení nebude brána firewall používána.
+Tato možnost je při každém uložení připojení automaticky změněna. 
+httphost= Následující tři možnosti jsou pro přenosy pomocí protokolu HTTP:
+Název a číslo portu brány firewall 
+httpuser= Jméno uživatele (protokol HTTP) 
+httppass= Heslo (protokol HTTP)</description>
+			</section>
+			<section title="Time zone" name="TimeZone" file="Wcx_ftp.ini" version="7.00">
+				<description>Uloží rozdíl časových pásem zvlášť pro každý server (pro synchronizaci složek).</description>
+			</section>
+			<section title="Empty folders" name="|empty_folders|" file="Wcx_ftp.ini" version="7.50">
+				<description>List of empty folders (non-connection) of any nested levels in the dialog box "Connect to ftp server". Folders containing a connection, not specified here.</description>
+			</section>
+		</category>
+		<separator title="--------"/>
+		<category title="Lister">
+			<category title="General">
+				<key name="TabWidth" file="Wincmd.ini" section="Lister" default="8" advanced="Yes" version="2.00">
+					<description>Šířka tabulátoru (standardně 8).</description>
+				</key>
+				<key name="textwidth" file="Wincmd.ini" section="Lister" default="81" version="1.61">
+					<description>Šířka textu (ve znacích).</description>
+				</key>
+				<key name="binwidth" file="Wincmd.ini" section="Lister" default="75" version="1.61">
+					<description>Šířka pro binární zobrazení.</description>
+				</key>
+				<key name="Wrap" file="Wincmd.ini" section="Lister" default="1" version="3.50">
+					<description>Zalamování textu bude povoleno (1) nebo zakázáno (0).</description>
+				</key>
+				<key name="IView" file="Wincmd.ini" section="Lister" default="0" version="4.00">
+					<description>K načítání ostatní grafiky, např. soubory JPG atd., bude používán program IrfanView nebo XnView.</description>
+				</key>
+				<key name="IViewPath" file="Wincmd.ini" section="Lister" default="Path" dialog="Open File" version="4.00">
+					<description>Cesta ke spustitelnému souboru EXE programu IrfanView nebo XnView.</description>
+				</key>
+				<key name="IviewAdditionalTypes" file="Wincmd.ini" section="Lister" default="*.xyz" advanced="Yes" version="6.50">
+					<description>Další typy souborů, které budou předávány do programu IrfanView nebo XnView.
+Příklad: *.xyz *.abc
+Pokud je zde uveden již podporovaný typ, např. *.jpg, nebude tento soubor rozpoznáván podle obsahu. Následující typy souborů budou do programu IrfanView nebo XnView předávány i bez nastavení této položky: gif, jpg, jpeg, jfif, tga, tif, tiff, pcx, png, ani, acr, cam, clp, cpt, cur, dcx, dib, eps, g3, iff, img, lbm, lwf, pbm, pgm, pcd, ppm, psd, psp, ps, ras, rle, sfw, iw44, djvu, rgb, dcm, acr, wbmp, mos, kdc, xbm, xpm, swf, fpx, sgi, jp2, j2k</description>
+				</key>
+				<key name="SearchGoBack" file="Wincmd.ini" section="Lister" default="3" version="4.00">
+					<description>Počet řádků, které bude prohlížeč Lister zobrazovat nad nalezeným textem během hledání.</description>
+				</key>
+				<key name="CenterBitmap" file="Wincmd.ini" section="Lister" default="0" version="7.00">
+					<description>Zobrazený obrázek bude v prohlížeči Lister zarovnán na střed (1/0).</description>
+				</key>
+				<key name="ShrinkBitmap" file="Wincmd.ini" section="Lister" default="0" version="4.00">
+					<description>1: Obrázek bude zmenšen nebo zvětšen na velikost okna prohlížeče.
+2: Budou zmenšovány pouze příliš velké obrázky, ale nebudou zvětšovány obrázky, které jsou příliš malé.</description>
+				</key>
+				<key name="Startup" file="Wincmd.ini" section="Lister" default="0" dialog="Bits Sum" version="1.61">
+					<description>Ukládá režim zobrazení a písmo použité při otevření prohlížeče Lister: 
+	0: Automatické rozpoznání
+	1: Textové zobrazení
+	2: Binární zobrazení
+	3: Hexadecimální zobrazení
+	0: Automatické rozpoznání
+	16: ANSI
+	32: ASCII
+	48: Variabilní písmo</description>
+				</key>
+				<key name="BmpStartup" file="Wincmd.ini" section="Lister" default="1" version="4.00">
+					<description>1: Soubory obrázků budou vždy načítány a zobrazovány.
+0: Soubory obrázků budou načítány jako binární, ale budou zobrazeny, pokud zvolíte režim 'Obrázek nebo multimediální soubor'.</description>
+				</key>
+				<key name="Multimedia" file="Wincmd.ini" section="Lister" default="1" version="4.00">
+					<description>1: Zvukové a videosoubory budou vždy načítány a přehrávány.
+0: Zvukové a videosoubory budou načítány jako binární, ale budou přehrány, pokud zvolíte režim 'Obrázek nebo multimediální soubor'.</description>
+				</key>
+				<key name="RTF" file="Wincmd.ini" section="Lister" default="1" version="5.50">
+					<description>Soubory RTF budou automaticky rozpoznávány.</description>
+				</key>
+				<key name="HTMLasText" file="Wincmd.ini" section="Lister" default="1" version="5.00">
+					<description>Soubor HTML bude automaticky převáděn na text s odkazy.</description>
+				</key>
+				<key name="LinkBraces" file="Wincmd.ini" section="Lister" default="1" version="5.00">
+					<description>U zobrazení souboru HTML budou odkazy zobrazeny ve složených závorkách { a }.</description>
+				</key>
+				<key name="Caret" file="Wincmd.ini" section="Lister" default="1" version="7.00">
+					<description>Bude zobrazen textový kurzor, např. k výběru textu pomocí klávesnice.</description>
+				</key>
+				<key name="HebrewListerFix" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="5.00">
+					<description>Pokud nastavíte na hodnotu 1, bude při výběru anglických textů v prohlížeči v hebrejské verzi systému Windows použita oprava souřadnic (pouze pokud není používána sada služeb Uniscribe).</description>
+				</key>
+				<key name="Uniscribe" file="Wincmd.ini" section="Lister" default="1" advanced="Yes" version="7.50">
+					<description>Pro kódování Unicode a cizí znakové stránky bude v prohlížeči použita sada služeb Uniscribe. Uniscribe je knihovna, která umožňuje správně zpracovávat text psaný zprava doleva (arabština, hebrejština).</description>
+				</key>
+				<key name="Codepage" file="Wincmd.ini" section="Lister" default="-1" version="7.50">
+					<description>Znaková stránka definovaná uživatelem z podnabídky Kódování.
+-1: Bude určeno aktuálním písmem.</description>
+				</key>
+				<key name="UserEncodings" file="Wincmd.ini" section="Lister" default="codepage" version="7.55">
+					<description>Uživatelem definovaná kódování, která jsou uložena ve tvaru "Název kódování (číslo kódování)" a oddělena pomocí svislé čáry |.</description>
+				</key>
+			</category>
+			<category title="Font">
+				<key name="Font1" file="Wincmd.ini" section="Lister" default="Arial,-15,b" version="1.61">
+					<description>Písmo (pokud není uvedeno, bude použito výchozí písmo).</description>
+				</key>
+				<key name="Font2" file="Wincmd.ini" section="Lister" default="Arial,-15,b" version="1.61">
+					<description>
+					</description>
+				</key>
+				<key name="Font3" file="Wincmd.ini" section="Lister" default="Arial,-15,b" version="1.61">
+					<description>Custom font (incl. variable width).</description>
+				</key>
+			</category>
+			<category title="Position">
+				<key name="X" file="Wincmd.ini" section="Lister" default="24" version="1.61">
+					<description>Pozice X okna prohlížeče.</description>
+				</key>
+				<key name="Y" file="Wincmd.ini" section="Lister" default="8" version="1.61">
+					<description>Pozice Y okna prohlížeče.</description>
+				</key>
+				<key name="DX" file="Wincmd.ini" section="Lister" default="750" version="1.61">
+					<description>Šířka okna prohlížeče.</description>
+				</key>
+				<key name="DY" file="Wincmd.ini" section="Lister" default="550" version="1.61">
+					<description>Výška okna prohlížeče.</description>
+				</key>
+				<key name="Maximized" file="Wincmd.ini" section="Lister" default="0" version="1.61">
+					<description>Prohlížeč bude na celé obrazovce.</description>
+				</key>
+			</category>
+			<category title="Printer">
+				<key name="Font4" file="Wincmd.ini" section="Lister" default="Courier New,18,b" version="4.00">
+					<description>Písmo tisku (pevná šířka).</description>
+				</key>
+				<key name="Font5" file="Wincmd.ini" section="Lister" default="Arial,20" version="4.00">
+					<description>Písmo tisku (variabilní šířka).</description>
+				</key>
+				<key name="LeftMargin" file="Wincmd.ini" section="Lister" default="200" version="4.00">
+					<description>Okraje pro tisk (desetiny milimetru).</description>
+				</key>
+				<key name="RightMargin" file="Wincmd.ini" section="Lister" default="200" version="4.00">
+					<description>Right margin for printing (in 1/10 of a mm).</description>
+				</key>
+				<key name="TopMargin" file="Wincmd.ini" section="Lister" default="200" version="4.00">
+					<description>Top margin for printing (in 1/10 of a mm).</description>
+				</key>
+				<key name="BottomMargin" file="Wincmd.ini" section="Lister" default="200" version="4.00">
+					<description>Bottom margin for printing (in 1/10 of a mm).</description>
+				</key>
+			</category>
+		</category>
+		<category title="Compare by content">
+			<key name="CompareCaseSensitive" file="Wincmd.ini" section="Configuration" default="0" version="5.00">
+				<description>1: Porovnání podle obsahu bude rozlišovat velká a malá písmena.
+0: Velikost písmen bude ignorována (písmena a i A budou považována za stejná).</description>
+			</key>
+			<key name="CompareIgnoreRepeatedLines" file="Wincmd.ini" section="Configuration" default="1" version="7.00">
+				<description>0: Porovnání podle obsahu bude ignorovat řádky, které se mnohokrát opakují (např. begin a end). Je to užitečné především u porovnávání zdrojového kódu a jiných souborů s opakujícím se textem, který je pro porovnání nepodstatný. 
+1: Funkce bude zakázána. Je to užitečné u seznamů, kde se příslušné řádky také často opakují, např. seznamy součástek.</description>
+			</key>
+			<key name="CompareIgnoreRepSpace" file="Wincmd.ini" section="Configuration" default="1" version="6.00">
+				<description>1: Rozdílný počet mezer bude ignorován, např. řetězec "a b" bude stejný jako řetězec "a    b". 
+0: Různý počet mezer bude považován za rozdíl.</description>
+			</key>
+			<key name="CompareVertical" file="Wincmd.ini" section="Configuration" default="0" version="5.00">
+				<description>1: Panely porovnání obsahu budou zobrazeny pod sebou.
+0: Panely porovnání obsahu budou zobrazeny vedle sebe.</description>
+			</key>
+			<key name="CompareSaveOriginal" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+				<description>1: Při ukládání bude soubor zkopírován na název_souboru.bak a data pak budou uložena do souboru název_souboru. Výhoda: Budou zachovány dodatečné datové proudy, zvláštní atributy atd. 
+0: Při ukládání budou data zapsána do souboru název_souboru.tmp, pak bude soubor přejmenován na název_souboru.bak a konečně název_souboru.tmp bude přejmenován na název_souboru. Výhoda: Soubor bude nutné zapsat pouze jednou a v případě chyby zápisu zůstane v původní podobě.</description>
+			</key>
+			<key name="CompareAlwaysSaveWithBom" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.50">
+				<description>1: Editor porovnání obsahu vždy při ukládání souborů v kódování UTF-8 nebo UTF-16 přidá značku BOM (byte order marker).
+0: Značka BOM bude uložena pouze v případě, pokud ji soubor předtím obsahoval. </description>
+			</key>
+			<key name="Comparetool" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" dialog="Open File" version="6.54">
+				<description>Nastavení externího porovnávacího nástroje pro funkci Porovnat podle obsahu, např. WinMerge.</description>
+			</key>
+			<key name="CompareSkipFirstL" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+				<description>Skip the first x characters in each line of left file during compare by content (e.g. the date/time in a log file).</description>
+			</key>
+			<key name="CompareSkipFirstR" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+				<description>Skip the first x characters in each line of right file during compare by content (e.g. the date/time in a log file).</description>
+			</key>
+		</category>
+		<category title="Synchronize directories">
+			<key name="SyncButtons" file="Wincmd.ini" section="Configuration" default="63" dialog="Bits Sum" version="5.00">
+				<description>Tato položka ukládá stav tlačítek ve funkci Synchronizace složek. Je to součet hodnot: 
+	1: Zleva doprava 
+	2: Stejné soubory 
+	4: Rozdílné soubory 
+	8: Zprava doleva 
+	16: Duplikáty (existující na obou stranách) 
+	32: Osamocené soubory (existující jen na jedné straně)</description>
+			</key>
+			<key name="SyncFlags" file="Wincmd.ini" section="Configuration" default="0" dialog="Bits Sum" version="4.00">
+				<description>Poslední nastavení u funkce 'Synchronizace složek' bude zapamatováno. Následující hodnoty se sčítají: 
+	1: Včetně podsložek 
+	2: Porovnat podle obsahu 
+	4: Ignorovat datum souborů 
+	8: Asymetrický režim</description>
+			</key>
+			<key name="SyncHideHiddenSystem" file="Wincmd.ini" section="Configuration" default="0" version="7.55">
+				<description>Umožňuje vyloučit skryté a systémové soubory ze synchronizace:
+0: Skryté a systémové soubory nebudou skryty.
+1: Pokud mají soubory na obou stranách nastaven atribut Skrytý nebo Systémový, budou vyloučeny.
+2: Pokud má jakýkoli z obou souborů nastaven atribut Skrytý nebo Systémový, bude vyloučen.
+4 (přičíst): Zohlednit nastavení skrytého a systémového atributu v hlavním programu.</description>
+			</key>
+			<key name="SyncIgnoreJunctions" file="Wincmd.ini" section="Configuration" default="0" version="7.55">
+				<description>0: Při synchronizaci budou zpracována také spojení (body změny zpracování) ke složkám.
+1: Ze synchronizace budou vyloučena spojení složek.
+Upozornění: Pokud na protější straně existuje složka se stejným názvem, budou soubory v ní existovat zřejmě pouze na dané straně, protože spojení na první straně bude vyloučeno!</description>
+			</key>
+			<key name="SyncWarnErrors" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.55">
+				<description>Synchronizace složek: Nastavuje, kdy bude uživatel upozorněn na chyby při načítání složek:
+	0: Nikdy.
+	1: Pokud dojde k chybě při načítání (např. přerušení připojení k síti).
+	2: Pokud dojde k odepření přístupu (chyba 5, chybějící oprávnění uživatele).
+	3: Obě varianty.</description>
+			</key>
+			<key name="1hourdif" file="Wincmd.ini" section="Configuration" default="0" version="4.53">
+				<description>1: Při porovnávání souborů bude ignorován časový rozdíl přesně jedné hodiny. Je to užitečné při porovnávání disků NTFS a FAT (letní čas).</description>
+			</key>
+		</category>
+		<category title="Print directory">
+			<key name="FontName" file="Wincmd.ini" section="PrintDir" default="Arial" dialog="Font" version="5.00">
+				<description>Font name.
+Tip: Press &lt;Ctrl+B&gt; to set Font Name and Size at once.</description>
+			</key>
+			<key name="FontSize" file="Wincmd.ini" section="PrintDir" default="12" version="5.00">
+				<description>Font size.</description>
+			</key>
+			<key name="FontFlags" file="Wincmd.ini" section="PrintDir" default="BI" version="5.00">
+				<description>Font flag:
+	B= bold;
+	I= italic.</description>
+			</key>
+			<key name="HeaderText" file="Wincmd.ini" section="PrintDir" default="%d - Page %p/%t" version="5.00">
+				<description>Format of the printed pages header:
+	%d= inserts directory path.
+	%D= inserts system date.
+	%p= inserts current page number.
+	%t= inserts total pages number.</description>
+			</key>
+			<key name="HeaderMargin" file="Wincmd.ini" section="PrintDir" default="50" version="5.00">
+				<description>Header margin for printing (in 1/10 of a mm).</description>
+			</key>
+			<key name="LeftMargin" file="Wincmd.ini" section="PrintDir" default="200" version="5.00">
+				<description>Left margin for printing (in 1/10 of a mm).</description>
+			</key>
+			<key name="RightMargin" file="Wincmd.ini" section="PrintDir" default="200" version="5.00">
+				<description>Right margin for printing (in 1/10 of a mm).</description>
+			</key>
+			<key name="BottomMargin" file="Wincmd.ini" section="PrintDir" default="200" version="5.00">
+				<description>Bottom margin for printing (in 1/10 of a mm).</description>
+			</key>
+		</category>
+		<separator title="--------"/>
+		<category title="Redirect settings">
+			<key name="AlternateUserIni" file="Wincmd.ini" section="Configuration" default="&lt;somename&gt;" advanced="Yes" version="7.00">
+				<description>Pokud tuto položku uvedete, bude ukládání všech uživatelem měnitelných částí přesměrováno do jiného souboru INI (v tomto příkladu do souboru název.ini), kromě následujících částí: [Configuration], [Layout], [Packer], [Confirmation], [Extensions], [Shortcuts], [PackerPlugins], [FileSystemPlugins], [ListerPlugins] a [ContentPlugins]. Tyto části však lze přesměrovat jednotlivě. 
+Do každé části lze přidat položku RedirectSection=, která změní výchozí chování. Povolí nebo zakáže přesměrování dané části do jiného souboru INI. Možné hodnoty jsou:
+	0: žádné přesměrování 
+	1: přesměrování do souboru INI uvedeného v položce 	AlternateUserIni=&lt;jiný_soubor_INI.ini&gt;
+&lt;názevini.ini&gt;: přesměrování do konkrétního souboru INI</description>
+			</key>
+			<category title="Sections NOT redirected by default">
+				<key name="RedirectSection" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>Popis naleznete u položky AlternateUserIni. Poznámka: Pokud bude tato položka umístěna v části [Configuration], budou všechny položky z této části kromě AlternateUserIni a UseIniInProgramDir, které budou vždy načítány z hlavního souboru INI, přesměrovány.</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Layout" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Layout
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Packer
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Confirmation" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Confirmation
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Extensions" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Extensions
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Associations" default="0" advanced="Yes" dialog="Open File" version="7.50">
+					<description>
+	Associations
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Shortcuts" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Shortcuts
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="ShortcutsWin" default="0" advanced="Yes" dialog="Open File" version="7.50">
+					<description>
+	ShortcutsWin
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="PackerPlugins" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	PackerPlugins
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="FileSystemPlugins" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	FileSystemPlugins
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="ListerPlugins" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	ListerPlugins
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="ContentPlugins" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	ContentPlugins
+	************</description>
+				</key>
+			</category>
+			<category title="Sections redirected by default">
+				<key name="RedirectSection" file="Wincmd.ini" section="Left" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Left
+	************
+Values:
+---------
+	RedirectSection=0  -&gt; no redirect;
+	RedirectSection=1  -&gt; redirect to AlternateUserIni;
+	RedirectSection="ininame" -&gt; redirect to that specific ini.
+
+These values are apply to all RedirectSection under all other sections.</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Right" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Right
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Lefttabs" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Lefttabs
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Righttabs" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Righttabs
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Colors" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Colors
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Buttonbar" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Buttonbar
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Command line history" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Command line history
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="DriveHints" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	DriveHints
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Lister" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Lister
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="CustomFields" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	CustomFields
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="HintsCustomField" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	HintsCustomField
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="OverwriteCustomField" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	OverwriteCustomField
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="CompareCustomField" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	CompareCustomField
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="LeftHistory" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	LeftHistory
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="RightHistory" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	RightHistory
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="MkDirHistory" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	MkDirHistory
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="SyncOptions" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	SyncOptions
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Tabstops" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Tabstops
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="attrplugin" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	attrplugin
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Alias" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Alias
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="User" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	User
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="DirMenu" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	DirMenu
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Searches" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Searches
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="SearchName" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	SearchName
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="SearchIn" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	SearchIn
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="SearchText" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	SearchText
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Selection" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Selection
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Rename" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Rename
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="RenameTemplates" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	RenameTemplates
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="RenameSearchFind" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	RenameSearchFind
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="RenameSearchReplace" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	RenameSearchReplace
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="PrintDir" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	PrintDir
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="SplitPerFile" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	SplitPerFile
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="IgnoreMenuExtensions" default="1" advanced="Yes" dialog="Open File" version="7.50">
+					<description>
+	IgnoreMenuExtensions
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="[%Screen_Resolution%]" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Screen resolution-dependent data
+	************
+
+"Configuration Editor" automatically detecting this section actual name.</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="AllResolutions" default="1" advanced="Yes" version="7.00">
+					<description>
+	AllResolutions
+	************
+
+Note: Used only when ResolutionSpecific=0.</description>
+				</key>
+			</category>
+		</category>
+		<separator title="--------"/>
+		<category title="Other settings">
+			<category title="Start and Directory menu">
+				<section title="Start menu" name="User" file="Wincmd.ini" dialog="Open File" version="1.10">
+					<description>Nabídka definovaná uživatelem. 
+	menuxx=Kořenová složka disku C Název 
+	cmdxx=cd c:\ Příkaz 
+	paramxx= Parametry 
+	pathxx= Výchozí cesta 
+	iconicxx= 1=Spustit minimalizovaně 
+	keyxx= Klávesová zkratka</description>
+				</section>
+				<section title="Directory menu" name="DirMenu" file="Wincmd.ini" dialog="Open Folder" version="3.50">
+					<description>Oblíbené položky definované uživatelem (Ctrl+D).
+	menuxx=Kořenová složka disku C Název 
+	cmdxx=cd c:\ Příkaz 
+	pathxx= Výchozí cesta</description>
+				</section>
+			</category>
+			<category title="History sections">
+				<section title="Command line history" name="Command line history" file="Wincmd.ini" dialog="Open File" version="1.20">
+					<description>Seznam naposledy použitých příkazů. </description>
+				</section>
+				<section title="Selection" name="Selection" file="Wincmd.ini" version="3.00">
+					<description>Ukládá naposledy použité zástupné znaky při výběru (Num +).</description>
+				</section>
+				<section title="Search for" name="SearchName" file="Wincmd.ini" version="3.00">
+					<description>Last used search mask.</description>
+				</section>
+				<section title="Search in" name="SearchIn" file="Wincmd.ini" dialog="Open Folder" version="3.00">
+					<description>Last used search paths.</description>
+				</section>
+				<section title="Find text" name="SearchText" file="Wincmd.ini" version="3.00">
+					<description>Last used find text in "Find files" dialog box and lister "Find" dialog.</description>
+				</section>
+				<section title="Searches" name="Searches" file="Wincmd.ini" version="3.00">
+					<description>Uložená nastavení dialogového okna hledání. </description>
+				</section>
+				<section title="Rename mask" name="RenameTemplates" file="Wincmd.ini" version="4.50">
+					<description>Naposledy použité řetězce pro přejmenování v hromadném přejmenování. </description>
+				</section>
+				<section title="Rename search for" name="RenameSearchFind" file="Wincmd.ini" version="6.50">
+					<description>Naposledy použité hledané řetězce v hromadném přejmenování (funkce hledání a nahrazení). </description>
+				</section>
+				<section title="Rename replace with" name="RenameSearchReplace" file="Wincmd.ini" version="6.50">
+					<description>Naposledy použité řetězce pro nahrazení v hromadném přejmenování (funkce hledání a nahrazení). </description>
+				</section>
+				<section title="Rename" name="Rename" file="Wincmd.ini" version="5.50">
+					<description>Uložená nastavení hromadného přejmenování. </description>
+				</section>
+				<section title="Left history" name="LeftHistory" file="Wincmd.ini" dialog="Open Folder" version="7.00">
+					<description>Seznam naposledy navštívených složek v levém a pravém panelu. Ukládání lze zakázat pomocí položky SaveHistory=0. </description>
+				</section>
+				<section title="Right history" name="RightHistory" file="Wincmd.ini" dialog="Open Folder" version="7.00">
+					<description>Seznam naposledy navštívených složek v levém a pravém panelu. Ukládání lze zakázat pomocí položky SaveHistory=0. </description>
+				</section>
+				<section title="New directory" name="MkDirHistory" file="Wincmd.ini" version="7.00">
+					<description>Seznam naposledy vytvořených složek (pomocí klávesy F7). </description>
+				</section>
+				<section title="Synchronize options" name="SyncOptions" file="Wincmd.ini" version="7.00">
+					<description>Uložená nastavení pro Synchronizaci složek. 
+&lt;název&gt;_L=D:\ Levá cesta. 
+&lt;název&gt;_R=E:\ Pravá cesta. 
+&lt;název&gt;_Wcs=*.* Zástupné znaky. 
+&lt;název&gt;_Flags=11|63|-8 Nastavení. Uvedené tři bloky znamenají: 
+Blok 1: Nastavení porovnávání. Je to součet: 
+1: Podsložky. 
+2: Podle obsahu. 
+4: Ignorovat datum. 
+8: Asymetrický režim. 
+Blok 2: Nastavení zobrazení. Je to součet: 
+1: Zleva doprava. 
+2: Stejné soubory. 
+4: Rozdílné soubory. 
+8: Zprava doleva. 
+16: Duplikáty. 
+32: Osamocené soubory. 
+Blok 3: Pořadí řazení (při obráceném řazení je číslo záporné). </description>
+				</section>
+				<section title="Plugin attributes" name="AttrPlugin" file="Wincmd.ini" version="7.00">
+					<description>Dialogové okno atributů: Uložená nastavení doplňku </description>
+				</section>
+				<section title="Split sizes" name="SplitPerFile" file="Wincmd.ini" version="7.00">
+					<description>Ukládá velikosti definované uživatelem, které byly použity u položky Rozdělit soubor v nabídce Soubor a při vytváření dělených archivů na více médií. </description>
+				</section>
+			</category>
+			<category title="Folder tabs">
+				<section title="Left tabs" name="LeftTabs" file="Wincmd.ini" dialog="Open Folder" version="6.00">
+					<description>Nastavení záložek levého a pravého panelu. Nastavení aktivní záložky není uloženo zde, ale v částech [left] a [right].</description>
+				</section>
+				<section title="Right tabs" name="RightTabs" file="Wincmd.ini" dialog="Open Folder" version="6.00">
+					<description>Nastavení záložek levého a pravého panelu. Nastavení aktivní záložky není uloženo zde, ale v částech [left] a [right].</description>
+				</section>
+			</category>
+			<category title="Custom fields">
+				<category title="Custom columns (WFX plugins)">
+					<section title="[%CustomFields_WFX%]" name="[%CustomFields_WFX%]" file="Wincmd.ini" version="7.00">
+						<description>Saved custom column configurations for file system plugins.</description>
+					</section>
+				</category>
+				<section title="Custom columns" name="CustomFields" file="Wincmd.ini" version="6.50">
+					<description>Saved custom column configurations.</description>
+				</section>
+				<section title="Custom hints" name="HintsCustomField" file="Wincmd.ini" version="6.50">
+					<description>Vlastní pole, která budou zobrazena v nápovědných textech k souborům. </description>
+				</section>
+				<section title="Overwrite custom fields" name="OverwriteCustomField" file="Wincmd.ini" version="7.00">
+					<description>Vlastní pole, která budou zobrazena v dialogovém okně přepsání. </description>
+				</section>
+				<section title="Custom comparison by content" name="CompareCustomField" file="Wincmd.ini" version="7.55">
+					<description>Synchronize dirs: Custom comparison by content with plugins.</description>
+				</section>
+			</category>
+			<category title="Positions">
+				<category title="Main window">
+					<key name="X" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="1.10">
+						<description>Pozice X okna programu Total Commander.</description>
+					</key>
+					<key name="Y" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="1.10">
+						<description>Pozice Y okna programu Total Commander.</description>
+					</key>
+					<key name="DX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="1.10">
+						<description>Šířka okna.</description>
+					</key>
+					<key name="DY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="1.10">
+						<description>Výška okna.</description>
+					</key>
+					<key name="Maximized" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="1.61">
+						<description>0: Běžná velikost.
+1: Maximální velikost.</description>
+					</key>
+					<key name="Divider" file="Wincmd.ini" section="[%Screen_Resolution%]" default="500" version="3.00">
+						<description>Pozice oddělovače panelů v tisícinách (0 až 1000).</description>
+					</key>
+					<key name="DividerComments" file="Wincmd.ini" section="[%Screen_Resolution%]" default="500" version="6.00">
+						<description>Pozice oddělovače panelů v tisícinách u zobrazení Komentáře (Ctrl+Shift+F2).</description>
+					</key>
+					<key name="DividerQuickView" file="Wincmd.ini" section="[%Screen_Resolution%]" default="500" version="3.50">
+						<description>Pozice oddělovače panelů v tisícinách u zobrazení panelu náhledu (Ctrl+Q). Oba oddělovače lze nezávisle nastavit výběrem položky 'Uložit pozici' v příslušném režimu (s panelem náhledu a bez něj).</description>
+					</key>
+					<key name="Tabstops" file="Wincmd.ini" section="[%Screen_Resolution%]" default="124,127,186,76,429,93" version="4.00">
+						<description>Pozice zarážek sloupců.</description>
+					</key>
+				</category>
+				<category title="Choose command">
+					<key name="CmdSelX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="7.00">
+						<description>Pozice X.</description>
+					</key>
+					<key name="CmdSelY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="7.00">
+						<description>Pozice Y.</description>
+					</key>
+					<key name="CmdSelDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="7.00">
+						<description>Šířka okna.</description>
+					</key>
+					<key name="CmdSelDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="7.00">
+						<description>Výška okna.</description>
+					</key>
+					<key name="CmdSelMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="7.00">
+						<description>0: Běžná velikost.
+1: Maximální velikost.</description>
+					</key>
+				</category>
+				<category title="Synchronize directories">
+					<key name="SyncX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="4.00">
+						<description>Pozice X.</description>
+					</key>
+					<key name="SyncY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="4.00">
+						<description>Pozice Y.</description>
+					</key>
+					<key name="SyncDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="4.00">
+						<description>Šířka okna.</description>
+					</key>
+					<key name="SyncDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="4.00">
+						<description>Výška okna.</description>
+					</key>
+					<key name="SyncMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="4.00">
+						<description>0: Běžná velikost.
+1: Maximální velikost.</description>
+					</key>
+					<key name="SyncTabs" file="Wincmd.ini" section="[%Screen_Resolution%]" default="165,257,352,384,476,551" version="4.00">
+						<description>Tabstop header positions.</description>
+					</key>
+				</category>
+				<category title="Compare contents">
+					<key name="CompareX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="5.50">
+						<description>Pozice X.</description>
+					</key>
+					<key name="CompareY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="5.50">
+						<description>Pozice Y.</description>
+					</key>
+					<key name="CompareDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="5.50">
+						<description>Šířka okna.</description>
+					</key>
+					<key name="CompareDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="5.50">
+						<description>Výška okna.</description>
+					</key>
+					<key name="CompareMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="5.50">
+						<description>0: Běžná velikost.
+1: Maximální velikost.</description>
+					</key>
+				</category>
+				<category title="Find files">
+					<key name="SearchX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="4.00">
+						<description>Pozice X.</description>
+					</key>
+					<key name="SearchY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="4.00">
+						<description>Pozice Y.</description>
+					</key>
+					<key name="SearchDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="4.00">
+						<description>Šířka okna.</description>
+					</key>
+					<key name="SearchDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="4.00">
+						<description>Výška okna.</description>
+					</key>
+					<key name="SearchMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="4.00">
+						<description>0: Běžná velikost.
+1: Maximální velikost.</description>
+					</key>
+				</category>
+				<category title="Drive selection">
+					<key name="DriveSelX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="-118" version="7.55">
+						<description>Pozice X.
+Note: X is relative to the upper left corner of the search dialog.</description>
+					</key>
+					<key name="DriveSelY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="-108" version="7.55">
+						<description>Pozice Y.
+Note: Y is relative to the upper left corner of the search dialog.</description>
+					</key>
+					<key name="DriveSelDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="799" version="7.55">
+						<description>Šířka okna.</description>
+					</key>
+					<key name="DriveSelDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="332" version="7.55">
+						<description>Výška okna.</description>
+					</key>
+					<key name="DriveSelMax" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="7.55">
+						<description>0: Běžná velikost.
+1: Maximální velikost.</description>
+					</key>
+				</category>
+				<category title="Multi-Rename tool">
+					<key name="RenameX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="4.50">
+						<description>Pozice X.</description>
+					</key>
+					<key name="RenameY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="4.50">
+						<description>Pozice Y.</description>
+					</key>
+					<key name="RenameDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="4.50">
+						<description>Šířka okna.</description>
+					</key>
+					<key name="RenameDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="4.50">
+						<description>Výška okna.</description>
+					</key>
+					<key name="RenameMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="4.50">
+						<description>0: Běžná velikost.
+1: Maximální velikost.</description>
+					</key>
+					<key name="RenameTabs" file="Wincmd.ini" section="[%Screen_Resolution%]" default="115,145,345,518,715" version="4.50">
+						<description>Pozice zarážek sloupců.</description>
+					</key>
+				</category>
+				<category title="Change start menu">
+					<key name="MenuChangeX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="5.00">
+						<description>Pozice X.</description>
+					</key>
+					<key name="MenuChangeY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="5.00">
+						<description>Pozice Y.</description>
+					</key>
+					<key name="MenuChangeDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="5.00">
+						<description>Šířka okna.</description>
+					</key>
+					<key name="MenuChangeDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="5.00">
+						<description>Výška okna.</description>
+					</key>
+					<key name="MenuChangeMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="5.00">
+						<description>0: Běžná velikost.
+1: Maximální velikost.</description>
+					</key>
+				</category>
+				<category title="Directories tree">
+					<key name="TreeDlgX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="5.00">
+						<description>Pozice X.</description>
+					</key>
+					<key name="TreeDlgY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="5.00">
+						<description>Pozice Y.</description>
+					</key>
+					<key name="TreeDlgDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="5.00">
+						<description>Šířka okna.</description>
+					</key>
+					<key name="TreeDlgDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="5.00">
+						<description>Výška okna.</description>
+					</key>
+					<key name="TreeDlgMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="5.00">
+						<description>0: Běžná velikost.
+1: Maximální velikost.</description>
+					</key>
+				</category>
+				<category title="Print preview">
+					<key name="PrintX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="5.00">
+						<description>Pozice X.</description>
+					</key>
+					<key name="PrintY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="5.00">
+						<description>Pozice Y.</description>
+					</key>
+					<key name="PrintDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="5.00">
+						<description>Šířka okna.</description>
+					</key>
+					<key name="PrintDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="5.00">
+						<description>Výška okna.</description>
+					</key>
+					<key name="PrintMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="5.00">
+						<description>0: Běžná velikost.
+1: Maximální velikost.</description>
+					</key>
+				</category>
+				<category title="Connect to ftp server">
+					<key name="ConnectX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="7.00">
+						<description>Pozice X.</description>
+					</key>
+					<key name="ConnectY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="7.00">
+						<description>Pozice Y.</description>
+					</key>
+					<key name="ConnectDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="7.00">
+						<description>Šířka okna.</description>
+					</key>
+					<key name="ConnectDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="7.00">
+						<description>Výška okna.</description>
+					</key>
+					<key name="ConnectMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="7.00">
+						<description>0: Běžná velikost.
+1: Maximální velikost.</description>
+					</key>
+				</category>
+				<category title="Custom columns">
+					<key name="CustColumnX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="6.50">
+						<description>Pozice X.</description>
+					</key>
+					<key name="CustColumnY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="6.50">
+						<description>Pozice Y.</description>
+					</key>
+					<key name="CustColumnDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="6.50">
+						<description>Šířka okna.</description>
+					</key>
+					<key name="CustColumnDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="6.50">
+						<description>Výška okna.</description>
+					</key>
+					<key name="CustColumnMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="6.50">
+						<description>0: Běžná velikost.
+1: Maximální velikost.</description>
+					</key>
+				</category>
+			</category>
+			<category title="Left">
+				<key name="Path" file="Wincmd.ini" section="Left" default="path" dialog="Open Folder" version="1.10">
+					<description>Poslední aktivní složka.</description>
+				</key>
+				<key name="ShowAllDetails" file="Wincmd.ini" section="Left" default="1" version="1.10">
+					<description>Budou zobrazeny:
+	0: Pouze názvy souborů.
+	1: Všechny podrobnosti.
+	2: Strom složek.</description>
+				</key>
+				<key name="Show" file="Wincmd.ini" section="Left" default="1" version="1.10">
+					<description>Budou zobrazeny:
+	1: Všechny soubory.
+	2: Pouze programy.
+	3: Soubory definované uživatelem.</description>
+				</key>
+				<key name="UserSpec" file="Wincmd.ini" section="Left" default="file_mask" version="2.00">
+					<description>Zástupné znaky definované uživatelem.</description>
+				</key>
+				<key name="SpecialView" file="Wincmd.ini" section="Left" default="100" version="6.50">
+					<description>Číslo zobrazení vlastních sloupců, položka Show bude přepsána. Bude uloženo v samostatné proměnné, aby nedošlo k potížím se staršími verzemi programu Total Commander.</description>
+				</key>
+				<key name="SortOrder" file="Wincmd.ini" section="Left" default="0" version="1.10">
+					<description>Řazení bude podle:
+	0: Název.
+	1: Přípona.
+	2: Velikost.
+	3: Datum.
+	4: Bez řazení.</description>
+				</key>
+				<key name="CustomSortOrder" file="Wincmd.ini" section="Left" default="0" version="6.50">
+					<description>Řazení bude podle vlastního sloupce (pouze při zobrazení vlastních sloupců).
+100: První vlastní sloupec.
+101: Druhý vlastní sloupec.
+atd.</description>
+				</key>
+				<key name="Negative Sortorder" file="Wincmd.ini" section="Left" default="0" version="1.10">
+					<description>Opačné pořadí řazení.</description>
+				</key>
+				<key name="AddSortOrders" file="Wincmd.ini" section="Left" default="1" version="7.00">
+					<description>Další pořadí řazení. Příklad: Hodnoty 1,-3,2 znamenají další seřazení dle prvního sloupce vzestupně, třetího sloupce sestupně a druhého sloupce vzestupně (počítání sloupců začíná na hodnotě 1).</description>
+				</key>
+			</category>
+			<category title="Right">
+				<key name="Path" file="Wincmd.ini" section="Right" default="path" dialog="Open Folder" version="1.10">
+					<description>Poslední aktivní složka.</description>
+				</key>
+				<key name="ShowAllDetails" file="Wincmd.ini" section="Right" default="1" version="1.10">
+					<description>Budou zobrazeny:
+	0: Pouze názvy souborů.
+	1: Všechny podrobnosti.
+	2: Strom složek.</description>
+				</key>
+				<key name="Show" file="Wincmd.ini" section="Right" default="1" version="1.10">
+					<description>Budou zobrazeny:
+	1: Všechny soubory.
+	2: Pouze programy.
+	3: Soubory definované uživatelem.</description>
+				</key>
+				<key name="UserSpec" file="Wincmd.ini" section="Right" default="file_mask" version="2.00">
+					<description>Zástupné znaky definované uživatelem.</description>
+				</key>
+				<key name="SpecialView" file="Wincmd.ini" section="Right" default="100" version="6.50">
+					<description>Číslo zobrazení vlastních sloupců, položka Show bude přepsána. Bude uloženo v samostatné proměnné, aby nedošlo k potížím se staršími verzemi programu Total Commander.</description>
+				</key>
+				<key name="SortOrder" file="Wincmd.ini" section="Right" default="0" version="1.10">
+					<description>Řazení bude podle:
+	0: Název.
+	1: Přípona.
+	2: Velikost.
+	3: Datum.
+	4: Bez řazení.</description>
+				</key>
+				<key name="CustomSortOrder" file="Wincmd.ini" section="Right" default="0" version="6.50">
+					<description>Řazení bude podle vlastního sloupce (pouze při zobrazení vlastních sloupců).
+100: První vlastní sloupec.
+101: Druhý vlastní sloupec.
+atd.</description>
+				</key>
+				<key name="Negative Sortorder" file="Wincmd.ini" section="Right" default="0" version="1.10">
+					<description>Opačné pořadí řazení.</description>
+				</key>
+				<key name="AddSortOrders" file="Wincmd.ini" section="Right" default="1" version="7.00">
+					<description>Další pořadí řazení. Příklad: Hodnoty 1,-3,2 znamenají další seřazení dle prvního sloupce vzestupně, třetího sloupce sestupně a druhého sloupce vzestupně (počítání sloupců začíná na hodnotě 1).</description>
+				</key>
+			</category>
+			<section title="x64 Menu Extensions" name="IgnoreMenuExtensions" file="Wincmd.ini" version="7.50">
+				<description>Při používání podnabídky x64 (64bitová) budou odfiltrována určitá rozšíření místní nabídky. 
+0=Název prvního rozšíření
+1=Název druhého rozšíření</description>
+			</section>
+		</category>
+	</main_category>
+</ultra_tc_editors_data_file>

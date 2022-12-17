@@ -144,12 +144,12 @@ POPUP "TC Editors"
     MENUITEM "TC Editors", em_TC-Editors
     MENUITEM "TC Editors close all", em_TC-editors_TC_Editors-close-all
     MENUITEM SEPARATOR
-    MENUITEM "ButtonBar", em_TC-ButtonBar
-    MENUITEM "DirectoryHotList", em_TC-DirectoryHotList
-    MENUITEM "Extended Commands", em_TC-ExtendedCommands
-    MENUITEM "MainMenu", em_TC-MainMenu
-    MENUITEM "HotKeys", em_TC-HotKeys
-    MENUITEM "Nested Bar Creator", em_TC-NestedBarCreator
+    MENUITEM "TC Editors ButtonBar", em_TC-Editors-ButtonBar
+    MENUITEM "TC Editors DirectoryHotList", em_TC-Editors-DirectoryHotList
+    MENUITEM "TC Editors ExtendedCommands", em_TC-Editors-ExtendedCommands
+    MENUITEM "TC Editors MainMenu", em_TC-Editors-MainMenu
+    MENUITEM "TC Editors HotKeys", em_TC-Editors-HotKeys
+    MENUITEM "TC Editors Nested Bar Creator", em_TC-Editors-NestedBarCreator
     MENUITEM SEPARATOR
     MENUITEM "HistoryEditor", em_TC-HistoryEditor
 END_POPUP

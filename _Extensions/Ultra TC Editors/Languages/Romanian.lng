@@ -1,0 +1,801 @@
+; Acest fiºier conþine traducerea în limba românã pentru:
+;  Ultra TC Main Menu Editor
+;  Ultra TC Start Menu Editor
+;  Ultra TC Directory Menu Editor
+;  Ultra TC History Editor
+;  Ultra TC Configuration Editor
+;  Ultra TC Hotkeys Editor
+; Autor Taher Salem (Egypt)
+; Traducãtor Eugen ANTAL ( eugensyl [at] yahoo.com )
+; The world can be better - with us!
+; Last full translated version/Ultima versiune tradusa: 5.50
+
+;----------------------------------------------------------------
+;    File menu
+;----------------------------------------------------------------
+5001="&Fiºier"
+5002="&Nou"
+5003="&Deschide..."
+5004="&Salveazã"
+5005="Salveazã c&a..."
+5006="Salveazã si &Reporneºte Total &Commander"
+5007="Creare &Meniu complet"
+5008="Chec&k Mnemonics..."
+5009="Design Totalcmd.inc..."
+5010="Customize Ma&pping File..."
+5011="Fiºiere &Recent Utilizate"
+5012="Fãrã fiºiere Recente"
+5013="ªterge lista"
+5014="Ieºire"
+
+5031="E&xport..."
+5032="&Import..."
+5033="&Export în Totalcmd.inc..."
+
+5051="Deschide Fiºierul de &Date..."
+5052="Sal&veazã Fiºierul de Date"
+
+5071="Export în &Meniul Principal..."
+5072="&Export în fiºier text..."
+
+;----------------------------------------------------------------
+;    Edit menu
+;----------------------------------------------------------------
+5101="&Editeazã"
+5102="Adãugare &Meniu"
+5103="Adãugare &Submeniu"
+5104="Adãugare Sepa&rator"
+5105="Adãugare &Comentariu"
+5106="R&epetã"
+5107="Meniu s&tart"
+5108="&Ajutor"
+5109="Mutã în s&us"
+5110="Mutã în jo&s"
+5111="Mutã l&a..."
+5112="&Import Captions..."
+5113="Map To..."
+5114="ª&terge"
+5115="&Redenumire"
+5116="De&finiþii"
+
+5131="Adãugare &Comandã"
+5132="&Adãugare"
+5133="Cu&t"
+5134="&Copy"
+5135="&Paste"
+5136="Sortare M&enuri - Toate"
+5137="Sortare Meniuri - Se&lectate"
+5138="Deschide în &TC"
+5139="Pr&oprietãþi"
+
+5151="Add Sub-bar"
+5152="Add &Line Break"
+5153="Add &Button"
+
+5171="&Adãugare articol"
+5172="ªterge &TOT..."
+
+5191="&Refacere"
+5192="&Anulare refacere"
+5193="Valoare &Editare"
+5194="Valoare = &1"
+5195="Valoare = &0"
+5196="Caut &Valoare..."
+5197="Combiaþie &Nouã..."
+5198="Redenu&mire..."
+5199="&Comentariu"
+5200="Data &File"
+5201="&Add Key..."
+5202="&Modify Key..."
+5203="&Delete Key"
+
+;----------------------------------------------------------------
+;    View menu
+;----------------------------------------------------------------
+5301="&Vizualizare"
+5302="&Unelte"
+5303="&Bara de Status"
+5304="Lista de &Comenzi"
+5305="Listã &Categorii"
+5306="Panouri &Verticale"
+5307="&Schimbã Panourile"
+5308="&Expandeazã structura"
+5309="&Restrânge structura"
+5310="Sorteazã &Lista"
+5311="&Opþiuni..."
+
+5331="&Totdeauna în Prim-Plan"
+5332="Meniu Start"
+5333="Meniu Director"
+5334="Comenzi Extinse"
+
+5351="&Button Bar"
+5352="Button Bar T&ree"
+5353="Button Bar Optio&ns"
+5354="&Main Button Bar"
+5355="&Vertical Button Bar"
+
+5371="&Descriere"
+5372="Toate &cheile"
+5373="Cheile &Active"
+5374="Cheile &Inactive"
+5375="Numai combinaþii a&vansate"
+5376="&Branch View"
+
+;----------------------------------------------------------------
+;    Search menu
+;----------------------------------------------------------------
+5401="&Cãutare"
+5402="&Caut..."
+5403="Cautã!"
+
+;----------------------------------------------------------------
+;    Help menu
+;----------------------------------------------------------------
+5501="&Ajutor"
+5502="&Topic ajutor"
+5503="&Despre"
+
+;----------------------------------------------------------------
+;    Favorites menu (Configuration Editor)
+;----------------------------------------------------------------
+5601="Favori&te"
+5602="&Adaugã la Favorite..."
+5603="&Organizeazã Favoritele..."
+
+;----------------------------------------------------------------
+;    Context menu (Main Menu Editor)
+;----------------------------------------------------------------
+5701="A&daugã"
+5702="ª&terge"
+5703="Selecteazã tot"
+5704="De&finiþii"
+5705="Select All Ac&tive"
+5706="Select All &Inactive"
+
+;----------------------------------------------------------------
+;    Parameters menu (Start Menu & Button Bar Editor)
+;----------------------------------------------------------------
+5801="?   ca prim parametru: invoca dialogul pentru introducerea parametrilor"
+5802="%P  insereazã calea - sursã curentã"
+5803="%N  insereazã numele fiºierului de sub cursor"
+5804="%T  insereazã calea - destinaþie curentã"
+5805="%M  insereazã numele fiºierului curent în directorul destinaþie"
+5806="%O  insereazã numele fiºierului curent fãrã extensie"
+5807="%E  insereazã extensia curentã (fãrã punct)"
+5808="%%  insereazã semnul procent"
+5809="%p  insereazã calea - sursã actualã (scurt)"
+5810="%n  insereazã numele fiºierului de sub cursor (scurt)"
+5811="%t  insereazã calea - destinaþie curentã (scurt)"
+5812="%m  insereazã numele fiºierului curent în directorul destinaþie (scurt)"
+5813="%o  insereazã numele fiºierului curent fãrã extensie (scurt)"
+5814="%e  insereazã extensia curentã (fãrã punct) (scurt)"
+5815="%L  nume lung de fiºiere inclusiv calea completa"
+5816="%l  nume scurt de fiºiere inclusiv calea completa"
+5817="%F  nume lung de fiºiere - fãrã cale ex.: Nume lung.exe"
+5818="%f  nume scurt de fiºiere - fãrã cale ex.: NUMELU~1.exe"
+5819="%D  nume scurt de fiºiere inclusiv calea completã, (set caract. DOS)"
+5820="%d  nume scurt de fiºiere inclusiv calea completã, (set caract. DOS)"
+5821="%S  inserare nume pentru toate fiºierele selectate."
+5822="%s  inserare nume pentru toate fiºierele selectate. (scurt)"
+5823="%S10  inserare nume pentru primele 10 fiºiere selectate."
+5824="%s10  inserare nume pentru primele 10 fiºiere selectate. (scurt)"
+5825="%A  inserts the rest of the entered command line"
+5826="%A0  same as %A, used when the parameter must be followed by a digit"
+5827="%A1  to %A9 inserts the first until the ninth parameter"
+5828="%Z  pass archives as path to programs for %P or %T when inside an archive"
+5829="%R  inserts the names of all selected files from the target panel"
+5830="%r  inserts the names of all selected files from the target panel (short)"
+5831="%R10  inserts the names of the first 10 selected files from the target panel"
+5832="%r10  inserts the names of the first 10 selected files from the target panel (short)"
+5833="%X  interprets the following parameters as Left/Right instead of Source/Target"
+5834="%x  Interprets the following parameters again as Source/Target"
+5835="%UL  like %L, but with an UTF-8 Unicode list file"
+5836="%WL  like %L, but with an UTF-16 Unicode list file"
+5837="%UF  like %F, but with an UTF-8 Unicode list file"
+5838="%WF  like %F, but with an UTF-16 Unicode list file"
+5839="%v Inserts virtual file name in case of file system plugins like 'Virtual Panel'"
+5840="%V Like %v, but including the full path (including the plugin name)"
+5841="%C1  inserts first selected file, or file under cursor"
+5842="%C2  inserts second selected file, or first selected in target panel, or file with same name in target panel"
+5843="%C3  to %C9  inserts selected files in source panel, empty if not enough selected"
+5844="%c1  inserts first selected file, or file under cursor (short)"
+5845="%c2  inserts second selected file, or first selected in target panel, or file with same name in target panel (short)"
+5846="%c3  to %c9  inserts selected files in source panel, empty if not enough selected (short)"
+
+;----------------------------------------------------------------
+;    Message Boxes
+;----------------------------------------------------------------
+5901="Nu gãsesc fiºierul cu setãri ale Total Commander-ului[Wincmd.ini]"
+5902="Nu gãsesc fiºierul Totalcmd.inc !"
+5903="Format de fiºier meniu Invalid!"
+5904="There is an error in the file "%s"\nLine: %i\n%s"
+5905="Cannot open the file "%s""
+5906="Programul nu poate continua!"
+5907="Nu poþi asigna un meniu ca propriul sau submeniu !!!"
+5908="Nu poþi plasa o comandã aici."
+5909="Un fiºier ajutor nu poate fi plasat într-un meniu."
+5910="The menu "%s" is not empty. Are you sure?"
+5911="The comment block "%s" is not empty. Are you sure?"
+5912="Regret, nu poþi repeta acest element"
+5913="Save changes to "%s""
+5914="Nu am nimic de salvat!"
+5915="Cannot find "%s""
+5916="Cannot find this command "%s""
+5917="Cannot find this file "%s"\n\nPlease verify that the correct path and file name are given."
+5918="No duplicate mnemonics have been found."
+5919="All items contains mnemonic."
+5920="Duplicate mnemonic found: "%s"\nIt is already used in: "%s"\n\nThe following mnemonics are available for use: %s"
+5921="Duplicate mnemonic found: "%s"\nIt is already used in: "%s"\n\nNo unique mnemonic is available for use."
+5922="Eºti sigur?"
+5923="Imagine prea mare. Te rog alege alta."
+5924="Iconiþã Invalidã. Te rog alege alta."
+5925="Valori Valide sunt numerele de la 1 la 32."
+5926="Because the main menu contains external commands, it must be saved before customizing the mapping file. This is important in order to match external commands with their code.\n\nSave changes now?"
+5927="External command must be in the main menu in order to map an icon for it."
+5928="%s\nThis file is UTF-8 encoded.\n\nWARNING: Any item contains characters from a code page different from your system's default code page will lose these characters if it had been renamed within the program.\n\nNote: Items that contains such characters but never renamed within the program will not be affected. Continue?"
+
+5941="Access to Start Menu in this file has been restricted."
+5942="Access to Directory Menu in this file has been restricted."
+5943="Acest fiºier nu contine intrãri specifice pentru Meniu Director!"
+5944="Acest fiºier nu contine intrãri specifice pentru Meniu Start!"
+5945="Meniul Director nu poate conþine mai mult de 199 elemente"
+5946="Meniul Start nu poate conþine mai mult de 199 elemente"
+5947="Export modificãrile în fiºierul Totalcmd.inc ?"
+5948="You must save the Start Menu before exporting it. This is important in order to not have any mismatch entries in Totalcmd.inc file when you export unsaved menu.\n\nSave changes now?"
+5949="Fiºier negãsit."
+5950="Director negãsit."
+5951="Cannot find linked button bar "%s""
+5952="Cannot open the clipboard."
+5953="Acest fiºier nu conþine iconiþe. Vã rog precizaþi alt fiºier."
+5954="Setãrile iconiþelor vor avea efect data viitoare când va fi pornit programul."
+5955="This shortcut is already assigned to: "%s"\n\nDo you want assign it to: "%s""
+5956=""%s"\n Already exists in [%s]\n\nDo you want to add it again?"
+5957="Do you want to make this button bar permanent?\nIt will then be loaded each time Total Commander is started."
+
+5971="Panou Previzualizare. Nu se poate edita aici!"
+5972="Numai 20 de elemente pot fi adãugate unei secþiuni."
+
+5991="Nu gãsesc fiºierul cu setãri ale Total Commander-ului[Wcx_ftp.ini]"
+5992="Nu gãsesc fiºierul cu date! Va rog deschideþi unul pentru a continua"
+5993="Salvez modificãrile în fiºierul de date al programului?"
+5994="Nu gãsesc aceastã cheie favoritã!"
+5995="Listele Favorite nu pot conþine mai mult de 99 elemente."
+5996="Existã deja o intrare Favoritã cu aceastã cheie."
+5997="Save changes to the favorites list?"
+5998="Do you really want to delete the key "%s" from the data file?"
+5999="Existã deja o combinaþie cu numele specificat. Daþi un nume diferit."
+6000="There are missing or incorrect data fields for this key "%s"\nPlease correct this error in the current data file.\n\nFields are: %s"
+6001="The data file contains the following error:\n\nLine: %i\nPosition: %i\nReason: %s\n"
+
+6021="Default hotkey for: "%s"\n\nDo you want assign it to: "%s""
+6022="Current hotkey for: "%s"\n\nDo you want assign it to: "%s""
+6023="Current alias for: "%s"\n\nDo you want assign it to: "%s""
+6024="Current hotkey for: "%s" in your Total Commander Start Menu\n\nDo you want assign it to: "%s""
+6025="You are about to delete User-defined Hotkeys for ALL commands.\n\nAre you sure?"
+6026="You are about to delete Aliases for ALL commands.\n\nAre you sure?"
+6027="Trebuie sã salvaþi tastele rapide înainte de export în Meniul Principal. Este important pentru a preveni greºelile la exportul listei de taste rapide."
+6028="%s\nThis file is UTF-8 encoded.\n\nExporting hotkeys to UTF-8 encoded file may be corrupting it. Continue?"
+
+;----------------------------------------------------------------
+;    About dialog
+;----------------------------------------------------------------
+6101="Despre"
+6102="Programator :"
+6103="Versiune"
+6104="Acest program este înregistrat la :"
+6105="Pentru cele mai recente informatii despre program vizitaþi pagina pe Internet."
+6106="Web"
+6107="Vizitare Web Acum"
+6108="e-mail"
+
+;----------------------------------------------------------------
+;    Customize Toolbar dialog
+;----------------------------------------------------------------
+6201="&Customize..."
+6202="Customize Toolbar"
+
+;----------------------------------------------------------------
+;    Progress dialog
+;----------------------------------------------------------------
+6301="Citesc... Te rog, ai un pic rãbdare."
+6302="Salvez... Te rog, ai un pic rãbdare."
+6303="Creez... Te rog, ai un pic rãbdare."
+6304="Adaug ...Puþinticã rãbdare."
+6305="ªterg ...Puþinticã rãbdare."
+6306="Import... Te rog, ai un pic rãbdare."
+6307="Export... Te rog, ai un pic rãbdare."
+
+;----------------------------------------------------------------
+;    Options dialog
+;----------------------------------------------------------------
+6401="Opþiuni"
+6402="Ok"
+6403="Abandon"
+6404="&Aplicã"
+6405="Pagina Implicitã"
+
+;----------------------------------------------------------------
+;    Layout page
+;----------------------------------------------------------------
+6501="Strat"
+6502="Efecte Vizuale :"
+6503="Aratã structura &Iconiþelor"
+6504="Aratã structura &Liniilor"
+6505="Aratã &liniile de ghidare"
+6506="&Margini fixe"
+6507="Interfaþa p&latã"
+6508="&Aratã modul de salvare în butonul Salvare"
+6509="Show icons for internal &commands"
+6510="Linie Separator"
+6511="A&ratã iconiþa Fiºier"
+
+6531="Aratã &Valoarea Direct Dupã Nume"
+6532="Aratã &Valoarea &Implicitã pentru Combinaþiile inactive"
+6533="Show &minimum version required to use the selected key"
+
+6551="Aratã tastele rapide în ordine inversa"
+6552="Modificare:"
+6553="Se&cvenþa:"
+6554="Sepa&rator:"
+
+;----------------------------------------------------------------
+;    Icons page
+;----------------------------------------------------------------
+6601="Iconiþe"
+6602="Stil Iconiþe :"
+6603="Foloseºte Iconiþele &implicite"
+6604="Mãrime"
+
+6621="Iconiþe TC"
+6622="Meniu"
+6623="Meniu Curent"
+6624="Active command"
+6625="Inactive command"
+6626="Separator"
+6627="Meniu Start"
+6628="Ajutor"
+6629="Comentariu"
+6630="Comanda Internã"
+6631="Comanda Externã"
+6632="Comandã Extinsã"
+6633="Scurtãturã la Director"
+6634="Legãturã defectã"
+6635="Line break"
+
+6651="Tree icons &size:"
+6652="&Button bar icons size:"
+
+;----------------------------------------------------------------
+;    Color and Font page
+;----------------------------------------------------------------
+6701="Culori si Fonturi"
+6702="Text :"
+6703="Meniu Curent :"
+6704="Partea din fatã"
+6705="Fundal"
+
+6721="Locaþie blocatã"
+
+6741="Cheie Activã (Wincmd.ini)"
+6742="Cheie Activã (Wcx_ftp.ini)"
+6743="Cheie Inactivã"
+
+6761="Command with hotkey"
+6762="Command without hotkey"
+
+6781="Culori ale obiectelor din prim-plan :"
+6782="Comentariu"
+6783="Separator"
+
+6801="Font :"
+6802="&Schimba..."
+6803="Aplicã setarea Fonturilor la câmpul proprietãþi ale comenzii."
+6804="Descriere:"
+6805="Lãþime Filã"
+
+;----------------------------------------------------------------
+;    Operation page
+;----------------------------------------------------------------
+6901="Operaþii"
+6902="Citeºte comenzile interne ale TC din :"
+6903="Fiºierul &implicit Totalcmd.inc ."
+6904="&Alt fiºier."
+
+6921="Altceva :"
+6922="&Automat încarc ultimul fiºier."
+6923="A&sociazã meniul TC (*.mnu) cu acest program."
+6924="&Colecteazã Comentariu în Grup în timpul citirii fiºierului.(Recomandat)"
+6925="Auto-&restart Total Commander dupã salvarea modificãrilor."
+6926="Numãr de spaþii pentru Indentare a fiecãrui meniu."
+
+6941="Cautã fiºierele sau directoarele într-o locaþie din reþea."
+6942="Cautã fiºierele sau directoarele pe discurile amovibile."
+
+6961="Selecteazã &Automat urmãtoarea cheie dupã editare."
+6962="Auto &expandare categorii la pornire."
+6963="Citeºte numai combinaþiile &listate în fiºierul de date"
+
+6981="Auto selectare comanda &urmãtoare dupã editarea comenzii selectate."
+
+7001="Auto-Completeazã :"
+7002="Automat foloseºte comanda ca titlu."
+7003="ªterge extensia fiºierului din titlu."
+7004="Creazã automat o noua comanda sau selecteaz-o pe urmatoarea."
+
+7021="Export"
+7022="Totdeauna Export în fiºierul Totalcmd.inc la salvarea meniului."
+7023="Aminteºte-mi totdeauna pentru a exporta modificãrile."
+7024="Întotdeauna Exporta în Meniul Principal la Salvare."
+
+;----------------------------------------------------------------
+;    Language page
+;----------------------------------------------------------------
+7101="Limbaj"
+7102="Schimbã limbajul :"
+7103="Foloseºte limbajul &implicit"
+7104="&Altele"
+
+;----------------------------------------------------------------
+;    Open/Save dialog titles
+;----------------------------------------------------------------
+7201="Deschide"
+7202="Salveazã"
+7203="Salvare ca..."
+
+;----------------------------------------------------------------
+;    Find dialog
+;----------------------------------------------------------------
+7301="Caut"
+7302="Text Cãutare:"
+7303="Locuri Cãutare:"
+
+7321="&Descriere"
+7322="Co&manda"
+7323="&Cod"
+
+7341="Titlul"
+7342="Calea"
+
+7361="Nume C&heie"
+7362="&Descriere Cheie"
+7363="&Valoare combinaþie"
+
+7381="Com&b. implicite"
+7382="Comb. definite de &utilizator"
+7383="&Alias"
+
+7401="Numai &Cuvinte Întregi"
+7402="U&se pattern matching"
+
+;----------------------------------------------------------------
+;    Customize Totalcmd.inc dialog (Main Menu Editor)
+;----------------------------------------------------------------
+7501="Aranjare Totalcmd.inc"
+7502="Pe Categorii"
+7503="Alfabetic"
+7504="Aºa cum este"
+7505="Stil Separator :"
+7506="Fiºier"
+7507="Tipãrire"
+7508="&Adaugã un separator pentru fiecare submeniu."
+7509="&Foloseºte captura meniului pentru descriere."
+7510="Adaugã &Codul Comenzii la Descriere."
+7511="Previzualizare:"
+7512="Salveazã"
+7513="Închide"
+7514="Previzualizeazã"
+7515="ACESTE COMENZI NU SUNT IN MENIU"
+
+;----------------------------------------------------------------
+;    Import captions dialog (Main Menu Editor)
+;----------------------------------------------------------------
+7601="Import captions"
+7602="Import captions for &all commands."
+7603="Import captions for &commands under "%s" menu only."
+
+;----------------------------------------------------------------
+;    Customize Mapping File dialog (Main Menu Editor)
+;----------------------------------------------------------------
+7701="Customize Mapping File"
+7702="Small &icons"
+7703="&Map to..."
+7704="Choose icon for "%s""
+7705="(None)"
+
+;----------------------------------------------------------------
+;    Choose Command dialog (Main & Start Menu Editor)
+;----------------------------------------------------------------
+7801="Alege comanda"
+7802="&Find:"
+7803="&Show commands that has an entry in the mapping file"
+
+;----------------------------------------------------------------
+;    Check mnemonics dialog (Main & Start Menu Editor)
+;----------------------------------------------------------------
+7901="Check mnemonics"
+7902="Highlight &duplicate mnemonics."
+7903="Highlight items not &containing mnemonics."
+7904="Duplicated mnemonics"
+7905="Missed mnemonics"
+
+;----------------------------------------------------------------
+;    Move To dialog (Main & Start Menu Editor)
+;----------------------------------------------------------------
+8001="Muta la"
+8002="Move "%s" to..."
+
+;----------------------------------------------------------------
+;    Export to Totalcmd.inc file dialog (Start Menu Editor)
+;----------------------------------------------------------------
+8101="Export în fiºierul Totalcmd.inc"
+8102="The following commands will be added to Totalcmd.inc file.\nYou can use any of these commands into your Main Menu."
+8103="Doar Exportã Comanda.  (Recomandat)"
+8104="Actualizare Wincmd.ini secþiunea [Scurtãturi]."
+8105="&Prefix comandã:"
+8106="&Nume categorie:"
+
+;----------------------------------------------------------------
+;    Edit Parameters dialog (Start Menu & Button Bar Editor)
+;----------------------------------------------------------------
+8201="Editeazã lista de parametri"
+8202="&Implicit"
+8203="&Sus"
+8204="J&os"
+8205="&Adaugare"
+8206="Parameter"
+8207="Description"
+
+;----------------------------------------------------------------
+;    Add New Parameter dialog (Start Menu & Button Bar Editor)
+;----------------------------------------------------------------
+8301="Add New Parameter"
+8302="&Parameter:"
+8303="&Description:"
+8304="Edit Parameter"
+
+;----------------------------------------------------------------
+;    Delete All dialog  (History Editor)
+;----------------------------------------------------------------
+8401="ªterge tot"
+8402="Verific secþiun(ea)ile pentru ºtergere."
+8403="ªterg de asemenea locaþiile blocate."
+
+;----------------------------------------------------------------
+;    Add/Modify data key dialog (Configuration Editor)
+;----------------------------------------------------------------
+8501="Add new data key"
+8502="Modify data key"
+8503="&Name"
+8504="&File"
+8505="&Section"
+8506="Ve&rsion"
+8507="Default &value"
+8508="&Advanced"
+8509="Yes"
+8510="No"
+8511="Dialo&g"
+8512="(None)"
+8513="Open File"
+8514="Open Folder"
+8515="Color"
+8516="Font"
+8517="Bits Sum"
+8518="Icon Library Preview"
+8519="Choose from dialogs list"
+8520="&Description"
+
+;----------------------------------------------------------------
+;    Add Favorite dialog (Configuration Editor)
+;----------------------------------------------------------------
+8601="Adaugã la Favorite"
+8602="Organizeazã Favoritele"
+8603="Nume Favorit:"
+
+;----------------------------------------------------------------
+;    Import/Export dialog (Configuration & History Editor)
+;----------------------------------------------------------------
+8701="Import"
+8702="Check categories to import."
+8703="Import options:"
+8704="Active keys"
+8705="Inactive keys"
+8706="Exclude redirection keys (Recommended)"
+8707="Export"
+8708="Check categories to export."
+8709="Export options:"
+
+8721="&Verific secþiun(ea)ile pentru Import."
+8722="Verific &secþiun(ea)ile pentru Export."
+
+;----------------------------------------------------------------
+;    Export to Main Menu dialog (Hotkeys Editor)
+;----------------------------------------------------------------
+8801="Export în Meniul Principal"
+8802="Selectare Coloane pt. Export"
+8803="Opþiuni:"
+8804="ªterge spaþiile de la combinaþiile de taste"
+8805="Export combinaþii implicite re&definite"
+8806="Mar&care combinaþii implicite redefinite"
+8807="Export numai prima &valoare din fiecare coloanã."
+8808="Export numai &o coloanã pentru fiecare coloanã."
+8809="Ordonare Coloa&ne:"
+8810="Prioritate Co&loane:"
+8811="&Separator:"
+8812="&Rãsfoire..."
+
+;----------------------------------------------------------------
+;    Export to Text File dialog (Hotkeys Editor)
+;----------------------------------------------------------------
+8901="Export în Fiºier Text"
+8902="Exportã &toate comenzile"
+8903="Export în Format HTML"
+8904="Adãugare sepa&rator"
+8905="Pre&vizualizare font"
+8906="Ctrl"
+8907="Alt"
+8908="Shift"
+8909="Win"
+8910="Listã combinaþii de taste Total Commander"
+8911="Combinaþii de taste pentru meniul Start Total Commander"
+8912="Important"
+8913="Tastele rapide din aceasta listã nu se salveazã încã în fiºierul de configurare al Total Commander."
+
+;----------------------------------------------------------------
+;    Main Menu Editor Window
+;----------------------------------------------------------------
+9001="Total Commander - Meniu principal"
+9002="Categorie"
+9003="Descriere"
+9004="Comanda"
+9005="Cod"
+9006="Meniu START"
+9007="Ajutor"
+9008="Comentariu"
+9009="Scrieþi comentariul dumneavoastrã aici"
+9010="Salveazã Comanda ca Text"
+9011="Salveazã Comanda ca Zecimal"
+9012="Salveazã Comanda ca Hexadecimal"
+9013="%i Comenzi Selectate"
+9014="%i Comenzi în... %s"
+9015="%i Command(s) in [%s] category"
+
+;----------------------------------------------------------------
+;    Start Menu Editor Window
+;----------------------------------------------------------------
+9101="Total Commander - Meniu Start"
+9102="Total Commander - Meniu Directoare Favorite"
+9103="Total Commander - Comenzi Extinse"
+9104="Start Menu"
+9105="Directory Menu"
+9106="Extended Commands"
+9107="Comanda :"
+9108="Parametri :"
+9109="Calea la Lansare :"
+9110="Calea destinaþie :"
+9111="Scurtãtura :"
+9112="Fiºier &Iconiþe:"
+9113="&Balon info:"
+9114="Parameters List"
+9115="&Show as menu"
+9116="Schimare Iconiþã"
+9117="(nimic)"
+9118="Ruleazã Normal"
+9119="Ruleazã Minimizat"
+9120="Ruleazã Maximizat"
+9121="Show as bar"
+9122="Show as menu"
+9123="Start Menu Item %i"
+9124="Directory Menu Item %i"
+9125="Extended_Command_%i"
+9126="Change With Ultra TC Start Menu Editor"
+9127="Change With Ultra TC Directory Menu Editor"
+9128="Ultra_TC_Extended_Commands_Editor"
+
+;----------------------------------------------------------------
+;    Button Bar Editor Window
+;----------------------------------------------------------------
+9201="Total Commander Main Button Bar"
+9202="Total Commander Vertical Button Bar"
+9203="Main Button Bar"
+9204="Vertical Button Bar"
+9205="Button bar files list"
+9206="Back to the main button bar"
+9207="Edit linked button bar"
+9208="Button %i"
+9209="Change with Ultra TC Button Bar Editor"
+9210="Change with Ultra TC Vertical Button Bar Editor"
+9211="Appearance"
+9212="Si&ze:"
+9213="XP st&yle"
+9214="F&lat icons"
+9215="S&mall icons"
+9216="Pop&up icons size:"
+
+;----------------------------------------------------------------
+;    History Editor Window
+;----------------------------------------------------------------
+9301="Istoric Total Commander"
+9302="Linia de Comandã"
+9303="Selecþia"
+9304="Cãutare:"
+9305="Locaþii Cãutare:"
+9306="Text cãutat:"
+9307="Filtre predefinite"
+9308="Plugin Duplicates"
+9309="Duplicates Directory Selection"
+9310="Redenumire - Mascã:"
+9311="Redenumire - Caut :"
+9312="Redenumire - Înlocuiesc cu:"
+9313="Redenumire - F2 Configuraþie"
+9314="Locaþia stângã"
+9315="Locaþia dreaptã"
+9316="Istoric Stânga"
+9317="Istoric Dreapta"
+9318="Istoric Director Nou"
+9319="New File"
+9320="Opþiuni Sincronizare"
+9321="Atribute Module"
+9322="Mãrime separator"
+9323="FTP Old Connections"
+9324="Capturã:"
+9325="&Blochez aceastã locaþie"
+9326="Blocat, &dar e permisã schimbarea directorului."
+9327="Gol"
+
+;----------------------------------------------------------------
+;    Configuration Editor Window
+;----------------------------------------------------------------
+9401="Comanda"
+9402="Valoare"
+9403="Section"
+9404="File"
+9405="Default"
+9406="Advanced"
+9407="Version"
+9408="Yes"
+9409="-"
+9410="Descriere indisponibilã!"
+9411="%i Combinaþii(e)"
+9412="Fiºier de Date:"
+9413="Secþiune Destinaþie:"
+9414="Total Commander %s and higher"
+9415="Sumã biþi"
+9416="Combinaþia nouã"
+9417="Redenumire"
+9418="&Nume combinaþie:"
+9419="Previzualizeazã biblioteca de Iconiþe"
+9420="Fiºier &Bibiotecã:"
+
+;----------------------------------------------------------------
+;    Hotkeys Editor Window
+;----------------------------------------------------------------
+9501="Comb.Implicite"
+9502="Comb.Actuale"
+9503="Alias"
+9504="Comb. activã:"
+9505="Alias:"
+9506="&Control +"
+9507="&Alt +"
+9508="&Shift +"
+9509="&Win +"
+9510="Adãugare Combinaþie"
+9511="ªterge Toate Combinaþiile Actuale"
+9512="Adaug Alias"
+9513="ªtege toate Alias-urile"
+9514="Num"
+9515="Ins|Del|Home|End|PgUp|PgDn|Space|Back|Tab|Enter|Esc|Left|Right|Up|Down"
+
+;----------------------------------------------------------------
+;    Ultra TC Editors Window
+;----------------------------------------------------------------
+9601="Ruleazã Editor Meniu Principal"
+9602="Ruleazã Editor Meniu Start"
+9603="Ruleazã Editor Meniu Directoare Favorite"
+9604="Ruleazã Editor Comenzi Extinse"
+9605="Run Button Bar Editor"
+9606="Run Vertical Button Bar Editor"
+9607="Ruleazã Editor Istoric"
+9608="Ruleazã Editor Configurare"
+9609="Ruleazã Editor Combinaþii de taste"
+9610="Mereu în prim-plan"

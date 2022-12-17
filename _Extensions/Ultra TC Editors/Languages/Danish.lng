@@ -1,0 +1,809 @@
+; Danish language for Ultra TC Editors 6.42
+; Translated by Peter H. S. Madsen http://madsenworld.dk
+
+;----------------------------------------------------------------
+;    File menu
+;----------------------------------------------------------------
+5001="&Fil"
+5002="&Ny"
+5003="Å&bn..."
+5004="&Gem"
+5005="Ge&m som..."
+5006="Gem og genstart Total &Commander"
+5007="Dan f&uld menu (alle kommandoer)"
+5008="Chec&k bogstaver til tastaturnavigering..."
+5009="Til&pas totalcmd.inc..."
+5010="Tilpa&s referencefil..."
+5011="Seneste &filer"
+5012="Ingen seneste filer"
+5013="&Ryd liste"
+5014="&Afslut"
+
+5031="&Eksporter..."
+5032="&Importer..."
+5033="Eks&porter til totalcmd.inc..."
+
+5051="Åbn &datafil..."
+5052="Ge&m datafil"
+
+5071="Eksporter til hoved&menu..."
+5072="&Eksporter til tekstfil..."
+
+;----------------------------------------------------------------
+;    Edit menu
+;----------------------------------------------------------------
+5101="R&ediger"
+5102="Tilføj &menu"
+5103="Tilføj &undermenu"
+5104="Tilføj se&parator"
+5105="Tilføj &kommentar"
+5106="G&entag"
+5107="S&tartmenu"
+5108="&Help Break"
+5109="Flyt &op"
+5110="Flyt &ned"
+5111="Flyt t&il..."
+5112="Impo&rter overskrifter..."
+5113="Referen&ce til..."
+5114="&Slet"
+5115="Om&døb"
+5116="De&finition"
+5117="Fortr&yd"
+5118="&Gendan"
+
+5131="Tilføj &kommando"
+5132="Tilf&øj Ultra TC"
+5133="&Klip"
+5134="Kopie&r"
+5135="Inds&æt"
+5136="Sorter &alle menuer"
+5137="Sorter &valgte menu"
+5138="Åbn i &TC"
+5139="&Egenskaber"
+
+5151="Tilføj &underpanel"
+5152="Tilføj &linjeskift"
+5153="Tilføj k&nap"
+
+5171="&Tilføj punkt"
+5172="S&let alt..."
+
+5191="&Fortryd"
+5192="&Gendan"
+5193="&Rediger værdi"
+5194="Værdi = &1"
+5195="Værdi = &0"
+5196="Gennemse &værdier..."
+5197="&Ny indstilling..."
+5198="O&mdøb..."
+5199="&Kommentar"
+5200="&Datafil"
+5201="&Tilføj indstilling..."
+5202="&Modificer indstilling..."
+5203="&Slet indstilling"
+
+;----------------------------------------------------------------
+;    View menu
+;----------------------------------------------------------------
+5301="&Vis"
+5302="&Værktøjslinje"
+5303="&Statuslinje"
+5304="&Kommandoliste"
+5305="&Kategoriseret liste"
+5306="Vertikale &paneler"
+5307="&Byt paneler"
+5308="&Udvid træ"
+5309="Indskrænk &træ"
+5310="Sorteret &liste"
+5311="&Opsætning..."
+
+5331="&Altid øverst"
+5332="Startmenu"
+5333="Favoritmenu"
+5334="Udvidede kommandoer"
+
+5351="&Knappanel"
+5352="K&nappanel som træ"
+5353="Knappanel u&dseende"
+5354="&Hovedknappanel"
+5355="V&ertikale knappanel"
+
+5371="&Beskrivelse"
+5372="&Alle indstillinger"
+5373="A&ktive indstillinger"
+5374="I&naktive indstillinger"
+5375="K&un avancerede indstillinger"
+5376="U&dfoldet visning"
+
+;----------------------------------------------------------------
+;    Search menu
+;----------------------------------------------------------------
+5401="&Søg"
+5402="&Find..."
+5403="Find &næste"
+
+;----------------------------------------------------------------
+;    Help menu
+;----------------------------------------------------------------
+5501="&Hjælp"
+5502="&Emner i Hjælp"
+5503="&Om..."
+5504="&Donation..."
+
+;----------------------------------------------------------------
+;    Favorites menu (Configuration Editor)
+;----------------------------------------------------------------
+5601="Favori&tter"
+5602="&Tilføj til Favoritter..."
+5603="&Organiser Favoritter..."
+
+;----------------------------------------------------------------
+;    Context menu (Main Menu Editor)
+;----------------------------------------------------------------
+5701="&Tilføj"
+5702="&Fjern"
+5703="Vælg &alt"
+5704="&Definition"
+5705="Vælg alle akti&ve"
+5706="Vælg alle &inaktive"
+
+;----------------------------------------------------------------
+;    Parameters menu (Start Menu & Button Bar Editor)
+;----------------------------------------------------------------
+5801="?   som første parameter = åbner boks for indtastning af parametre"
+5802="%P  indsætter aktuelle kildesti"
+5803="%N  indsætter filnavn under cursor"
+5804="%T  indsætter aktuelle destinationssti"
+5805="%M  indsætter aktuelle filnavn fra destinationsmappen"
+5806="%O  indsætter aktuelle filnavn uden type"
+5807="%E  indsætter aktuelle filtype (uden punktum forrest)"
+5808="%%  indsætter procenttegn"
+5809="%p  indsætter aktuelle kildesti (kort)"
+5810="%n  indsætter filnavn under cursor (kort)"
+5811="%t  indsætter aktuelle destinationssti (kort)"
+5812="%m  indsætter aktuelle filnavn fra destinationsmappen (kort)"
+5813="%o  indsætter aktuelle filnavn uden type (kort)"
+5814="%e  indsætter aktuelle filtype (uden punktum forrest) (kort)"
+5815="%L  lange filnavne inkl. komplet sti"
+5816="%l  korte filnavne inkl. komplet sti"
+5817="%F  lange filnavne uden sti, f.eks. Long name.exe"
+5818="%f  korte filnavne uden sti, f.eks. LONGNA~1.EXE"
+5819="%D  korte filnavne inkl. komplet sti, (DOS tegnsæt)"
+5820="%d  korte filnavne uden sti, (DOS tegnsæt)"
+5821="%S  indsætter navnene på alle valgte filer"
+5822="%s  indsætter navnene på alle valgte filer (kort)"
+5823="%S10  indsætter navnene på de første 10 valgte filer"
+5824="%s10  indsætter navnene på de første 10 valgte filer (kort)"
+5825="%A  indsætter resten af den indtastede kommandolinje"
+5826="%A0  som %A, kan anvendes når parametren efterfølges af et ciffer"
+5827="%A1-%A9  indsætter den første til den niende parameter"
+5828="%Z  overfører arkiver som stinavne til programmer for %P eller %T i åbnet arkiv"
+5829="%R  indsætter navnene på alle valgte filer fra destinationsmappen"
+5830="%r  indsætter navnene på alle valgte filer fra destinationsmappen (kort)"
+5831="%R10  indsætter navnene på de første 10 valgte filer fra destinationsmappen"
+5832="%r10  indsætter navnene på de første 10 valgte filer fra destinationsmappen (kort)"
+5833="%X  fortolker de efterfølgende parametre som Venstre/Højre i stedet for Kilde/Destination"
+5834="%x  fortolker igen de efterfølgende parametre som Kilde/Destination"
+5835="%UL  som %L, med med en UTF-8 Unicode listefil"
+5836="%WL  som %L, med med en UTF-16 Unicode listefil"
+5837="%UF  som %F, med med en UTF-8 Unicode listefil"
+5838="%WF  som %F, med med en UTF-16 Unicode listefil"
+5839="%v  Indsætter virtuelle filnavn i tilfælde med filsystem-plugins som f.eks. 'Virtual Panel'"
+5840="%V  Som %v, men inkluderer den fulde sti (inklusive plugin-navnet)"
+5841="%C1  indsætter første valgte fil, eller fil under markør"
+5842="%C2  indsætter anden valgte fil, eller første valgte fil i destinationssiden, eller fil med samme navn i destinationssiden"
+5843="%C3  til %C9  indsætter valgte filer i kildesiden, tom værdi hvis ikke nok er valgt"
+5844="%c1  indsætter første valgte fil, eller fil under markør (kort filnavn)"
+5845="%c2  indsætter anden valgte fil, eller første valgte fil i destinationssiden, eller fil med samme navn i destinationssiden (kort filnavn)"
+5846="%c3  til %C9  indsætter valgte filer i kildesiden, tom værdi hvis ikke nok er valg (kort filnavn)"
+
+;----------------------------------------------------------------
+;    Message Boxes
+;----------------------------------------------------------------
+5901="Kan ikke finde Total Commander ini-fil [wincmd.ini]"
+5902="Kan ikke finde din totalcmd.inc fil !"
+5903="Ugyldig format på menufilen!"
+5904="Der er en fejl i filen "%s"\nLinje: %i\n%s"
+5905="Kan ikke åbne filen "%s""
+5906="Programmet kan ikke fortsætte!"
+5907="Du kan ikke flytte en menu til sin egen undermenu !!!"
+5908="Du kan ikke placere en kommando her."
+5909="Help_Break kan ikke placeres i en menu."
+5910="Menuen "%s" er ikke tom. Er du sikker?"
+5911="Kommentarblokken "%s" er ikke tom. Er du sikker?"
+5912="Kan desværre ikke gentage dette punkt"
+5913="Gem ændringer til "%s""
+5914="Der er intet at gemme!"
+5915="Kan ikke finde "%s""
+5916="Kan ikke finde denne kommando "%s""
+5917="Kan ikke finde denne fil "%s"\n\nCheck at sti og filnavn er korrekt angivet."
+5918="Der blev ikke fundet duplikerede bogstaver til tastaturnavigering."
+5919="Alle linjer indeholder bogstaver til tastaturnavigering."
+5920="Duplikerede bogstaver til tastaturnavigering:\n\n '%s' bruges allerede i: '%s' \n\nFølgende bogstaver bruges ikke: %s"
+5921="Duplikerede bogstaver til tastaturnavigering:\n\n '%s' bruges allerede i: '%s' \n\nIngen unikke bogstaver til rådighed."
+5922="Er du sikker?"
+5923="For stort billede. Vælg venligst et andet."
+5924="Ugyldig ikon, prøv en anden."
+5925="Gyldige værdier er hele tal fra 1 til 32."
+5926="Fordi hovedmenuen indeholder eksterne kommandoer, skal den gemmes før referencefilen kan tilpasses. Dette er vigtigt for at kunne matche eksterne kommandoer med deres kodenummer.\n\nGem ændringer nu?"
+5927="Eksterne kommandoer skal findes i hovedmenuen, for at der kan laves en reference imellem kommando og ikon."
+5928="%s\nDenne fil er UTF-8 kodet.\n\nADVARSEL: Elementer som indeholder tegn fra tegntabeller som er forskellige fra dit systems standardtegntabel vil miste disse tegn, hvis elementet er blevet omdøbt indefra programmet.\n\nBemærk: Elementer som indeholder sådanne tegn, men som ikke er blevet omdøbt indefra programmet, vil ikke blive påvirket. Fortsæt?"
+
+5941="Adgang til Startmenuen i denne fil er blevet spærret."
+5942="Adgang til Favoritmenuen i denne fil er blevet spærret."
+5943="Denne fil indeholder ikke noget afsnit for Favoritmenuen!"
+5944="Denne fil indeholder ikke noget afsnit for Startmenuen!"
+5945="Favoritmenuen kan ikke indeholde mere end 199 punkter."
+5946="Startmenuen kan ikke indeholde mere end 199 punkter."
+5947="Eksporter ændringerne til totalcmd.inc filen?"
+5948="You must save the Start Menu before exporting it. This is important in order to not have any mismatch entries in Totalcmd.inc file when you export unsaved menu.\n\nSave changes now?"
+5949="Fil ikke fundet."
+5950="Mappe ikke fundet."
+5951="Kan ikke finde det tilknyttede knappanel "%s""
+5952="Kan ikke åbne Udklipsholder."
+5953="Denne fil indeholder ingen ikoner, vælg venligst en anden fil."
+5954="Ændringen af ikonopsætningen vil effektueres næste gang programmet startes."
+5955="Denne genvejstast er allerede tildelt: "%s"\n\nØnsker du at ændre det til: "%s""
+5956=""%s"\n Eksisterer allerede i [%s]\n\nØnsker du at tilføje det igen?"
+5957="Ønsker du at anvende dette knappanel permanent?\nDet vil blive indlæst hver gang Total Commander startes."
+
+5971="Eksempel panel. Der kan ikke redigeres her!"
+5972="Der kan kun tilføjes %1 punkter til en sektion."
+
+5991="Kan ikke finde Total Commander ini-fil [wcx_ftp.ini]"
+5992="Kan ikke finde datafil! Åbn venligst en for at fortsætte"
+5993="Gem ændringer i programdatafilen?"
+5994="Kan ikke finde denne Favorit!"
+5995="Favoritliste kan ikke indeholde mere end 99 punkter."
+5996="Der er allerede en Favorit for den indstilling."
+5997="Gem ændringer til Favoritlisten?"
+5998="Ønsker du virkelig at slette indstillingen '%s' fra datafilen?"
+5999="Der eksisterer allerede en indstilling med det angivne navn. Angiv venligst et andet navn."
+6000="Der er manglende eller ukorrekte datafelter for denne indstilling "%s"\nRet venligst denne fejl i den nuværende datafil.\n\nFelterne er: %s"
+6001="Datafilen indeholder følgende fejl:\n\nLinje: %i\nPosition: %i\nÅrsag: %s\n"
+
+6021="Standard genvejstast for: "%s"\n\nØnsker du at ændre det til: "%s""
+6022="Nuværende genvejstast for: "%s"\n\nØnsker du at ændre det til: "%s""
+6023="Nuværende alias for: "%s"\n\nØnsker du at ændre det til: "%s""
+6024="Nuværende genvejstast for: "%s" i din Total Commander Startmenu\n\nØnsker du at ændre det til: "%s""
+6025="Du er ved at slette Brugerdefinerede genvejstaster for ALLE kommandoer.\n\nEr du sikker?"
+6026="Du er ved at slette Aliases for ALLE kommandoer.\n\nEr du sikker?"
+6027="Du må gemme genvejstasterne før du eksporterer til hovedmenufilem. Dette er vigtigt for at undgå fejl, når du eksporterer en liste med genvejstaster, der ikke er gemt."
+6028="%s\nDenne file er UTF-8 kodet.\n\nEksport af genvejstaster til en UTF-8 kodet fil kan ødelægge den. Fortsæt?"
+
+;----------------------------------------------------------------
+;    About dialog
+;----------------------------------------------------------------
+6101="Om"
+6102="Programmeret af:"
+6103="Version:"
+6104="Dette program er registeret til:"
+6105="Besøg venligst programmets hjemmeside for de seneste informationer om dette program."
+6106="Website:"
+6107="Besøg nu"
+6108="E-mail:"
+6109="&Donation"
+
+;----------------------------------------------------------------
+;    Customize Toolbar dialog
+;----------------------------------------------------------------
+6201="&Tilpas..."
+6202="Tilpas Værktøjslinje"
+
+;----------------------------------------------------------------
+;    Progress dialog
+;----------------------------------------------------------------
+6301="Læser... Vent venligst."
+6302="Gemmer... Vent venligst."
+6303="Opretter... Vent venligst."
+6304="Tilføjer... Vent venligst."
+6305="Fjerner... Vent venligst."
+6306="Importerer... Vent venligst."
+6307="Eksporterer... Vent venligst."
+
+;----------------------------------------------------------------
+;    Options dialog
+;----------------------------------------------------------------
+6401="Opsætning"
+6402="OK"
+6403="Annuller"
+6404="&Udfør"
+6405="Standard"
+
+;----------------------------------------------------------------
+;    Layout page
+;----------------------------------------------------------------
+6501="Layout"
+6502="Visuelle effekter:"
+6503="Vis træ&ikoner"
+6504="Vis træ&linjer"
+6505="Vis &gitterlinjer"
+6506="Låste &kanter"
+6507="&Flad brugerflade"
+6508="&Vis metode på gem-ikonet"
+6509="Vis ik&oner for interne kommandoer"
+6510="Se&paratorlinje:"
+6511="&Vis programikoner"
+
+6531="Vis indstillingens &værdi umiddelbart efter indstillingens navn"
+6532="Vis &standardværdi for inaktive indstilinger"
+6533="Vis laveste version, som er &nødvendig for den valgte indstilling"
+
+6551="&Vis genvejstaster i omvendt rækkefølge"
+6552="Modifikationstaster:"
+6553="&Rækkefølge:"
+6554="Se&parator:"
+
+;----------------------------------------------------------------
+;    Icons page
+;----------------------------------------------------------------
+6601="Ikoner"
+6602="Ikonstil:"
+6603="Brug stan&dardikoner"
+6604="&Størrelse:"
+
+6621="TC ikon"
+6622="Menu"
+6623="Aktulle menu"
+6624="Aktiv kommando"
+6625="Inaktiv kommando"
+6626="Separator"
+6627="Startmenu"
+6628="Help Break"
+6629="Kommentar"
+6630="Intern kommando"
+6631="Ekstern kommando"
+6632="Udvidet kommando"
+6633="Mappelink"
+6634="Brudt link"
+6635="Linjeskift"
+
+6651="Ikonstørrelse for &træ:"
+6652="Ikonstørrelse for &knappanel:"
+
+;----------------------------------------------------------------
+;    Color and Font page
+;----------------------------------------------------------------
+6701="Farve og skrifttype"
+6702="Tekst:"
+6703="Aktuelle menu:"
+6704="Forgrund"
+6705="Baggrund"
+
+6721="Låst faneblad"
+
+6741="Aktiv indstilling (Wincmd.ini)"
+6742="Aktiv indstilling (Wcx_ftp.ini)"
+6743="Inaktiv indstilling"
+
+6761="Kommando med genvejstast"
+6762="Kommando uden genvejstast"
+
+6781="Forgrundsfarve for andre elementer:"
+6782="Kommentar"
+6783="Separator"
+
+6801="Skrifttype:"
+6802="&Ændre..."
+6803="Brug skrifttypev&alg på felterne for kommandoegenskaber"
+6804="Beskrivelse:"
+6805="&Fanebredde:"
+
+;----------------------------------------------------------------
+;    Operation page
+;----------------------------------------------------------------
+6901="Operation"
+6902="Læs TC's interne kommandoer fra:"
+6903="&Standard totalcmd.inc fil."
+6904="&Anden fil."
+
+6921="Diverse:"
+6922="&Indlæs automatisk seneste fil."
+6923="Asso&cier TC menufiler (*.mnu) med dette program."
+6924="Saml &kommentarer i gruppen mens filen læses. (Anbefales)"
+6925="&Genstart automatisk Total Commander efter at ændringer er gemt"
+6926="A&ntal mellemrum for indrykning af hver menu i den gemte fil:"
+
+6941="Søg efter tilstedeværelsen af filer og mapper i netværket"
+6942="Søg efter tilstedeværelsen af filer og mapper på flytbare drev"
+
+6961="&Vælg automatisk næste indstilling efter redigering"
+6962="Udvid automatisk &kategoritræ ved start"
+6963="&Læs kun indstillinger som findes i datafilen"
+
+6981="Vælg automatisk &næste kommando efter redigering af den valgte"
+
+7001="Autoudfør:"
+7002="Brug automatisk kommandoen som titel på punktet"
+7003="Fjern filtypen fra titlen"
+7004="Opret automatisk en ny kommando eller vælg den næste"
+
+7021="Eksporter:"
+7022="Eksporter altid til totalcmd.inc filen når menuen gemmes"
+7023="Husk mig altid på at eksportere ændringerne"
+7024="Eksporter altid til hovedmenufilen når der gemmes"
+
+;----------------------------------------------------------------
+;    Language page
+;----------------------------------------------------------------
+7101="Sprog"
+7102="Skift sprog:"
+7103="Brug &standardsprog"
+7104="&Andre"
+
+;----------------------------------------------------------------
+;    Open/Save dialog titles
+;----------------------------------------------------------------
+7201="Åbn"
+7202="Gem"
+7203="Gem som"
+
+;----------------------------------------------------------------
+;    Find dialog
+;----------------------------------------------------------------
+7301="Find"
+7302="&Find hvad:"
+7303="Søg i:"
+
+7321="&Beskrivelse"
+7322="Ko&mmando"
+7323="&Kode"
+
+7341="&Titel"
+7342="&Sti"
+
+7361="&Navn på indstilling"
+7362="&Beskrivelse af indstiling"
+7363="&Værdi af indstilling"
+
+7381="&Standard genvejstast"
+7382="Bruger&defineret genvejstast"
+7383="&Alias"
+
+7401="Match kun hele &ord"
+7402="Anvend &mønster-matchning"
+
+;----------------------------------------------------------------
+;    Customize Totalcmd.inc dialog (Main Menu Editor)
+;----------------------------------------------------------------
+7501="Tilpas totalcmd.inc"
+7502="Kategoriseret"
+7503="Alfabetisk"
+7504="Som den er"
+7505="Separator udseende:"
+7506="Fil"
+7507="Udskriv"
+7508="&Tilføj separator ved hver undermenu."
+7509="Br&ug menuoverskrift som beskrivelse."
+7510="Føj &kommandokode til beskrivelsen."
+7511="Eksempel:"
+7512="Gem..."
+7513="Luk"
+7514="Vis eksempel"
+7515="IKKE I HOVEDMENU"
+
+;----------------------------------------------------------------
+;    Import captions dialog (Main Menu Editor)
+;----------------------------------------------------------------
+7601="Importer overskrifter"
+7602="Importer overskrifter for &alle kommandoer."
+7603="Importer kun overskrifter for &kommandoer under '%s' menu."
+
+;----------------------------------------------------------------
+;    Customize Mapping File dialog (Main Menu Editor)
+;----------------------------------------------------------------
+7701="Tilpas referencefil"
+7702="Små &ikoner"
+7703="&Knyt til..."
+7704="Vælg ikon for "%s""
+7705="(Ingen)"
+
+;----------------------------------------------------------------
+;    New/Edit user command dialog (Main Menu Editor)
+;----------------------------------------------------------------
+7721="Ny brugerkommando: "%s""
+7722="Rediger brugerkommando: "%s""
+7723="Kopier brugerkommando: "%s""
+7724="&Navn:"
+
+;----------------------------------------------------------------
+;    Choose Command dialog (Main & Start Menu Editor)
+;----------------------------------------------------------------
+7801="Vælg kommando"
+7802="&Find:"
+7803="&Vis kommandoer, som er listet i referencefilen"
+
+;----------------------------------------------------------------
+;    Check mnemonics dialog (Main & Start Menu Editor)
+;----------------------------------------------------------------
+7901="Check bogstaver til tastaturnavigering"
+7902="Fremhæv &duplikerede bogstaver til tastaturnavigering."
+7903="Fremhæv &linjer der ikke indeholder bogstaver til tastaturnavigering."
+7904="Duplikerede bogstaver til tastaturnavigering"
+7905="Manglende bogstaver til tastaturnavigering"
+
+;----------------------------------------------------------------
+;    Move To dialog (Main & Start Menu Editor)
+;----------------------------------------------------------------
+8001="Flyt til"
+8002="Flyt "%s" til..."
+
+;----------------------------------------------------------------
+;    Export to Totalcmd.inc file dialog (Start Menu Editor)
+;----------------------------------------------------------------
+8101="Eksporter til totalcmd.inc filen"
+8102="De følgende kommandoer wil blive føjet til totalcmd.inc filen.\nDue kan bruge enhver af disse kommandoer i din Hovedmenu."
+8103="&Eksporter kun kommando.  (Anbefales)"
+8104="&Opdater [Shortcuts], [ShortcutsWin] og [Alias] sektionerne i wincmd.ini."
+8105="Kommando &prefix:"
+8106="Kategori&navn:"
+
+;----------------------------------------------------------------
+;    Edit Parameters dialog (Start Menu & Button Bar Editor)
+;----------------------------------------------------------------
+8201="Rediger parameterliste"
+8202="&Standard"
+8203="&Op"
+8204="&Ned"
+8205="&Tilføj"
+8206="Parameter"
+8207="Beskrivelse"
+
+;----------------------------------------------------------------
+;    Add New Parameter dialog (Start Menu & Button Bar Editor)
+;----------------------------------------------------------------
+8301="Tilføj ny parameter"
+8302="&Parameter:"
+8303="&Beskrivelse:"
+8304="Rediger parameter"
+
+;----------------------------------------------------------------
+;    Delete All dialog  (History Editor)
+;----------------------------------------------------------------
+8401="Slet alt"
+8402="Marker sektion(er) du ønsker at slette."
+8403="Slet også låste f&aneblade."
+
+;----------------------------------------------------------------
+;    Add/Modify data key dialog (Configuration Editor)
+;----------------------------------------------------------------
+8501="Tilføj ny indstilling"
+8502="Modificer data for indstilling"
+8503="&Navn"
+8504="&Fil"
+8505="&Sektion"
+8506="V&ersion"
+8507="Standard&værdi"
+8508="&Avanceret"
+8509="Ja"
+8510="Nej"
+8511="&Dialog"
+8512="(Ingen)"
+8513="Åbn fil"
+8514="Åbn mappe"
+8515="Farve"
+8516="Skrifttype"
+8517="Bit sum"
+8518="Vis Ikonbibliotek"
+8519="Vælg fra dialogliste"
+8520="&Beskrivelse"
+
+;----------------------------------------------------------------
+;    Add Favorite dialog (Configuration Editor)
+;----------------------------------------------------------------
+8601="Tilføj Favorit"
+8602="Organiser Favoritter"
+8603="&Favoritnavn:"
+
+;----------------------------------------------------------------
+;    Import/Export dialog (Configuration & History Editor)
+;----------------------------------------------------------------
+8701="Importer"
+8702="&Vælg kategorier der skal importeres."
+8703="Valg for import:"
+8704="&Aktive indstillinger"
+8705="I&naktive indstillinger"
+8706="E&kskluder omdirigerede indstillinger (anbefales)"
+8707="Eksporter"
+8708="&Vælg kategorier der skal eksporteres."
+8709="Valg for eksport:"
+
+8721="Marker sektion(er) for import."
+8722="Marker sektion(er) for eksport."
+
+;----------------------------------------------------------------
+;    Export to Main Menu dialog (Hotkeys Editor)
+;----------------------------------------------------------------
+8801="Eksporter til hovedmenu"
+8802="Vælg kolonner for eksport"
+8803="Opsætning:"
+8804="&Fjern mellemrum fra genveje"
+8805="Eksporter re&definerede standardgenveje"
+8806="Mær&k redefinerede standardgenveje"
+8807="Eksporter kun &første værdi i hver kolonne"
+8808="Eksporter kun &en kolonne for hver kommando"
+8809="&Rækkefølge af kolonner:"
+8810="&Prioritering af kolonner:"
+8811="&Separator:"
+8812="&Gennemse..."
+
+;----------------------------------------------------------------
+;    Export to Text File dialog (Hotkeys Editor)
+;----------------------------------------------------------------
+8901="Eksporter til tekstfil"
+8902="Eksporter a&lle kommandoer"
+8903="Ekporter som HTML kode"
+8904="Tilføj se&parator"
+8905="&Vis skrifttype"
+8906="Ctrl"
+8907="Alt"
+8908="Skift"
+8909="Win"
+8910="Total Commander liste over genvejstaster"
+8911="Total Commander startmenu genvejstaster:"
+8912="Vigtigt"
+8913="Genvejstasterne i denne liste er endnu ikke gemt i din Total Commander ini-fil."
+
+;----------------------------------------------------------------
+;    Main Menu Editor Window
+;----------------------------------------------------------------
+9001="Total Commander hovedmenu"
+9002="Kategori"
+9003="Beskrivelse"
+9004="Kommando"
+9005="Kode"
+9006="STARTMENU"
+9007="HELP_BREAK"
+9008="Kommentarer"
+9009="Skriv din kommentar her"
+9010="Gem kommandoer som tekst"
+9011="Gem kommandoer som decimaltal"
+9012="Gem kommandoer som hexadecimaltal"
+9013="%i kommando(er) valgt"
+9014="%i kommando(er) i [%s] menu"
+9015="%i kommando(er) i [%s] kategori"
+9016="Ny..."
+9017="Rediger..."
+9018="Kopier..."
+9019="Slet"
+
+;----------------------------------------------------------------
+;    Start Menu Editor Window
+;----------------------------------------------------------------
+9101="Total Commander startmenu"
+9102="Total Commander favoritmapper"
+9103="Total Commander udvidede kommandoer"
+9104="Startmenu"
+9105="Favoritmenu"
+9106="Udvidede kommandoer"
+9107="&Kommando:"
+9108="&Parametre:"
+9109="St&art-mappe:"
+9110="Des&tinationssti:"
+9111="&Genvejstast:"
+9112="&Ikonfil:"
+9113="&Ballon-hjælp:"
+9114="Parameterliste"
+9115="&Vis som menu"
+9116="Ændre ikon"
+9117="(ingen)"
+9118="Kør normalt"
+9119="Kør minimeret"
+9120="Kør maksimeret"
+9121="Vis som panel"
+9122="Vis som menu"
+9123="Startmenupunkt %i"
+9124="Favoritmenupunkt %i"
+9125="Udvidet_kommando_%i"
+9126="Rediger med Ultra TC Start Menu Editor"
+9127="Rediger med Ultra TC Directory Menu Editor"
+9128="Ultra_TC_Udvidet_Kommando_Editor"
+
+;----------------------------------------------------------------
+;    Button Bar Editor Window
+;----------------------------------------------------------------
+9201="Total Commander hovedknappanel"
+9202="Total Commander Vertical Button Bar"
+9203="Hovedknappanel"
+9204="Vertikale knappanel"
+9205="Filliste for knappanel"
+9206="Tilbage til hovedknappanel"
+9207="Rediger tilknyttet knappanel"
+9208="Knap %i"
+9209="Rediger med Ultra TC Button Bar Editor"
+9210="Rediger med Ultra TC Vertical Button Bar Editor"
+9211="Udseende"
+9212="St&ørrelse:"
+9213="&XP-layout"
+9214="Fla&de ikoner"
+9215="Sm&å ikoner"
+9216="Pop&up ikonstørrelse:"
+
+;----------------------------------------------------------------
+;    History Editor Window
+;----------------------------------------------------------------
+9301="Total Commander historik"
+9302="Kommandolinje"
+9303="Valg"
+9304="Søg efter:"
+9305="Søg i:"
+9306="Find tekst:"
+9307="Hent/Gem"
+9308="Dublet Filfinder: plugin-felter"
+9309="Dublet Filfinder: mappemønster"
+9310="Omdøb maske:"
+9311="Omdøb søg efter:"
+9312="Omdøb erstat med:"
+9313="F2 Hent/Gem"
+9314="Faneblade venstre"
+9315="Faneblade højre"
+9316="Historik venstre"
+9317="Historik højre"
+9318="Oprettede mapper"
+9319="Ny fil"
+9320="Gemte synkroniseringer"
+9321="Plugin attributter"
+9322="Størrelser for opdeling"
+9323="Gamle FTP-forbindelser"
+9324="&Overskrift:"
+9325="&Lås denne fane"
+9326="Låst, men ma&ppeændringer tilladt."
+9327="Tom"
+
+;----------------------------------------------------------------
+;    Configuration Editor Window
+;----------------------------------------------------------------
+9401="Indstilling"
+9402="Værdi"
+9403="Sektion"
+9404="Fil"
+9405="Standard"
+9406="Avanceret"
+9407="Version"
+9408="Ja"
+9409="-"
+9410="Beskrivelse ikke til rådighed!"
+9411="%i indstilling(er)"
+9412="Datafil:"
+9413="Målsektion:"
+9414="Total Commander %s og højere"
+9415="Bit sum"
+9416="Ny indstilling"
+9417="Omdøb"
+9418="&Navn på indstilling:"
+9419="Vis ikonbibliotek"
+9420="&Ikon-bibliotek:"
+
+;----------------------------------------------------------------
+;    Hotkeys Editor Window
+;----------------------------------------------------------------
+9501="Standard genvejstast"
+9502="Brugerdefineret genvejstast"
+9503="Alias:"
+9504="&Genvejstast:"
+9505="A&lias:"
+9506="&Control +"
+9507="&Alt +"
+9508="S&kift +"
+9509="&Win +"
+9510="Tilføj genvejstast"
+9511="Slet alle genvejstaster"
+9512="Tilføj alias"
+9513="Slet alle alias"
+9514="Num"
+9515="Ins|Del|Home|End|PgUp|PgDn|Mellemrum|SletBagud|Tab|Enter|Esc|Venstre|Højre|Op|Ned"
+
+;----------------------------------------------------------------
+;    Ultra TC Editors Window
+;----------------------------------------------------------------
+9601="Rediger hovedmenu"
+9602="Rediger startmenu"
+9603="Rediger favoritmapper"
+9604="Rediger udvidede kommandoer"
+9605="Rediger knappanel"
+9606="Rediger vertikale knappanel"
+9607="Rediger historik"
+9608="Rediger opsætning"
+9609="Rediger genvejstaster"
+9610="Altid øverst"
+9611="Luk alle Ultra TC Editors vinduer ved afslutning"

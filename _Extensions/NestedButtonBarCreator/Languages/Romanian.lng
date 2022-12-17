@@ -1,0 +1,50 @@
+; English language for Nested Button Bar Creator 2.00
+
+; You can send translations of this file
+; to me at   ( utcmedit@yahoo.com )
+; and I will publish it with the program
+
+[UserLanguage]
+101=&Fiºier
+110=I&eºire
+150=&Opþiuni...
+
+161=&Ajutor
+162=&Topici Ajutor
+163=&Despre...
+
+601=Pasul 1
+602=Pasul 2
+603=Pasul 3
+604=&Urmãtor
+605=&Anterior
+606=&Creazã
+607=/E
+610=&Prefix nume fiºier
+611=&Limbaj
+
+620=Specificã de câte bare de butoane ai nevoie?
+621=Specificã unde vor fi salvate fiºierele cu bare de butoane.
+622=Este recomandabil sã salvezi în director dstinct.
+623=Apasã numãrul de deasupra ºi precizeazã un fiºier bara-de-butoane (*.bar) pentru a importa conþinutul sãu.
+624=Poþi sãri acest pas ºi poþi apãsa butonul 'Creazã'.
+625=Fiºierul barã de butoane a fost creat. Pentru a intra in funcþiune urmaþi paºii:
+626=1- Rulaþi Total Commander.
+627=2- Afiºaþi caseta 'Schimb bara de butoane'.
+628=3- Apãsaþi butonul >> ºi alegeþi fiºierul 'Bar_01.bar', aopi OK.
+629=4- Rãspundeþi DA atunci când sunteþi întrebaþi: Vrei ca aceastã barã de butoane sã devinã implicitã?
+
+1001=Opþiuni
+1008=OK
+1009=Renunþ
+
+1501=Despre
+1502=Programat de :
+1503-Versiune
+1504=Acest program este înregistrat pentru :
+1505=Pentru cele mai recente informaþii, vã rog vizitaþi pagina de Internet a programului.
+1506=Site Web
+1507=e-mail
+1508=Visitez acum
+
+3056=Fiºier negãsit.

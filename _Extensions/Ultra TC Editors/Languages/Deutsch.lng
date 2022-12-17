@@ -1,0 +1,812 @@
+; German language for Ultra TC Editors 6.42 Beta_10
+; Translated by Dieter W. Rehfeld
+; Überarbeitet von TychoBarfy
+; Überarbeitet von Andy Kleinert
+; Überarbeitet von Karl G.
+;
+;----------------------------------------------------------------
+;    File menu
+;----------------------------------------------------------------
+5001="&Datei"
+5002="&Neu"
+5003="&Öffnen..."
+5004="&Speichern"
+5005="Speichern &als..."
+5006="Speichern und &TC neu starten"
+5007="K&omplettmenüs erzeugen"
+5008="Kürzel überprüfen..."
+5009="Totalcmd.&inc bearbeiten..."
+5010="Symbol&bibliothek anpassen"
+5011="&Zuletzt geöffnete Dateien"
+5012="Noch &keine Dateieinträge verfügbar"
+5013="L&iste leeren"
+5014="B&eenden"
+
+5031="E&xportieren..."
+5032="&Importieren..."
+5033="Nach Totalcmd.inc &exportieren..."
+
+5051="Datendatei ö&ffnen..."
+5052="Datendatei s&peichern"
+
+5071="Ins &Hauptmenü exportieren..."
+5072="In Textdatei &exportieren..."
+
+;----------------------------------------------------------------
+;    Edit menu
+;----------------------------------------------------------------
+5101="&Bearbeiten"
+5102="&Menü hinzufügen"
+5103="&Untermenü hinzufügen"
+5104="&Trennlinie hinzufügen"
+5105="&Kommentar hinzufügen"
+5106="&Wiederholen"
+5107="S&tarter-Menü"
+5108="&Help Break"
+5109="Nach oben"
+5110="Nach unten"
+5111="&Verschieben nach..."
+5112="&Import-Überschriften..."
+5113="Icon zuweisen"
+5114="&Löschen"
+5115="Umbe&nennen"
+5116="De&finition"
+5117="Rückgängig"
+5118="Wiederherstellen"
+
+5131="&Befehl hinzufügen"
+5132="&Dies hinzufügen"
+5133="Auss&chneiden"
+5134="&Kopieren"
+5135="&Einfügen"
+5136="Alle Menüs sortieren"
+5137="Gewähltes Menü sortieren"
+5138="In &TC öffnen"
+5139="&Eigenschaften"
+
+5151="Unterleiste hinzufügen"
+5152="&Zeilenumbruch hinzufügen"
+5153="&Schaltfläche hinzufügen"
+
+5171="Eintrag hinzuf&ügen"
+5172="Alles l&öschen..."
+
+5191="&Rückgängig"
+5192="&Wiederherstellen"
+5193="&Wert bearbeiten"
+5194="Wert = &1"
+5195="Wert = &0"
+5196="Wert an&zeigen..."
+5197="&Neuer Eintrag..."
+5198="&Umbenennen..."
+5199="&Kommentar"
+5200="&Datendatei"
+5201="Eintrag &hinzufügen..."
+5202="Eintrag &ändern..."
+5203="Eintrag &löschen"
+
+;----------------------------------------------------------------
+;    View menu
+;----------------------------------------------------------------
+5301="&Ansicht"
+5302="&Werkzeugleiste"
+5303="Status&leiste"
+5304="Befe&hlsliste"
+5305="Kate&gorieliste"
+5306="&Senkrechte Panele"
+5307="&Panele tauschen"
+5308="&Baum erweitern"
+5309="Baum &reduzieren"
+5310="&Listeneinträge sortieren"
+5311="&Einstellungen..."
+
+5331="Immer im Vordergrund"
+5332="Startermenü"
+5333="Verzeichnisliste"
+5334="Erweiterte Befehle"
+
+5351="&Symbolleiste"
+5352="Symbolleisten-&Baum"
+5353="Symbolleistenn-Optio&nen"
+5354="&Main Button Bar"
+5355="&Vertical Button Bar"
+
+5371="Bes&chreibung"
+5372="Alle &Einträge anzeigen"
+5373="Akti&ve Einträge anzeigen"
+5374="&Ungenutzte Einträge anzeigen"
+5375="Er&weiterte Einträge anzeigen"
+5376="&Baumansicht"
+
+;----------------------------------------------------------------
+;    Search menu
+;----------------------------------------------------------------
+5401="&Suchen"
+5402="&Suchen..."
+5403="&Weitersuchen"
+
+;----------------------------------------------------------------
+;    Help menu
+;----------------------------------------------------------------
+5501="&Hilfe"
+5502="Hilfe&themen"
+5503="&Über"
+5504="Spen&den..."
+
+;----------------------------------------------------------------
+;    Favorites menu (Configuration Editor)
+;----------------------------------------------------------------
+5601="Favori&ten"
+5602="Zu F&avoriten hinzufügen..."
+5603="Favoriten &organisieren..."
+
+;----------------------------------------------------------------
+;    Context menu (Main Menu Editor)
+;----------------------------------------------------------------
+5701="&Hinzufügen"
+5702="&Ersetzen"
+5703="&Alles wählen"
+5704="De&finition"
+5705="Alle Ak&tiven markieren"
+5706="Alle &Inaktiven markieren"
+
+;----------------------------------------------------------------
+;    Parameters menu (Start Menu & Button Bar Editor)
+;----------------------------------------------------------------
+5801="?   als erster Parameter bewirkt, dass eine Dialogbox mit den nachfolgenden Parametern aufgerufen wird. In dieser Dialogbox können die Parameter geändert, bzw. weitere Parameter hinzugefügt werden. Außerdem kann die Programmausführung noch verhindert werden."
+5802="%P  als beliebig oft erlaubter Parameter bewirkt, dass der Pfad des Quellverzeichnisses in die Kommandozeile gestellt wird (inkl. \ am Ende)."
+5803="%N  als ebenfalls beliebig oft erlaubter Parameter bewirkt, dass der aktuelle Dateiname (umgeben von einer gestrichelten Box) dort in die Kommandozeile gestellt wird."
+5804="%T  (Target) fügt den aktuellen Zielpfad ein. Nützlich z. B. bei Packprogrammen. Man gibt z. B. entpack %P%N %T an, um die gewählte Datei im Quellverzeichnis ins Zielverzeichnis zu entpacken."
+5805="%M  fügt den im Zielverzeichnis gewählten Dateinamen ein."
+5806="%O  fügt den aktuellen Dateinamen ohne Erweiterung in die Kommandozeile ein."
+5807="%E  fügt die aktuelle Dateierweiterung (ohne Punkt) in die Kommandozeile ein."
+5808="%%  fügt das Prozentzeichen ein (nur eines!)"
+5809="%p  fügt den aktuellen Pfad ein (kurze Namen)"
+5810="%n  fügt den Dateinamen unter dem Cursor ein (kurzer Name)"
+5811="%t  fügt den aktuellen Zielpfad ein (kurzer Name)"
+5812="%m  fügt den gegenwärtigen Dateinamen ins Zielverzeichnis ein (kurzer Name)"
+5813="%o  fügt den gegenwärtigen Dateinamen ohne Erweiterung ein (kurzer Name)"
+5814="%e  fügt lediglich die gegenwärtige Dateierweiterung ein (ohne Punkt, kurzer Name)"
+5815="%L  Lange Dateinamen mit komplettem Pfad, z. B. c:\Eigene Dateien\langer Name.txt"
+5816="%l  Kurze Dateinamen mit komplettem Pfad, z. B. C:\EIGENE~1\LANGER~1.TXT"
+5817="%F  Lange Dateinamen ohne Pfad, z.B. langer Name.txt"
+5818="%f  Kurze Dateiname ohne Pfad, z.B. LANGER~1.TXT"
+5819="%D  Kurze Dateinamen mit komplettem Pfad, aber Umlaute im DOS-Zeichensatz"
+5820="%d  Kurze Dateinamen ohne Pfad, aber Umlaute im DOS-Zeichensatz"
+5821="%S  fügt die Namen aller markierten Dateien in die Kommandozeile ein. Namen, die Leerzeichen enthalten, werden von doppelten Anführungszeichen umgeben. Bitte beachten Sie die maximal mögliche Länge der Kommandozeile: 32767 Zeichen."
+5822="%s  fügt die Namen aller markierten Dateien ein (kurz)"
+5823="%S10  fügt die Namen der ersten 10 markierten Dateien (maximal) in die Kommandozeile ein. Erlaubt es, die Anzahl der an das Programm übergebenen Dateien zu begrenzen. Beliebige Integerwerte>0 sind zulässig."
+5824="%s10  fügt die Namen der ersten 10 markierten Dateien ein (kurz)"
+5825="%A  fügt den Rest der eingegebenen Befehlszeile ein"
+5826="%A0  gleich wie %A, verwenden wenn ein Parameter von einer Ziffer gefolgt werden muss"
+5827="%A1  bis %A9 fügt den ersten bis zum neunten Parameter ein"
+5828="%Z  irgendwo in den Parametern: Erlaubt die Übergabe von Archivnamen als Parameter via %P oder %T Beispiel: %Z%P übergibt Archivnamen an Programm wenn das aktive Dateifenster ein Archiv anzeigt"
+5829="%R  wie %S, aber mit den markierten Dateinamen aus dem Zielfenster"
+5830="%r  fügt die Namen aller markierten Dateien aus dem Zielpanel ein (kurz)"
+5831="%R10  fügt die Namen der ersten 10 markierten Dateien aus dem Zielpanel ein"
+5832="%r10  fügt die Namen der ersten 10 markierten Dateien aus dem Zielpanel ein (kurz)"
+5833="%X  interpretiert die folgenden Parameter nach diesem Parameter als links/rechts statt Quelle/Ziel: %P, %p (linker Pfad), %T, %t (rechter Pfad), %N, %n (linker Name), %M, %m (rechter Name), %S, %s (linke markierte Dateien), %R, %r (rechte markierte Dateien) Beispiel: %X%P %T  sendet den linken und rechten Pfad z. B. an ein externes Synchronisierprogramm"
+5834="%x  interpretiert die folgenden Parameter nach diesem Parameter wieder als Quelle/Ziel. Beispiel: %X%P %x%P sendet den linken und den Quellpfad an das aufgerufene Programm"
+5835="%UL  gleich wie %L, jedoch mit einer UTF-8-Unicode Listendatei (mit Byteordermarker)"
+5836="%WL  gleich wie %L, jedoch mit einer UTF-16-Unicode Listendatei  (mit Byteordermarker)"
+5837="%UF  gleich wie %F, jedoch mit einer UTF-8-Unicode Listendatei (mit Byteordermarker)"
+5838="%WF  gleich wie %F, jedoch mit einer UTF-16-Unicode Listendatei  (mit Byteordermarker)"
+5839="%v  fügt den virtuellen Dateinamen im Fall eines Dateisystem-Plugins wie 'Virtual Panel' ein"
+5840="%V  wie %v, jedoch einschließlich des vollen Pfades (einschl. dem Plugin-Namen)"
+5841="%C1  wie erster Parameter von "Vergleich nach Inhalt": Erste markierte Datei oder Datei unter Cursor"
+5842="%C2  wie zweiter Paramter von "Vergleich nach Inhalt": Zweite markierte Datei, oder erste markierte im Zielfenster, oder gleichnamige im Zielfenster. Hinweis: Falls das rechte Fenster aktiv ist und weniger als 2 Dateien markiert sind, werden %C1 und %C2 vertauscht."
+5843="%C3..%C9  markierte Dateien Nr. 3 bis 9 im Quellfenster, leer falls nicht genug markiert"
+5844="%c1..%c9  wie %C1..%C9, aber mit 8.3-Namen und -Pfaden.  Hinweise: %N bzw. %M fügt den langen Dateinamen ein, %n bzw. %m den kurzen (8.3) DOS-Namen. %P und %T fügen den langen Pfadnamen ein, %p und %t den kurzen. (dasselbe für %o, %e und %s) Wenn Sie %P, %p, %T oder %t direkt vor %S bzw. %s schreiben, dann werden alle Dateinamen inkl. kompletten Pfads eingefügt. Beispiel: %P%S fügt alle langen Dateinamen inkl. langen Pfads ein."
+5845="%c2  wie %C2 aber (kurz)"
+5846="%c3..%c9  wie %C3..%C9, aber kurz"
+
+;----------------------------------------------------------------
+;    Message Boxes
+;----------------------------------------------------------------
+5901="Datei mit den TC-Einstellungen [Wincmd.ini] konnte nicht gefunden werden!"
+5902="Totalcmd.inc konnte nicht gefunden werden!"
+5903="Ungültiges Format in der Menü-Datei!"
+5904="Fehler in Datei "%s"\nLine: %i\n%s"
+5905="Die Datei kann nicht geöffnet werden "%s""
+5906="Die Anwendung kann nicht fortgesetzt werden!"
+5907="Ein Menü kann nicht in sich selbst verschoben werden!"
+5908="Sie können hier keinen Befehl hinzufügen."
+5909="Help_Break kann nicht als Menüpunkt verwendet werden."
+5910="Das Menü "%s" ist nicht leer. Bist du sicher?"
+5911="Der Kommentarblock "%s" ist nicht leer. Bist du sicher?"
+5912="Dieser Titel kann nicht wiederholt werden"
+5913="Änderungen speichern in: "%s""
+5914="Es gibt nichts zu speichern!"
+5915="Nicht gefunden "%s""
+5916="Befehl nicht gefunden "%s""
+5917="Datei nicht gefunden "%s"\n\nBitte vergewissern Sie sich, dass der korrekte Pfad und Dateiname angegeben ist."
+5918="Es wurden keine doppelten Kürzel gefunden."
+5919="Alle Einträge mit Kürzeln."
+5920="Doppelte Kürzel gefunden: '%s'\nEs wird bereits verwendet in: '%s'\n\nFolgende Kürzel stehen zur Verfügung: %s"
+5921="Doppelte Kürzel gefunden: '%s'\nEs wird bereits verwendet in: '%s'\n\nKein eindeutiges Kürzel steht zur Verfügung."
+5922="Sind Sie sicher?"
+5923="Bild ist zu groß. Bitte ein anderes wählen."
+5924="Ungültiges Symbol! Bitte ein anderes wählen."
+5925="Gültige Werte sind Zahlen von 1 bis 32."
+5926="Da das Hauptmenü externe Befehle enthält, muss es vor dem Anpassen der Zuordnungsdatei gespeichert werden. Dies ist wichtig, um externe Befehle mit ihrem Code abzugleichen..Jetzt\n\nSpeichern?"
+5927="Der externe Befehl muss im Hauptmenü sein, um ein Symbol dafür zuzuordnen."
+5928="%s\nDiese Datei ist UTF-8-kodiert.\n\nWARNUNG: Jeder Eintrag enthält Zeichen eines Zeichensatzes, der sich vom Standard-Zeichensatz deines Systems unterscheidet. Du wirst diese Zeichen verlieren, wenn der Eintrag mit diesem Programm umbenannt wird.\n\nAnmerkung: Einträge die that solche Zeichen enthalten, jedoch nicht innerhalb des Programms umbenannt wurden, sind nicht davon betroffen. Fortfahren?"
+
+5941="Der Zugriff auf das Startmenü in dieser Datei wurde eingeschränkt."
+5942="Der Zugriff auf das Verzeichnismenü in dieser Datei wurde eingeschränkt."
+5943="Diese Datei enthält keinen Eintrag zur Verzeichnisliste!"
+5944="Diese Datei enthält keinen Eintrag zum Startermenü!"
+5945="Die Verzeichnisliste darf nicht mehr als 199 Einträge enthalten"
+5946="Das Startermenü darf nicht mehr als 199 Einträge enthalten"
+5947="Änderungen nach Totalcmd.inc exportieren?"
+5948="Sie müssen das Startmenü vor dem Export speichern. Dies ist wichtig, um keine fehlerhafte Einträge in der Totalcmd.inc zu haben wenn Sie ungespeicherte Menüs exportieren.\n\nÄnderung jetzt speichern?"
+5949="Datei nicht gefunden."
+5950="Ordner nicht gefunden."
+5951="Verknüpfte Symbolleiste "%s" konnte nicht gefunden werden"
+5952="Zwischenablage konnte nicht geöffnet werden."
+5953="Diese Datei enthält keine Symbole. Bitte eine andere Datei angeben."
+5954="Symboleinstellungen werden erst nach einen Neustart der Anwendung wirksam."
+5955="Diese Verknüpfung ist bereits zugewiesen: "%s"\n\nMöchtest du zuweisen zu: "%s"?"
+5956=""%s"\n Existiert bereits in [%s]\n\nNochmal hinzufügen?"
+5957="Diese Symbolleite übernehmen?\nWird bei jedem Start von TC geladen."
+
+5971="Vorschau. Hier keine Bearbeitung möglich!"
+5972="Nur 20 Einträge können je Abschnitt hinzugefügt werden."
+
+5991="Datei mit den TC-Einstellungen [Wcx_ftp.ini] konnte nicht gefunden werden!"
+5992="Datei konnte nicht gefunden werden! Eine Datei wählen um fortzusetzen"
+5993="Änderungen speichern?"
+5994="Favorisierter Eintrag konnte nicht gefunden werden!"
+5995="Favoritenliste kann max. 99 Einträge enthalten."
+5996="Es existiert bereits ein Favorit mit diesem Eintrag."
+5997="Änderungen in Favoritenliste speichern ?"
+5998="Sind Sie sicher, dass der Eintrag "%s" aus der Datendatei gelöscht werden soll?"
+5999="Ein Eintrag mit angegebenem Namen existiert bereits. Bitte anderen Eintragnamen festlegen."
+6000="There are missing or incorrect data fields for this key "%s"\nPlease correct this error in the current data file.\n\nFields are: %s"
+6001="Die Datendatei enthält den folgenden Fehler:\n\nZeile: %i\nPosition: %i\nUrsache: %s\n"
+
+6021="Standard Tastenkürzel für: "%s"\n\nzuweisen zu: "%s"?"
+6022="Aktueller Tastenkürzel für: "%s"\n\nzuweisen zu: "%s"?"
+6023="Aktueller Alias für: "%s"\n\nzuweisen zu: "%s"?"
+6024="Aktueller Tastenkürzel für: "%s" in TC Start Menu\n\nzuweisen zu: "%s"?"
+6025="Benutzerdefinierte Tastenkürzel für ALLE Befehle löschen.\n\nSicher?"
+6026="Aliase für ALLE Befehle.\n\nSicher?"
+6027="Die Tastenkürzel müssen vor dem Export ins Hauptmenü gespeichert werden. Dies ist wichtig, um keine Fehler in ungespeicherten Tastenkürzel zu erhalten."
+6028="%s\nDiese Datei ist UTF-8-kodiert.\n\nDas Exportieren der Tastenkürzel in UTF-8-kodierte Dateien könnte diese beschädigen. Fortfahren?"
+
+;----------------------------------------------------------------
+;    About dialog
+;----------------------------------------------------------------
+6101="Über"
+6102="Erstellt von:"
+6103="Version"
+6104="Registriert für:"
+6105="Für aktuelle Information besuchen Sie bitte meine Homepage."
+6106="Website"
+6107="Jetzt besuchen"
+6108="E-Mail:"
+6109="Spen&den"
+
+;----------------------------------------------------------------
+;    Customize Toolbar dialog
+;----------------------------------------------------------------
+6201="&Anpassen..."
+6202="Symbolleiste anpassen"
+
+;----------------------------------------------------------------
+;    Progress dialog
+;----------------------------------------------------------------
+6301="Wird gelesen... Bitte warten."
+6302="Wird gespeichert... Bitte warten."
+6303="Wird erstellt... Bitte warten."
+6304="Wird hinzugefügt... Bitte warten."
+6305="Wird ersetzt... Bitte warten."
+6306="Wird importiert... Bitte warten."
+6307="Wird exportiert... Bitte warten."
+
+;----------------------------------------------------------------
+;    Options dialog
+;----------------------------------------------------------------
+6401="Einstellungen"
+6402="OK"
+6403="Abbrechen"
+6404="&Übernehmen"
+6405="Programmvorgabe"
+
+;----------------------------------------------------------------
+;    Layout page
+;----------------------------------------------------------------
+6501="Ansicht"
+6502="Optische Effekte:"
+6503="Baum-&Symbole anzeigen"
+6504="Baum&linien anzeigen"
+6505="&Gitternetzlinien anzeigen"
+6506="Feste &Rahmen"
+6507="&Flaches Erscheinungsbild"
+6508="Speicherstatus in der Schaltfläche "Speichern" an&zeigen"
+6509="Symbole für interne &Befehle anzeigen"
+6510="Trennlinie"
+6511="Dateisymbol an&zeigen"
+
+6531="Inhalt direkt nach dem Eintragsnamen anzeigen"
+6532="Standardwerte der inaktiven Einträge anzeigen"
+6533="&Minimal erforderliche Version für gewählten Eintrag anzeigen"
+
+6551="Tastenkürzel in umgekehrter Reihenfolge anzeigen."
+6552="Geänderte:"
+6553="Se&quenz:"
+6554="&Trennlinie:"
+
+;----------------------------------------------------------------
+;    Icons page
+;----------------------------------------------------------------
+6601="Symbole"
+6602="Symbol-Stil:"
+6603="&Standardsymbole verwenden"
+6604="Größe"
+
+6621="TC-Symbol"
+6622="Menü"
+6623="Aktuelles Menü"
+6624="Aktiver Befehl"
+6625="Inaktiver Befehl"
+6626="Trennlinie"
+6627="Startermenü"
+6628="Help Break"
+6629="Kommentar"
+6630="Interner Befehl"
+6631="Externer Befehl"
+6632="Erweiterter Befehl"
+6633="Ordner-Link"
+6634="Fehlerhafter Link"
+6635="Zeilenumbruch"
+
+6651="Baumsymbol-&Größe:"
+6652="&Symbolleistensymbol-Größe:"
+
+;----------------------------------------------------------------
+;    Color and Font page
+;----------------------------------------------------------------
+6701="Farbe und Schriftart"
+6702="Text:"
+6703="Aktuelles Menü:"
+6704="Vordergrund"
+6705="Hintergrund"
+
+6721="Gesperrter Tab"
+
+6741="Aktiver Eintrag (Wincmd.ini)"
+6742="Aktiver Eintrag (Wcx_ftp.ini)"
+6743="Inaktiver Eintrag"
+
+6761="Befehl mit Tastenkürzel"
+6762="Befehl ohne Tastenkürzel"
+
+6781="Andere Einträge:"
+6782="Kommentar"
+6783="Trennzeichen"
+
+6801="Schriftart:"
+6802="&Ändern..."
+6803="Schrifteinstellungen zum Feld der Befehlsangaben übernehmen."
+6804="Beschreibung:"
+6805="&Tab-Breite:"
+
+;----------------------------------------------------------------
+;    Operation page
+;----------------------------------------------------------------
+6901="Operation"
+6902="Interne TC-Befehle auslesen:"
+6903="&Standard ist die Datei Totalcmd.inc"
+6904="&Andere Datei."
+
+6921="Verschiedenes:"
+6922="&Automatisch letzte Datei öffnen."
+6923="TC-Menüdateien (*.mnu) mit folgender Anwednung &verknüpfen"
+6924="&Befehle beim Einlesen gruppieren (empfohlen)"
+6925="Nach dem Speichern der Änderungen TC Automatisch neustarten."
+6926="&Anzahl von Leerstellen die jedem Menüeintrag vorangestellt werden sollen:"
+
+6941="Suche nach vorhandenen Dateien oder Ordnern im Netzwerk"
+6942="Suche nach vorhandenen Dateien oder Ordnern in Wechselmedien"
+
+6961="Automatisch nach dem Bearbeiten nächsten Eintrag &wählen"
+6962="Kategoriebaum beim Start automatisch erweitern."
+6963="Nur die in der Datendatei ge&listete Einträge einlesen"
+
+6981="Nach dem Editieren &nächsten Befehl automatisch wählen"
+
+7001="Automatisch vervollständigen:"
+7002="Automatisch den Befehlsnamen als Titel verwenden."
+7003="Dateierweiterung vom Titel entfernen."
+7004="Automatisch neuen Befehl anlegen oder nächsten wählen"
+
+7021="Export:"
+7022="Immer beim Speichern des Menüs nach Totalcmd.inc exportieren."
+7023="Immer an den Export der Änderungen erinnern."
+7024="Beim Sichern immer ins Hauptmenü exportieren."
+
+;----------------------------------------------------------------
+;    Language page
+;----------------------------------------------------------------
+7101="Sprache"
+7102="Sprache ändern:"
+7103="&Standardsprache (Englisch) verwenden"
+7104="&Andere"
+
+;----------------------------------------------------------------
+;    Open/Save dialog titles
+;----------------------------------------------------------------
+7201="Öffnen"
+7202="Speichern"
+7203="Speichern als"
+
+;----------------------------------------------------------------
+;    Find dialog
+;----------------------------------------------------------------
+7301="Suchen"
+7302="Suchen nach:"
+7303="Suchen in:"
+
+7321="&Beschreibung"
+7322="B&efehl"
+7323="&Code"
+
+7341="Titel"
+7342="Pfad"
+
+7361="&Name des Eintrages"
+7362="&Beschreibung des Eintrags"
+7363="&Wert des Eintrags"
+
+7381="&Standard-Tastenkürzel"
+7382="Ben&utzerdefinierter Tastenkürzel"
+7383="&Alias"
+
+7401="Nur mit ganzem W&ort vergleichen"
+7402="Benu&tze Mustererkennung"
+
+;----------------------------------------------------------------
+;    Customize Totalcmd.inc dialog (Main Menu Editor)
+;----------------------------------------------------------------
+7501="Verwende Totalcmd.inc"
+7502="Kategorisieren"
+7503="Alphabetisch"
+7504="unverändert"
+7505="Art des Trennzeichens:"
+7506="Datei"
+7507="Drucken"
+7508="&Trennzeichen zu jedem Untermenü hinzufügen."
+7509="&Menütitel als Beschreibung verwenden."
+7510="Befehls-&Code zur Beschreibung hinzufügen."
+7511="Vorschau:"
+7512="Speichern"
+7513="Schließen"
+7514="Vorschau"
+7515="DIESE BEFEHLE SIND NICHT IM MENÜ ENTHALTEN"
+
+;----------------------------------------------------------------
+;    Import captions dialog (Main Menu Editor)
+;----------------------------------------------------------------
+7601="Import captions"
+7602="Überschriften importieren für &alle Befehle."
+7603="Überschriften importieren nur für Unter "%s" Menü."
+
+;----------------------------------------------------------------
+;    Customize Mapping File dialog (Main Menu Editor)
+;----------------------------------------------------------------
+7701="Symbolbibliothek anpassen"
+7702="Kleine &Icons"
+7703="&Zuordnen zu..."
+7704="Icon wählen für "%s""
+7705="(None)"
+
+;----------------------------------------------------------------
+;    New/Edit user command dialog (Main Menu Editor)
+;----------------------------------------------------------------
+7721="Neuer Benutzerbefehl: "%s""
+7722="Benutzerbehl bearbeiten: "%s""
+7723="Benutzerbehl kopieren: "%s""
+7724="&Name:"
+
+;----------------------------------------------------------------
+;    Choose Command dialog (Main & Start Menu Editor)
+;----------------------------------------------------------------
+7801="Befehl wählen"
+7802="&Suchen:"
+7803="&Zeige Befehle, die eine Zuordnung in der Icondatei haben"
+
+;----------------------------------------------------------------
+;    Check mnemonics dialog (Main & Start Menu Editor)
+;----------------------------------------------------------------
+7901="Kürzel prüfen"
+7902="&Doppelte Kürzel hervorheben."
+7903="Einträge &ohne Kürzel hervorheben."
+7904="Duplizierte Kürzel"
+7905="Fehlende Kürzel"
+
+;----------------------------------------------------------------
+;    Move To dialog (Main & Start Menu Editor)
+;----------------------------------------------------------------
+8001="Verschieben nach"
+8002="Verschieben "%s" nach..."
+
+;----------------------------------------------------------------
+;    Export to Totalcmd.inc file dialog (Start Menu Editor)
+;----------------------------------------------------------------
+8101="In Datei Totalcmd.inc exportieren"
+8102="Die folgenden Befehle werden zur Totalcmd.inc hinzugefügt.\nSie können einen dieser Befehle in Ihrem Hauptmenü verwenden."
+8103="Nur Befehl &exportieren  (empfohlen)"
+8104="Abschnitt [Shortcuts], [ShortcutsWin] und [Alias] Wincmd.ini &aktualisieren"
+8105="Befehls&präfix:"
+8106="Kategorie&name:"
+
+;----------------------------------------------------------------
+;    Edit Parameters dialog (Start Menu & Button Bar Editor)
+;----------------------------------------------------------------
+8201="Parameterliste bearbeiten"
+8202="&Standard"
+8203="&Aufwärts"
+8204="A&bwärts"
+8205="&Hinzufügen"
+8206="Parameter"
+8207="Beschreibung"
+
+;----------------------------------------------------------------
+;    Add New Parameter dialog (Start Menu & Button Bar Editor)
+;----------------------------------------------------------------
+8301="Neuen Parameter hinzufügen"
+8302="&Parameter:"
+8303="&Beschreibung:"
+8304="Parameter bearbeiten"
+
+;----------------------------------------------------------------
+;    Delete All dialog  (History Editor)
+;----------------------------------------------------------------
+8401="Alles löschen"
+8402="Zu löschende Abschnitte prüfen."
+8403="&Auch gesperrte Tabs löschen."
+
+;----------------------------------------------------------------
+;    Add/Modify data key dialog (Configuration Editor)
+;----------------------------------------------------------------
+8501="Neuen Dateneintrag hinzufügen"
+8502="Dateneintrag ändern"
+8503="&Name"
+8504="&Datei"
+8505="&Abschnitt"
+8506="&Version"
+8507="Standard&wert"
+8508="&Erweitert"
+8509="Ja"
+8510="Nein"
+8511="Dialo&g"
+8512="(Nichts festgelegt)"
+8513="Datei öffnen"
+8514="Ordner öffnen"
+8515="Farbe"
+8516="Schrift"
+8517="Bit-Summe"
+8518="Symbolbibliothek-Vorschau"
+8519="Aus Dialogliste wählen"
+8520="&Beschreibung"
+
+;----------------------------------------------------------------
+;    Add Favorite dialog (Configuration Editor)
+;----------------------------------------------------------------
+8601="Favoriten hinzufügen"
+8602="Favoriten organisieren"
+8603="Name des Favoriten:"
+
+;----------------------------------------------------------------
+;    Import/Export dialog (Configuration & History Editor)
+;----------------------------------------------------------------
+8701="Import"
+8702="Zu importierende Kategorien prüfen."
+8703="Import-Optionen:"
+8704="Aktive Einträge"
+8705="Inaktive Einträge"
+8706="Umleitungsschlüssel ausschließen (empfohlen)"
+8707="Export"
+8708="Zu exportierende Kategorien prüfen."
+8709="Export-Optionen:"
+
+8721="Abschnitt(e) für Import prüfen."
+8722="Abschnitt(e) für Export prüfen."
+
+;----------------------------------------------------------------
+;    Export to Main Menu dialog (Hotkeys Editor)
+;----------------------------------------------------------------
+8801="Ins Hauptmenü exportieren"
+8802="Spalten für Export auswählen"
+8803="Einstellungen:"
+8804="Leerzeichen aus Tastenkürzel &entfernen"
+8805="Neu &definierte Standard-Tastenkürzel exportieren"
+8806="Neu &definierte Standard-Tastenkürzel mar&kieren"
+8807="Nur &ersten Wert in jeder Spalte exportieren"
+8808="Nur &eine Spalte pro Befehl exportieren"
+8809="S&paltenfolge:"
+8810="&Spaltenpriorität:"
+8811="&Trennlinie:"
+8812="&Durchsuchen..."
+
+;----------------------------------------------------------------
+;    Export to Text File dialog (Hotkeys Editor)
+;----------------------------------------------------------------
+8901="In Textdatei exportieren"
+8902="&Alle Befehle exportieren"
+8903="Als HTML-Code exportieren"
+8904="&Trennlinie hinzufügen"
+8905="&Schriftvorschau"
+8906="Strg"
+8907="Alt"
+8908="Umsch"
+8909="Win"
+8910="TC Tastenkürzel-Liste"
+8911="TC StartMenu-Tastenkürzel:"
+8912="ACHTUNG"
+8913="Tastenkürzel sind noch nicht in der TC-Konfigurationsdatei gespeichert."
+
+;----------------------------------------------------------------
+;    Main Menu Editor Window
+;----------------------------------------------------------------
+9001="Total Commander Hauptmenü"
+9002="Kategorie"
+9003="Beschreibung"
+9004="Befehl"
+9005="Code"
+9006="STARTMENU"
+9007="Help_Break"
+9008="Kommentare"
+9009="Kommentar hier eingeben"
+9010="Befehl als Text speichern"
+9011="Befehl dezimal speichern"
+9012="Befehl hexadezimal speichern"
+9013="%i ausgewählte(r) Befehl(e)"
+9014="%i Befehl(e) in Menü [%s]"
+9015="%i Command(s) in [%s] category"
+9016="Neu..."
+9017="Bearbeiten..."
+9018="Kopieren..."
+9019="Löschen"
+
+;----------------------------------------------------------------
+;    Start Menu Editor Window
+;----------------------------------------------------------------
+9101="Total Commander - Startermenü"
+9102="Total Commander - Verzeichnismenü"
+9103="Total Commander - Erweiterte Befehle"
+9104="Start Menu"
+9105="Directory Menu"
+9106="Extended Commands"
+9107="Befehl:"
+9108="Parameter:"
+9109="Startpfad:"
+9110="Zielpfad:"
+9111="Tastenkürzel:"
+9112="&Symbol-Datei:"
+9113="&Tooltip:"
+9114="Parameterliste"
+9115="Als Menü an&zeigen"
+9116="Symbol ändern"
+9117="(Keines festgelegt)"
+9118="Normales Fenster"
+9119="Minimiertes Fenster"
+9120="Maximiertes Fenster"
+9121="Als Leiste anzeigen"
+9122="Als Menü anzeigen"
+9123="Startmenüeintrag %i"
+9124="Ordnermenüeintrag %i"
+9125="Erweiterter_Befehl_%i"
+9126="Mit Ultra TC Start Menu Editor ändern"
+9127="Mit Ultra TC Directory Menu Editor ändern"
+9128="Ultra_TC_Erweiterte_Befehle_Editor"
+
+;----------------------------------------------------------------
+;    Button Bar Editor Window
+;----------------------------------------------------------------
+9201="Total Commander-Hauptsymbolleiste"
+9202="Total Commander Vertical Button Bar"
+9203="Main Button Bar"
+9204="Vertical Button Bar"
+9205="Symbolleisten-Dateiliste"
+9206="Zurück zur Hauptsymbolleiste"
+9207="Verknüpfte Symbolleiste bearbeiten"
+9208="Schaltfläche %i"
+9209="Mit Ultra TC Symbolleisten-Editor ändern"
+9210="Mit Ultra TC Vertical Button Bar Editor wechseln"
+9211="Aussehen"
+9212="&Größe:"
+9213="&XP-Stil"
+9214="F&lache Symbole"
+9215="&Kleine Symbole"
+9216="Pop&up-Symbol-Größe:"
+
+;----------------------------------------------------------------
+;    History Editor Window
+;----------------------------------------------------------------
+9301="Total Commander Versionsverlauf"
+9302="Befehlszeile"
+9303="Auswahl"
+9304="Suche nach:"
+9305="Suche in:"
+9306="Text finden:"
+9307="Laden/Speichern"
+9308="Plugin Duplicates"
+9309="Duplicates Directory Selection"
+9310="Umbenennen:"
+9311=""Suchen nach" umbenennen in:"
+9312=""Ersetzen mit" umbenennen in:"
+9313="F2 Laden/Speichern"
+9314="Linke Tabs"
+9315="Rechte Tabs"
+9316="Linker Verlauf"
+9317="Rechter Verlauf"
+9318="Neues Verzeichnis"
+9319="New File"
+9320="Synchronisations-Einstellungen"
+9321="Plugin-Attribute"
+9322="Größe aufteilen"
+9323="Alte FTP-Verbindungen"
+9324="Überschrift:"
+9325="Diesen Tab &sperren"
+9326="Gesperrt, a&ber Verzeichniswechsel erlaubt."
+9327="Leer"
+
+;----------------------------------------------------------------
+;    Configuration Editor Window
+;----------------------------------------------------------------
+9401="Eintrag"
+9402="Wert"
+9403="Abschnitt"
+9404="Datei"
+9405="Vorgabe"
+9406="Erweitert"
+9407="Version"
+9408="Ja"
+9409="-"
+9410="Beschreibung nicht verfügbar!"
+9411="%i Einträge"
+9412="Datei:"
+9413="Zielbereich:"
+9414="Total Commander %s und neuer"
+9415="Bit-Summe"
+9416="Neuer Eintrag"
+9417="Umbenennen"
+9418="Eintrag&name:"
+9419="Symbolbibliothek-Vorschau"
+9420="&Bibliothek-Datei:"
+
+;----------------------------------------------------------------
+;    Hotkeys Editor Window
+;----------------------------------------------------------------
+9501="Standard-Tastenkürzel"
+9502="Aktuelles Tastenkürzel"
+9503="Alias"
+9504="Tastenkürzel:"
+9505="Alias:"
+9506="&Strg +"
+9507="&Alt +"
+9508="&Umsch +"
+9509="&Win +"
+9510="Tastenkürzel hinzufügen"
+9511="Alle Tastenkürzel löschen"
+9512="Alias hinzufügen"
+9513="Alle Aliases löschen"
+9514="Num"
+9515="Einfg|Entf|Pos1|Ende|BildAuf|BildAb|Leertaste|Return|Tab|Eingabe|Esc|Links|Rechts|Auf|Ab"
+
+;----------------------------------------------------------------
+;    Ultra TC Editors Window
+;----------------------------------------------------------------
+9601="Hauptmenü-Editor starten"
+9602="Startermenü-Editor starten"
+9603="Verzeichnismenü-Editor starten"
+9604="Erweiterte Befehle Editor starten"
+9605="Symbolleisten-Editor starten"
+9606="V2 Symbolleisten-Editor starten"
+9607="Verlaufseditor starten"
+9608="Konfigurationseditor starten"
+9609="Tastenkürzel-Editor starten"
+9610="Immer im Vordergrund"
+9611="Alle Ultra TC Editors beenden"

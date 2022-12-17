@@ -1,0 +1,791 @@
+; Hungarian language for Ultra TC Editors 6.40
+
+;----------------------------------------------------------------
+;    File menu
+;----------------------------------------------------------------
+5001="Fájl"
+5002="Új"
+5003="Megnyitás..."
+5004="Mentés"
+5005="Mentés másként..."
+5006="Mentés és a Total Commander újraindítása"
+5007="Teljes menü készítése"
+5008="Mnemonikok ellenõrzése..."
+5009="Totalcmd.inc testreszabása"
+5010="Leképzési fájl testreszabása..."
+5011="Elõzmények"
+5012="Nincsenek elõzmények"
+5013="Lista törlése"
+5014="Kilépés"
+
+5031="Exportálás..."
+5032="Importálás..."
+5033="Exportálás a Totalcmd.inc-be"
+
+5051="Adatfájl megnyitása..."
+5052="Adatfájl mentése"
+
+5071="Exportálás a fõmenübe..."
+5072="Exportálás text formátumban"
+
+;----------------------------------------------------------------
+;    Edit menu
+;----------------------------------------------------------------
+5101="Szerkesztés"
+5102="Menü hozzáadása"
+5103="Almenü hozzáadása"
+5104="Elválasztó vonal"
+5105="Megjegyzés hozzáadása"
+5106="Ismétlés"
+5107="Start menü"
+5108="Súgó szünet"
+5109="Mozgatás fel"
+5110="Mozgatás le"
+5111="Áthelyezés"
+5112="Feliratok importálása..."
+5113="Leképzés..."
+5114="Törlés"
+5115="Átnevezés"
+5116="Meghatározás"
+
+5131="Parancs hozzáadása"
+5132="Adj hozzá"
+5133="Kivágás"
+5134="Másolás"
+5135="Beillesztés"
+5136="Összes menü rendezése"
+5137="Kiválasztott menü rendezése"
+5138="Megnyitás TC-ben"
+5139="Tulajdonságok"
+
+5151="Al gombsor hozzáadása"
+5152="Sortörés hozzáadása"
+5153="Gomb hozzáadása"
+
+5171="Elem hozzáadása"
+5172="Összes törlése"
+
+5191="Visszavonás"
+5192="Mégis"
+5193="Érték szerkesztése"
+5194="Érték ="1"
+5195="Érték ="0"
+5196="Érték tallózása..."
+5197="Új kulcs"
+5198="Átnevezés"
+5199="Megjegyzés"
+5200="Adatfájl"
+5201="Kulcs hozzáadása..."
+5202="Kulcs módosítása..."
+5203="Kulcs törlése"
+
+;----------------------------------------------------------------
+;    View menu
+;----------------------------------------------------------------
+5301="Nézet"
+5302="Eszköztár"
+5303="Állapotsor"
+5304="Parancs lista"
+5305="Kategória lista"
+5306="Függõleges panelek"
+5307="Panelek felcserélése"
+5308="Könyvtárfa kinyitása"
+5309="Könyvtárfa becsukása"
+5310="Rendezett lista"
+5311="Beállítások..."
+
+5331="Mindig látható"
+5332="Start menü"
+5333="Könyvtár menü"
+5334="Kibõvített parancsok"
+
+5351="Gombsor"
+5352="Gombsor fa"
+5353="Gombsor beállítások"
+5354="Fõ gombsor"
+5355="Függõleges gombsor"
+
+5371="Leírás:"
+5372="Összes kulcs"
+5373="Aktív kulcsok"
+5374="Inaktív kulcsok"
+5375="Csak haladó kulcsok"
+5376="Ág nézet"
+
+;----------------------------------------------------------------
+;    Search menu
+;----------------------------------------------------------------
+5401="Keresés"
+5402="Keresés..."
+5403="Következõ"
+
+;----------------------------------------------------------------
+;    Help menu
+;----------------------------------------------------------------
+5501="Súgó"
+5502="Súgó témakörök"
+5503="Névjegy"
+
+;----------------------------------------------------------------
+;    Favorites menu (Configuration Editor)
+;----------------------------------------------------------------
+5601="Kedvencek"
+5602="Hozzáadás a Kedvencekhez"
+5603="Kedvencek rendezése"
+
+;----------------------------------------------------------------
+;    Context menu (Main Menu Editor)
+;----------------------------------------------------------------
+5701="Hozzáadás"
+5702="Eltávolítás"
+5703="Összes kiválasztása"
+5704="Meghatározás"
+5705="Összes aktív kijelölése"
+5706="Összes inaktív kijelölése"
+
+;----------------------------------------------------------------
+;    Parameters menu (Start Menu & Button Bar Editor)
+;----------------------------------------------------------------
+5801="?   mint az elsõ paraméter: felhasználói dialóg a paraméterek beírásához"
+5802="%P  beilleszti az aktuális elérési útvonalat"
+5803="%N  beilleszti a kurzor alatti fájlnevet"
+5804="%T  beilleszti az aktuális cél útvonalat"
+5805="%M  beilleszti a jelenlegi fájlnevet a célkönyvtárban"
+5806="%O  beilleszti a jelenlegi fájlnevet kiterjesztés nélkül"
+5807="%E  beilleszti a jelenlegi fájlnevet kiterjesztéssel (vezetõ period nélkül)"
+5808="%%  beilleszti a % jelet"
+5809="%p  beilleszti a jelenlegi elérési útvonalat (rövid)"
+5810="%n  beilleszti a kurzor alatti fájlnevet (rövid)"
+5811="%t  beilleszti az aktuális cél útvonalat (rövid)"
+5812="%m  beilleszti a jelenlegi fájlnevet a célkönyvtárban (rövid)"
+5813="%o  beilleszti a jelenlegi fájlnevet kiterjesztés nélkül (rövid)"
+5814="%e  beilleszti a jelenlegi kiterjesztést (vezetõ period nélkül) (rövid)"
+5815="%L  hosszú fájlnevek teljes elérés útvonallal"
+5816="%l  rövid fájlnevek teljes elérés útvonallal"
+5817="%F  hosszú fájlnevek elérési útvonal nélkül, pl. Long name.exe"
+5818="%f  rövid fájlnevek elérési útvonal nélkül, pl. LONGA~1.EXE"
+5819="%D  rövid fájlnevek teljes elérés útvonallal, (DOS chr set)"
+5820="%d  rövid fájlnevek elérési útvonal nélkül, (DOS chr set)"
+5821="%S  az összes kiválasztott fájl nevének beillesztése."
+5822="%s  az összes kiválasztott fájl nevének beillesztése. (rövid)"
+5823="%S10  az elsõ 10 kiválasztott fájl nevének beillesztése."
+5824="%s10  az elsõ 10 kiválasztott fájl nevének beillesztése. (rövid)"
+5825="%A  beilleszti a beírt parancssor többi részét"
+5826="%A0  ugyanaz mint, a %A, akkor használjuk, ha a paramétert szám követi"
+5827="%A1  %A9 beilleszti az elsõt a 9-ig paraméterig"
+5828="%Z  az archívumokat a %P programok vagy a %T fájlok elérési útvonalaként tárolja az archívumban"
+5829="%R  beilleszti a kijelölt neveket a cél panelbõl"
+5830="%r  beilleszti a kijelölt neveket a cél panelbõl (rövid)"
+5831="%R10  beilleszti az elsõ 10 kijelölt nevet a cél panelbõl"
+5832="%r10  beilleszti az elsõ 10 kijelölt nevet a cél panelbõl (rövid)"
+5833="%X  értelmezi a következõ paramétereket mint Bal/Jobb a Forrás/Cél helyett"
+5834="%x  értelmezi a következõ paramétereket mint Forrás/Cél"
+5835="%UL  mint %L, de UTF-8 Unicode lista fájl"
+5836="%WL  mint %L, de UTF-16 Unicode lista fájl"
+5837="%UF  mint %F, de UTF-8 Unicode lista fájl"
+5838="%WF  mint %F, de UTF-16 Unicode lista fájl"
+5839="%v beilleszt egy virtuális fájlnevet..., mint 'Virtual Panel'"
+5840="%V mint %v, de tartalmazza a teljes eléri útvonalat (beleértve a plugin nevét is)"
+5841="%C1  beilleszti az elsõ kiválasztott fájlt vagy a kurzor alatti fájlt"
+5842="%C2  beilleszti a második kiválasztott fájlt, vagy az elsõ kiválasztottat a célpanelen vagy az azonos nevût fájlt a célpanelen"
+5843="%C3 - %C9  betölti a kiválasztott fájlokat a forráspanelen, üres, ha nincs elég kiválasztva"
+5844="%c1 az, mint C1, de rövid"
+5845="%c2 az, mint C2, de rövid"
+5846="%c3  - %c9  az, mint %C3  - %C9, de rövid"
+
+;----------------------------------------------------------------
+;    Message Boxes
+;----------------------------------------------------------------
+5901="Total Commander beállítás fájl nem található [Wincmd.ini]"
+5902="Totalcmd.inc fájl nem található!"
+5903="Érvénytelen menüfájl"
+5904="Hiba a fájlban "%s"\nSor: %i\n%s"
+5905=""%s" fájl nem nyitható meg"
+5906="A program nem folytatható!"
+5907="Nem helyezheted át ezt a menüt a saját almenüjébe!"
+5908="Ide nem helyezhetsz el parancsot"
+5909="Help_Break nem helyezhetõ el ebben a menüben"
+5910=""%s" menü nem üres. Biztos benne?"
+5911=""%s" megjegyzés blokk nem üres. Biztos benne?"
+5912="Nem ismételheti meg ezt az elemet"
+5913="Menti a változásokat?"
+5914="Nincs mit menteni"
+5915=""%s" nem található"
+5916="Nem található ez a parancs: "%s""
+5917="Nem található ez a fájl: "%s"\n\nKérjük, ellenõrizze a helyes elérési útvonalat és a fájl nevét"
+5918="Nem találhatóak azonos mnemonikok."
+5919="Minden elem, ami mnemonikokat tartalmaz."
+5920="Azonos mnemonikok találhatóak: '%s'\nEz már használatban van: '%s'\n\nA következõ mnemonikonok használhatók: %s"
+5921="Azonos mnemonikok találhatóak: '%s'\nEz már használatban van: '%s'\n\nNincs használható mnemonik."
+5922="Biztos benne?"
+5923="Túl nagy a kép. Válasszon kisebbet."
+5924="Érvénytelen ikon, válasszon másikat."
+5925="Érvényes egész számú értékek 1-tõl 32-ig."
+5926="Mivel a fõmenü külsõ parancsokat is tartalmaz, azt menteni kell a leképzési fájl testreszabása elõtt. Ez ahhoz is fontos, hogy a külsõ parancsok megegyezzenek a kódjával.\n\nMenti most a változásokat?"
+5927="Külsõ parancsnak kell lennie a fõmenüben azért, hogy leképzési ikonja legyen."
+5928="%s\nEz a fájl UTF-8 kódolású.\n\nFIGYELMEZTETÉS: Minden olyan elem ami olyan karaktereket tartalmaz a kódlapban ami eltér a rendszer alapértelmezett kódlapjától el fogja veszíteni ezeket a karaktereket  amikor  a programban átnevezik.\n\nMegjegyzés: Ez nem fogja érinteni azokat az elemeket amiket nem nevez át a programban. Folytatja?"
+
+5941="A fájlhoz való hozzáférés a Start menüben korlátozott volt."
+5942="A könyvtárhoz való hozzáférés ebben a fájlban korlátozva volt."
+5943="Ez a fájl nem tartalmaz Könyvtár menü bejegyzést!"
+5944="Ez a fájl nem tartalmaz Start menü bejegyzést!"
+5945="A Könyvtár menü nem tartalmazhat 199-nél több elemet."
+5946="A Start menü nem tartalmazhat 199-nél több elemet."
+5947="Exportálja a Totalcmd.inc fájlba?"
+5948="Exportálás elõtt el kell menteni. Ez fontos, hogy ne legyen rosszul párosított bejegyzés a Totalcmd.inc fájlban amikor exportálja."
+5949="Fájl nem található"
+5950="Könyvtár nem található."
+5951="Összekapcsolt gombsor nem található. "%s""
+5952="Vágólap megnyitása nem sikerült."
+5953="Ez a fájl nem tartalmaz ikont, válasszon másikat"
+5954="Az ikon beállítások csak a program újraindítása után fognak érvénybe lépni."
+5955="Ez a parancsikon már hozzá van rendelve ehhez: "%s"\n\nHozzá akarja rendelni ehhez: "%s""
+5956=""%s"\n Már létezik [%s]\n\nHozzá akarja adni újra?"
+5957="Szeretné ha ez a gombsor lenne az új fõ gombsor?\nA fõ gombsor betöltõdik, amikor a Total Commander elindul."
+
+5971="Elõnézeti panel. Nincs szerkesztés."
+5972="Csak %i elem adható hozzá ehhez a csoporthoz."
+
+5991="Total Commander beállítás fájl nem található [Wcx_ftp.ini]"
+5992="Adatfájl nem található! Nyisson meg egyet a folytatáshoz!"
+5993="Menti a változásokat a program adatfájljába?"
+5994="Kedvencek név nem található"
+5995="Kedvencek lista max. 99 elemet tartalmazhat"
+5996="Van már ilyen nevû Kedvencek kulcs"
+5997="Mentse a módosításokat a Kedvencek listájába?"
+5998="Tényleg törölni akarja a kulcsokat az adatfájlból? '%s'"
+5999="A megadott kulcsnév már létezik. Adjon meg másikat."
+6000="Hiányzó vagy hibás adatmezõk vannak ebben a kulcsban "%s"\nKérjük, javítsa ezt a hibát az aktuális adatfájlban..\n\nA mezõk:: %s"
+6001="Az adatfájl a következõ hibát tartalmazza:\n\nSor: %i\nPozíció: %i\nOk: %s\n"
+
+6021="Alapértelmezett gyorsbillentyû ehhez: "%s"\n\nHozzá akarja rendelni ehhez: "%s""
+6022="Aktuális gyorsbillentyû ehhez: "%s"\n\nHozzá akarja rendelni ehhez: "%s""
+6023="Aktuális alias ehhez: "%s"\n\nHozzá akarja rendelni ehhez: "%s""
+6024="Alapértelmezett gyorsbillentyû ehhez: "%s" a Total Commander Start menüben\n\nHozzá akarja rendelni ehhez: "%s""
+6025="Törölni készül az egyénileg létrehozott gyorsbillentyûket minden parancsból.\n\nBiztos?"
+6026="Törölni készül minden parancs fedõnevét.\n\nBiztos?"
+6027="Mielõtt exportálja a gyorsbillentyûket a fõmenübe, el kell menteni ezeket!"
+6028="%s\nEz a fájl UTF-8 kódolású.\n\nGyorsbillentyû exportálása UTF-8 kódolású fájlba hibás mûködést okozhat. Folytatja?"
+
+;----------------------------------------------------------------
+;    About dialog
+;----------------------------------------------------------------
+6101="Névjegy"
+6102="Programozó:"
+6103="Verzió:"
+6104="A program jogos tulajdonosa:"
+6105="Legfrissebb információkért látogassa meg a weboldalt."
+6106="Weboldal:"
+6107="Látogatás"
+6108="Email:"
+
+;----------------------------------------------------------------
+;    Customize Toolbar dialog
+;----------------------------------------------------------------
+6201="Testreszabás"
+6202="Eszköztár testreszabása"
+
+;----------------------------------------------------------------
+;    Progress dialog
+;----------------------------------------------------------------
+6301="Olvasás... Kérjük várjon."
+6302="Mentés... Kérjük várjon."
+6303="Létrehozás... Kérjük várjon."
+6304="Hozzáadás... Kérjük várjon."
+6305="Eltávolítás... Kérjük várjon."
+6306="Importálás... Kérjük várjon."
+6307="Exportálás... Kérjük várjon."
+
+;----------------------------------------------------------------
+;    Options dialog
+;----------------------------------------------------------------
+6401="Beállítások"
+6402="OK"
+6403="Mégsem"
+6404="Alkalmaz"
+6405="Alapértelmezett"
+
+;----------------------------------------------------------------
+;    Layout page
+;----------------------------------------------------------------
+6501="Felület"
+6502="Vizuális effektek:"
+6503="Mutassa a faikonokat"
+6504="Mutassa a favonalakat"
+6505="Mutassa a rácsvonalakat"
+6506="Fix szegélyek"
+6507="Lapos kinézet"
+6508="Mutassa a mentési módot a mentés gombon"
+6509="Ikonok mutatása belsõ parancsokhoz"
+6510="Elválasztóvonal"
+6511="Mutassa a fájl ikonját"
+
+6531="Mutassa a kulcs értéket közvetlen a kulcs neve után"
+6532="Mutassa az alap értéket az inaktív kulcsokra"
+6533="A minimum verzió mutatása, ami szükséges a kiválasztott kulcshoz"
+
+6551="Mutassa a billentyûket fordított sorrendben"
+6552="Módosítók:"
+6553="Számsor:"
+6554="Elválasztó:"
+
+;----------------------------------------------------------------
+;    Icons page
+;----------------------------------------------------------------
+6601="Ikonok"
+6602="Ikon stílus:"
+6603="Használja az alap ikonokat"
+6604="Méret:"
+
+6621="TC ikon"
+6622="Menü"
+6623="Aktuális menü"
+6624="Aktív parancs"
+6625="Inaktív parancs"
+6626="Elválasztó"
+6627="Start menü"
+6628="Súgó sortörés"
+6629="Megjegyzés"
+6630="Belsõ parancs"
+6631="Külsõ parancs"
+6632="Bõvített parancs"
+6633="Könyvtár link"
+6634="Hibás link"
+6635="Sortörés"
+
+6651="Ikon fa méret:"
+6652="Gombsor ikon méret:"
+
+;----------------------------------------------------------------
+;    Color and Font page
+;----------------------------------------------------------------
+6701="Betûtípus és szín"
+6702="Szöveg:"
+6703="Jelenlegi menü:"
+6704="Elõtér"
+6705="Háttér"
+
+6721="Zárolt fül"
+
+6741="Aktív kulcs (Wincmd.ini)"
+6742="Aktív kulcs (Wcx_ftp.ini)"
+6743="Inaktív kulcs"
+
+6761="Parancs gyorsbillentyûvel"
+6762="Parancs gyorsbillentyû nélkül"
+
+6781="Más elemek elõtér színe:"
+6782="Megjegyzés"
+6783="Elválasztó"
+
+6801="Betûtípus"
+6802="Cserél..."
+6803="Alkalmazza a betûtípus beállításokat"
+6804="Leírás"
+6805="Fülszélesség:"
+
+;----------------------------------------------------------------
+;    Operation page
+;----------------------------------------------------------------
+6901="Mûvelet"
+6902="TC belsõ parancsok olvasása:"
+6903="Alap Totalcmd.inc fájl:"
+6904="Egyéb fájl"
+
+6921="Egyéb"
+6922="Automatikusan olvassa be az utolsó fájlt"
+6923="Társítsa a TC menü fájljait (*.mnu) a programhoz"
+6924="Gyûjtse össze a megjegyzéseket csoportokba (Ajánlott)"
+6925="Automatikusan újraindítja a Total Commander-t mentés után"
+6926="Szóközök száma minden bekezdésnél a mentett fájlban:"
+
+6941="Keressen létezõ fájlokat vagy könyvtárakat a hálózati helyeknél"
+6942="Keressen létezõ fájlokat vagy könyvtárakat eltávolítható meghajtóknál"
+
+6961="Automatikusan kiválasztja a következõ kulcsot szerkesztés után"
+6962="Automatikusan kinyitja a kategóriafát indításkor"
+6963="Az adatfájlban listázott kulcsok beolvasása"
+
+6981="Automatikusan kiválasztja a következõ parancsot szerkesztés után"
+
+7001="Automatikus kiegészítés"
+7002="Automatikusan használja a parancsot az elem címeként"
+7003="Eltávolítja a fájlkiterjesztést az elem címébõl"
+7004="Automatikusan létrehoz egy új parancsot vagy kiválasztja a következõt"
+
+7021="Exportálás:"
+7022="Mindig exportálja a Totalcmd.inc fájlt mentés után"
+7023="Mindig emlékeztessen a változások exportálására"
+7024="Mindig exportáljon a fõmenübe mentés után"
+
+;----------------------------------------------------------------
+;    Language page
+;----------------------------------------------------------------
+7101="Nyelv"
+7102="Nyelv választás"
+7103="Alapértelmezett használata"
+7104="Egyéb:"
+
+;----------------------------------------------------------------
+;    Open/Save dialog titles
+;----------------------------------------------------------------
+7201="Megnyitás"
+7202="Mentés"
+7203="Mentés másként"
+
+;----------------------------------------------------------------
+;    Find dialog
+;----------------------------------------------------------------
+7301="Keresés"
+7302="Keresés:"
+7303="Keresés itt:"
+
+7321="Leírás"
+7322="Parancs"
+7323="Kód"
+
+7341="Cím"
+7342="Elérési útvonal"
+
+7361="Kulcs neve"
+7362="Kulcs leírás"
+7363="Kulcsérték"
+
+7381="Alapértelmezett billentyû"
+7382="Felhasználó által definiált billentyû"
+7383="Alias"
+
+7401="Teljes szóegyezés"
+7402="Használjon minta egyezést"
+
+;----------------------------------------------------------------
+;    Customize Totalcmd.inc dialog (Main Menu Editor)
+;----------------------------------------------------------------
+7501="Totalcmd.inc testreszabása"
+7502="Kategorizált"
+7503="Betûrend szerint"
+7504="Mint"
+7505="Elválasztó stílusa:"
+7506="Fájl"
+7507="Nyomtatás"
+7508="Minden egyes almenühöz elválasztó hozzáadása"
+7509="Használja a menü feliratát a leíráshoz"
+7510="Parancskód hozzáadása a leíráshoz"
+7511="Elõnézet:"
+7512="Mentés..."
+7513="Bezárás"
+7514="Elõnézet"
+7515="KILÓG A FÕ MENÜBÕL"
+
+;----------------------------------------------------------------
+;    Import captions dialog (Main Menu Editor)
+;----------------------------------------------------------------
+7601="Feliratok importálása..."
+7602="Feliratok importálása minden parancshoz."
+7603="Feliratok importálása csak a '%s' menühöz."
+
+;----------------------------------------------------------------
+;    Customize Mapping File dialog (Main Menu Editor)
+;----------------------------------------------------------------
+7701="Leképzési fájl testreszabása"
+7702="Kis ikonok"
+7703="Hozzáadás"
+7704="Válasszon ikont "%s""
+7705="(Üres)"
+
+;----------------------------------------------------------------
+;    Choose Command dialog (Main & Start Menu Editor)
+;----------------------------------------------------------------
+7801="Válasszon parancsot"
+7802="Keresés:"
+7803="A parancsok mutatása, amik szerepelnek egy bejegyzésben a leképezési fájlban"
+
+;----------------------------------------------------------------
+;    Check mnemonics dialog (Main & Start Menu Editor)
+;----------------------------------------------------------------
+7901="Mnemonikok ellenõrzése..."
+7902="Kiemeli az azonos mnemonikokat."
+7903="Kiemeli azon elemeket, amelyek nem tartalmaznak mnemonikokat."
+7904="Duplikált mnemonikok"
+7905="Hiányzó mnemonikok"
+
+;----------------------------------------------------------------
+;    Move To dialog (Main & Start Menu Editor)
+;----------------------------------------------------------------
+8001="Áthelyezés"
+8002="Áthelyezés ide: "%s""
+
+;----------------------------------------------------------------
+;    Export to Totalcmd.inc file dialog (Start Menu Editor)
+;----------------------------------------------------------------
+8101="Exportálás a Totalcmd.inc fájlba"
+8102="A következõ parancsok lesznek hozzáadva a Totalcmd.inc fájlba.\nEzek a parancsokat bármelyik fõmenüben használhatók lesznek."
+8103="Csak a parancs exportálása (Ajánlott)"
+8104="Frissíti a Wincmd.ini [parancsikonok] és [Alias] szekciókat"
+8105="Parancs prefixum:"
+8106="Kategória név:"
+
+;----------------------------------------------------------------
+;    Edit Parameters dialog (Start Menu & Button Bar Editor)
+;----------------------------------------------------------------
+8201="Paraméter lista szerkesztése"
+8202="Alapértelmezett"
+8203="Fel"
+8204="Le"
+8205="Hozzáadás"
+8206="Paraméter"
+8207="Leírás"
+
+;----------------------------------------------------------------
+;    Add New Parameter dialog (Start Menu & Button Bar Editor)
+;----------------------------------------------------------------
+8301="Új paraméter hozzáadása"
+8302="Paraméter:"
+8303="Leírás"
+8304="Paraméter szerkesztése"
+
+;----------------------------------------------------------------
+;    Delete All dialog (History Editor)
+;----------------------------------------------------------------
+8401="Mind törlése"
+8402="Válassza ki a csoportokat amiket törölni akar"
+8403="Törölje a zárolt füleket is"
+
+;----------------------------------------------------------------
+;    Add/Modify data key dialog (Configuration Editor)
+;----------------------------------------------------------------
+8501="Új adatkulcs"
+8502="Adatkulcs módosítása"
+8503="Név"
+8504="Fájl"
+8505="Szakasz"
+8506="verzió"
+8507="Alapértelmezett érték"
+8508="Haladó"
+8509="Igen"
+8510="Nem"
+8511="Párbeszéd panel"
+8512="(Üres)"
+8513="Fájl megnyitása"
+8514="Mappa megnyitása"
+8515="Szín"
+8516="Betûtípus"
+8517="Bit sum"
+8518="Ikon könyvtár elõnézet"
+8519="Párbeszéd listából választás"
+8520="Leírás"
+
+;----------------------------------------------------------------
+;    Add Favorite dialog (Configuration Editor)
+;----------------------------------------------------------------
+8601="Kedvenc hozzáadása"
+8602="Kedvencek rendezése"
+8603="Kedvencek név:"
+
+;----------------------------------------------------------------
+;    Import/Export dialog (Configuration & History Editor)
+;----------------------------------------------------------------
+8701="Importálás"
+8702="Kategóriák kiválasztása importáláshoz."
+8703="Import beállítások:"
+8704="Aktív kulcsok"
+8705="Inaktív kulcsok"
+8706="Átirányító kulcsok kihagyása (ajánlott)"
+8707="Exportálás"
+8708="Kategóriák kiválasztása exportáláshoz."
+8709="Export beállítások:"
+
+8721="Csoportok kiválasztása az importáláshoz."
+8722="Csoportok kiválasztása az exportáláshoz."
+
+;----------------------------------------------------------------
+;    Export to Main Menu dialog (Hotkeys Editor)
+;----------------------------------------------------------------
+8801="Exportálás a Fõmenübe"
+8802="Válassza ki az exportálni kívánt oszlopokat:"
+8803="Beállítások:"
+8804="Szóközök eltávolítása a gyorsbillentyûkbõl"
+8805="Újradefiniált alapbillentyûk exportálása"
+8806="Újradefiniált alapbillentyûk megjelölése"
+8807="Minden oszlop elsõ értékét exportálja csak"
+8808="Egy oszlop exportálása minden parancsnál"
+8809="Oszlopok számsora:"
+8810="Oszlopok prioritása:"
+8811="Elválasztó:"
+8812="Tallózás..."
+
+;----------------------------------------------------------------
+;    Export to Text File dialog (Hotkeys Editor)
+;----------------------------------------------------------------
+8901="Exportálás text formátumba"
+8902="Minden parancs exportálása"
+8903="Exportálás HTML kódba"
+8904="Elválasztóvonal hozzáadása"
+8905="Elõnézeti betûtípus"
+8906="Ctrl"
+8907="Alt"
+8908="Shift"
+8909="Win"
+8910="Total Commander Gyorsbillentyû lista"
+8911="Total Commander Start menü gyorsbillentyûk:"
+8912="Fontos"
+8913="A gyorsbillentyûk még nincsenek elmentve."
+
+;----------------------------------------------------------------
+;    Main Menu Editor Window
+;----------------------------------------------------------------
+9001="Total Commander Fõmenü"
+9002="Kategória"
+9003="Leírás"
+9004="Parancs"
+9005="Kód"
+9006="START MENÜ"
+9007="Súgó szünet"
+9008="Megjegyzések"
+9009="Írja be ide a megjegyzését"
+9010="Parancs elmentése szövegként"
+9011="Parancs elmentése Decimálisként"
+9012="Parancs elmentése Hexadecimálisként"
+9013="%i Parancs(ok) kiválasztva"
+9014="%i Parancs(ok) a "%s""
+9015="%i Parancs(ok) a [%s] kategóriában"
+
+;----------------------------------------------------------------
+;    Start Menu Editor Window
+;----------------------------------------------------------------
+9101="Total Commander Start menü"
+9102="Total Commander Könyvtár menü"
+9103="Total Commander Kibõvített parancsok"
+9104="Start menü"
+9105="Könyvtár menü"
+9106="Kibõvített parancsok"
+9107="Parancs:"
+9108="Paraméterek:"
+9109="Start elérés:"
+9110="Cél elérés:"
+9111="Parancsikon kulcs:"
+9112="Ikon fájl:"
+9113="Súgótipp:"
+9114="Paraméter lista"
+9115="Mutassa menüként"
+9116="Ikoncsere"
+9117="(semmi)"
+9118="Futtatás normál méretben"
+9119="Futtatás kis méretben"
+9120="Futtatás teljes méretben"
+9121="Mutassa mint gombsor"
+9122="Mutassa menüként"
+9123="Start menü elem %i"
+9124="Könyvtár menü elem %i"
+9125="Bõvített parancs %i"
+9126="Kicserél az  Ultra TC Start menü szerkesztõvel"
+9127="Kicserél az  Ultra TC Könyvtár menü szerkesztõvel"
+9128="Ultra TC Extended Commands Editor"
+
+;----------------------------------------------------------------
+;    Button Bar Editor Window
+;----------------------------------------------------------------
+9201="Total Commander Fõ gombsor"
+9202="Total Commander függõleges Gombsor"
+9203="Fõ Gombsor"
+9204="Függõleges Gombsor"
+9205="Gombsor fájl lista"
+9206="Vissza a fõ gombsorhoz"
+9207="Kapcsolódó gombsor szerkesztése"
+9208="Gomb %i"
+9209="Módosítás Ultra TC Button Bar Editor-ral"
+9210="Módosítás Ultra TC Vertical Button Bar Editor-ral"
+9211="Megjelenés"
+9212="Méret"
+9213="XP stílus"
+9214="Lapos ikonok"
+9215="Kis ikonok"
+9216="Elõugró ikon méret:"
+
+;----------------------------------------------------------------
+;    History Editor Window
+;----------------------------------------------------------------
+9301="Total Commander elõzmények"
+9302="Parancssor"
+9303="Kiválasztott"
+9304="Keresés:"
+9305="Keresés itt:"
+9306="Szöveg keresés:"
+9307="Betöltés/Mentés"
+9308="Duplikált plugin"
+9309="Duplikált könyvtárak kiválasztása"
+9310="Átnevezés:"
+9311="Átnevezés Keresése:"
+9312="Átnevezés Lecserélése:"
+9313="F2 Betöltés/Mentés"
+9314="Bal fülek"
+9315="Jobb fülek"
+9316="Bal oldali események"
+9317="Jobb oldali események"
+9318="Új könyvtár"
+9319="Új sor"
+9320="Beállítások szinkronizáció"
+9321="Plugin tulajdonságok"
+9322="Darab méretek"
+9323="FTP régi kapcsolatok"
+9324="Felirat:"
+9325="Fül zárolása"
+9326="Zárolva, de a könyvtár módosítások engedélyezve vannak."
+9327="Üres"
+
+;----------------------------------------------------------------
+;    Configuration Editor Window
+;----------------------------------------------------------------
+9401="Kulcs"
+9402="Érték"
+9403="Szekció"
+9404="Fájl"
+9405="Alapértelmezett"
+9406="Haladó"
+9407="verzió"
+9408="Igen"
+9409="-"
+9410="Leírás nem elérhetõ"
+9411="%i kulcs"
+9412="Adatfájl:"
+9413="Célcsoport"
+9414="Total Commander %s és újabb"
+9415="Bit sum"
+9416="Új kulcs"
+9417="Alias"
+9418="Kulcsnév:"
+9419="Ikon könyvtár elõnézet"
+9420="Könyvtár fájl"
+
+;----------------------------------------------------------------
+;    Hotkeys Editor Window
+;----------------------------------------------------------------
+9501="Alapértelmezett gyorsbillentyû"
+9502="Felhasználó által definiált gyorsbillentyû"
+9503="Alias"
+9504="Gyorsbillentyû:"
+9505="Alias:"
+9506="Control +"
+9507="Alt +"
+9508="Shift +"
+9509="Win +"
+9510="Gyorsbillentyû hozzáadása"
+9511="Minden gyorsbillentyû törlése"
+9512="Alias hozzáadása"
+9513="Minden alias törlése"
+9514="Num"
+9515="Ins|Del|Home|End|PgUp|PgDn|Space|Vissza|Tab|Enter|Esc|Balra|Jobbra|Fel|Le"
+
+;----------------------------------------------------------------
+;    Ultra TC Editors Window
+;----------------------------------------------------------------
+9601="Fõmenü szerkesztõ futtatása"
+9602="Start menü szerkesztõ futtatása"
+9603="Könyvtár szerkesztõ futtatása"
+9604="Kiterjesztett parancs szerkesztõ futtatása"
+9605="Gombsor szerkesztõ indítása"
+9606="Függõleges Gombsor szerkesztõ indítása"
+9607="Esemény szerkesztõ futtatása"
+9608="Beállítások szerkesztõ futtatása"
+9609="Gyorsbillentyû szerkesztõ futtatása"
+9610="Mindig látható"

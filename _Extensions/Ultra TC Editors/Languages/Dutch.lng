@@ -1,0 +1,792 @@
+; Dutch language for Ultra TC Editors 5.50
+; Translated by Hans Niesten
+
+;----------------------------------------------------------------
+;    File menu
+;----------------------------------------------------------------
+5001="&Bestand"
+5002="&Nieuw"
+5003="&Openen..."
+5004="&Opslaan"
+5005="Opslaan &als..."
+5006="Opslaan en herstarten Total &Commander"
+5007="Maak een volledig &menu"
+5008="Chec&k Mnemonics..."
+5009="Aanpassen van &Totalcmd.inc..."
+5010="Customize Ma&pping File..."
+5011="&Recente bestanden"
+5012="Geen recent bestand beschikbaar"
+5013="Opschonen lijst"
+5014="S&luiten"
+
+5031="&Exporteer..."
+5032="&Importeer..."
+5033="Exporteer naar &Totalcmd.inc..."
+
+5051="Open &databestand..."
+5052="Op&slaan databestand"
+
+5071="Exporteer naar &hoofdmenu..."
+5072="&Exporteer naar Tekstbestand..."
+
+;----------------------------------------------------------------
+;    Edit menu
+;----------------------------------------------------------------
+5101="&Wijzigen"
+5102="Toevoegen &menu"
+5103="Toevoegen &submenu"
+5104="Voeg se&parator toe"
+5105="Toevoegen &commentaar"
+5106="H&erhalen"
+5107="S&tartmenu"
+5108="&Help Break"
+5109="&Omhoog"
+5110="Omlaa&g"
+5111="Ga n&aar..."
+5112="&Import Captions..."
+5113="Map To..."
+5114="&Wissen"
+5115="&Hernoemen"
+5116="De&finitie"
+
+5131="Toevoegen &opdracht"
+5132="&Toevoegen..."
+5133="Cu&t"
+5134="&Copy"
+5135="&Paste"
+5136="Sorteer alle m&enu's"
+5137="Sorteer ge&selecteerd menu"
+5138="Openen in &TC"
+5139="Ei&genschappen"
+
+5151="Add Sub-bar"
+5152="Add &Line Break"
+5153="Add &Button"
+
+5171="&Toevoegen item"
+5172="Wi&s alles..."
+
+5191="&Ongedaan maken"
+5192="&Herstellen"
+5193="&Wijzig waarde"
+5194="Waarde = &1"
+5195="Waarde = &0"
+5196="&Blader door waarde..."
+5197="&Nieuwe toets..."
+5198="Hern&oemen..."
+5199="&Commentaar"
+5200="Data &File"
+5201="&Add Key..."
+5202="&Modify Key..."
+5203="&Delete Key"
+
+;----------------------------------------------------------------
+;    View menu
+;----------------------------------------------------------------
+5301="&Tonen"
+5302="&Toolbalk"
+5303="Status&balk"
+5304="&Opdrachtenlijst"
+5305="Cate&gorielijst"
+5306="&Vensters onder/naast elkaar"
+5307="&Wissel vensters"
+5308="&Uitklappen stam"
+5309="Inkla&ppen stam"
+5310="&Lijst sorteren"
+5311="&Opties..."
+
+5331="&Altijd bovenaan"
+5332="Startmenu"
+5333="Mappenmenu"
+5334="Uitgebreide opdrachten"
+
+5351="&Button Bar"
+5352="Button Bar T&ree"
+5353="Button Bar Optio&ns"
+5354="&Main Button Bar"
+5355="&Vertical Button Bar"
+
+5371="&Omschrijving"
+5372="Alle &toetsen"
+5373="&Actieve toetsen"
+5374="&Inactieve toetsen"
+5375="Al&leen geavanceerde toetsen"
+5376="&Branch View"
+
+;----------------------------------------------------------------
+;    Search menu
+;----------------------------------------------------------------
+5401="&Zoeken"
+5402="&Zoeken..."
+5403="Zoek &volgende"
+
+;----------------------------------------------------------------
+;    Help menu
+;----------------------------------------------------------------
+5501="&Help"
+5502="Help&onderwerpen"
+5503="&Over..."
+
+;----------------------------------------------------------------
+;    Favorites menu (Configuration Editor)
+;----------------------------------------------------------------
+5601="Favorie&ten"
+5602="&Toevoegen aan favorieten..."
+5603="&Reorganiseer favorieten..."
+
+;----------------------------------------------------------------
+;    Context menu (Main Menu Editor)
+;----------------------------------------------------------------
+5701="T&oevoegen"
+5702="&Verwijderen"
+5703="Selecteer &alles"
+5704="De&finitie"
+5705="Select All Ac&tive"
+5706="Select All &Inactive"
+
+;----------------------------------------------------------------
+;    Parameters menu (Start Menu & Button Bar Editor)
+;----------------------------------------------------------------
+5801="?   zoals de eerste parameter: aanroepen dialoog voor invoer parameters"
+5802="%P  voegt actuele bronpad in"
+5803="%N  voegt bestandsnaam onder de cursor in"
+5804="%T  voegt het actuele doelpad in"
+5805="%M  voegt de huidige bestandsnaam in in de doelmap"
+5806="%O  voegt de huidige bestandsnaam in zonder extensie"
+5807="%E  voegt de huidige extensie in (zonder punt)"
+5808="%%  voegt het procent-teken (%) in"
+5809="%p  voegt het actuele bronpad in (korte naam)"
+5810="%n  voegt bestandsnaam in onder de cursor (korte naam)"
+5811="%t  voegt het actuele doelpad in (korte naam)"
+5812="%m  voegt de huidige bestandsnaam in de doelmap in (korte naam)"
+5813="%o  voegt de huidige bestandsnaam in zonder extensie (korte naam)"
+5814="%e  voegt de huidige extensie in (zonder punt) (korte naam)"
+5815="%L  lange bestandsnamen inclusief het gehele pad"
+5816="%l  korte bestandsnamen inclusief het gehele pad"
+5817="%F  lange bestandsnamen zonder pad, b.v. Lange naam.exe"
+5818="%f  korte bestandsnamen zonder pad, b.v. LANGNA~1.EXE"
+5819="%D  korte bestandsnamen inclusief het gehele pad, (DOS kar. set)"
+5820="%d  korte bestandsnamen zonder pad, (DOS kar. set)"
+5821="%S  voegt de namen in van alle geselecteerde bestanden."
+5822="%s  voegt de namen in van alle geselecteerde bestanden. (kort)"
+5823="%S10  voegt de namen in van de eerste 10 geselecteerde bestanden."
+5824="%s10  voegt de namen in van de eerste 10 geselecteerde bestanden. (kort)"
+5825="%A  inserts the rest of the entered command line"
+5826="%A0  same as %A, used when the parameter must be followed by a digit"
+5827="%A1  to %A9 inserts the first until the ninth parameter"
+5828="%Z  pass archives as path to programs for %P or %T when inside an archive"
+5829="%R  inserts the names of all selected files from the target panel"
+5830="%r  inserts the names of all selected files from the target panel (short)"
+5831="%R10  inserts the names of the first 10 selected files from the target panel"
+5832="%r10  inserts the names of the first 10 selected files from the target panel (short)"
+5833="%X  interprets the following parameters as Left/Right instead of Source/Target"
+5834="%x  Interprets the following parameters again as Source/Target"
+5835="%UL  like %L, but with an UTF-8 Unicode list file"
+5836="%WL  like %L, but with an UTF-16 Unicode list file"
+5837="%UF  like %F, but with an UTF-8 Unicode list file"
+5838="%WF  like %F, but with an UTF-16 Unicode list file"
+5839="%v Inserts virtual file name in case of file system plugins like 'Virtual Panel'"
+5840="%V Like %v, but including the full path (including the plugin name)"
+5841="%C1  inserts first selected file, or file under cursor"
+5842="%C2  inserts second selected file, or first selected in target panel, or file with same name in target panel"
+5843="%C3  to %C9  inserts selected files in source panel, empty if not enough selected"
+5844="%c1  inserts first selected file, or file under cursor (short)"
+5845="%c2  inserts second selected file, or first selected in target panel, or file with same name in target panel (short)"
+5846="%c3  to %c9  inserts selected files in source panel, empty if not enough selected (short)"
+
+;----------------------------------------------------------------
+;    Message Boxes
+;----------------------------------------------------------------
+5901="Kan het Total Commander instellingenbestand [Wincmd.ini] niet vinden"
+5902="Kan je Totalcmd.inc bestand niet vinden!"
+5903="Ongeldig menubestandsformaat!"
+5904="There is an error in the file "%s"\nLine: %i\n%s"
+5905="Cannot open the file "%s""
+5906="Het programma kan niet verder!"
+5907="Je kunt geen menu verplaatsen naar zijn eigen submenu !!!"
+5908="Je kunt hier geen opdracht kwijt."
+5909="Help_Break kan niet in een menu worden opgenomen."
+5910="The menu "%s" is not empty. Are you sure?"
+5911="The comment block "%s" is not empty. Are you sure?"
+5912="Je kunt dit item niet herhalen"
+5913="Save changes to "%s""
+5914="Er valt niets op te slaan!"
+5915="Cannot find "%s""
+5916="Cannot find this command "%s""
+5917="Cannot find this file "%s"\n\nPlease verify that the correct path and file name are given."
+5918="No duplicate mnemonics have been found."
+5919="All items contains mnemonic."
+5920="Duplicate mnemonic found: "%s"\nIt is already used in: "%s"\n\nThe following mnemonics are available for use: %s"
+5921="Duplicate mnemonic found: "%s"\nIt is already used in: "%s"\n\nNo unique mnemonic is available for use."
+5922="Weet je het zeker?"
+5923="Te grote afbeelding, selecteer een andere."
+5924="Ongeldig icoon, probeer een andere."
+5925="Geldige waarden zijn hele getallen van 1 tot 32."
+5926="Because the main menu contains external commands, it must be saved before customizing the mapping file. This is important in order to match external commands with their code.\n\nSave changes now?"
+5927="External command must be in the main menu in order to map an icon for it."
+5928="%s\nThis file is UTF-8 encoded.\n\nWARNING: Any item contains characters from a code page different from your system's default code page will lose these characters if it had been renamed within the program.\n\nNote: Items that contains such characters but never renamed within the program will not be affected. Continue?"
+
+5941="Access to Start Menu in this file has been restricted."
+5942="Access to Directory Menu in this file has been restricted."
+5943="Dit bestand bevat geen mappenmenu toegang!"
+5944="Dit bestand bevat geen startmenu toegang!"
+5945="Het mappenmenu kan niet meer dan 199 items bevatten."
+5946="Het startmenu kan niet meer dan 199 items bevatten."
+5947="Exporteren van wijzigingen naar Totalcmd.inc bestand?"
+5948="You must save the Start Menu before exporting it. This is important in order to not have any mismatch entries in Totalcmd.inc file when you export unsaved menu.\n\nSave changes now?"
+5949="Bestand niet gevonden."
+5950="Map niet gevonden."
+5951="Cannot find linked button bar "%s""
+5952="Cannot open the clipboard."
+5953="Dit bestand bevat geen iconen, specificeer ander bestand."
+5954="Icooninstellingen worden actief na herstart van het programma."
+5955="This shortcut is already assigned to: "%s"\n\nDo you want assign it to: "%s""
+5956=""%s"\n Already exists in [%s]\n\nDo you want to add it again?"
+5957="Do you want to make this button bar permanent?\nIt will then be loaded each time Total Commander is started."
+
+5971="Bekijkvenster. Hier niet wijzigen!"
+5972="Slechts 20 items kunnen aan een sectie worden toegevoegd."
+
+5991="Kan het Total Commander instellingenbestand [Wcx_ftp.ini] niet vinden"
+5992="Kan databestand niet vinden! Open er een om verder te gaan"
+5993="Wijzigingen opslaan in het programma databestand?"
+5994="Kan deze favoriete toets niet vinden!"
+5995="Favorietenlijst kan niet meer dan 99 items bevatten."
+5996="Er bestaat reeds een favoriet voor deze toets."
+5997="Save changes to the favorites list?"
+5998="Do you really want to delete the key "%s" from the data file?"
+5999="Een toets met deze naam bestaat reeds. Bedenk een andere toetsnaam."
+6000="There are missing or incorrect data fields for this key "%s"\nPlease correct this error in the current data file.\n\nFields are: %s"
+6001="The data file contains the following error:\n\nLine: %i\nPosition: %i\nReason: %s\n"
+
+6021="Default hotkey for: "%s"\n\nDo you want assign it to: "%s""
+6022="Current hotkey for: "%s"\n\nDo you want assign it to: "%s""
+6023="Current alias for: "%s"\n\nDo you want assign it to: "%s""
+6024="Current hotkey for: "%s" in your Total Commander Start Menu\n\nDo you want assign it to: "%s""
+6025="You are about to delete User-defined Hotkeys for ALL commands.\n\nAre you sure?"
+6026="You are about to delete Aliases for ALL commands.\n\nAre you sure?"
+6027="Je moet eerst de sneltoets opslaan, alvorens het te exporteren naar het Hoofdmenubestand. Dit is belangrijk om geen verkeerde invoer te krijgen wanneer je een niet-opgeslagen sneltoetslijst exporteert."
+6028="%s\nThis file is UTF-8 encoded.\n\nExporting hotkeys to UTF-8 encoded file may be corrupting it. Continue?"
+
+;----------------------------------------------------------------
+;    About dialog
+;----------------------------------------------------------------
+6101="Over"
+6102="Programma van:"
+6103="Versie:"
+6104="Dit programma is geregistreerd voor:"
+6105="Bezoek voor de laatste informatie over dit programma de homepage"
+6106="Website:"
+6107="Nu bezoeken"
+6108="e-mail:"
+
+;----------------------------------------------------------------
+;    Customize Toolbar dialog
+;----------------------------------------------------------------
+6201="&Customize..."
+6202="Customize Toolbar"
+
+;----------------------------------------------------------------
+;    Progress dialog
+;----------------------------------------------------------------
+6301="Aan het lezen...Ogenblikje."
+6302="Aan het opslaan...Ogenblikje."
+6303="Aan het creëren...Ogenblikje."
+6304="Aan het toevoegen... Ogenblikje."
+6305="Aan het verplaatsen... Ogenblikje."
+6306="Aan het importeren...Ogenblikje."
+6307="Aan het exporteren...Ogenblikje."
+
+;----------------------------------------------------------------
+;    Options dialog
+;----------------------------------------------------------------
+6401="Opties"
+6402="OK"
+6403="Annuleren"
+6404="&Bevestigen"
+6405="Pagina standaar&d"
+
+;----------------------------------------------------------------
+;    Layout page
+;----------------------------------------------------------------
+6501="Layout"
+6502="Visuele effecten:"
+6503="Toon stam&iconen"
+6504="Toon stam&regels"
+6505="Toon &gridlijnen"
+6506="Duidelijke &begrenzing"
+6507="&Vlakke gebruikersinterface"
+6508="&Toon opslagteken (T,D,H) in opslaanknop"
+6509="Show icons for internal &commands"
+6510="Se&paratorregel:"
+6511="&Toon bestandsicoon"
+
+6531="Toon &toetswaarde meteen na toetsnaam"
+6532="Toon &standaard waarde voor inactieve toets"
+6533="Show &minimum version required to use the selected key"
+
+6551="Toon sneltoetsen in omgekeerde &volgorde"
+6552="Aanpassers:"
+6553="Vo&lgorde:"
+6554="Se&parator:"
+
+;----------------------------------------------------------------
+;    Icons page
+;----------------------------------------------------------------
+6601="Iconen"
+6602="Icoonstijl:"
+6603="Gebruik &standaardiconen"
+6604="&Afmeting:"
+
+6621="TC icoon"
+6622="Menu"
+6623="Huidig menu"
+6624="Active command"
+6625="Inactive command"
+6626="Separator"
+6627="Startmenu"
+6628="Help break"
+6629="Commentaar"
+6630="Interne opdracht"
+6631="Externe opdracht"
+6632="Uitgebreide opdracht"
+6633="Mapverwijzing"
+6634="Defecte verbinding"
+6635="Line break"
+
+6651="Tree icons &size:"
+6652="&Button bar icons size:"
+
+;----------------------------------------------------------------
+;    Color and Font page
+;----------------------------------------------------------------
+6701="Kleuren en lettertype"
+6702="Tekst:"
+6703="Huidig menu:"
+6704="Voorgrond"
+6705="Achtergrond"
+
+6721="Geblokkeerde tab"
+
+6741="Actieve toets (Wincmd.ini)"
+6742="Actieve toets (Wcx_ftp.ini)"
+6743="Inactieve toets"
+
+6761="Command with hotkey"
+6762="Command without hotkey"
+
+6781="Voorgrondkleur andere items:"
+6782="Commentaar"
+6783="Separator"
+
+6801="Lettertype:"
+6802="&Wijzigen..."
+6803="Bevestig &lettertype-instellingen voor opdracht eigenschapvelden."
+6804="Omschrijving:"
+6805="Tabbreedte:"
+
+;----------------------------------------------------------------
+;    Operation page
+;----------------------------------------------------------------
+6901="Uitvoering"
+6902="Lees interne TC-opdrachten van:"
+6903="&Standaard Totalcmd.inc bestand."
+6904="&Ander bestand:"
+
+6921="Allerlei:"
+6922="Autom. &laden laatste bestand"
+6923="A&ssocieer TC menubestanden (*.mnu) met het programma"
+6924="&Verzamel commentaar tijdens inlezen bestand (aanbevolen)"
+6925="Autom. &herstarten Total Commander na opslaan wijzigingen"
+6926="&Aantal spaties tbv inspringen in opgeslagen menubestand:"
+
+6941="Zoeken naar bestaan van bestanden of mappen in het &netwerk"
+6942="Zoeken naar bestaan van bestanden of mappen op verwijderbare &schijven"
+
+6961="Autom. &selecteren volgende toets na wijzigen geselecteerde toets"
+6962="Autom. &uitklappen categoriën tijdens opstarten"
+6963="Lees alleen toetsen getoond in het databestand"
+
+6981="Autom. selecteren &volgende opdracht na wijzigen geselecteerde opdracht"
+
+7001="Autom. completeren:"
+7002="Autom. &gebruiken van opdracht als itemtitel"
+7003="Verwijder &bestandsextensie uit itemtitel"
+7004="Autom. &maken nieuwe opdracht of selecteren van de volgende"
+
+7021="Exporteren:"
+7022="Altijd &exporteren naar Totalcmd.inc bestand na opslaan menu"
+7023="&Mij altijd herinneren aan het exporteren van wijzigingen"
+7024="Altijd &exporteren naar hoofdmenubestand tijdens opslaan"
+
+;----------------------------------------------------------------
+;    Language page
+;----------------------------------------------------------------
+7101="Taal"
+7102="Wijzig taal:"
+7103="Gebruik de &standaard taal (Engels)"
+7104="&Andere taal:"
+
+;----------------------------------------------------------------
+;    Open/Save dialog titles
+;----------------------------------------------------------------
+7201="Openen"
+7202="Opslaan"
+7203="Opslaan als"
+
+;----------------------------------------------------------------
+;    Find dialog
+;----------------------------------------------------------------
+7301="Zoek"
+7302="&Zoeken naar:"
+7303="Zoeken in:"
+
+7321="&Omschrijving"
+7322="Op&dracht"
+7323="&Code"
+
+7341="&Titel"
+7342="&Pad"
+
+7361="&Toetsnaam"
+7362="Toets&omschrijving"
+7363="Toets&waarde"
+
+7381="S&tandaard sneltoets"
+7382="&Gebruiker-gedef. sneltoets"
+7383="&Alias"
+
+7401="Vergelijk &alleen gehele woord"
+7402="U&se pattern matching"
+
+;----------------------------------------------------------------
+;    Customize Totalcmd.inc dialog (Main Menu Editor)
+;----------------------------------------------------------------
+7501="Aanpassen Totalcmd.inc"
+7502="Per catagorie"
+7503="Alfabetisch"
+7504="Zoals het is"
+7505="Separatorstijl:"
+7506="Bestand"
+7507="Afdrukken"
+7508="&Toevoegen separator voor elk submenu"
+7509="&Gebruik menutitel voor omschrijving"
+7510="Toevoegen opdracht&code voor omschrijving"
+7511="Preview:"
+7512="Opslaan..."
+7513="Sluiten"
+7514="Laat zien"
+7515="DEZE OPDRACHTEN STAAN NIET IN HET MENU"
+
+;----------------------------------------------------------------
+;    Import captions dialog (Main Menu Editor)
+;----------------------------------------------------------------
+7601="Import captions"
+7602="Import captions for &all commands."
+7603="Import captions for &commands under "%s" menu only."
+
+;----------------------------------------------------------------
+;    Customize Mapping File dialog (Main Menu Editor)
+;----------------------------------------------------------------
+7701="Customize Mapping File"
+7702="Small &icons"
+7703="&Map to..."
+7704="Choose icon for "%s""
+7705="(None)"
+
+;----------------------------------------------------------------
+;    Choose Command dialog (Main & Start Menu Editor)
+;----------------------------------------------------------------
+7801="Kies opdracht"
+7802="&Find:"
+7803="&Show commands that has an entry in the mapping file"
+
+;----------------------------------------------------------------
+;    Check mnemonics dialog (Main & Start Menu Editor)
+;----------------------------------------------------------------
+7901="Check mnemonics"
+7902="Highlight &duplicate mnemonics."
+7903="Highlight items not &containing mnemonics."
+7904="Duplicated mnemonics"
+7905="Missed mnemonics"
+
+;----------------------------------------------------------------
+;    Move To dialog (Main & Start Menu Editor)
+;----------------------------------------------------------------
+8001="Verplaats naar"
+8002="Move "%s" to..."
+
+;----------------------------------------------------------------
+;    Export to Totalcmd.inc file dialog (Start Menu Editor)
+;----------------------------------------------------------------
+8101="Exporteer naar bestand Totalcmd.inc"
+8102="The following commands will be added to Totalcmd.inc file.\nYou can use any of these commands into your Main Menu."
+8103="&Alleen opdracht exporteren (aanbevolen)"
+8104="&Update Wincmd.ini [Sneltoets] en [Alias] secties."
+8105="Opdracht &prefix:"
+8106="Categorie&naam:"
+
+;----------------------------------------------------------------
+;    Edit Parameters dialog (Start Menu & Button Bar Editor)
+;----------------------------------------------------------------
+8201="Wijzig parameterlijst"
+8202="St&andaard"
+8203="&Omhoog"
+8204="Omlaa&g"
+8205="&Toevoegen"
+8206="Parameter"
+8207="Description"
+
+;----------------------------------------------------------------
+;    Add New Parameter dialog (Start Menu & Button Bar Editor)
+;----------------------------------------------------------------
+8301="Add New Parameter"
+8302="&Parameter:"
+8303="&Description:"
+8304="Edit Parameter"
+
+;----------------------------------------------------------------
+;    Delete All dialog  (History Editor)
+;----------------------------------------------------------------
+8401="Wis alles"
+8402="Controleer de sectie(s) die je wilt wissen."
+8403="&Wis tevens vergrendelde tabs"
+
+;----------------------------------------------------------------
+;    Add/Modify data key dialog (Configuration Editor)
+;----------------------------------------------------------------
+8501="Add new data key"
+8502="Modify data key"
+8503="&Name"
+8504="&File"
+8505="&Section"
+8506="Ve&rsion"
+8507="Default &value"
+8508="&Advanced"
+8509="Yes"
+8510="No"
+8511="Dialo&g"
+8512="(None)"
+8513="Open File"
+8514="Open Folder"
+8515="Color"
+8516="Font"
+8517="Bits Sum"
+8518="Icon Library Preview"
+8519="Choose from dialogs list"
+8520="&Description"
+
+;----------------------------------------------------------------
+;    Add Favorite dialog (Configuration Editor)
+;----------------------------------------------------------------
+8601="Toevoegen favoriet"
+8602="Reorganiseer favorieten"
+8603="&Favorietnaam:"
+
+;----------------------------------------------------------------
+;    Import/Export dialog (Configuration & History Editor)
+;----------------------------------------------------------------
+8701="Importeer"
+8702="Check categories to import."
+8703="Import options:"
+8704="Active keys"
+8705="Inactive keys"
+8706="Exclude redirection keys (Recommended)"
+8707="Exporteer"
+8708="Check categories to export."
+8709="Export options:"
+
+8721="Controleer sectie(s) voor importeren."
+8722="Controleer sectie(s) voor exporteren."
+
+;----------------------------------------------------------------
+;    Export to Main Menu dialog (Hotkeys Editor)
+;----------------------------------------------------------------
+8801="Exporteer naar Hoofdmenu"
+8802="Selecteer kolommen voor export:"
+8803="Opties:"
+8804="&Verwijder spaties uit sneltoetsen."
+8805="Exporteer ge&herdefinieerde standaard sneltoetsen"
+8806="Mar&keer geherdefinieerde standaard sneltoetsen"
+8807="Exporteer slechts de &eerste waarde in elke kolom."
+8808="Exporteer slechts &een kolom voor elke opdracht."
+8809="Kolo&mvolgorde:"
+8810="Kolo&mmenvoorkeur:"
+8811="&Separator:"
+8812="&Blader..."
+
+;----------------------------------------------------------------
+;    Export to Text File dialog (Hotkeys Editor)
+;----------------------------------------------------------------
+8901="Exporteer naar Tekstbestand"
+8902="Exporteer a&lle opdrachten"
+8903="Exporteer als HTML code"
+8904="Voeg se&parator toe"
+8905="Pre&view lettertype"
+8906="Ctrl"
+8907="Alt"
+8908="Shift"
+8909="Win"
+8910="Total Commander sneltoetsenlijst"
+8911="Total Commander Startmenu-sneltoetsen:"
+8912="Belangrijk"
+8913="Sneltoetsen in deze lijst zijn nog niet opgeslagen in het Total Commander configuratiebestand."
+
+;----------------------------------------------------------------
+;    Main Menu Editor Window
+;----------------------------------------------------------------
+9001="Total Commander Hoofdmenu"
+9002="Categorie"
+9003="Omschrijving"
+9004="Opdracht"
+9005="Code"
+9006="STARTMENU"
+9007="Help_Break"
+9008="Commentaren"
+9009="Type hier je commentaar"
+9010="Opdracht als tekst opslaan"
+9011="Opdracht als decimaal opslaan"
+9012="Opdracht als hexadecimaal opslaan"
+9013="%i Geselecteerde opdracht(en)"
+9014="%i Opdracht(en) in %s"
+9015="%i Command(s) in [%s] category"
+
+;----------------------------------------------------------------
+;    Start Menu Editor Window
+;----------------------------------------------------------------
+9101="Total Commander Startmenu"
+9102="Total Commander Mappenmenu"
+9103="Total Commander Uitgebreide Opdrachten"
+9104="Start Menu"
+9105="Directory Menu"
+9106="Extended Commands"
+9107="&Opdracht:"
+9108="&Parameters:"
+9109="&Startpad:"
+9110="&Doelpad:"
+9111="Snel&toets:"
+9112="&Icoonbestand:"
+9113="&Tooltip:"
+9114="Parameters List"
+9115="&Show as menu"
+9116="Wijzig icoon"
+9117="(geen)"
+9118="Normaal venster"
+9119="Geminimaliseerd venster"
+9120="Gemaximaliseerd venster"
+9121="Show as bar"
+9122="Show as menu"
+9123="Start Menu Item %i"
+9124="Directory Menu Item %i"
+9125="Extended_Command_%i"
+9126="Change With Ultra TC Start Menu Editor"
+9127="Change With Ultra TC Directory Menu Editor"
+9128="Ultra_TC_Extended_Commands_Editor"
+
+;----------------------------------------------------------------
+;    Button Bar Editor Window
+;----------------------------------------------------------------
+9201="Total Commander Main Button Bar"
+9202="Total Commander Vertical Button Bar"
+9203="Main Button Bar"
+9204="Vertical Button Bar"
+9205="Button bar files list"
+9206="Back to the main button bar"
+9207="Edit linked button bar"
+9208="Button %i"
+9209="Change with Ultra TC Button Bar Editor"
+9210="Change with Ultra TC Vertical Button Bar Editor"
+9211="Appearance"
+9212="Si&ze:"
+9213="XP st&yle"
+9214="F&lat icons"
+9215="S&mall icons"
+9216="Pop&up icons size:"
+
+;----------------------------------------------------------------
+;    History Editor Window
+;----------------------------------------------------------------
+9301="Total Commander historie"
+9302="Opdrachtregel"
+9303="Selectie"
+9304="Zoeken naar:"
+9305="Zoeken in:"
+9306="Zoek tekst:"
+9307="Laden/opslaan"
+9308="Plugin Duplicates"
+9309="Duplicates Directory Selection"
+9310="Hernoemen:"
+9311="Hernoem zoeken naar:"
+9312="Hernoem verplaatsen naar:"
+9313="F2 Laden/opslaan"
+9314="Linker tabs"
+9315="Rechter tabs"
+9316="Linker historie"
+9317="Rechter historie"
+9318="Nieuwe map"
+9319="New File"
+9320="Synchroniseer opties"
+9321="Plugin Attributen"
+9322="Verdeel grootte"
+9323="FTP Old Connections"
+9324="&Titel:"
+9325="&Vergrendel deze tab"
+9326="Vergrendeld, &maar mapwijzigingen zijn toegestaan."
+9327="Leeg"
+
+;----------------------------------------------------------------
+;    Configuration Editor Window
+;----------------------------------------------------------------
+9401="Toets"
+9402="Waarde"
+9403="Section"
+9404="File"
+9405="Default"
+9406="Advanced"
+9407="Version"
+9408="Yes"
+9409="-"
+9410="Omschrijving niet beschikbaar!"
+9411="%i Toets(en)"
+9412="Databestand:"
+9413="Doelsectie:"
+9414="Total Commander %s and higher"
+9415="Bits Sum"
+9416="Nieuwe toets"
+9417="Hernoemen"
+9418="Toets&naam:"
+9419="Preview icoonbibliotheek"
+9420="&Bibliotheekbestand:"
+
+;----------------------------------------------------------------
+;    Hotkeys Editor Window
+;----------------------------------------------------------------
+9501="Standaard sneltoets"
+9502="Huidige sneltoets"
+9503="Alias"
+9504="Sneltoets:"
+9505="Alias:"
+9506="&Control +"
+9507="&Alt +"
+9508="&Shift +"
+9509="&Win +"
+9510="Sneltoets toevoegen"
+9511="Alle sneltoetsen wissen"
+9512="Voeg Alias toe"
+9513="Wis alle Aliassen"
+9514="Num"
+9515="Ins|Del|Home|End|PgUp|PgDn|Space|Back|Tab|Enter|Esc|Left|Right|Up|Down"
+
+;----------------------------------------------------------------
+;    Ultra TC Editors Window
+;----------------------------------------------------------------
+9601="Start Hoofdmenu Editor"
+9602="Start Menu Editor"
+9603="Start Mappen Menu Editor"
+9604="Start Uitgebreide Opdrachten Editor"
+9605="Run Button Bar Editor"
+9606="Run Vertical Button Bar Editor"
+9607="Start Historie Editor"
+9608="Start Configuratie Editor"
+9609="Start Sneltoetsen Editor"
+9610="Altijd bovenaan"

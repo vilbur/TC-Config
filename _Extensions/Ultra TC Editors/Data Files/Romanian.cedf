@@ -1,0 +1,2769 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<?xml-stylesheet href="style.xsl" type="text/xsl" ?>
+<!--  This file contain all Total Commander 7.01 (Wincmd.ini and Wcx_ftp.ini) configuration keys.-->
+<!--  for more information about this file please read the Help Topics.-->
+<!--  to view the contents of this file as a web page, open it with IE6+, Firefox or Opera.-->
+<ultra_tc_editors_data_file>
+	<main_category title="Total Commander Configuration">
+		<category title="Afişare">
+			<category title="Fereastra principală">
+				<category title="Aspect">
+					<key name="ButtonBar" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= Arată bara de butoane.
+0= Ascunde bara de butoane.</description>
+					</key>
+					<key name="DriveBar1" file="Wincmd.ini" section="Layout" default="0" version="3.00">
+						<description>1= Arată butoanele pentru unităţi de disc.
+0= Ascunde butoanele pentru unităţi de disc.</description>
+					</key>
+					<key name="DriveBar2" file="Wincmd.ini" section="Layout" default="0" version="4.00">
+						<description>1= Arată două bare de butoane pentru discuri. (lăţime fixă, deasupra ferestrelor cu fişiere).
+0= Arată numai o singura bară pentru unităţi de disc.
+
+Nu are efect dacă DriveBar1=0</description>
+					</key>
+					<key name="DriveBarFlat" file="Wincmd.ini" section="Layout" default="1" version="3.50">
+						<description>1= unităţile de disc vor apare plate.
+0= unităţile de disc vor apare 3D.
+</description>
+					</key>
+					<key name="DriveCombo" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= Arată lista combo pentru unităţi de disc.
+0= Inhibă lista combo pentru unităţi de disc.</description>
+					</key>
+					<key name="DirectoryTabs" file="Wincmd.ini" section="Layout" default="1" version="6.00">
+						<description>1= Arată file pentru directoare.
+0= Inhibă afişarea filelor pentru directoare.</description>
+					</key>
+					<key name="CurDir" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= Arată directorul curent.
+0= Inhibă afişarea directorului curent.</description>
+					</key>
+					<key name="HistoryHotlistButtons" file="Wincmd.ini" section="Layout" default="1" version="6.00">
+						<description>1= Arată butoanele pentru 'istoric' şi 'favorite'.
+0= Inhibă afişarea butoanelor pentru 'istoric' şi 'favorite'.</description>
+					</key>
+					<key name="TabHeader" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= Arată antetul în ferestrele cu fişiere.
+0= Inhibă afişarea antetului în ferestrele cu fişiere.</description>
+					</key>
+					<key name="StatusBar" file="Wincmd.ini" section="Layout" default="1" version="3.50">
+						<description>1= Arată bara de stare.
+0= Inhibă afişarea barei de stare.</description>
+					</key>
+					<key name="CmdLine" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= Arată linia de comandă.
+0= Inhibă afişarea permanentă a liniei de comandă.</description>
+					</key>
+					<key name="KeyButtons" file="Wincmd.ini" section="Layout" default="1" version="3.00">
+						<description>1= Afişează funcţiile tastelor funcţionale.
+0= Nu afişează funcţiile tastelor funcţionale.</description>
+					</key>
+					<key name="InterfaceFlat" file="Wincmd.ini" section="Layout" default="1" version="3.50">
+						<description>1= Interfaţă utilizator plată.
+0= Interfaţă utilizator 3D.</description>
+					</key>
+					<key name="XPthemeBg" file="Wincmd.ini" section="Layout" default="1" version="7.00">
+						<description>Temă de fundal Windows XP (meniu+bare de butoane + unităţi de disc).</description>
+					</key>
+				</category>
+				<category title="Stil Vizual">
+					<key name="PanelsVertical" file="Wincmd.ini" section="Configuration" default="0" version="5.00">
+						<description>Ferestre fişiere:
+	0: una lângă alta;
+	1: una sub alta.</description>
+					</key>
+					<key name="NewStyleProgress" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+						<description>0: Utilizează bara de progres TC (implicit pentru sisteme cu versiuni mai vechi Windows).
+1: Utilizează bara de progres sistem (implicit pentru Windows &gt;=XP).
+2: Ca şi 1, dar bară nesegmentată (numai pentru tema clasică).</description>
+					</key>
+					<key name="WantXPLook" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.50">
+						<description>Arată principalele butoane din fereastra principală (cu excepţia barelor de butoane):
+	0 = în stil clasic;
+	1 = în stil XP.</description>
+					</key>
+					<key name="OverrideDPI" file="Wincmd.ini" section="Configuration" default="96" advanced="Yes" version="7.00">
+						<description>Scalare casete de dialog (cu excepţia ferestrei principale!) la o valoare dată în puncte per inch. Valoarea obişnuită este 96 dpi.</description>
+					</key>
+				</category>
+			</category>
+			<category title="Lista de fişiere">
+				<key name="ShowHiddenSystem" file="Wincmd.ini" section="Configuration" default="0" version="1.10">
+					<description>1= Arată fişierele ascunse/sistem.</description>
+				</key>
+				<key name="UseLongNames" file="Wincmd.ini" section="Configuration" default="1" version="2.00">
+					<description>Utilizează numele lung de fişiere în Windows NT/95/98 (1/0).</description>
+				</key>
+				<key name="Small83Names" file="Wincmd.ini" section="Configuration" default="0" version="3.00">
+					<description>Arată fişierele în stil vechi (numele=8 şi extensia=3), afişare cu minuscule ca şi în Explorer (1/0).</description>
+				</key>
+				<key name="ShowParentDirInRoot" file="Wincmd.ini" section="Configuration" default="0" version="6.00">
+					<description>Dacă este setat 1, arată directorul părinte [..] inclusiv în directorul rădăcină (c:\ etc.).</description>
+				</key>
+				<key name="DirBrackets" file="Wincmd.ini" section="Configuration" default="1" version="3.52">
+					<description>Pune paranteze drepte directoarelor (1/0, implicit=1).</description>
+				</key>
+				<key name="BriefViewWidthLimit" file="Wincmd.ini" section="Configuration" default="0" version="6.50">
+					<description>Configurează lăţimea maximă(în pixeli) pentru o coloană în modul de vizualizare sumar.</description>
+				</key>
+				<key name="SortUpper" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>0: Metoda de sortare implicită.
+1: La sortarea fişierelor, pune fişierele care încep cu 'underscore' ( _ ) la sfârşit.
+2: Utilizează metoda mixtă de sortare lexicală şi numerică, ex. fisier10.txt devine DUPĂ fisier1.txt, fisier2.txt, ..., fisier9.txt.
+3: Ca şi cazul 2, dar foloseşte StrCmpLogicalW pentru comparare. Pentru cazul 3 e nevoie ca IE 6.x să fie instalat!</description>
+				</key>
+				<key name="SortDirsByName" file="Wincmd.ini" section="Configuration" default="1" version="1.30">
+					<description>Totdeauna sortează directoarele după nume (1/0).</description>
+				</key>
+				<key name="SortDirExt" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>Permite sortarea directoarelor după extensie (numai dacă SortDirsByName=0).</description>
+				</key>
+				<key name="Tips" file="Wincmd.ini" section="Configuration" default="3" version="2.00">
+					<description>Baloane info:
+	1= pentru butoane;
+	2= pentru unităţi de disc;
+	3= ambele.</description>
+				</key>
+				<key name="FileTipWindows" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>Arată baloane info (ferestre cu informaţii) pentru numele de fişiere prea lungi arătate complet în modul vizualizare „complet” (1/0).</description>
+				</key>
+				<key name="OleComments" file="Wincmd.ini" section="Configuration" default="1" version="5.50">
+					<description>Încarcă comentariile din:
+	0: Numai din fişierele descript.ion şi files.bbs ;
+	1: Din Explorer (fluxurile NTFS şi documente Word) şi fişiere de comentariu.
+	2: Numai comentariile din Explorer.
+	3: Nici una de mai sus (numai din module adiţionale, dacă sunt definite).</description>
+				</key>
+				<key name="Win32TipWindows" file="Wincmd.ini" section="Configuration" default="0" version="5.50">
+					<description>Arată baloanele info în stil Win32 (în colţul Dreapta-Jos lângă pointerul mouse-lui) (1/0).
+De asemenea permite folosirea baloanelor info pe tipuri de fişiere, din modulele conţinut (WDX), ex. un tip de balon special pentru fişiere *.jpg şi alt tip pentru fişiere *.mp3 .</description>
+				</key>
+			</category>
+			<category title="Bara de stare şi Tabulatori">
+				<key name="Aligned extension" file="Wincmd.ini" section="Configuration" default="1" version="1.30">
+					<description>Extensia fişierului este afişată aliniat la stânga.</description>
+				</key>
+				<key name="AdjustWidth" file="Wincmd.ini" section="Tabstops" default="0" version="4.00">
+					<description>1= Auto-ajustare nume la lăţimea ferestrei, la modificarea dimensiunii ferestrei principale.</description>
+				</key>
+				<key name="ShowCentury" file="Wincmd.ini" section="Configuration" default="1" version="3.00">
+					<description>Arată secolul în formatul datei, în lista de fişiere (1/0).</description>
+				</key>
+				<key name="ShowAMPM" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>Arată ora în format 12 AM/PM, (stil American).</description>
+				</key>
+				<key name="DirsInFooter" file="Wincmd.ini" section="Configuration" default="1" version="6.50">
+					<description>1: Dacă este cel puţin un director prezent, atunci la selecţie se va afişa la subsolul ferestrei cu fişiere şi numărul total/selectat de subdirectoare, nu numai numărul de fişiere, ex. "5 / 7 directoare".</description>
+				</key>
+				<key name="SizeStyle" file="Wincmd.ini" section="Configuration" default="0" version="5.00">
+					<description>Stil de afişare a mărimii fişierelor în lista fişierelor:
+	0= octeţi;
+	1= kocteţi;
+	2= dinamic;
+	3= dinamic cu parte fracţională.</description>
+				</key>
+				<key name="SizeFooter" file="Wincmd.ini" section="Configuration" default="1" version="5.50">
+					<description>Mărime afişată în antet şi subsol:
+	0= octeţi;
+	1= kocteţi;
+	2= dinamic;
+	3= dinamic cu parte fracţională.</description>
+				</key>
+				<key name="LongInStatus" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>Arată numele lung în bara de stare, în mod vizualizare complet. (1/0).</description>
+				</key>
+				<key name="AccessTime" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="6.02">
+					<description>1: Permite TC să lucreze cu cel mai recent timp de acces în loc de cel mai recent timp de scriere, ex. Pentru copierea fişierelor mai noi, ccesate/scrise, din ultimele x zile.</description>
+				</key>
+			</category>
+			<category title="Panouri Arbore">
+				<key name="SeparateTree" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>Arată numărul (0), unul (1) sau două (2) panouri arbore separate.</description>
+				</key>
+				<key name="SeparateTreeWidth" file="Wincmd.ini" section="Configuration" default="160" version="7.00">
+					<description>Lăţimea fiecărui panou arbore.</description>
+				</key>
+				<key name="Tree" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="2.00">
+					<description>Arată arborele directoarelor:
+	1= nesortat;
+	0= sortat după nume.</description>
+				</key>
+			</category>
+			<category title="Bara de Butoane">
+				<key name="Buttonbar" file="Wincmd.ini" section="Buttonbar" default="%COMMANDER_PATH%\default.bar" dialog="Open File" version="1.30">
+					<description>Bara de butoane implicită.</description>
+				</key>
+				<key name="Buttonheight" file="Wincmd.ini" section="Buttonbar" default="29" version="1.30">
+					<description>Mărimea butoanelor.</description>
+				</key>
+				<key name="FlatIcons" file="Wincmd.ini" section="Buttonbar" default="1" version="3.50">
+					<description>1: Butoane fără efect 3D.
+0: Butoane CU efect 3D.</description>
+				</key>
+				<key name="SmallIcons" file="Wincmd.ini" section="Buttonbar" default="1" version="3.50">
+					<description>1: Utilizează iconiţe mici.
+0: Iconiţele vor avea aceeaşi mărime ca şi butoanele.</description>
+				</key>
+				<key name="SmallIconSize" file="Wincmd.ini" section="Buttonbar" default="16" version="7.00">
+					<description>Utilizează iconiţe mici cu mărime definită de utilizator.
+ Funcţionează numai dacă SmallIcons=1.</description>
+				</key>
+				<key name="XPstyle" file="Wincmd.ini" section="Buttonbar" default="1" version="7.00">
+					<description>Arată butoanele:
+	0 = în stil clasic;
+	1 = în stil XP (dacă este disponibil).</description>
+				</key>
+				<key name="ToolTipDelay" file="Wincmd.ini" section="Configuration" default="500" advanced="Yes" version="2.11">
+					<description>Întârzierea în milisecunde, până va fi afişată descrierea pentru butoanele din bara de butoane (implicit = 500).</description>
+				</key>
+			</category>
+			<category title="File Directoare">
+				<key name="DirTabOptions" file="Wincmd.ini" section="Configuration" default="824" dialog="Bits Sum" version="6.00">
+					<description>Este definită comportarea antetului. Suma va avea următoarele valori:
+	1 = Arată antetul directorului chiar şi atunci când este doar o filă.
+	2 = File pe mai multe linii.
+	4 = Toate filele vor avea aceeaşi dimensiune.
+	8 = Limita lungimii titlului la: (valoarea definită în setările DirTabLimit).
+	16 = Confirmare la închiderea tuturor filelor.
+	32 = Închide fila cu dublu clic.
+	64 = Ctrl+Sus deschide o nouă filă în fundal.
+	128 = Deschide o nouă filă lângă cea curentă.
+	256 = Arată filele ancorate cu *.
+	512 = Activează destinaţia la click pe una din file.
+	1024= Arată litera discului curent în filă.</description>
+				</key>
+				<key name="DirTabLimit" file="Wincmd.ini" section="Configuration" default="32" version="6.00">
+					<description>Număr maxim de caractere pe o filă. Opţiunea "Limita mărimii lungimii la:" trebuie să fie activată (vezi setările DirTabOptions).</description>
+				</key>
+				<key name="TabSeparator" file="Wincmd.ini" section="Configuration" default=":" advanced="Yes" version="7.00">
+					<description>Setare delimitator între unitatea de disc şi directorul curent în file directoare.</description>
+				</key>
+			</category>
+			<category title="Istoric Directoare">
+				<key name="HistoryAppend" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.51">
+					<description>1= Adaugă directoarele selectate din lista istoric (ALT+Sg.Jos) la sfârşitul listei istoric (implicit).
+0= Mută în poziţia curentă elementele selectate.</description>
+				</key>
+				<key name="ReverseHistory" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="6.02">
+					<description>1: Arată istoricul (directoarele vizitate anterior) în ordine inversă (ultimul director vizitat pe primul loc).</description>
+				</key>
+			</category>
+			<category title="Adnotări discuri">
+				<key name="CDlabel" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.01">
+					<description>0: Dezactivează afişarea etichetei de volum la CD-uri (sau alte unităţi de disc amovibile) în butonul listă combo pentru unităţile de disc, Alt+F1/F2 .</description>
+				</key>
+				<key name="A" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru discul A</description>
+				</key>
+				<key name="B" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru discul B</description>
+				</key>
+				<key name="C" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru discul C</description>
+				</key>
+				<key name="D" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru discul D</description>
+				</key>
+				<key name="E" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru discul E</description>
+				</key>
+				<key name="F" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru discul F</description>
+				</key>
+				<key name="G" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru discul G</description>
+				</key>
+				<key name="H" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru discul H</description>
+				</key>
+				<key name="I" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru discul I</description>
+				</key>
+				<key name="J" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru discul J</description>
+				</key>
+				<key name="K" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru discul K</description>
+				</key>
+				<key name="L" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru discul L</description>
+				</key>
+				<key name="M" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru discul M</description>
+				</key>
+				<key name="N" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru discul N</description>
+				</key>
+				<key name="O" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru discul O</description>
+				</key>
+				<key name="P" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru discul P</description>
+				</key>
+				<key name="Q" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru discul Q</description>
+				</key>
+				<key name="R" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru discul R</description>
+				</key>
+				<key name="S" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru discul S</description>
+				</key>
+				<key name="T" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru discul T</description>
+				</key>
+				<key name="U" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru discul U</description>
+				</key>
+				<key name="V" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru discul V</description>
+				</key>
+				<key name="W" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru discul W</description>
+				</key>
+				<key name="X" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru discul X</description>
+				</key>
+				<key name="Y" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru discul Y</description>
+				</key>
+				<key name="Z" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru discul Z</description>
+				</key>
+				<key name="\" file="Wincmd.ini" section="DriveHints" default="hint" advanced="Yes" version="4.00">
+					<description>Adnotare pentru disc de reţea/Modul sistem
+ Notă: Această adnotare apare numai la butoanele unitaţilor de disc, nu şi în lista derulantă cu unităşile de disc.</description>
+				</key>
+			</category>
+			<category title="Iconiţe">
+				<category title="Lista de fişiere">
+					<key name="Showicons" file="Wincmd.ini" section="Configuration" default="2" version="1.10">
+						<description>Iconiţe pentru lista de fişiere:
+	0= fără;
+	1= implicit;
+	2= toate.</description>
+					</key>
+					<key name="ShowEXEandLNKicons" file="Wincmd.ini" section="Configuration" default="2" version="3.00">
+						<description>Determină modul de afişare a iconiţelor pentru fişierele EXE şi LNK în versiunile pe 32-biţi:
+	0: nu afişează iconiţe specifice (utilizează simboluri standard;
+	1: arată iconiţe (încetineşte);
+	2: arată iconiţe peste tot, cu excepţia discurilor flexibile.
+
+ Funcţionează numai dacă ShowIcons=2.</description>
+					</key>
+					<key name="ShellExtIcons" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="4.50">
+						<description>1= Arată iconiţe funcţie de extensii (iconiţe diferite pe tip de fişiere).
+0= Nu arată iconiţele.</description>
+					</key>
+					<key name="IconsOnNet" file="Wincmd.ini" section="Configuration" default="1" version="4.53">
+						<description>Încarcă iconiţele fişierelor EXE şi LNK inclusiv de pe unităţile de reţea (1/0).</description>
+					</key>
+					<key name="IconsSpecialFolders" file="Wincmd.ini" section="Configuration" default="3" version="5.50">
+						<description>Activează/dezactivează afişarea iconiţelor pentru directoarelor speciale:
+	0= niciuna;
+	1= local;
+	2= directoare virtuale, cum ar fi servere în reţea;
+	3= ambele.</description>
+					</key>
+					<key name="IconOverlays" file="Wincmd.ini" section="Configuration" default="0" version="6.50">
+						<description>Activează/dezactivează afişarea iconiţelor suprapuse (overlays), cum ar fi săgeata mică pentru scurtături LNK (1/0).
+Această funcţie funcţionează în numai în Windows ME/2000/XP ! Dacă această funcţie este decuplată, iconiţele directoarelor împărtăşite (shared) sunt arătate dacă TestIfSharedDir=1.</description>
+					</key>
+					<key name="Iconsize32" file="Wincmd.ini" section="[%Screen_Resolution%]" default="16" version="3.00">
+						<description>Mărimea iconiţelor din lista de fişiere, pentru versiunea pe 32-biţi. (în pixeli)</description>
+					</key>
+					<key name="IconLib" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" dialog="Icon Library Preview" version="4.00">
+						<description>Încarcă iconiţele implicite pentru lista de fişiere din biblioteca DLL furnizată. Vedeţi www.ghisler.com pentru modele ICL (DLL 16 biţi).</description>
+					</key>
+					<key name="IconsInThread" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="4.00">
+						<description>Încarcă iconiţele pentru fişierele EXE şi LNK ca proces separat (1/0).</description>
+					</key>
+				</category>
+				<category title="Bara unităţi de disc">
+					<key name="DriveLib" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" dialog="Open File" version="6.50">
+						<description>Conţine locaţia şi numele bibliotecii de imagini particularizate pentru butoanele de disc.</description>
+					</key>
+					<key name="OldDriveIcons" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+						<description>1: Utilizează iconiţe vechi pentru unităţile de disc, din bara de butoane TC 6.5x .
+0: Utilizează iconiţe noi pentru unităţile de disc.</description>
+					</key>
+				</category>
+				<category title="Meniu principal">
+					<key name="IconsInMenus" file="Wincmd.ini" section="Configuration" default="17" dialog="Bits Sum" version="7.00">
+						<description>Permite afişarea iconiţelor din wcmicons.dll sau wciconex.dll în meniul principal. Construiţi doar suma petru a obţine următoarele opţiuni:
+	1: activează afişarea iconiţelor în meniu;
+	2: încadrează iconiţele cu chenar;
+	4: arată iconiţe de 24x24 pixeli în loc de 16x16;
+	8: arată iconiţe de 32x32 pixeli;
+	12: arată iconiţe de 48x48 pixeli (pentru rezoluţii foarte înalte ale ecranului);
+	16: arată elementele activate din meniu cu contur şi marcator sau iconiţa.</description>
+					</key>
+				</category>
+			</category>
+			<category title="Fonturi">
+				<category title="Lista de fişiere">
+					<key name="FontName" file="Wincmd.ini" section="[%Screen_Resolution%]" default="Microsoft Sans Serif" dialog="Font" version="1.10">
+						<description>Nume Font.
+Tip: Apăsaţi &lt;Ctrl+B&gt; pentru setarea simultană a numelui, mărimii, grosimii fontului şi a setului de caractere.</description>
+					</key>
+					<key name="FontSize" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="1.10">
+						<description>Mărime Font.</description>
+					</key>
+					<key name="FontWeight" file="Wincmd.ini" section="[%Screen_Resolution%]" default="700" version="1.30">
+						<description>Grosime Font (400=normal, 700=îngroşat).</description>
+					</key>
+					<key name="FontCharset" file="Wincmd.ini" section="[%Screen_Resolution%]" default="1" version="3.50">
+						<description>Set de caractere (Western, Central European, Cyrillic etc).
+Câteva coduri pentru seturi de caractere:
+	Western: 1
+	Greek: 161
+	Turkish: 162
+	Vietnamese: 163
+	Hebrew: 177
+	Arabic: 178
+	Baltic: 186
+	Cyrillic: 204
+	Thai: 222
+	Central European: 238</description>
+					</key>
+				</category>
+				<category title="Fereastra principală">
+					<key name="FontNameWindow" file="Wincmd.ini" section="[%Screen_Resolution%]" default="Microsoft Sans Serif" dialog="Font" version="3.00">
+						<description>Nume font.
+Tip: Apăsaţi &lt;Ctrl+B&gt; pentru setarea simultană a numelui, mărimii, grosimii fontului şi a setului de caractere.</description>
+					</key>
+					<key name="FontSizewindow" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="3.00">
+						<description>Mărime font.</description>
+					</key>
+					<key name="FontWeightWindow" file="Wincmd.ini" section="[%Screen_Resolution%]" default="400" version="3.00">
+						<description>Grosime font (400=normal, 700=îngroşat).</description>
+					</key>
+					<key name="FontCharsetWindow" file="Wincmd.ini" section="[%Screen_Resolution%]" default="1" version="3.50">
+						<description>Set de caractere (Western, Central European, Cyrillic etc).</description>
+					</key>
+				</category>
+				<category title="Casete de Dialog">
+					<key name="FontNameDialog" file="Wincmd.ini" section="[%Screen_Resolution%]" default="Microsoft Sans Serif" dialog="Font" version="4.00">
+						<description>Nume font.
+Tip: Apăsaţi &lt;Ctrl+B&gt; pentru setarea Numelui, mărimii, grosimii Fontului şi a setului de caractere.</description>
+					</key>
+					<key name="FontSizeDialog" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="4.00">
+						<description>Mărime font.</description>
+					</key>
+					<key name="FontWeightDialog" file="Wincmd.ini" section="[%Screen_Resolution%]" default="400" version="4.00">
+						<description>Grosime Font (400=normal, 700=îngroşat).</description>
+					</key>
+					<key name="FontCharsetDialog" file="Wincmd.ini" section="[%Screen_Resolution%]" default="1" version="4.00">
+						<description>Set de caractere (Western, Central European, Cyrillic etc).</description>
+					</key>
+				</category>
+			</category>
+			<category title="Culori">
+				<category title="Lista de fişiere">
+					<key name="ForeColor" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="1.10">
+						<description>Culoare Scris (-1=implicit).
+
+Tip: Apăsaţi &lt;Ctrl+B&gt; pentru alegerea colorii.</description>
+					</key>
+					<key name="BackColor" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="1.10">
+						<description>Culoare Fundal.
+RGB: Roşu + (256 * Verde) + (65536 * Albastru).
+
+Roşu, Verde şi Albastru trebuie să fie un număr cuprins între 0 şi 255.
+
+Tip: Apăsaţi &lt;Ctrl+B&gt; pentru alegerea colorii.</description>
+					</key>
+					<key name="BackColor2" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="7.00">
+						<description>Culoare Fundal pentru Liniile Alternative.
+Este recomandată definirea unei culori care diferă uşor faţă de culoarea normală a fundalului.
+
+Tip: Apăsaţi &lt;Ctrl+B&gt; pentru alegerea colorii.</description>
+					</key>
+					<key name="MarkColor" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="1.61">
+						<description>Culoare Selecţie.
+
+Tip: Apăsaţi &lt;Ctrl+B&gt; pentru alegerea colorii.</description>
+					</key>
+					<key name="CursorColor" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="1.61">
+						<description>Culoare Cursor.
+
+Tip: Apăsaţi &lt;Ctrl+B&gt; pentru alegerea colorii.</description>
+					</key>
+					<key name="CursorText" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="2.11">
+						<description>Culoare text ursor (numai pentru cursor solid, opac ).
+
+Tip: Apăsaţi &lt;Ctrl+B&gt; pentru alegerea colorii.</description>
+					</key>
+					<key name="ThumbnailFrame" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="6.50">
+						<description>Setare culoare chenar în jurul imaginilor miniatură:
+	-1= implicit;
+	-2= invizibil;
+	sau valoare RGB.
+
+Tip: Apăsaţi &lt;Ctrl+B&gt; pentru alegerea colorii.</description>
+					</key>
+					<key name="TreeLineColor" file="Wincmd.ini" section="Colors" default="-1" advanced="Yes" dialog="Color" version="7.00">
+						<description>Culoare linii structură arborescentă:
+	-1= implicit;
+	-2= invizibil;
+	sau valoare RGB.
+
+Tip: Apăsaţi &lt;Ctrl+B&gt; pentru alegerea colorii.</description>
+					</key>
+					<key name="InverseCursor" file="Wincmd.ini" section="Colors" default="0" version="3.00">
+						<description>1= Afişează cursorul solid, opac.</description>
+					</key>
+					<key name="InverseSelection" file="Wincmd.ini" section="Colors" default="0" version="5.00">
+						<description>1= Afişează fişierele selectate ca şi casete solide, opace.</description>
+					</key>
+				</category>
+				<category title="Lister">
+					<key name="FgColor" file="Wincmd.ini" section="Lister" default="0" dialog="Color" version="6.00">
+						<description>Lister: Culoare Font.
+
+Tip: Apăsaţi &lt;Ctrl+B&gt; pentru alegerea colorii.</description>
+					</key>
+					<key name="BgColor" file="Wincmd.ini" section="Lister" default="16777215" dialog="Color" version="6.00">
+						<description>Lister: Culoare Fundal.
+
+Tip: Apăsaţi &lt;Ctrl+B&gt; pentru alegerea colorii.</description>
+					</key>
+					<key name="FgSelColor" file="Wincmd.ini" section="Lister" default="16777215" dialog="Color" version="6.00">
+						<description>Lister: Culoare Selecţie.
+
+Tip: Apăsaţi &lt;Ctrl+B&gt; pentru alegerea colorii.</description>
+					</key>
+					<key name="BgSelColor" file="Wincmd.ini" section="Lister" default="0" dialog="Color" version="6.00">
+						<description>Lister: Culoare de Fundal pentru Selecţie
+
+Tip: Apăsaţi &lt;Ctrl+B&gt; pentru alegerea colorii.</description>
+					</key>
+					<key name="LinkColor" file="Wincmd.ini" section="Lister" default="8388608" dialog="Color" version="6.00">
+						<description>Lister: Culoare Superlegături.
+
+Tip: Apăsaţi &lt;Ctrl+B&gt; pentru alegerea colorii.</description>
+					</key>
+				</category>
+				<category title="Comparare prin conţinut">
+					<key name="CompareText" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="4.11">
+						<description>Comparare fişiere, mod text: Culoarea diferenţelor.
+
+Tip: Apăsaţi &lt;Ctrl+B&gt; pentru alegerea colorii.</description>
+					</key>
+					<key name="CompareTextSel" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="4.11">
+						<description>Comparare fişiere, mod text: Culoarea textului selectat.
+
+Tip: Apăsaţi &lt;Ctrl+B&gt; pentru alegerea colorii.</description>
+					</key>
+					<key name="CompareBinary" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="4.11">
+						<description>Comparare fişiere, mod binar: Culoarea diferenţelor.
+
+Tip: Apăsaţi &lt;Ctrl+B&gt; pentru alegerea colorii.</description>
+					</key>
+					<key name="CompareBinarySel" file="Wincmd.ini" section="Colors" default="-1" dialog="Color" version="4.11">
+						<description>Comparare fişiere, mod binar: Culoarea textului selectat.
+
+Tip: Apăsaţi &lt;Ctrl+B&gt; pentru alegerea colorii.</description>
+					</key>
+				</category>
+				<category title="Tipuri de fişiere">
+					<key name="ColorFilters" file="Wincmd.ini" section="Configuration" default="1" version="4.50">
+						<description>Dezactivează/Activează culorile pe baza tipului de fişier.</description>
+					</key>
+					<key name="ColorFilter1" file="Wincmd.ini" section="Colors" default="*.exe" version="4.50">
+						<description>Definiţi tipurile de fişiere ex. *.exe
+ de asemenea puteţi defini mai multe tipuri de fişiere, la fel ca şi în cazul filtrelor ex. *.exe; *.com; *.bat; *.cmd
+
+				IMPORTANT:
+				===========
+Aceste chei  trebuie să fie secvenţiale, ceea ce presupune pre-setarea prima dată a setului (ColorFilter1 &amp; ColorFilter1Color), (ColorFilter2 &amp; ColorFilter2Color) şi (ColorFilter3 &amp; ColorFilter3Color) urmat de (ColorFilter4 &amp; ColorFilter4Color).
+De asemenea, cheia 'ColorFilters' din setările generale trebuie setată pe 1, pentru ca filtrarea pe culori să fie activă.
+
+Acestă categorie conţine numai 25 de valori predefinite. Dacă aveţi nevoie de mai multe, deschideţi acest fişier (tc config romanian.cedf) cu un editor text (ex. Notepad) şi adăugaţi pânma la ColorFilter250 &amp; ColorFilter250Color valorile de la categoria [Culori] .</description>
+					</key>
+					<key name="ColorFilter1Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Apăsaţi &lt;Ctrl+B&gt; pentru a alege culoarea.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter2" file="Wincmd.ini" section="Colors" default="*.dll" version="4.50">
+						<description>Definiţi tipul fişierului. Exemplu: *.dll.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter2Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Apăsaţi &lt;Ctrl+B&gt; pentru a alege culoarea.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter3" file="Wincmd.ini" section="Colors" default="*.zip" version="4.50">
+						<description>Definiţi tipul fişierului. Exemplu: *.zip
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter3Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Apăsaţi &lt;Ctrl+B&gt; pentru a alege culoarea.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter4" file="Wincmd.ini" section="Colors" default="*.rar" version="4.50">
+						<description>Definiţi tipul fişierului. Exemplu: *.rar.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter4Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Apăsaţi &lt;Ctrl+B&gt; pentru a alege culoarea.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter5" file="Wincmd.ini" section="Colors" default="*.txt" version="4.50">
+						<description>Definiţi tipul fişierului. Exemplu: *.txt.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter5Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Apăsaţi &lt;Ctrl+B&gt; pentru a alege culoarea.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter6" file="Wincmd.ini" section="Colors" default="*.ini" version="4.50">
+						<description>Definiţi tipul fişierului.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter6Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Apăsaţi &lt;Ctrl+B&gt; pentru a alege culoarea.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter7" file="Wincmd.ini" section="Colors" default="*.bmp" version="4.50">
+						<description>Definiţi tipul fişierului.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter7Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Apăsaţi &lt;Ctrl+B&gt; pentru a alege culoarea.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter8" file="Wincmd.ini" section="Colors" default="*.jpg" version="4.50">
+						<description>Definiţi tipul fişierului.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter8Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Apăsaţi &lt;Ctrl+B&gt; pentru a alege culoarea.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter9" file="Wincmd.ini" section="Colors" default="*.gif" version="4.50">
+						<description>Definiţi tipul fişierului.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter9Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Apăsaţi &lt;Ctrl+B&gt; pentru a alege culoarea.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter10" file="Wincmd.ini" section="Colors" default="*.tif" version="4.50">
+						<description>Definiţi tipul fişierului.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter10Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Apăsaţi &lt;Ctrl+B&gt; pentru a alege culoarea.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter11" file="Wincmd.ini" section="Colors" default="*.ico" version="4.50">
+						<description>Definiţi tipul fişierului.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter11Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Apăsaţi &lt;Ctrl+B&gt; pentru a alege culoarea.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter12" file="Wincmd.ini" section="Colors" default="*.icl" version="4.50">
+						<description>Definiţi tipul fişierului.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter12Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Apăsaţi &lt;Ctrl+B&gt; pentru a alege culoarea.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter13" file="Wincmd.ini" section="Colors" default="*.avi" version="4.50">
+						<description>Definiţi tipul fişierului.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter13Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Apăsaţi &lt;Ctrl+B&gt; pentru a alege culoarea.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter14" file="Wincmd.ini" section="Colors" default="*.mpg" version="4.50">
+						<description>Definiţi tipul fişierului.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter14Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Apăsaţi &lt;Ctrl+B&gt; pentru a alege culoarea.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter15" file="Wincmd.ini" section="Colors" default="*.mpeg" version="4.50">
+						<description>Definiţi tipul fişierului.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter15Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Apăsaţi &lt;Ctrl+B&gt; pentru a alege culoarea.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter16" file="Wincmd.ini" section="Colors" default="*.wmv" version="4.50">
+						<description>Definiţi tipul fişierului.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter16Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Apăsaţi &lt;Ctrl+B&gt; pentru a alege culoarea.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter17" file="Wincmd.ini" section="Colors" default="*.asf" version="4.50">
+						<description>Definiţi tipul fişierului.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter17Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Apăsaţi &lt;Ctrl+B&gt; pentru a alege culoarea.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter18" file="Wincmd.ini" section="Colors" default="*.mp3" version="4.50">
+						<description>Definiţi tipul fişierului.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter18Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Apăsaţi &lt;Ctrl+B&gt; pentru a alege culoarea.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter19" file="Wincmd.ini" section="Colors" default="*.wav" version="4.50">
+						<description>Definiţi tipul fişierului.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter19Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Apăsaţi &lt;Ctrl+B&gt; pentru a alege culoarea.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter20" file="Wincmd.ini" section="Colors" default="*.mid" version="4.50">
+						<description>Definiţi tipul fişierului.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter20Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Apăsaţi &lt;Ctrl+B&gt; pentru a alege culoarea.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter21" file="Wincmd.ini" section="Colors" default="*.htm" version="4.50">
+						<description>Definiţi tipul fişierului.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter21Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Apăsaţi &lt;Ctrl+B&gt; pentru a alege culoarea.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter22" file="Wincmd.ini" section="Colors" default="*.html" version="4.50">
+						<description>Definiţi tipul fişierului.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter22Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Apăsaţi &lt;Ctrl+B&gt; pentru a alege culoarea.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter23" file="Wincmd.ini" section="Colors" default="*.mht" version="4.50">
+						<description>Define file type
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter23Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Apăsaţi &lt;Ctrl+B&gt; pentru a alege culoarea.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter24" file="Wincmd.ini" section="Colors" default="*.doc" version="4.50">
+						<description>Definiţi tipul fişierului.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter24Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Apăsaţi &lt;Ctrl+B&gt; pentru a alege culoarea.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter25" file="Wincmd.ini" section="Colors" default="*.*" version="4.50">
+						<description>Definiţi tipul fişierului.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+					<key name="ColorFilter25Color" file="Wincmd.ini" section="Colors" default="0" dialog="Color" version="4.50">
+						<description>Apăsaţi &lt;Ctrl+B&gt; pentru a alege culoarea.
+
+Vedeţi adnotările importante din descrierea cheii (ColorFilter1)</description>
+					</key>
+				</category>
+			</category>
+			<category title="Limbaj">
+				<key name="LanguageIni" file="Wincmd.ini" section="Configuration" default="lng_file" dialog="Open File" version="3.00">
+					<description>Stabileşte localizarea şi numele fişierului limbaj ex. WCMD_ROM.LNG</description>
+				</key>
+				<key name="Mainmenu" file="Wincmd.ini" section="Configuration" default="path\mnu_file" dialog="Open File" version="1.30">
+					<description>Stabileşte localizarea şi numele fişierului cu meniul principal, ex WCMD_ROM.MNU.</description>
+				</key>
+			</category>
+		</category>
+		<category title="Operaţii">
+			<category title="Program principal">
+				<key name="OnlyOnce" file="Wincmd.ini" section="Configuration" default="0" version="2.00">
+					<description>Lansează doar o singură instanţă Total Commander.</description>
+				</key>
+				<key name="ShowInstanceNr" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.00">
+					<description>Arată numărul instanţei în titlu, în cazul în care sunt mai multe instanţe Total Commander deschise (1/0).</description>
+				</key>
+				<key name="ActiveRight" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="4.50">
+					<description>1: Panoul drept va fi activ la lansarea Total Commander (1/0).
+
+Note: Parametrul în Linie de comandă '/P=L' va suprascrie această opţiune.</description>
+				</key>
+				<key name="TrayIcon" file="Wincmd.ini" section="Configuration" default="1" version="3.50">
+					<description>Mută iconiţa Total Commander, pe bară lângă ceas (la minimizare) (1/0).</description>
+				</key>
+				<key name="UseIniInProgramDir" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Bits Sum" version="6.50">
+					<description>Acestă variabilă va fi citită numai dacă wincmd.ini este localizat în acelaşi director cu Total Commander.
+Comportarea este ca urmare a sumei următoarelor valori:
+	1: Utilizează 'wincmd.ini' în directorul TC, dacă nu este setată altă localizare, via registri sau parametri.
+	2: Utilizează 'wcx_ftp.ini' în directorul TC, dacă nu este setată altă localizare, via registri sau parametri.
+	4: Ignoră complet setările din registri cu privire la localizare 'wincmd.ini' şi 'wcx_ftp.ini'.</description>
+				</key>
+				<key name="ResolutionSpecific" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>0: RDatele specifice despre Rezoluţie cum sunt stilul fontului, mărimea fontului vor fi stocate într-o singură secţiune denumită [AllResolutions].
+1: Datele specifice despre Rezoluţie sunt stocate în secţiuni ca [1024x768 (10x20)].</description>
+				</key>
+				<key name="KeyPath" file="Wincmd.ini" section="Configuration" default="%COMMANDER_PATH%" advanced="Yes" dialog="Open Folder" version="3.02">
+					<description>Calea spre cheia de înregistrare (FĂRĂ numele de fişier!). Implicit, Total Commander caută această cheie în directorul propriu.
+Utilă dacă cheia nu poate fi citită prin LAN (reţea).</description>
+				</key>
+				<key name="InstallDir" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" dialog="Open Folder" version="4.00">
+					<description>Ultimul  director în care a fost instalat Total Commander (identic cu cel din registri).</description>
+				</key>
+				<key name="Version" file="Wincmd.ini" section="Configuration" default="7.01" advanced="Yes" version="1.30">
+					<description>Versiunea Total Commander (nemodificată).</description>
+				</key>
+				<key name="StartupScreen" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.50">
+					<description>Opreşte afişarea meniului iniţial la lansare pornit/oprit (1/0).</description>
+				</key>
+			</category>
+			<category title="Editare/Vizualizare">
+				<category title="General">
+					<key name="Viewer" file="Wincmd.ini" section="Configuration" default="none" dialog="Open File" version="1.10">
+						<description>Vizualizator extern implicit pentru ALT+F3 / F3 (sau 'nimic', dacă nu este setat).</description>
+					</key>
+					<key name="Editor" file="Wincmd.ini" section="Configuration" default="notepad.exe" dialog="Open File" version="1.10">
+						<description>Editor implicit pentru tasta F4.</description>
+					</key>
+					<key name="Viewertype" file="Wincmd.ini" section="Configuration" default="1" version="1.10">
+						<description>Vizualizator pentru F3:
+	0= intern - pentru fişierul curent;
+	1= intern - pentru fişierele selectate;
+	2= extern.</description>
+					</key>
+					<key name="EditWaitTime" file="Wincmd.ini" section="Configuration" default="2" advanced="Yes" version="7.00">
+						<description>Timp de expirare la editarea unei unui fişier dintr-o arhivă sau server FTP.
+Dacă editorul se închide în acest interval de secunde, se presupunde că este un editor de fişiere multiple şi va fi prezentat dialogul pentru confirmarea încheierii editării.
+	Setaţi  0 pentru a opri acest serviciu.
+	Setaţi -1 pentru a nu mai arăta acest dialog (ex. când un program a fost pasat via DDE programului asociat).</description>
+					</key>
+					<key name="WmfAllowed" file="Wincmd.ini" section="Configuration" default="-1" advanced="Yes" version="6.50">
+						<description>0: Afişarea fişierelor WMF şi EMF dezactivată. Dezactivează, de asemenea, imaginile miniatură pentru directoare.
+1: Permite afişarea fişierelor imagine WMF (Windows Metafile) şi EMF (Enhanced Metafile) în Lister şi imagini miniatură.
+2: Permite afişarea imaginilor miniatură pentru directoare (care pot conţine fişiere WMF/EMF).
+3: Afişează imagini miniatură pentru fişierele WMF/EMF şi directoare.
+-1: Permite afişarea imaginilor miniatură fişiere WMF/EMF şi directoare, dacă este instalat patch-ul KB912919 în Windows XP (acesta acoperind o gravă breşă de securitate din Windows XP).</description>
+					</key>
+				</category>
+				<section title="Extensii" name="Extensions" file="Wincmd.ini" version="1.30">
+					<description>Asociaţii pentru F3/ALT+F3.</description>
+				</section>
+			</category>
+			<category title="Copiere">
+				<key name="AlwaysCopyInBackground" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="4.00">
+					<description>0: Inhibă copierea în fundal.
+1: Total Commander copiază întotdeauna în fundal.
+2: Foloseşte întotdeauna utilitarul de transfer în fundal.</description>
+				</key>
+				<key name="CopyBlockSize" file="Wincmd.ini" section="Configuration" default="32" version="4.52">
+					<description>Configurează dimensiunea blocului pentru copiere (in kbytes=1024 bytes). Implicit şi minimum este 32 (=32768 bytes).
+
+Valoare recomandată (încercaţi altele pe cont propriu):
+CopyBlockSize=1024</description>
+				</key>
+				<key name="CopyBlockSizeOther" file="Wincmd.ini" section="Configuration" default="32" version="5.00">
+					<description>Configurează dimensiunea blocului pentru copiere între partiţii aflate pe discuri fizice diferite.
+Cazul  I : Partiţiile se găsesc pe discuri fizice diferite: este mai bine să se folosească o dimensune mică de bloc când se copiază între discuri diferite, pentru că amîndouă discurile pot citi/scrie în acelaşi timp.
+Cazul II : Partiţiile se găsesc pe un singur disc fizic: deoarece în acţinea de citire/scriere la copiere, computerul trebuie să comute între fişierul sursă şi destinaţie, o dimensiune mare de bloc este mai bună.
+
+Valoare recomandată (puteţi încerca altele valori pe cont propriu):
+CopyBlockSizeOther=128</description>
+				</key>
+				<key name="CopyHugeBlockSize" file="Wincmd.ini" section="Configuration" default="10240" version="5.00">
+					<description>Configurează dimensiunea blocului când se copiază fişiere mari.
+Fişierele vor fi citite şi scrise direct, cu ocolirea disk cache-ului.
+Dimensiunea minimă este 10MB. Numai fişiere mai mari decît această dimensiune de bloc vor fi copiate în maniera aceasta.
+Pentru fişiere mai mici, va fi folosit CopyBlockSize. Implicit, fără această intrare în fişierul INI , această funcţie este dezactivată.
+
+Valoare recomandată (încercaţi altele pe cont propriu):
+CopyHugeBlockSize=10240</description>
+				</key>
+				<key name="CopyHugeBlockSizeOther" file="Wincmd.ini" section="Configuration" default="32" version="5.00">
+					<description>Configurează dimensiunea blocului când se copiază fişiere foarte mari, între discuri diferite. Minimum: 256 kB.
+
+Valoare recomandată (încercaţi altele pe cont propriu):
+CopyHugeBlockSizeOther=32</description>
+				</key>
+				<key name="SamePartitions" file="Wincmd.ini" section="Configuration" default="drives,drives" version="5.00">
+					<description>Permite setarea discurilor logice (partiţii= ce sunt pe acelaşi harddisc.
+Exemplu: Dacă aveţi două harddiscuri, unul cu discurile C,E şi F iar altul cu discul D, G şi H.
+Următoarele unităţi de disc sunt pe aceeaşi partiţie: SamePartitions=CEF,DGH
+
+La copierea între E: şi F: (acelaşi disc fizic) primele două valori vor fi folosite, la copierea între C: şi D: (discuri diferite) valorile din 'Altele' în nume.</description>
+				</key>
+				<key name="CopyCompatDrives" file="Wincmd.ini" section="Configuration" default="drives" version="6.00">
+					<description>Partiţii, de unde/unde TC ar trebui să copieze în modul de compatibilitate. Recomandat pentru memorii USB şi pentru partiţii exotice unde copierea normală cauzează probleme.
+
+Exemplu: CopyCompatDrives=CDEF
+* înseamnă toate partiţiile\ înseamnă  'Vecini de Reţea'.
+
+ Acest mod este inhibat implicit şi nu este disponibil pe platformele Windows 9x/ME.</description>
+				</key>
+				<key name="CopyCompatUsbSticks" file="Wincmd.ini" section="Configuration" default="1" version="7.00">
+					<description>1: Activează modul compatibilitate cu memorii USB specificate. Opţine invalidă pentru sisteme de operare sub Windows 9x/ME.</description>
+				</key>
+				<key name="ExplorerForCopy" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>Foloseşte funcţia de copiere inclusă (mai flexibilă) sau Explorer (copire+lipire) cu F5 şi F6 (0/1).</description>
+				</key>
+				<key name="CopyDirTimeStamp" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>Copiază data/timpul ultimei modificări, pentru directoare (1/0).</description>
+				</key>
+				<key name="SizeCheck" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.00">
+					<description>Verifică dacă este suficient spaţiu pe disc pe discul destinaţie înaintea copierii.</description>
+				</key>
+				<key name="UseFindForTime" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.50">
+					<description>La copiere, extrage data fişierului cu FindFirstFile în loc de GetFileTime (1/0).</description>
+				</key>
+				<key name="XPMoveMethod" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="5.50">
+					<description>1: La mutarea fişierelor, sunt folosite permisiunile din directorul destinaţie.
+0: Permisiunile fişierelor se păstrează.
+
+Implicit: XP: 1, alt sistem: 0.</description>
+				</key>
+				<key name="CountMarked" file="Wincmd.ini" section="Configuration" default="1" version="2.11">
+					<description>1: Calculează numărul de fişiere din subdirectoare înainte de copiere / ştergere pentru afişarea procentului la bara secundară.
+0: Nu calculeză numărul de fişiere (rapid).</description>
+				</key>
+				<key name="CopyStreams" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="5.51">
+					<description>1: Fluxurile NTFS vor fi copiate.
+0: Fluxurile NTFS vor fi ignorate.</description>
+				</key>
+				<key name="VersionInOverwrite" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.50">
+					<description>Arată versiunea fişierelor în dialogul de suprascriere. Setaţi 0 în reţele lente.</description>
+				</key>
+				<key name="CustomFieldsInDlg" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>Arată câmpurile particularizate (ex. [tc.comment]) la dialogul de suprascriere.</description>
+				</key>
+			</category>
+			<category title="Redenumire">
+				<key name="RenameSelOnlyName" file="Wincmd.ini" section="Configuration" default="0" version="6.02">
+					<description>Redenumire pe loc:
+	0: selectare nume+ext;
+	1: selectare numai numele, fără extensie.</description>
+				</key>
+				<key name="InplaceRename" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.50">
+					<description>Activează/dezactivează redenumirea pe loc, la 2 (două) clicuri pe nume (1/0).</description>
+				</key>
+				<key name="InplaceRenamePath" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="5.51">
+					<description>Editarea pe loc pentru calea curentă:
+	0= dezactivat;
+	1= activat;
+	2= dezactivare redenumire cale pe loc, dar activare schimbare rapidă a directorului cu un singur clic (nu este necesar ca 'shift' să fie apăsat).
+
+Valoarea implicită pentru Redenumire pe loc, dacă este prezentă, altfel va fi considerată valoarea 1.</description>
+				</key>
+				<key name="SetArchiveBitOnRename" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="5.51">
+					<description>La redenumirea fişierelor, bitul de arhivare va fi setat implicit. Pentru valoarea 0, bitul de arhivare nu va fi setat.</description>
+				</key>
+				<key name="MultiRenameEdit" file="Wincmd.ini" section="Configuration" default="path" dialog="Open File" version="7.00">
+					<description>Editor utilizat la utilitarul multi-redenumire pentru editarea manuală a numelor noi de fişiere.</description>
+				</key>
+			</category>
+			<category title="Ştergere">
+				<key name="Win95Delete" file="Wincmd.ini" section="Configuration" default="-1" advanced="Yes" version="3.02">
+					<description>Stabileşte metoda de ştergere utilizată în Total Commander în Win95/98:
+	0: foloseşte metoda proprie Total Commander pentru ştergerea fişierelor (opţiune des utilizată în configurare);
+	1: foloseşte metoda Explorer pentru ştergerea fişierelor;
+	-1 (implicit): Dacă Cleansweep rulează, foloseşte metoda Explorer pentru prevenirea blocajelor (cauzate de incompatibilitatea dintre metodele Cleansweep şi Total Commander). Dacă Cleansweep nu rulează, Total Commander va folosi propria metodă.</description>
+				</key>
+				<key name="UseTrash" file="Wincmd.ini" section="Configuration" default="1" version="2.11">
+					<description>Foloseşte Tomberonul în Windows 95/98/NT dacă este disponibil şi activat.</description>
+				</key>
+				<key name="DeleteDelay" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.02">
+					<description>Total Commander (pe 32 biţi) aşteaptă o perioadă specificată de timp (în milisecunde) după ştergerea unui fişier din coşul de gunoi.
+
+Încercaţi să măriţi această valoare (implicit este 0) dacă din experienţă Cleansweep se blochează la rulare.</description>
+				</key>
+			</category>
+			<category title="Împrospătare">
+				<key name="NoReread" file="Wincmd.ini" section="Configuration" default="AB\" version="2.00">
+					<description>Nu va reciti aceste unităţi de disc. '\' pentru 'Reţea'.
+De asemenea poate fi specificat aici '/' şi/sau ':' pentru prevenirea reamintirii modulelor sistem şi/sau directoarelor virtuale, cum ar fi 'suprafaţa de lucru', la închidere.</description>
+				</key>
+				<key name="NoReread2" file="Wincmd.ini" section="Configuration" default="AB\" version="6.52">
+					<description>Nu va citi aceste unităţi de disc la închiderea şi repornirea Total Commander-ului. Dacă Noreread2 lipseşte, va fi utilizat conţinutul cheii 'Noreread', ceea ce conduce la acelaşi comportament ca şi versiunile mai vechi de TC 6.52.
+Exemplu:
+Noreread=ABC\ şi Noreread2=AB\ : Nu va auto-citi unităţile de dischetă, unitatea de disc C şi reţeaua, dar va reţine directoarele de pe unitatea de disc C la închiderea şi repornirea Total Commander-ului.</description>
+				</key>
+				<key name="WatchDirs" file="Wincmd.ini" section="Configuration" default="0" dialog="Bits Sum" version="6.52">
+					<description>Controlează funcţia de actualizare automată a directorului curent. Detectează dacă un program, altul decât Total Commander, adaugă, modifică sau şterge fişiere, în panoul sau fereastra activă. Construiţi doar suma următoarelor numere:
+	1: Activează opţiunea (implicit: 0 - dezactivat).
+	2: Detectează modificările de mărime, dată, atribute.
+	4: Pune fişierele noi adugate la sfârşitul listei de fişiere (implicit: sortat).
+	8: Nu reacţionează decât dacă TC (directorul modificat este în fereastra activă) este în prim plan.
+	16: Actualizare subsol (numar total de fişiere). ATENŢIONARE: Poate încetini funcţionarea în directoarele cu multe fişiere!
+	32: Actualizare ante (spaţiul liber pe disc). ATENŢIONARE: Poate încetini funcţionarea pe harddisc-uri de capacitate mare!
+	256: Bip la fiecare actualizare (util la depanare).
+
+Notă: Această funcţie funcţionează numai în Windows NT/2000/XP.</description>
+				</key>
+				<key name="WatchDirsExclude" file="Wincmd.ini" section="Configuration" default="Drives" version="6.52">
+					<description>Nu va actualiza aceste unităţi de disc, dacă opţiunea  WatchDirs= activată.
+Utilă, de exemplu pentru a opri auto-împrospătarea pe unităţile de disc lente.
+
+Notă: Această funcţie funcţionează numai în Windows NT/2000/XP.</description>
+				</key>
+			</category>
+			<category title="Localizare rapidă">
+				<key name="AltSearch" file="Wincmd.ini" section="Configuration" default="0" version="1.61">
+					<description>Localizare rapidă fişiere/sub-directoare în directorul curent cu:
+	0= CTRL+ALT;
+	1= ALT;
+	2= doar litera;
+	3= litera într-o fereastră cu dialog;
+	4= inhibat.</description>
+				</key>
+				<key name="QuickSearchMatchBeginning" file="Wincmd.ini" section="Configuration" default="1" version="7.00">
+					<description>0: Un şir de carctere cum ar fi 'win' va fi citit ca '*win'.
+1: Potrivire exactă: tastând 'win' va fi localizat doar fişierul 'win.ini', dar nu şi fişierul 'otherwin.ini'.</description>
+				</key>
+				<key name="QuickSearchExactMatch" file="Wincmd.ini" section="Configuration" default="0" version="6.50">
+					<description>0= Tastând un punct, va fi citit ca '*.'' , 'win.i' nefiind inclus şi în 'wincmd.ini'.
+1= Potrivire exactă: tastând 'win.i' va gasi numai 'win.ini', dar nu va găsi 'wincmd.ini'.</description>
+				</key>
+			</category>
+			<category title="Auto completare">
+				<key name="AutoComplete" file="Wincmd.ini" section="Configuration" default="3" dialog="Bits Sum" version="7.00">
+					<description>Combinaţia rezultată din suma a următoarelor opţiuni:
+	1: Afişează lista combo auto-complete.
+	2: Auto-adaugă numele momentan sugerat.</description>
+				</key>
+				<key name="AutoCompleteTab" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>0: Tab schimbă lista activă de fişiere.
+1: Alege următorul fişier pentru auto-complete, ca şi '0' dacă nu este nimic de completat.
+2: Alege următorul fişier din auto-complete, ignoră tab dacă nu este nimic de completat</description>
+				</key>
+			</category>
+			<category title="Comentarii">
+				<key name="CopyComments" file="Wincmd.ini" section="Configuration" default="6" dialog="Bits Sum" version="5.50">
+					<description>Acesta este o combinaţie (sumă) a următoarelor elemente:
+	1: Tipul comentariul implicit este files.bbs.
+	2: Tipul comentariul implicit este descript.ion.
+	4: Comentarii citite de la ambele tipuri.
+	8: Copiază comentarii ce aparţin fişierelor. Fişierele de comentarii vor fi omise.
+	16: Folosiţi setul de caractere OEM (DOS) pentru descript.ion (files.bbs folosesc întotdeauna setul de caractere DOS).
+
+Note: Dacă amândouă 1 şi 2 sunt configurate, 2 are prioritate.</description>
+				</key>
+				<key name="CmtOemFont" file="Wincmd.ini" section="Configuration" default="0" version="5.50">
+					<description>Folosiţi setul de caractere OEM (DOS) în fişiere de descriere (este doar recomandat dacă folosiţi utilitarul pentru DOS sau NT).</description>
+				</key>
+			</category>
+			<category title="Imagini Miniatură">
+				<key name="ThumbsLocation" file="Wincmd.ini" section="Configuration" default="%$LOCAL_APPDATA%\GHISLER" dialog="Open Folder" version="6.50">
+					<description>Localizare memorie cache pentru imagini miniatură (specificaţi şir de caractere gol (nimic) pentru dezactivarea memoriei cache). Locaţie implicită în Windows 9x/ME: Director Totalcmd; Windows NT/2000/XP: %APPDATA%\GHISLER (or %APPDATA%\GHISLER dacă %$LOCAL_APPDATA% nu există).</description>
+				</key>
+				<key name="ThumbsCopyDel" file="Wincmd.ini" section="Configuration" default="1" version="6.50">
+					<description>Copiază/Şterge imaginile miniatură odată cu fişierele la copiere/ştergere fişiere.</description>
+				</key>
+				<key name="ThumbsCustomField" file="Wincmd.ini" section="Configuration" default="[field_contents]" version="7.00">
+					<description>Câmpurile particularizate vor fi afişate sub imaginile miniatură.</description>
+				</key>
+				<key name="ThumbsCustomFieldsEnabled" file="Wincmd.ini" section="Configuration" default="1" version="6.50">
+					<description>Arată câmpurile particularizate sub imaginile miniatură.</description>
+				</key>
+				<key name="ThumbWidthNoCache" file="Wincmd.ini" section="Configuration" default="96" version="6.50">
+					<description>Lăţimea imaginilor miniatură (în pixeli) dacă nu este utilizată memorie cache.</description>
+				</key>
+				<key name="ThumbHeightNoCache" file="Wincmd.ini" section="Configuration" default="96" version="6.50">
+					<description>Înălţimea imaginilor miniatură (în pixeli) dacă nu este utilizată memorie cache.</description>
+				</key>
+				<key name="ThumbExplTypes" file="Wincmd.ini" section="Configuration" default="*.* | *.htm *.html" version="6.50">
+					<description>Caractere generice pentru imagini miniatură ce se vor extrage prin metoda Explorer (OLE2). Fişierele HTML sunt excluse din raţiuni de securitate (acestea vor fi extrase cu Internet Explorer).</description>
+				</key>
+				<key name="ThumbPlgTypes" file="Wincmd.ini" section="Configuration" default="*.*" version="6.50">
+					<description>Caractere generice pentru imagini miniatură ce se vor extrage prin prin module adiţionale lister.</description>
+				</key>
+				<key name="ThumbIrfXnTypes" file="Wincmd.ini" section="Configuration" default="*.*" version="6.50">
+					<description>Caractere generice pentru imagini miniatură ce se vor extrage prin vizualizatoare externe, IrfanView sau XnView.</description>
+				</key>
+				<key name="ThumbTxtTypes" file="Wincmd.ini" section="Configuration" default="*.txt *.ini" version="6.50">
+					<description>Caractere generice pentru imagini miniatură ce se vor extrage ca text simplu (imaginile miniatură vor fi afişa primele liniii din fişierul text).</description>
+				</key>
+				<key name="ThumbOptions" file="Wincmd.ini" section="Configuration" default="15" dialog="Bits Sum" version="6.50">
+					<description>Specificarea semnificaţiei utilizate la încărcarea imaginilor miniatură. Suma următoarelor valori va reprezenta:
+	1 = Extragerea imaginilor miniatură folosind metoda Explorer (OLE).
+	2 = Extragerea imaginilor miniatură folosind module adiţionale Lister.
+	4 = Extragerea imaginilor miniatură folosind IrfanView/XnView (calea se configurează separat în Lister)
+	8 = Extragerea imaginilor miniatură constând în primele linii de text simplu.</description>
+				</key>
+				<key name="ThumbnailMemoryLimit" file="Wincmd.ini" section="Configuration" default="500" advanced="Yes" version="6.50">
+					<description>Specificarea numărului de imagini miniatură per panou, stocate în memoria cache (implicit: 200 în Win9x, 500 în NT/2000/XP; minim: 100).</description>
+				</key>
+				<key name="ThumbnailPrealloc" file="Wincmd.ini" section="Configuration" default="100000" advanced="Yes" version="6.50">
+					<description>Setare număr de octeţi pre-alocaţi la crearea bazei de date cu imagini miniatură, pentru prevenirea defragmentării. Baza de date pentru imagini miniatură este o componentă OLE a similară cu un fişier Word (.doc) . Fără pre-alocarea de memorie la creare, fiecare fişier ar fi dramatic fragmentat, în special pe discurile formatate NTFS.</description>
+				</key>
+				<key name="PreloadThumbnails" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.50">
+					<description>0: Dezactivat, încarcă imaginile miniatură numai când se parcurg spre vizualizare.
+1: Încarcă imaginile miniatură la deschiderea unui director, nu numai la parcurgerea imaginilor din director.
+2: La fel ca şi la 1, dar inclusiv în mod 'Subdirectoare Inclusiv'.
+3: Pre-încarcă încă două linii sub imaginile miniatură vizibile.</description>
+				</key>
+				<key name="ThumbsInDlg" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>Arată imaginile miniatură la dialogul de suprascriere.</description>
+				</key>
+			</category>
+			<category title="Fişier martor">
+				<key name="LogFile" file="Wincmd.ini" section="Configuration" default="%TEMP%\totalcmd.log" dialog="Open File" version="7.00">
+					<description>Numele fişierului martor care înregistrează operaţiile cu fişiere (fără FTP).</description>
+				</key>
+				<key name="LogOptions" file="Wincmd.ini" section="Configuration" default="7198" dialog="Bits Sum" version="7.00">
+					<description>Stabileşte care operaţii vor fi monitorizate, după suma următoarelor valori:
+	1: funcţia activată;
+	2: copiere, mutare, creare scurtături;
+	4: ştergere fişiere;
+	8: creare/ştergere directoare;
+	16: funcţii de arhivare;
+	32: frecvent nefolosite;
+	64: operaţii efectuate prin modulele sistem;
+	1024: operaţii care s-au derulat cu succes;
+	2048: operaţii eşuate;
+	4096: operaţii iniţiate, dar cu fişiere omise.</description>
+				</key>
+				<key name="LogRotateLimit" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>Dacă este setat cu -1, se va crea un fişier martor nou în fiecare zi, la miezul nopţii.
+Dacă va fi setat cu valoarea v&gt;0, se va crea un fişier martor nou la depăşirea dimensiuniii fişierului, v, în octeţi.
+Dacă va fi setat cu 0, rotirea fişierului martor va fi dezactivată.</description>
+				</key>
+				<key name="LogKeepCount" file="Wincmd.ini" section="Configuration" default="30" version="7.00">
+					<description>Număr maxim de copii păstrate ale fişierului martor, folosind metoda rotaţiei.</description>
+				</key>
+			</category>
+			<category title="Listă fişiere/directoare Ignorate">
+				<key name="IgnoreListFileEnabled" file="Wincmd.ini" section="Configuration" default="1" version="7.00">
+					<description>Determină ca fişierele/directoarele referite prin cheia IgnoreListFile= să fie active sau nu. PErmite dezactivarea temporară a funcţiei, fără ştergerea fişierului din cale. Comanda internă cm_SwitchIgnoreList comută această opţiune pornit/oprit.</description>
+				</key>
+				<key name="IgnoreListFile" file="Wincmd.ini" section="Configuration" default="path" dialog="Open File" version="7.00">
+					<description>Localizează pe disc un fişier text simplu (cale+nume) care conţine lista de nume care ar trebui să fie ignorate de Total Commander (nu vor fi arătate, copiate, şterse, etc.). Suportă caractere generice (*, ?) la nume, cu sau fără cale (cu sau fără unitate de disc). Liniile pot avea una din formele:
+	numefisier.ext	Ascunde numefisier.ext în toate subdirectoarele;
+	c:\test\filename.ext	Ascunde numefisier.ext numai în c:\test;
+	\System volume information	Ascunde acest director pe toate unităţile de disc;
+	*.bak *.~*	Ascunde aceste tipuri de fişiere în toate directoarele;
+	c:\test\*.bak *.~*	Ascunde aceste tipurile de fişiere NUMAI din subdirectorul c:\test;
+	\test\*.bak *.~*	Ascunde aceste tipuri de fişiere din subdirectorul 'test' pe toate unităţile de disc;
+	c:\test\"abc def.*" *.~*	Numele care conţin spaţii trebuie să fie incluse între ghilimele "" dacă conţin orice carcter generic (* or ?).</description>
+				</key>
+			</category>
+			<category title="Unităţi de disc">
+				<key name="CdCloseDoor" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.50">
+					<description>Dacă schimbarea volumelor pe CD-ROM eşuează, încercaţi să închideţi tava CD-ROM-ului. Poate fi inhibată cu CdCloseDoor=0.</description>
+				</key>
+				<key name="DeviceChange" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.52">
+					<description>1= Reacţionează la mesaje wm_devicechange (pentru detectarea modificărilor pe disc).
+0= Ignorare.</description>
+				</key>
+				<key name="DriveisCD" file="Wincmd.ini" section="Configuration" default="drive_list" advanced="Yes" version="4.54">
+					<description>Definire disc CD-ROM (ex. F, G şi H -&gt; FGH).
+La copierea de pe aceste discuri, Total Commander nu va copia atributul „numai citire”.
+Util pentru unităţi de disc CD nedetectate automat.</description>
+				</key>
+				<key name="DriveTipDelay" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="2.11">
+					<description>Întârzierea în milisecunde, până descrierea pentru unităţile de disc din lista combo este afişată (implicit = 0).</description>
+				</key>
+				<key name="AlwaysToRoot" file="Wincmd.ini" section="Configuration" default="0" version="3.50">
+					<description>Dacă este configurat pe 1, Total Commander va trece întotdeauna la directorul rădăcină la schimbarea partiţiei (ca şi în Win95/98 Explorer).</description>
+				</key>
+			</category>
+			<category title="File/Panouri directoare">
+				<key name="LockedGoToDriveRoot" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="6.50">
+					<description>0= Clic pe [ \ ] va schimba directorul curent pe locaţia filei blocate.
+1= Clic pe [ \ ] va schimba directorul curent în rădăcina discului curent.</description>
+				</key>
+				<key name="LockedTabChange" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.02">
+					<description>Ce va face la schimbarea directorului de pe o filă blocată:
+	0: totdeauna va crea o nouă filă;
+	1: re-utilizează fila cu acelaşi director;
+	2: re-utilizează prima filă neblocată;
+	3: re-utilizează ultima filă neblocată.</description>
+				</key>
+				<key name="TabDir" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" version="7.00">
+					<description>Reţine locaţia directoarelor pe file/panouri.</description>
+				</key>
+				<key name="TabEnterDirChange" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.02">
+					<description>Ce se va întâmpla când un utilizator va apăsa ENTER pe o filă blocată?
+	0: nimic;
+	1: deschide o filă nouă;
+	2: întreabă utilizatorul.</description>
+				</key>
+				<key name="TabSwitchMode" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>0: Ctrl+Tab comută filele numai la eliberarea tastei CTRL.
+1: Ctrl+Tab comută filele imediat ce este apăsată tasta TAB.</description>
+				</key>
+			</category>
+			<category title="Panouri Arbore">
+				<key name="OldStyleTree" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>Această opţiune funcţionează numai pentru afişarea structurii arborescente în una sau două ferestre:
+0: Arată arborele stil Explorer pentru toate unităţile de disc.
+1: Totdeauna încarcă întreaga structură arborescentă.
+2: Arată arborele expandabil numai pentru unitatea de disc curentă.
+
+ Nu se poate seta valoarea 2 via casetă de dialog TC!</description>
+				</key>
+				<key name="AutoTreeChange" file="Wincmd.ini" section="Configuration" default="0" version="4.53">
+					<description>Dacă este setat 1, un singur clic pe un director in modul de vizualizare arbore comută la acel director în cealaltă fereastră.</description>
+				</key>
+				<key name="UpdateTreeAtStartup" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>Determină dacă o structură arborescentă separată este expandată mai sus de directorul curent la pornire (1) sau numai primul director se va schima de către utilizator (0).</description>
+				</key>
+				<key name="TreeUpdateLimit" file="Wincmd.ini" section="Configuration" default="2048" advanced="Yes" version="7.00">
+					<description>Mărimea (în kocteţi), peste care fişierul '\treeinfo.wc' va fi actualizare automat în timpul operaţiilor de copiere sau ştergere. Aceasta actualizare poate lua mult timp pentru structuri laborioase.</description>
+				</key>
+				<key name="TreeFileLocation" file="Wincmd.ini" section="Configuration" default="Tree_File_Path" advanced="Yes" dialog="Open File" version="6.50">
+					<description>Definire locaţie alternativă pentru fişierele treeinfo.wc, ex. treefilelocation=c:\altdir\treeinfo%D%.wc
+
+%D% va fi înlocuit cu litera unităţii de disc (sau rădacina directorului distribuit, \ înlocuit cu _).
+%R% va fi înlocuit cu calea spre rădăcină.
+%L% va fi înlocuit cu eticheta de volum.
+
+Vă rog reţineţi că aceste variabile TREBUIE să fie scrie cu majuscule, altfel TC va căuta variabile sistem cu acelaşi nume!</description>
+				</key>
+				<key name="TreeFileLocationE" file="Wincmd.ini" section="Configuration" default="Path" advanced="Yes" dialog="Open File" version="6.50">
+					<description>Setare locaţie fişier treeinfo numai pentru unitatea de disc E. Funcţionează numai dacă TreeFileLocation= este deasemenea setat!</description>
+				</key>
+				<key name="TreeFileLocation__server_share" file="Wincmd.ini" section="Configuration" default="Path" advanced="Yes" dialog="Open File" version="6.50">
+					<description>Setare locaţie fişier treeinfo numai pentru discurile \\server\share (TreeFileLocation= TREBUIE de asemena setată).</description>
+				</key>
+			</category>
+			<category title="Reţea">
+				<key name="AllHiddenNetNames" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>0: Afişează doar partiţii ca C$ cînd se alege "afişează fişierele de administrare partajate".
+1: Afişeză toate fişierele partajate secret.</description>
+				</key>
+				<key name="Netwarebugfix" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="2.00">
+					<description>1: FĂRĂ redenumire a fişierelor de pe discul de la distanţă (remote).</description>
+				</key>
+				<key name="PortInDriver" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="4.50">
+					<description>1:Transferul tuturor blocurilor în interiorul driver-ului (implicit) -&gt; rapid, dar PC-ul este inutilizabil pe timpul transferului.
+0: Se va realiza transferul în mod utilizator -&gt; încet, dar bun pentru multitasking.
+
+Această setare va afecta numai sistemele Win95/98/ME. Pe WinNT/2000, toate transferurile trebuie să fie în driver.</description>
+				</key>
+				<key name="TestIfSharedDir" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.50">
+					<description>Testează dacă un director este distribuit în reţea (shared) -&gt; arată o mână sub iconiţă (1/0).</description>
+				</key>
+				<key name="UseShellConnect" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="5.00">
+					<description>Dacă =1, foloseşte metoda veche de conectare la directoarele distribuite pe reţea (Este vorba despre VINES).</description>
+				</key>
+				<key name="NetHoodInThread" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>Încarcă Vecini de reţea ca proces separat, în fundal.</description>
+				</key>
+				<key name="ThreadFindFirst" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>Când este setat 1, mută FindFirstFile în proces separat, în consecinţă utilizatorul poate anula citirea suspendând conexiunea de reţea.</description>
+				</key>
+			</category>
+			<category title="Confidenţialitate">
+				<key name="Savepath" file="Wincmd.ini" section="Configuration" default="1" version="1.10">
+					<description>Salvarea căii curente la închiderea Total Commander (1/0).</description>
+				</key>
+				<key name="Savepanels" file="Wincmd.ini" section="Configuration" default="1" version="1.10">
+					<description>Salvare setări la închiderea Total Commander (1/0).</description>
+				</key>
+				<key name="SaveCommands" file="Wincmd.ini" section="Configuration" default="1" version="2.00">
+					<description>Salvare istoric linii de comandă la închiderea Total Commander (1/0).</description>
+				</key>
+				<key name="SaveHistory" file="Wincmd.ini" section="Configuration" default="1" version="7.00">
+					<description>Salvare istoric al directoarelor vizitate (Alt+Săgeată-Jos) în secţiunea [LeftHistory] şi [RightHistory].</description>
+				</key>
+			</category>
+			<category title="Securitate">
+				<key name="Allowed" file="Wincmd.ini" section="Configuration" default="drive_list" advanced="Yes" version="2.00">
+					<description>Hardiskuri la care este permis accesul -&gt; Restrictionează accesul la hardiscuri!
+Exemplu: Permite accesul la partiţiile = CDE
+\ înseamnă 'Reţeaua de calculatoare'.</description>
+				</key>
+				<key name="RestrictInterface" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Bits Sum" version="3.50">
+					<description>Dezactivare părţi din interfaţa utilizatorului. Construiţi suma următoarelor valori pentru aceste opţiuni:
+	1= Meniu Start.
+	2= Linia de comandă.
+	4= Schimbarea barei de butoane.
+	8= Meniu pe Clic dreapta pentru unitaţile de disc.
+	16= Meniu  pe Clic dreapta pentru fişiere.
+	32= Schimbarea Directoarelor favorite.
+	64= FTP (CTRL+N, CTRL+F).
+	128= Tasta ENTER (rulează programe, deschide fişiere).
+	256= Module fişiere sistem.</description>
+				</key>
+				<key name="AdminTimeout" file="Wincmd.ini" section="Configuration" default="180" advanced="Yes" version="7.00">
+					<description>Determină după cîte minute de inactivitate tcmadmin.exe (folosit pentru copiere/stergere etc. ca şi admin) este încheiat.
+
+	0= fără întârzieri
+	-1= pentru a inhiba complet copierea ca şi admin.</description>
+				</key>
+				<key name="x64DisableRedirection" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>Setare pe 1, inhibă redirectarea directorului system32 la directorul SysWOW64 bazat pe sistemul Windows 64 (va fi temporar re-conectat în în timpul încărcării modulului).
+
+Atenţie! Din cauza redirectării poate apare funcţionarea instabilă a unor module adiţionale. Folosiţi această cheie cu grijă!</description>
+				</key>
+			</category>
+			<category title="Confirmări">
+				<key name="deleteDirs" file="Wincmd.ini" section="Confirmation" default="1" version="1.30">
+					<description>Întreabă înainte de ştergerea directoarelor ne-vide (1/0).</description>
+				</key>
+				<key name="OverwriteFiles" file="Wincmd.ini" section="Confirmation" default="1" version="1.30">
+					<description>Întreabă înainte de suprascrierea fişierelor (1/0).</description>
+				</key>
+				<key name="OverwriteReadonly" file="Wincmd.ini" section="Confirmation" default="1" version="1.30">
+					<description>Întreabă înainte de suprascrierea/ştergerea fişierelor cu atribut numai citire (1/0).</description>
+				</key>
+				<key name="OverwriteHidSys" file="Wincmd.ini" section="Confirmation" default="1" version="2.11">
+					<description>Întreabă înainte de suprascrierea/ştergerea fişierelor ascunse/sistem (1/0).</description>
+				</key>
+				<key name="MouseActions" file="Wincmd.ini" section="Confirmation" default="1" version="1.30">
+					<description>Întreabă la acţiunile cu mouse-ul apucă&amp;trage&amp;lasă (drag&amp;drop) (1/0).</description>
+				</key>
+				<key name="AppendWarning" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="5.00">
+					<description>Dacă este setat 0, Total Commander nu va arăta un mesaj de avertisment înainte de adăugarea la un fişier.</description>
+				</key>
+			</category>
+			<category title="Mouse">
+				<key name="SingleClickStart" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.51">
+					<description>0= Doublu clic lansează programe şi deschide fişiere (implicit).
+1= Un singur clic lansează programe şi deschide fişiere (stil Win98, WEB).
+2= Un singur clic deschide numai directoarelor, nu fişierelor/programelor sau arhivelor.
+5= Ca şi 1 dar cursorul text nu mai urmează cursorul mouse-ul.
+6= Ca şi 2 dar cursorul text nu mai urmează cursorul mouse-ul.
+
+Nu se pot seta valoarile 2, 5 şi 6 via opţiunilor din casetele de dialog TC!</description>
+				</key>
+				<key name="UseRightButton" file="Wincmd.ini" section="Configuration" default="1" version="1.10">
+					<description>1= Folosirea butonului dreapta pentru selecţii.
+0= Folosirea butonului dreapta al mouse-ul ca şi în Windows standard (arată meniul contextual).</description>
+				</key>
+				<key name="IgnoreWheel" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="3.50">
+					<description>Ignoră roata Intellimouse.</description>
+				</key>
+				<key name="DropExtensions" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>Permite operaţiile drag&amp;drop cu butonul dreapta (1/0).</description>
+				</key>
+			</category>
+			<category title="Tastatură">
+				<category title="General">
+					<key name="CmdUpDown" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.02">
+						<description>Dacă cursorul se află în linia de comandă şi se apasă pe săgeata /Sus/Jos, cursorul merge la poziţia curentă în lista de fişiere(0)sau miscă în sus/jos o linie (1).</description>
+					</key>
+					<key name="MarkDirectories" file="Wincmd.ini" section="Configuration" default="0" version="1.30">
+						<description>Selectează de asemenea şi directoarele (cu +).</description>
+					</key>
+					<key name="CountSpace" file="Wincmd.ini" section="Configuration" default="1" version="5.00">
+						<description>1: Calculează numărul de fişiere la selectarea cu `SPAŢIU`.
+0: Nu calculeză numărul de fişiere (rapid).</description>
+					</key>
+					<key name="SpaceMovesDown" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="4.52">
+						<description>1= La selectarea fişierelor cu &lt;SPAŢIU&gt;, mută cursorul în jos, la următorul fişier (ca şi &lt;INSERT&gt;).</description>
+					</key>
+					<key name="SpecialCursorMovement" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Bits Sum" version="7.00">
+						<description>Mod nou de momportare a cursorului. Suma următoarelor:
+	1: În mod vizualizare complet, săgeata stânga sare la primul fişier şi săgeată dreapta la ultimul.
+	2: În mod vizualizare complet, săgeata stânga sare la un director mai sus, săgeată dreapta deschide sub-directoare/arhive aflate sub cursor.
+	3: Combinaţia 1+2.
+	4: Afişează bara de defilare orizontală în mod de vizualizare coloane particularizate. Dacă această opţiune nu este setată, cursorul va sări numai la primul fişier, dacă bara de defilare orizontală este în poziţia limită-stânga.</description>
+					</key>
+				</category>
+				<section title="Combinaţii de taste" name="Shortcuts" file="Wincmd.ini" version="4.50">
+					<description>Combinaţii de taste definite de utilizator.</description>
+				</section>
+				<section title="Alias" name="Alias" file="Wincmd.ini" version="7.00">
+					<description>Comenzi Alias definite.</description>
+				</section>
+			</category>
+			<category title="Rulare unică">
+				<key name="FirstTime" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="1.10">
+					<description>Dacă este setat 1, arată dialogul configuraţie - 'Aspect' la prima rulare Total Commander. Apoi valoarea va fi setată 0.
+Această cheie e valabilă numai în versiunea neînregistrată!
+
+In old versions of the program the main purpose of this key was displaying the major notes to the current release. This function does not exist in new versions.</description>
+				</key>
+				<key name="FirstTimeUnpack" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="2.00">
+					<description>Dacă este setat 1, prima dată va încerca să decomprime arhiva cu ALT+F9 se va arăta un ajutor care va indica cum se pot extrage numai o parte dintre fişiere. Apoi valoarea va fi setată 0.</description>
+				</key>
+				<key name="FirstTimeZIP" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="1.30">
+					<description>Dacă este setat 1, arată dialogul de configurare cpmprimatoare la prima încercare de decomprimare a arhivei cu ALT+F9. Apoi valoarea va fi setată 0.</description>
+				</key>
+				<key name="FirstFTPSync" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>Dacă este setat 1, arată avertizarea despre dată/timp la încărcarea fişierelor pe serverele FTP la prima încercare de sincronizare cu FTP. Apoi valoarea va fi setată la 0.</description>
+				</key>
+				<key name="UnicodeListWarn" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>Avertizează dacă lista de fişiere conţine caractere Unicode din din diferite pagini de cod, ex. Rusian când se foloseşte codul de pagină Western. O parte din fişiere nu pot fi manipulate în câteva funcţii. Exemplu: comprimare, FTP sau scriere pe CD/DVD.</description>
+				</key>
+			</category>
+			<category title="Tranfer parametri Program">
+				<key name="LongNamesToDos" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="4.52">
+					<description>Transferă numele scurt/lung de fişiere spre consola DOS, la utilizarea scurtăturii Shift+Enter (0/1).</description>
+				</key>
+				<key name="LastRunAs" file="Wincmd.ini" section="Configuration" default="Administrator" advanced="Yes" version="7.00">
+					<description>Ultimul nume de utilizator, care a fost folosit în funcţia  cm_OpenAsUser. Valoarea este atribuită automat.</description>
+				</key>
+			</category>
+			<category title="Diverse">
+				<key name="AppendLnk" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>Fişiere de legătură (*.lnk) vor fi create după cum urmează:
+	0: file.ext -&gt; file.lnk
+	1: file.ext -&gt; file.ext.lnk</description>
+				</key>
+				<key name="SearchInFiles" file="Wincmd.ini" section="Configuration" default="*.ext" advanced="Yes" version="5.50">
+					<description>Aici puteţi specifica alte tipuri de arhive în care doriţi ca TC să caute cu funcţia de căutare complexă.
+Exemplu: SearchInFiles=*.EXE *.JAR</description>
+				</key>
+				<key name="SoundDelay" file="Wincmd.ini" section="Configuration" default="10" version="5.00">
+					<description>Timp (în secunde) necesar pentru operaţiile cu fişiere pentru semnalarea "operaţie încheiată" prin rularea sunetului asociat.</description>
+				</key>
+				<key name="OldStyleDir" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>Foloseşte SetCurDir pentru a verifica existenţa directorului.
+0= Foloseşte FindFirstFile direct.</description>
+				</key>
+				<key name="FlushFile" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+					<description>Permite utilizatorului să comute pornit/oprit flush înaintea închiderii fişierelor.
+	0: închis;
+	1: la copiere;
+	2: la decomprimare;
+	3: la copiere şi decomprimare.
+Este foarte recomandată decuplarea acestui mod, altfel TC va rula foarte încet.</description>
+				</key>
+				<key name="WipeDir" file="Wincmd.ini" section="Configuration" default="%temp%\_tc0\" advanced="Yes" dialog="Open Folder" version="7.00">
+					<description>Calea la directorul temp folosit de TC (şi pentru a elimina la redeschiderea TC). Este setat automat. Ignorată dacă nu conţine $wc sau (în TC7) \_tc.</description>
+				</key>
+				<key name="BrushForCursor" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>Configurează această opţiune pe 0, dacă Total Commander lasă o urmă de chenar în jurul fişierelor ne-selectate când se mişcă cursorul (bug la placa video).</description>
+				</key>
+				<key name="Firstmnu" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>Contor intern. Acum nu conţine nici o informaţie folositoare şi nu afectează nici o configuraţie. Este rezervat pentru utilizare în viitor pentru a contoriza de câte zile se foloseşte Total Commander.</description>
+				</key>
+				<key name="Test" file="Wincmd.ini" section="Configuration" default="128" advanced="Yes" version="5.50">
+					<description>Această cheie folosită intern pentru testarea dacă fişierul 'ini' se poate suprascrie. Dacă nu, un mesaj de eroare va fi afişat.</description>
+				</key>
+			</category>
+		</category>
+		<category title="Comprimatoare">
+			<category title="General">
+				<key name="AlwaysPackInBackground" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="6.50">
+					<description>1= Comprimă folosind utilitarul Zip în fundal.
+2= Zip+utilitare externe de împachetat în fundal.
+3= Ca şi 2, dar rulează utilitarele de împachetare externe în fundal.</description>
+				</key>
+				<key name="AlwaysUnpackInBackground" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="6.50">
+					<description>1= Despachetează în fundal.
+2= Despachetează+utilitare de despachetat în fundal.
+3= Ca şi 2, dar rulează utilitarele de despachetare externe în fundal.</description>
+				</key>
+				<key name="ZIPlikeDirectory" file="Wincmd.ini" section="Packer" default="1" version="1.10">
+					<description>Tratează fişierele arhivă ca pe directoare.</description>
+				</key>
+				<key name="ExpertMode" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" version="3.51">
+					<description>1: rulează fişierele direct în interiorul arhivelor cu ENTER; 0: arată caseta proprietăţi.</description>
+				</key>
+				<key name="LastUsedPacker" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>Ultimul comprimator folosit.
+Arată tipul de comprimator care a fost folosit la ultima operaţie de comprimare (ex: 0=ZIP; 2=ARJ; 3=LHA; 4=RAR; 5=UC2 etc.).</description>
+				</key>
+				<key name="DefPlugin" file="Wincmd.ini" section="Packer" default="cab" version="6.00">
+					<description>Ultimul modul packer (WDX) folosit.</description>
+				</key>
+				<key name="ZipAnsiNames" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" version="7.00">
+					<description>1:Salvează numele fişierului cu caractere ANSI (Windows) în loc de OEM (DOS) în arhivă. Reţineţi că unele comprimatoare nu pot prelucra fişiere cu nume care conţin diacritice.</description>
+				</key>
+				<key name="ZIPDirectoryOfFile" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>Stochează şi calea fişierelor.</description>
+				</key>
+				<key name="ZIPRecurseSubdirs" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>Stochează subiderectoare în directoare.</description>
+				</key>
+				<key name="ExtractPathInZIP" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>Decomprimă şi calea fişierelor.</description>
+				</key>
+				<key name="UnZIPOverwrite" file="Wincmd.ini" section="Packer" default="0" version="2.00">
+					<description>Totdeauna suprascrie la decomprimare</description>
+				</key>
+			</category>
+			<category title="ZIP - comprimator">
+				<key name="InternalZip" file="Wincmd.ini" section="Packer" default="1" version="2.11">
+					<description>Utilizează comprimator ZIP intern.</description>
+				</key>
+				<key name="InternalUnzip" file="Wincmd.ini" section="Packer" default="1" version="1.10">
+					<description>Utilizează Unzip intern.</description>
+				</key>
+				<key name="ZIP" file="Wincmd.ini" section="Packer" default="pkzip.exe" dialog="Open File" version="1.10">
+					<description>Calea/numele de fişier pentru 'Pkzip'.</description>
+				</key>
+				<key name="UnZIP" file="Wincmd.ini" section="Packer" default="pkunzip.exe" dialog="Open File" version="1.10">
+					<description>Calea/numele de fişier pentru 'Pkunzip'.</description>
+				</key>
+				<key name="InternalZipRate" file="Wincmd.ini" section="Packer" default="6" version="2.11">
+					<description>Rata de compresie pentru comprimatorul ZIP intern (0=fără compresie, 1=rapid, 9=cea mai bună).</description>
+				</key>
+				<key name="InternalzipTemp" file="Wincmd.ini" section="Packer" default="%temp%" version="2.11">
+					<description>Calea Temporară pentru comprimatorul ZIP intern.</description>
+				</key>
+				<key name="OpenPartial" file="Wincmd.ini" section="Packer" default="0" version="5.50">
+					<description>1: Deschide arhivele parţiale ZIP, ex. parţial descărcate</description>
+				</key>
+				<key name="nodelete" file="Wincmd.ini" section="Packer" default="0" version="5.50">
+					<description>1: Nu şterge fişierele extrase cu suma de control CRC eronată.</description>
+				</key>
+				<key name="PluginOverrideZip" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" version="7.00">
+					<description>1: Permite utilizarea unui modul adiţional pentru arhive format ZIP.
+0: Decomprimatorul intern are prioritate.</description>
+				</key>
+				<key name="RemovableInTemp" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" version="4.00">
+					<description>1: Total Commander va modifica arhivele ZIP de discurile amovibile astfel: crează o arhivă nouă în directorul TEMP, şterge arhiva veche apoi copiază arhiva nouă pe discul amovibil.
+0: pe unităţile de dischetă.
+1, pe unităţile media mari (ZIP, JAZ) direct pe acel suport, fără tranzitare prin directorul TEMP.</description>
+				</key>
+				<key name="VerifyZIP" file="Wincmd.ini" section="Packer" default="1" advanced="Yes" version="2.11">
+					<description>1= Testează arhivele ZIP după comprimare. (Durează mai mult)
+0= Nu va efectua testarea.</description>
+				</key>
+				<key name="Zip83Name" file="Wincmd.ini" section="Packer" default="0" version="3.00">
+					<description>Comprimă fişierele cu numele lor alternativ (8.3), şi nu va folosi numele lor alternativ (1/0).</description>
+				</key>
+				<key name="ZipSetDateToNewest" file="Wincmd.ini" section="Packer" default="0" version="3.00">
+					<description>La comprimare cu comprimatorul intern ZIP, data arhivei va fi a fişierului cel mai nou (1/0).</description>
+				</key>
+				<key name="ZipMagic" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="3.50">
+					<description>Omite detectarea ZipMagic la deschiderea arhivelor ZIP (1/0).</description>
+				</key>
+				<key name="zipnt" file="Wincmd.ini" section="Packer" default="0" version="2.00">
+					<description>Utilizează Info-zip pentru NT:
+	0= nu;
+	1= Zip-NT 2.0.1 (comprimat prin Total Commander);
+	2= Versiune necunoscută.</description>
+				</key>
+			</category>
+			<category title="Alte comprimatoare">
+				<key name="ARJ" file="Wincmd.ini" section="Packer" default="arj.exe" dialog="Open File" version="1.10">
+					<description>Cale/numele de fişier pentru comprimatorul ARJ.</description>
+				</key>
+				<key name="ARJlongnames" file="Wincmd.ini" section="Packer" default="0" version="3.50">
+					<description>1: Transferă numele lung de fişiere către ARJ la comprimare (funcţionează numai cu 2.55 sau mai recent, pentru DOS/Win9x).</description>
+				</key>
+				<key name="ACE" file="Wincmd.ini" section="Packer" default="ace.exe" dialog="Open File" version="3.50">
+					<description>Cale/numele de fişier pentru comprimatorul ACE.</description>
+				</key>
+				<key name="LHA" file="Wincmd.ini" section="Packer" default="lha.exe" dialog="Open File" version="1.10">
+					<description>Cale/numele de fişier pentru comprimatorul LHA.</description>
+				</key>
+				<key name="RAR" file="Wincmd.ini" section="Packer" default="rar.exe" dialog="Open File" version="2.00">
+					<description>Cale/numele de fişier pentru comprimatorul RAR.</description>
+				</key>
+				<key name="UC2" file="Wincmd.ini" section="Packer" default="uc2.exe" dialog="Open File" version="2.00">
+					<description>Cale/numele de fişier pentru comprimatorul UC2.</description>
+				</key>
+				<key name="InternalUnarj" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>Utilizează decomprimare ARJ internă.</description>
+				</key>
+				<key name="InternalUnace" file="Wincmd.ini" section="Packer" default="1" version="3.50">
+					<description>Utilizează decomprimare ACE internă.</description>
+				</key>
+				<key name="InternalUnlzh" file="Wincmd.ini" section="Packer" default="1" version="2.00">
+					<description>Utilizează decomprimare LHA internă.</description>
+				</key>
+				<key name="InternalUnrar" file="Wincmd.ini" section="Packer" default="1" version="3.50">
+					<description>Utilizează decomprimare RAR internă.</description>
+				</key>
+				<key name="LinuxCompatible" file="Wincmd.ini" section="Packer" default="1" version="5.00">
+					<description>1: Creare arhivă Linux-compatibilă TAR.
+0: Crează arhiva TAR compatibilă SunOS.</description>
+				</key>
+			</category>
+		</category>
+		<category title="Module adiţionale">
+			<category title="General">
+				<key name="AutoInstallPlugins" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="6.50">
+					<description>Dacă este setat pe 0, auto-instalarea pluginurilor la intrarea în arhiva de pluginuri  este inhibată.</description>
+				</key>
+				<key name="PluginBaseDir" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" dialog="Open Folder" version="6.50">
+					<description>Locaţie standard unde se vor instala modulele prin auto-instalare. TC adaugă un director implicit specific tipului de modul.
+
+Exemplu: pluginbasedir=%COMMANDER_PATH%\plugins
+Calea propus[ pentru instalarea modulului WCX sample_packer va fi:
+%COMMANDER_PATH%\plugins\wcx\sample_packer\</description>
+				</key>
+				<key name="MrtReplacePluginChars" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+					<description>0: Inhibă auto-înlocuirea caracterelor invalide din modulele adiţionale în utilitarul multi-redenumire (ex ':' -&gt; '.') -&gt; utilizatorul va trebui să sesizeze singur acest aspect.</description>
+				</key>
+			</category>
+			<section title="Module comprimare, Packer, WCX" name="PackerPlugins" file="Wincmd.ini" dialog="Dialogs List" version="4.00">
+				<description>Lista tuturor modulelor WDX (packer) instalate (vedeţi Configuraţie - Packer).</description>
+			</section>
+			<section title="Module sistem, System, WFX" name="FileSystemPlugins" file="Wincmd.ini" dialog="Open File" version="5.50">
+				<description>Lista tuturor modulelor WFX (sistem) instalate.</description>
+			</section>
+			<section title="Module vizualizatoare, Lister, WLX" name="ListerPlugins" file="Wincmd.ini" dialog="Open File" version="5.51">
+				<description>Lista tuturor modulelor WLX (lister) instalate.</description>
+			</section>
+			<section title="Module Conţinut, Content, WDX" name="ContentPlugins" file="Wincmd.ini" dialog="Open File" version="6.50">
+				<description>Lista tuturor modulelor WDX (content) instalate.</description>
+			</section>
+		</category>
+		<category title="FTP">
+			<category title="General">
+				<key name="ConnectRetries" file="Wcx_ftp.ini" section="General" default="10" version="4.00">
+					<description>Număr de re-încercări de conectare anonime.</description>
+				</key>
+				<key name="WaitDelay" file="Wcx_ftp.ini" section="General" default="5" version="4.00">
+					<description>Timp de aşteptare între două conectări (în secunde).</description>
+				</key>
+				<key name="transfermode" file="Wcx_ftp.ini" section="General" default="I" version="3.52">
+					<description>Mod transfer la pornirea Total Commander:
+	A = text;
+	I = binar;
+	X = automat.</description>
+				</key>
+				<key name="Ascii" file="Wcx_ftp.ini" section="General" default="*.txt *.htm* *.pas *.c *.cpp *.h *.bas *.tex" version="4.00">
+					<description>Extensia fişierelor ce ar trebui să fie recunoscute ca fişier text.
+Din oficiu (implicit): *.txt *.htm *.html *.pas *.c *.cpp *.h *.bas *.tex</description>
+				</key>
+				<key name="FtpOpenIn" file="Wcx_ftp.ini" section="General" default="0" version="7.00">
+					<description>Deschide o conexiune FTP nouă:
+	0 = în fereastra activă;
+	1 = în fereastra stângă;
+	2 = în fereastra dreaptă.</description>
+				</key>
+				<key name="LogFile" file="Wcx_ftp.ini" section="General" default="%TEMP%\tcftp.log" dialog="Open File" version="4.00">
+					<description>Salvează o înregistrare mator în fişier .log cu nume specificat.</description>
+				</key>
+				<key name="LogFile2" file="Wcx_ftp.ini" section="General" default="path\filename" advanced="Yes" dialog="Open File" version="5.00">
+					<description>Salvează o înregistrare mator în fişier .log dar numai cu cele mai importante date (fişiere transferate).</description>
+				</key>
+				<key name="FtpInBackground" file="Wcx_ftp.ini" section="General" default="0" version="4.52">
+					<description>If =1, Transferul FTP fa fi totdeauna lansat în fundal (ca o conexiune separată).</description>
+				</key>
+				<key name="pasvmode" file="Wcx_ftp.ini" section="implicit" default="0">
+					<description>1: Totdeauna foloseşte modul pasiv la conexiunile noi.
+0: Totdeauna foloseşte modul activ.</description>
+				</key>
+				<key name="PortFrom" file="Wcx_ftp.ini" section="General" default="10000" version="7.00">
+					<description>Limita minimă pentru domeniul porturilor, în cazul conexiunilor PORT utilă în cazul operaţiunilor de tranzitare a unor paravane de securitate (firewalls).
+Limita domeniului este folosită doar dacă ambele margini (PortFrom şi PortTo) sunt definite. Implicit limitarea este dezactivată.</description>
+				</key>
+				<key name="PortTo" file="Wcx_ftp.ini" section="General" default="11000" version="7.00">
+					<description>Limita maximă pentru domeniul porturilor, în cazul conexiunilor PORT.
+Limita domeniului este folosită doar dacă ambele margini (PortFrom şi PortTo) sunt definite. Implicit limitarea este dezactivată.</description>
+				</key>
+				<key name="ModeZ" file="Wcx_ftp.ini" section="General" default="1" version="7.00">
+					<description>Activează/dezactivează tranfer comprimat:
+	0: dezactivează;
+	1: activează pentru Internet (nu în reţeaua locală);
+	2: activează inclusiv pentru reţeaua locală (LAN).</description>
+				</key>
+				<key name="AutoResume" file="Wcx_ftp.ini" section="General" default="30" version="7.00">
+					<description>Timp în secunde până Total Commander încearcă să restabilească conexiunea, şi reluarea transferului de fişiere. Setaţi -1 pentru dezactivare.</description>
+				</key>
+				<key name="E-Mail" file="Wcx_ftp.ini" section="General" default="xyz@server.com" version="3.50">
+					<description>Adresa e-Mail folosită ca parolă pentru acces anonim la conexiune.</description>
+				</key>
+				<key name="FtpShowHidden" file="Wcx_ftp.ini" section="General" default="0" version="4.54">
+					<description>1: Verificarea opţiunii "FTP arată fişierele cu atribut ascuns" la pornire (1/0).</description>
+				</key>
+				<key name="Lastmd5" file="Wincmd.ini" section="Configuration" default="0" version="7.00">
+					<description>Dacă este setat 1, va utiliza formatul MD5 în loc de SFV, la crearea sumei de control.</description>
+				</key>
+				<key name="ListName" file="Wincmd.ini" section="Configuration" default="%COMMANDER_PATH%\ftplist.txt" version="7.00">
+					<description>Numele ultimei liste de descărcări folosite la funcţia "descărcare mai târziu" şi "descărcare ftp din listă".</description>
+				</key>
+				<key name="LowercaseUpload" file="Wcx_ftp.ini" section="implicit" default="0">
+					<description>1: Convertire nume de fişier în minuscule pe timpul expedierii.
+0: Expediere nume de fişiere aşa cum sunt pe disc.</description>
+				</key>
+				<key name="MDTM" file="Wcx_ftp.ini" section="General" default="3" dialog="Bits Sum" version="7.00">
+					<description>Utilizează comanda MDTM pentru marca temporală la expedierea fişierelor (acum suportat numai în funcţia de SYNCRONIZARE DIRECTOARE). Este suma a:
+	1: Activează/dezactivează funcţia
+	2: Trimite marca temporală în format Universal (GMT). Majoritatea serverelor aşteaptă acest mod în loc de timpul local.</description>
+				</key>
+				<key name="AutoDisconnect" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="4.01">
+					<description>Stabilirea acţiunii în cazul când utilizatorul încearcă să se conecteze la alt serve în aceeaşi fereastră, în timp ce o altă conexiune este activă:
+	0: întreabă utilizatorul (implicit);
+	1: deconectează conexiunea anterioară;
+	2: păstrează conexiunea anterioară.</description>
+				</key>
+				<key name="GetModeFromLocalFile" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="6.52">
+					<description>1: Extensia fişierului local determină dacă fişierul este transferat în mod automat ca fişier binar sau text (implicit: extensia fişierului de la distanţă).</description>
+				</key>
+				<key name="Httptimeout" file="Wcx_ftp.ini" section="General" default="30" advanced="Yes" version="4.53">
+					<description>Aşteaptă xx secunde pentru a răspunde de pe un server WEB pentru descărcări prin protocolul HTTP.</description>
+				</key>
+				<key name="KeepAliveTransfer" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="7.00">
+					<description>1: Trimite indicator de activitate în timpul transferului. Aceasta va trimite un caracter de linie nouă la managerul de control al conexiunii pentru a preveni întreruperea conexiunii datorată paravanelor de securitate (firewall/gateway). Setare individualizată per server (ulterior nu va funcţiona BTM - Background Transfer Manager).
+Notaţi că această opţiune va crea confuzii pe unele servere FTP, putând fi cauza în cazul frecventelor pierderi ale conexiunii.</description>
+				</key>
+				<key name="PreferIPv6" file="Wcx_ftp.ini" section="General" default="-1" advanced="Yes" version="6.52">
+					<description>-1 IPv6 dezactivat (implicit).
+1 preferă IPv6 pentru servere care suportă IPv4 şi IPv6.
+0 preferă IPv4 (adrese normale de Internet).
+
+Lucrează numai sub Win XP.</description>
+				</key>
+				<key name="PreventFEAT" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="7.00">
+					<description>1: Nu va trimite comanda FEAT (facilităţi suportate) către servere.
+Unele proxi par să fie suspendate când această comandă este expediată.</description>
+				</key>
+				<key name="sslwarn" file="Wcx_ftp.ini" section="General" default="1" advanced="Yes" version="7.00">
+					<description>0: Inhibă avertizarea despre certificatele SSL invalide. TC va afişa în continuare o iconiţă cu o casetă roşie.</description>
+				</key>
+				<key name="TcpKeepAlive" file="Wcx_ftp.ini" section="General" default="0" advanced="Yes" version="6.02">
+					<description>1: Utilizează protocolul TCP pentru menţinerea în activitate a conexiunii: util pentru unele paravane/rutere dacă conexiunea se întrerupe des.</description>
+				</key>
+				<key name="UploadBlockSize" file="Wcx_ftp.ini" section="General" default="512" advanced="Yes" version="6.03">
+					<description>Mărimea buffer-ului pentru expediţii. În reţelele rapide, puteţi încerca mărimi ca 1492 sau 8192.</description>
+				</key>
+				<key name="WarnWrongMode" file="Wcx_ftp.ini" section="General" default="1" advanced="Yes" version="4.00">
+					<description>1: Avertizează dacă fişierele binare sunt expediate/descărcate în mod text.
+0: Fără avertizare (ca şi Total Commander 3.5x).</description>
+				</key>
+				<key name="Zlibratiobin" file="Wcx_ftp.ini" section="General" default="3" advanced="Yes" version="6.54">
+					<description>0..9: Biblioteca Zip de compresie pentru expediţii (fişiere binare). 0=nimic, 1=cel mai rapid, 9=cel mai puternic.</description>
+				</key>
+				<key name="Zlibratiotxt" file="Wcx_ftp.ini" section="General" default="3" advanced="Yes" version="6.54">
+					<description>0..9: Biblioteca Zip de compresie pentru expediţii (fişiere text). Puteţi folosi o valoare mare, pentru că fişierele text de obicei sunt comprimare cel mai bine.
+Atenţie: Parvanul Cisco PIX nu agrează valoarea 1 şi întrerupe expedierea!</description>
+				</key>
+				<key name="PreserveDates" file="Wcx_ftp.ini" section="implicit" default="1">
+					<description>La descărcarea de pe servere FTP:
+	1: păstrează data/ora fişierului de pe server;
+	0: schimbă data/ora fişierului.</description>
+				</key>
+				<key name="SpeedLimit" file="Wincmd.ini" section="Configuration" default="5.0" version="7.00">
+					<description>Limita Maximă a vitezei de transfer (inclusiv operaţia de copiere) în BTM (background transfer manager).</description>
+				</key>
+				<key name="Wsock32" file="Wincmd.ini" section="Configuration" default="%windir%\wsock32.dll" advanced="Yes" dialog="Open File" version="3.50">
+					<description>Definirea locaţiei bibliotecii Socket pentru ftp (32 bit).</description>
+				</key>
+			</category>
+			<category title="Conexiuni">
+				<section title="URL" name="OldConnections" file="Wcx_ftp.ini" version="3.50">
+					<description>Această secţiune conţine lista cu conexiunile realizate mai devreme în caseta de dialog Conexiune nouă.</description>
+				</section>
+				<category title="Conexiuni Predefinite">
+					<section title="Lista Conexiunilor" name="Connections" file="Wcx_ftp.ini" version="3.50">
+						<description>Această secţiune conţine conexiuni ftp predefinite.</description>
+					</section>
+					<section title="[%Connection_Name%]" name="[%Connection_Name%]" file="Wcx_ftp.ini" version="3.50">
+						<description>Fiecare conexiune are toate sau doar unele din următoarele setări:
+
+Anonim
+	1: Conexiune ca Anonim.
+	0: Conexiune cu parolă.
+
+Director
+	Director pe server, care va fi setat după conectare.
+
+Director Local
+	Director pe calculatorul local, care va fi setat după conectare.
+
+Paravan (FireWall)
+	Utilizează serverul (cu numele specificat) configurat în secţiunea [Paravan/Firewall] ca firewall/proxy.
+
+Gazdă
+	Numele serverului, dacă este necesar portul (separat cu virgulă).
+	Exemplu: ftp.site1.com:2121
+
+Parola
+	Parola, în clar (amestecată, NEcriptată, imposibil din principiu!)
+
+Cont
+	Parola cont, trebuie setată manual prin copierea din linia cu parola
+
+ModPasiv
+	0: Utilizează modul activ (comanda PORT).
+	1: Utilizează modul pasiv (comanda ASV ) - util în cazul unor paravane/firewalls.
+
+Nume utilizator
+	Numele utilizatorului pentru serverul definit.
+
+Tip Gazdă
+	Tip de server gazdă definit de utilizator.
+
+Comanda de iniţializare
+	Comanda trimisă servărului imediat după conectare.
+
+Menţinere activitate (KeepAlive)
+	Menţinerea activităţii repetă la un interval în secunde, urmat de altă comandă, ex. 90,NOOP.
+
+Director Cache
+	0: Re-citeşte directorul de fiecare dată când este vizitat
+	1: Păstrează conţinutul vizitei  în cache</description>
+					</section>
+				</category>
+			</category>
+			<category title="Tipuri Servere">
+				<section title="[%Server_Type%]" name="[%Server_Type%]" file="Wcx_ftp.ini" version="7.00">
+					<description>Definire Server.</description>
+				</section>
+			</category>
+			<section title="Alias Servere" name="CertAlias" file="Wcx_ftp.ini" version="7.00">
+				<description>Această secţiune stochează alias-ul serverului când utilizatorul alege conexiunea sigură server FTPS (FTP peste SSL) prin clic pe iconiţa dulap.
+
+Exemplu: server.com=hostcompany.com
+Utilizatorul se conectează la server.com, dar certificatul aparţine hostcompany.com</description>
+			</section>
+			<section title="Paravan" name="Firewall" file="Wcx_ftp.ini" version="3.50">
+				<description>Setări pentru paravan (firewall) sau server proxy.
+Fiecare paravan are una din setările următoare:
+
+host=  Nume şi număr port al paravanului (firewall).
+
+password=  Parola paravan (nu este necesară la toate paravanele/firewalls).
+
+username=  Nume utilizator pentru Paravan/Firewall (nu este necesar la toate paravanele/firewalls).
+
+Method=
+	0= Trimite comanda USER user@hostname
+	1= Trimite comanda SITE (with logon)
+	2= Trimite comanda &amp;OPEN
+	3= USER user@firewalluser@hostname / PASS pass@firewallpass
+	4= Transparent
+	5= HTTP Proxy cu suport FTP
+	6= SOCKS4
+	7= SOCKS5 (autentificare de bază)
+	8= USER user@hostname firewalluser PASS pass ACCT firewallpass
+	9= HTTP CONNECT
+
+implicit=
+	1= Foloseşte totdeauna paravanul la conexiunile noi.
+	0= Nu va folosi paravanul la conexiunile noi.
+	Această opţiune se va schimba automa de fiecare dată când conexiunea este salvată.
+
+Există următoarele trei opţiuni pentru transferul HTTP:
+httphost= Nume şi număr de port pentru paravan/firewall (http).
+httpuser= Nume utilizator (http).
+httppass= Parola (http).</description>
+			</section>
+			<section title="Fus orar" name="TimeZone" file="Wcx_ftp.ini" version="7.00">
+				<description>Această secţiune salvează fusul orar pentru fiecare site (pentru sincronizare fişiere/directoare).</description>
+			</section>
+		</category>
+		<separator title="--------"/>
+		<category title="Lister">
+			<category title="General">
+				<key name="TabWidth" file="Wincmd.ini" section="Lister" default="8" advanced="Yes" version="2.00">
+					<description>Lăţime tabulatori (implicit: 8).</description>
+				</key>
+				<key name="textwidth" file="Wincmd.ini" section="Lister" default="81" version="1.61">
+					<description>Lăţime Text  (în caractere).</description>
+				</key>
+				<key name="binwidth" file="Wincmd.ini" section="Lister" default="75" version="1.61">
+					<description>Lăţime pentru afişarea binară</description>
+				</key>
+				<key name="Wrap" file="Wincmd.ini" section="Lister" default="1" version="3.50">
+					<description>Activează-dezactivează afişarea pe mai multe rânduri (1)-(0).</description>
+				</key>
+				<key name="IView" file="Wincmd.ini" section="Lister" default="1" version="4.00">
+					<description>Utilizează Irfanview/Xnview pentru încărcarea altor imagini decât JPG etc.</description>
+				</key>
+				<key name="IViewPath" file="Wincmd.ini" section="Lister" default="Path" dialog="Open File" version="4.00">
+					<description>Calea spre Irfanview/Xnview EXE ..</description>
+				</key>
+				<key name="IviewAdditionalTypes" file="Wincmd.ini" section="Lister" default="*.xyz" advanced="Yes" version="6.50">
+					<description>Alte tipuri de fişiere ce ar putea fi transferate spre Irfanview/Xnview pentru conversie. Exemplu: *.xyz *.abc
+
+Dacă este un tip deja suportat listat aici, ex. *.jpg, atunci fişierul nu va fi detectat prin conţinut. Următoarele tipuri de fişiere sunt transferate spre Irfanview/Xnview cu sau fără aceste opţiuni:
+gif, jpg, jpeg, jfif, tga, tif, tiff, pcx, png, ani, acr, cam, clp, cpt, cur, dcx, dib, eps, g3, iff, img, lbm, lwf, pbm, pgm, pcd, ppm, psd, psp, ps, ras, rle, sfw, iw44, djvu, rgb, dcm, acr, wbmp, mos, kdc, xbm, xpm, swf, fpx, sgi, jp2, j2k</description>
+				</key>
+				<key name="SearchGoBack" file="Wincmd.ini" section="Lister" default="3" version="4.00">
+					<description>Număr de linii la care va fi afişat textul găsit în timpul unei căutări.</description>
+				</key>
+				<key name="CenterBitmap" file="Wincmd.ini" section="Lister" default="0" version="7.00">
+					<description>Centrare imagine bitmap în Lister (1/0).</description>
+				</key>
+				<key name="ShrinkBitmap" file="Wincmd.ini" section="Lister" default="0" version="4.00">
+					<description>1: Reduce/Măreşte imaginea la dimensiunea ferestrei.
+2: Reduce pe cele mari, dar nu lărgeşte pe cele mici.</description>
+				</key>
+				<key name="Startup" file="Wincmd.ini" section="Lister" default="0" dialog="Bits Sum" version="1.61">
+					<description>Reţine modul şi fontul folosit la deschiderea lister-ului. Construiţi doar suma pentru a obţine efectul scontat (mod+font).
+Mod:
+	0= auto;
+	1= text;
+	2= binar;
+	3= hex.
+Font:
+	0= auto;
+	16= ANSI;
+	32= ASCII;
+	48= variabil.</description>
+				</key>
+				<key name="BmpStartup" file="Wincmd.ini" section="Lister" default="1" version="4.00">
+					<description>1: Totdeauna încearcă să încarce şi să afişeze fişiere imagine.
+0: Încarcă ca binar, dar afişează doar dacă utilizatorul a ales modul 'picture'.</description>
+				</key>
+				<key name="Multimedia" file="Wincmd.ini" section="Lister" default="1" version="4.00">
+					<description>1: Totdeauna încearcă să încarce şi să ruleze fşierele tip video şi sunet.
+0: Încarcă ca binar, dar rulează dacă utilizatorul a ales modul 'picture'.</description>
+				</key>
+				<key name="RTF" file="Wincmd.ini" section="Lister" default="1" version="5.50">
+					<description>Auto-detectează fişierele RTF .</description>
+				</key>
+				<key name="HTMLasText" file="Wincmd.ini" section="Lister" default="1" version="5.00">
+					<description>Auto-converteşte fişierele HTML în text cu superlegături.</description>
+				</key>
+				<key name="LinkBraces" file="Wincmd.ini" section="Lister" default="1" version="5.00">
+					<description>Vizualizare HTML: Arată superlegatura între paranteze curbe {} .</description>
+				</key>
+				<key name="Caret" file="Wincmd.ini" section="Lister" default="1" version="7.00">
+					<description>Arată referinţa (cursor text), ex. selectarea textului cu tastatura.</description>
+				</key>
+				<key name="HebrewListerFix" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="5.00">
+					<description>Dacă este =1, utilizează corecţia coordonatelor la selectarea unui text în Engleză  în Lister în cazzl Windows în Ebraică.</description>
+				</key>
+			</category>
+			<category title="Font">
+				<key name="Font1" file="Wincmd.ini" section="Lister" default="Arial,-15,b" version="1.61">
+					<description>Font ANSI (lăţime fixă).</description>
+				</key>
+				<key name="Font2" file="Wincmd.ini" section="Lister" default="Arial,-15,b" version="1.61">
+					<description>Font ASCII (lăţime fixă).</description>
+				</key>
+				<key name="Font3" file="Wincmd.ini" section="Lister" default="Arial,-15,b" version="1.61">
+					<description>Font particularizat (include lăţime variabilă).</description>
+				</key>
+			</category>
+			<category title="Poziţie">
+				<key name="X" file="Wincmd.ini" section="Lister" default="24" version="1.61">
+					<description>Poziţia (x).</description>
+				</key>
+				<key name="Y" file="Wincmd.ini" section="Lister" default="8" version="1.61">
+					<description>Poziţia (y).</description>
+				</key>
+				<key name="DX" file="Wincmd.ini" section="Lister" default="750" version="1.61">
+					<description>Lăţime.</description>
+				</key>
+				<key name="DY" file="Wincmd.ini" section="Lister" default="550" version="1.61">
+					<description>Înălţime.</description>
+				</key>
+				<key name="Maximized" file="Wincmd.ini" section="Lister" default="0" version="1.61">
+					<description>Pe tot ecranul</description>
+				</key>
+			</category>
+			<category title="Tipărire">
+				<key name="Font4" file="Wincmd.ini" section="Lister" default="Courier New,18,b" version="4.00">
+					<description>Font Intern Imprimantă (Lăţime fixă).</description>
+				</key>
+				<key name="Font5" file="Wincmd.ini" section="Lister" default="Arial,20" version="4.00">
+					<description>Font Intern Imprimantă (Lăţime variabilă).</description>
+				</key>
+				<key name="LeftMargin" file="Wincmd.ini" section="Lister" default="200" version="4.00">
+					<description>Margine stânga la tipărire (în 1/10 dintr-un mm).</description>
+				</key>
+				<key name="RightMargin" file="Wincmd.ini" section="Lister" default="200" version="4.00">
+					<description>Margine dreapta la tipărire (în 1/10 dintr-un mm).</description>
+				</key>
+				<key name="TopMargin" file="Wincmd.ini" section="Lister" default="200" version="4.00">
+					<description>Margine Sus la tipărire (în 1/10 dintr-un mm).</description>
+				</key>
+				<key name="BottomMargin" file="Wincmd.ini" section="Lister" default="200" version="4.00">
+					<description>Margine Jos la tipărire (în 1/10 dintr-un mm).</description>
+				</key>
+			</category>
+		</category>
+		<category title="Comparare prin conţinut">
+			<key name="CompareCaseSensitive" file="Wincmd.ini" section="Configuration" default="0" version="5.00">
+				<description>1: Compară după conţinut, sensibil la litere scrise cu majuscule.
+0: Ignoră diferenţa minuscule/MAJUSCULE (a şi A considerate drept egale.)</description>
+			</key>
+			<key name="CompareIgnoreRepeatedLines" file="Wincmd.ini" section="Configuration" default="1" version="7.00">
+				<description>0: Compară după conţinut, ignoră rânduri care se repetă de mai multe ori (ex. început/sfârşit). Folositor mai ales pentru compararea de cod sursă şi alte fişiere care conţin text repetat care nu este relevant pentru comparaţie.
+1: Funcţie dezactivată. Folositor pentru liste unde de asemenea rânduri relevante sunt repetate des, ex. liste parţiale.</description>
+			</key>
+			<key name="CompareIgnoreRepSpace" file="Wincmd.ini" section="Configuration" default="1" version="6.00">
+				<description>1: Ignoră număr diferit de spaţii, ex. "a b" este acelaşi cu "a       b".
+0: Detectează numărul diferit de spaţii ca diferenţă.</description>
+			</key>
+			<key name="CompareVertical" file="Wincmd.ini" section="Configuration" default="0" version="5.00">
+				<description>1: Afişează fereastrele utilitarului 'compară după conţinut' una sub alta.
+0: una lângă alta.</description>
+			</key>
+			<key name="CompareSaveOriginal" file="Wincmd.ini" section="Configuration" default="1" advanced="Yes" version="7.00">
+				<description>1: La salvare, fişierul este copiat cu numele filename.bak, apoi datele sunt scrise în filename. Avantaj: fluxurile adiţionale, atributele speciale, etc. sunt conservate.
+0: La salvare, datele sunt scrise în filename.tmp, apoi fişierul filename va fi redenumit în filename.bak, apoi în final filename.tmp va fi redenumit în filename. Avantaj: Fişierul este scris o singură dată, şi va rămâne intact în caz de eroare de scriere.</description>
+			</key>
+			<key name="Comparetool" file="Wincmd.ini" section="Configuration" default="path" advanced="Yes" version="6.54">
+				<description>Configurează un utilitar extern de comparare "Compară după conţinut", ex. WinMerge, Compare It.</description>
+			</key>
+			<key name="CompareSkipFirstL" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+				<description>Sare primele x caractere din stânga în fiecare linie la compararea prin conţinut (ex. data/ora în fişierul martor .log).</description>
+			</key>
+			<key name="CompareSkipFirstR" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" version="7.00">
+				<description>Sare primele x caractere din dreapta în fiecare linie la compararea prin conţinut (ex. data/ora în fişierul martor .log).</description>
+			</key>
+		</category>
+		<category title="Sincronizare directoare">
+			<key name="SyncButtons" file="Wincmd.ini" section="Configuration" default="63" dialog="Bits Sum" version="5.00">
+				<description>Această cheie salvează statusul butoanelor în "sincronizare directoare". Este suma:
+	1: Stânga spre dreapta.
+	2: Fişiere identice.
+	4: Fişiere care nu sunt identice.
+	8: Dreapta spre stânga.
+	16: Fişiere Duble (prezente în ambele părţi).
+	32: Fişiere Unice (prezente doar într-o singură parte).</description>
+			</key>
+			<key name="SyncFlags" file="Wincmd.ini" section="Configuration" default="0" dialog="Bits Sum" version="4.00">
+				<description>Reţine ultimele setări pentru 'Sincronizare directoare'. Următoarele constante au fost adăugate:
+	1: include subdirectoarele;
+	2: comparare prin conţinut;
+	4: ignoră date fişierelor;
+	8: mod asimmetric.</description>
+			</key>
+			<key name="1hourdif" file="Wincmd.ini" section="Configuration" default="0" version="4.53">
+				<description>1: Ignoră diferenţa de timp de exact o oră la compararea fişierelor.
+
+ Acesta este folositoare la compararea între partiţii NTFS şi FAT (sau în timpul aplicării orei de vară!).</description>
+			</key>
+		</category>
+		<category title="Tipărire">
+			<key name="FontName" file="Wincmd.ini" section="PrintDir" default="Arial" dialog="Font" version="5.00">
+				<description>Nume font.
+Tip: Apăsaţi &lt;Ctrl+B&gt; pentru setarea numelui, mărimii fontului dintr-o dată.</description>
+			</key>
+			<key name="FontSize" file="Wincmd.ini" section="PrintDir" default="12" version="5.00">
+				<description>Mărime font.</description>
+			</key>
+			<key name="FontFlags" file="Wincmd.ini" section="PrintDir" default="BI" version="5.00">
+				<description>Stil Font:
+	B= îngroşat;
+	I= înclinat.</description>
+			</key>
+			<key name="HeaderText" file="Wincmd.ini" section="PrintDir" default="%d - Page %p/%t" version="5.00">
+				<description>Formatul antetului de pagină:
+	%d= inserează calea directorului.
+	%D= inserează data sistem.
+	%p= inserează numărul de pagină.
+	%t= inserts total pages number.</description>
+			</key>
+			<key name="HeaderMargin" file="Wincmd.ini" section="PrintDir" default="50" version="5.00">
+				<description>Marginea de sus la tipărire (în 1/10 dintr-un mm).</description>
+			</key>
+			<key name="LeftMargin" file="Wincmd.ini" section="PrintDir" default="200" version="5.00">
+				<description>Marginea din stânga la tipărire (în 1/10 dintr-un mm).</description>
+			</key>
+			<key name="RightMargin" file="Wincmd.ini" section="PrintDir" default="200" version="5.00">
+				<description>Marginea din dreapta la tipărire (în 1/10 dintr-un mm).</description>
+			</key>
+			<key name="BottomMargin" file="Wincmd.ini" section="PrintDir" default="200" version="5.00">
+				<description>Marginea de jos la tipărire (în 1/10 dintr-un mm).</description>
+			</key>
+		</category>
+		<separator title="--------"/>
+		<category title="Setări Redirectate">
+			<key name="AlternateUserIni" file="Wincmd.ini" section="Configuration" default="&lt;somename&gt;" advanced="Yes" version="7.00">
+				<description>Va redirecta stocarea secţiunilor modificabile de către utilizator spre un nume de fişier alternativ.
+Util pentru companii unde wincmd.ini este protejat la scriere.
+
+Toate secţiunile cu excepţia următoarelor sunt redirectate implicit:
+	Configuration
+	Layout
+	Packer
+	Confirmation
+	Extensions
+	Shortcuts
+	PackerPlugins
+	FileSystemPlugins
+	ListerPlugins
+	ContentPlugins
+
+În fiecare secţiune o intrare RedirectSection= va comanda Total Commander-ului redirectarea (sau nu) secţiunii respective către alt fişier ini:
+
+Valori:
+---------
+	RedirectSection=0  -&gt; fără redirectare;
+	RedirectSection=1  -&gt; redirectare spre AlternateUserIni;
+	RedirectSection="ininame" -&gt; redirectare spre un fişier ini specificat (ininame.ini).</description>
+			</key>
+			<category title="Secţiune NE-redirectată implicit">
+				<key name="RedirectSection" file="Wincmd.ini" section="Configuration" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Configuration
+	************
+Values:
+---------
+	RedirectSection=0  -&gt; fără redirectare;
+	RedirectSection=1  -&gt; redirectare spre AlternateUserIni;
+	RedirectSection="ininame" -&gt; redirectare spre un fişier ini specificat (ininame.ini).
+
+Aceste valori se aplică către toate RedirectSection sub toate celelalte secţuni.</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Layout" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Layout
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Packer" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Packer
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Confirmation" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Confirmation
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Extensions" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Extensions
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Shortcuts" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Shortcuts
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="PackerPlugins" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	PackerPlugins
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="FileSystemPlugins" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	FileSystemPlugins
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="ListerPlugins" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	ListerPlugins
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="ContentPlugins" default="0" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	ContentPlugins
+	************</description>
+				</key>
+			</category>
+			<category title="Secţiuni redirectate implicit">
+				<key name="RedirectSection" file="Wincmd.ini" section="Left" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Left
+	************
+Valori:
+---------
+	RedirectSection=0  -&gt; fără redirectare;
+	RedirectSection=1  -&gt; redirectare către AlternateUserIni;
+	RedirectSection="ininame" -&gt; redirectare către fişierul .ini specificat.
+
+Aceste valori se aplica toturor secţiunilor redirectate din toate celelalte secţiuni.</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Right" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Right
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Lefttabs" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Lefttabs
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Righttabs" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Righttabs
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Colors" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Colors
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Buttonbar" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Buttonbar
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Command line history" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Command line history
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="DriveHints" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	DriveHints
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Lister" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Lister
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="CustomFields" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	CustomFields
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="HintsCustomField" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	HintsCustomField
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="OverwriteCustomField" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	OverwriteCustomField
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="CustomFields_PluginName" default="1" advanced="Yes" dialog="Open File">
+					<description>
+	CustomFields_PluginName
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="LeftHistory" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	LeftHistory
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="RightHistory" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	RightHistory
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="MkDirHistory" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	MkDirHistory
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="SyncOptions" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	SyncOptions
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Tabstops" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Tabstops
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="attrplugin" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	attrplugin
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Alias" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Alias
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="User" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	User
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="DirMenu" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	DirMenu
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Searches" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Searches
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="SearchName" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	SearchName
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="SearchIn" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	SearchIn
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="SearchText" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	SearchText
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="Selection" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Selection
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="RenameTemplates" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	RenameTemplates
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="RenameSearchFind" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	RenameSearchFind
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="RenameSearchReplace" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	RenameSearchReplace
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="PrintDir" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	PrintDir
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="SplitPerFile" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	SplitPerFile
+	************</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="[%Screen_Resolution%]" default="1" advanced="Yes" dialog="Open File" version="7.00">
+					<description>
+	Screen resolution-dependent data
+	************
+
+"Configuration Editor" detectează automat numele actual al secţiunii.</description>
+				</key>
+				<key name="RedirectSection" file="Wincmd.ini" section="AllResolutions" default="1" advanced="Yes" version="7.00">
+					<description>
+	AllResolutions
+	************
+
+Notă: Utilizată numai dacă ResolutionSpecific=0.</description>
+				</key>
+			</category>
+		</category>
+		<separator title="--------"/>
+		<category title="Alte setări">
+			<category title="Meniu Start şi Directoare favorite">
+				<section title="Meniu Start" name="User" file="Wincmd.ini" dialog="Open File" version="1.10">
+					<description>Această secţiune conţine intrările meniului Start al Total Commander-ului, fiecare intrare fiind formată din următoarele chei:
+	menuxx = Titlu.
+	cmdxx = Comanda.
+	paramxx = Parametri.
+	pathxx = Calea la pornire.
+	iconicxx = 1=Lansare minimizat, -1=maxmizat, 0=normal.
+	keyxx = Scurtătura (combinaţii de taste).</description>
+				</section>
+				<section title="Meniu Directoare favorite" name="DirMenu" file="Wincmd.ini" dialog="Open Folder" version="3.50">
+					<description>Această secţiune conţine intrările meniului Directoare favorite al Total Commander-ului, fiecare intrare fiind formată din următoarele chei:
+	menuxx = Titlu.
+	cmdxx = Comanda.
+	pathxx = Calea spre directorul destinaţie.</description>
+				</section>
+			</category>
+			<category title="Secţiuni istoric">
+				<section title="Istoric linie de comandă" name="Command line history" file="Wincmd.ini" dialog="Open File" version="1.20">
+					<description>Lista ultimelor comenzi utilizate.</description>
+				</section>
+				<section title="Selecţii" name="Selection" file="Wincmd.ini" version="3.00">
+					<description>Ultimele caractere generice pentru selecţii (+Gri).</description>
+				</section>
+				<section title="Căutare" name="SearchName" file="Wincmd.ini" version="3.00">
+					<description>Ultimele măşti de căutare utilizate.</description>
+				</section>
+				<section title="Căutare în" name="SearchIn" file="Wincmd.ini" dialog="Open Folder" version="3.00">
+					<description>Ultimele căi de căutare utilizate.</description>
+				</section>
+				<section title="Caută textul" name="SearchText" file="Wincmd.ini" version="3.00">
+					<description>Ultimele texte folosite în caseta de dialog "Căutare complexă" şi caseta de dialog "Căutare" din Lister .</description>
+				</section>
+				<section title="Căutare" name="Searches" file="Wincmd.ini" version="3.00">
+					<description>Salvează opţiunile dialogului de căutare.</description>
+				</section>
+				<section title="Redenumire - masca" name="RenameTemplates" file="Wincmd.ini" version="4.50">
+					<description>Ultimele măşti de redenumire în utiliatrul multi-redenumire.</description>
+				</section>
+				<section title="Redenumire - căutare" name="RenameSearchFind" file="Wincmd.ini" version="6.50">
+					<description>Ultimele siruri de caractere folosite în utilitarul multi-redenumire.</description>
+				</section>
+				<section title="Redenumire - înlocuit cu..." name="RenameSearchReplace" file="Wincmd.ini" version="6.50">
+					<description>Ultimele siruri de caractere ]nlocuite în utilitarul multi-redenumire..</description>
+				</section>
+				<section title="Redenumire" name="Rename" file="Wincmd.ini" version="5.50">
+					<description>Salvarea opţiunilor în utilitarul multi-redenumire..</description>
+				</section>
+				<section title="Istoric Stânga" name="LeftHistory" file="Wincmd.ini" dialog="Open Folder" version="7.00">
+					<description>Lista ultimelor directoare vizitate în partea stângă.
+Salvarea poate fi oprită prin SaveHistory=0.</description>
+				</section>
+				<section title="Istoric Dreapta" name="RightHistory" file="Wincmd.ini" dialog="Open Folder" version="7.00">
+					<description>Lista ultimelor directoare vizitate în partea dreaptă.
+Salvarea poate fi oprită prin SaveHistory=0.</description>
+				</section>
+				<section title="Istoric Directoare noi" name="MkDirHistory" file="Wincmd.ini" version="7.00">
+					<description>Lista ultimelor directoare create (cu F7).</description>
+				</section>
+				<section title="Opţiuni sincronizare" name="SyncOptions" file="Wincmd.ini" version="7.00">
+					<description>Salvarea opţinilor pentru "Sincronizarea directoarelor".</description>
+				</section>
+				<section title="Atribute module adiţionale" name="AttrPlugin" file="Wincmd.ini" version="7.00">
+					<description>Salvarea opţiunilor modulelor în caseta de dialog "Schimbare atribute".</description>
+				</section>
+				<section title="Mărime volume" name="SplitPerFile" file="Wincmd.ini" version="7.00">
+					<description>Mărimea definită de utilizator folosite în meniu: Fişiere/Fracţionare şi la creare ahivelor multi-volum.</description>
+				</section>
+			</category>
+			<category title="Directoare">
+				<section title="File/panouri stânga" name="LeftTabs" file="Wincmd.ini" dialog="Open Folder" version="6.00">
+					<description>Configurarea filelor de directoare din panoului din stânga. Fila activă nu e stocată aici, ci în secţiunea [Left].</description>
+				</section>
+				<section title="File/panouri dreapta" name="RightTabs" file="Wincmd.ini" dialog="Open Folder" version="6.00">
+					<description>Configurarea filelor de directoare din panoului din dreapta. Fila activă nu e stocată aici, ci în secţiunea [Right].</description>
+				</section>
+			</category>
+			<category title="Coloane particularizate">
+				<section title="Câmpuri" name="CustomFields" file="Wincmd.ini" version="6.50">
+					<description>Salvează configuraţia coloanelor particularizate.</description>
+				</section>
+				<section title="Notiţe câmpuri" name="HintsCustomField" file="Wincmd.ini" version="6.50">
+					<description>Gestionare conţinut baloane info.</description>
+				</section>
+				<section title="Câmpuri (Nume modul)" name="CustomFields_PluginName" file="Wincmd.ini">
+					<description>Salvează configuraţia coloanelor particularizate pentru fişiere modul sistem.</description>
+				</section>
+				<section title="Suprascriere câmp particularizat" name="OverwriteCustomField" file="Wincmd.ini" version="7.00">
+					<description>Câmpuri particularizate afişate la dialogul de suprascriere fişiere.</description>
+				</section>
+			</category>
+			<category title="Poziţii">
+				<category title="Fereastra principală">
+					<key name="X" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="1.10">
+						<description>x-Poziţia programului Total Commander.</description>
+					</key>
+					<key name="Y" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="1.10">
+						<description>y-Poziţia programului Total Commander.</description>
+					</key>
+					<key name="DX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="1.10">
+						<description>Lăţime.</description>
+					</key>
+					<key name="DY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="1.10">
+						<description>Înălţime.</description>
+					</key>
+					<key name="Maximized" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="1.61">
+						<description>0=normal, 1=mărime maximă.</description>
+					</key>
+					<key name="Divider" file="Wincmd.ini" section="[%Screen_Resolution%]" default="500" version="3.00">
+						<description>Poziţia divizorului ferestrelor în miimi (0..1000).</description>
+					</key>
+					<key name="DividerComments" file="Wincmd.ini" section="[%Screen_Resolution%]" default="500" version="6.00">
+						<description>Poziţia divizorului ferestrelor în miimi la modul de vizualizare comentarii (Ctrl+Shift+F2).</description>
+					</key>
+					<key name="DividerQuickView" file="Wincmd.ini" section="[%Screen_Resolution%]" default="500" version="3.50">
+						<description>Poziţia divizorului ferestrelor în miimi, la modul de vizualizare rapidă (CTRL+Q). Cele două divizoare se pot seta individual, independent prin alegerea 'Salvare Poziţie' în modul estimat (cu sau fără vizualizare rapidă).</description>
+					</key>
+					<key name="Tabstops" file="Wincmd.ini" section="[%Screen_Resolution%]" default="124,127,186,76,429,93" version="4.00">
+						<description>Poziţia tabulatorilor din antet.</description>
+					</key>
+				</category>
+				<category title="Alegere comandă">
+					<key name="CmdSelX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="7.00">
+						<description>Poziţia (X).</description>
+					</key>
+					<key name="CmdSelY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="7.00">
+						<description>Poziţia (Y).</description>
+					</key>
+					<key name="CmdSelDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="7.00">
+						<description>Lăţime.</description>
+					</key>
+					<key name="CmdSelDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="7.00">
+						<description>Înălţime.</description>
+					</key>
+					<key name="CmdSelMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="7.00">
+						<description>0=Normal, 1=Mărime maximă.</description>
+					</key>
+				</category>
+				<category title="Sincronizare directoare">
+					<key name="SyncX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="4.00">
+						<description>Poziţia (X).</description>
+					</key>
+					<key name="SyncY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="4.00">
+						<description>Poziţia (Y).</description>
+					</key>
+					<key name="SyncDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="4.00">
+						<description>Lăţime.</description>
+					</key>
+					<key name="SyncDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="4.00">
+						<description>Înălţime.</description>
+					</key>
+					<key name="SyncMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="4.00">
+						<description>0=Normal, 1=Mărime maximă.</description>
+					</key>
+					<key name="SyncTabs" file="Wincmd.ini" section="[%Screen_Resolution%]" default="165,257,352,384,476,551" version="4.00">
+						<description>Poziţia tabulatorilor din antet.</description>
+					</key>
+				</category>
+				<category title="Comparare prin conţinut">
+					<key name="CompareX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="5.50">
+						<description>Poziţia (X).</description>
+					</key>
+					<key name="CompareY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="5.50">
+						<description>Poziţia (Y).</description>
+					</key>
+					<key name="CompareDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="5.50">
+						<description>Lăţime.</description>
+					</key>
+					<key name="CompareDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="5.50">
+						<description>Înălţime.</description>
+					</key>
+					<key name="CompareMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="5.50">
+						<description>0=Normal, 1=Mărime maximă.</description>
+					</key>
+				</category>
+				<category title="Căutare fişiere">
+					<key name="SearchX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="4.00">
+						<description>Poziţia (X).</description>
+					</key>
+					<key name="SearchY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="4.00">
+						<description>Poziţia (Y).</description>
+					</key>
+					<key name="SearchDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="4.00">
+						<description>Lăţime.</description>
+					</key>
+					<key name="SearchDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="4.00">
+						<description>Înălţime.</description>
+					</key>
+					<key name="SearchMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="4.00">
+						<description>0=Normal, 1=Mărime maximă.</description>
+					</key>
+				</category>
+				<category title="Utilitar Multi-Redenumire">
+					<key name="RenameX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="4.50">
+						<description>Poziţia (X).</description>
+					</key>
+					<key name="RenameY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="4.50">
+						<description>Poziţia (Y).</description>
+					</key>
+					<key name="RenameDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="4.50">
+						<description>Lăţime.</description>
+					</key>
+					<key name="RenameDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="4.50">
+						<description>Înălţime.</description>
+					</key>
+					<key name="RenameMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="4.50">
+						<description>0=Normal, 1=Mărime maximă.</description>
+					</key>
+					<key name="RenameTabs" file="Wincmd.ini" section="[%Screen_Resolution%]" default="115,145,345,518,715" version="4.50">
+						<description>Poziţia tabulatorilor din antet.</description>
+					</key>
+				</category>
+				<category title="Modificare meniu start">
+					<key name="MenuChangeX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="5.00">
+						<description>Poziţia (X).</description>
+					</key>
+					<key name="MenuChangeY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="5.00">
+						<description>Poziţia (Y).</description>
+					</key>
+					<key name="MenuChangeDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="5.00">
+						<description>Lăţime.</description>
+					</key>
+					<key name="MenuChangeDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="5.00">
+						<description>Înălţime.</description>
+					</key>
+					<key name="MenuChangeMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="5.00">
+						<description>0=Normal, 1=Mărime maximă.</description>
+					</key>
+				</category>
+				<category title="Arbore directoare">
+					<key name="TreeDlgX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="5.00">
+						<description>Poziţia (X).</description>
+					</key>
+					<key name="TreeDlgY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="5.00">
+						<description>Poziţia (Y).</description>
+					</key>
+					<key name="TreeDlgDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="5.00">
+						<description>Lăţime.</description>
+					</key>
+					<key name="TreeDlgDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="5.00">
+						<description>Înălţime.</description>
+					</key>
+					<key name="TreeDlgMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="5.00">
+						<description>0=Normal, 1=Mărime maximă.</description>
+					</key>
+				</category>
+				<category title="Previzualizare tipărire">
+					<key name="PrintX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="5.00">
+						<description>Poziţia (X).</description>
+					</key>
+					<key name="PrintY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="5.00">
+						<description>Poziţia (Y).</description>
+					</key>
+					<key name="PrintDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="5.00">
+						<description>Lăţime.</description>
+					</key>
+					<key name="PrintDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="5.00">
+						<description>Înălţime.</description>
+					</key>
+					<key name="PrintMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="5.00">
+						<description>0=Normal, 1=Mărime maximă.</description>
+					</key>
+				</category>
+				<category title="Conectare la server FTP ">
+					<key name="ConnectX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="7.00">
+						<description>Poziţia (X).</description>
+					</key>
+					<key name="ConnectY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="7.00">
+						<description>Poziţia (Y).</description>
+					</key>
+					<key name="ConnectDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="7.00">
+						<description>Lăţime.</description>
+					</key>
+					<key name="ConnectDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="7.00">
+						<description>Înălţime.</description>
+					</key>
+					<key name="ConnectMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="7.00">
+						<description>0=Normal, 1=Mărime maximă.</description>
+					</key>
+				</category>
+				<category title="Coloane particularizate">
+					<key name="CustColumnX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="24" version="6.50">
+						<description>Poziţia (X).</description>
+					</key>
+					<key name="CustColumnY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="8" version="6.50">
+						<description>Poziţia (Y).</description>
+					</key>
+					<key name="CustColumnDX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="750" version="6.50">
+						<description>Lăţime.</description>
+					</key>
+					<key name="CustColumnDY" file="Wincmd.ini" section="[%Screen_Resolution%]" default="550" version="6.50">
+						<description>Înălţime.</description>
+					</key>
+					<key name="CustColumnMaX" file="Wincmd.ini" section="[%Screen_Resolution%]" default="0" version="6.50">
+						<description>0=Normal, 1=Mărime maximă.</description>
+					</key>
+				</category>
+			</category>
+			<category title="Stânga">
+				<key name="Path" file="Wincmd.ini" section="Left" default="path" dialog="Open Folder" version="1.10">
+					<description>Ultimul director activ.</description>
+				</key>
+				<key name="ShowAllDetails" file="Wincmd.ini" section="Left" default="1" version="1.10">
+					<description>Mod vizualizare:
+	0=pe scurt;
+	1=complet;
+	2=arbore.</description>
+				</key>
+				<key name="Show" file="Wincmd.ini" section="Left" default="1" version="1.10">
+					<description>Se vor afişa în fereastra cu fişiere:
+	1=toate fişierele;
+	2=numai programele;
+	3=definit de utilizator.</description>
+				</key>
+				<key name="UserSpec" file="Wincmd.ini" section="Left" default="file_mask" version="2.00">
+					<description>Ultimele caractere generice folosite.</description>
+				</key>
+				<key name="SpecialView" file="Wincmd.ini" section="Left" default="100" version="6.50">
+					<description>Numărul coloanei particularizate, override afişare=valoare. Este stocat într-o variabile separată pentru a preveni problemele cu versiunile mai vechi Total Commander.</description>
+				</key>
+				<key name="SortOrder" file="Wincmd.ini" section="Left" default="0" version="1.10">
+					<description>Sortare după:
+	0=nume;
+	1=extensie;
+	2=mărime;
+	3=dată/timp;
+	4=nesortat.</description>
+				</key>
+				<key name="CustomSortOrder" file="Wincmd.ini" section="Left" default="0" version="6.50">
+					<description>Sortare după coloane particularizate (numai în mod afişare coloane particularizate):
+	100=prima coloană particularizată;
+	101=a doua;
+	102=a treia, etc.</description>
+				</key>
+				<key name="Negative Sortorder" file="Wincmd.ini" section="Left" default="0" version="1.10">
+					<description>0=Sortare Ascendentă.
+1=Sortare Descendentă.</description>
+				</key>
+				<key name="AddSortOrders" file="Wincmd.ini" section="Left" default="1" version="7.00">
+					<description>Sortare multiplă după mai multe câmpuri/coloane.
+Exemplu:
+1,-3,2 semnifică sortarea adiţională după prima coloană în ordine ascendentă, a treia coloană în ordine descendentă şi a doua coloană în ordine ascendentă (numărând coloanele începând de la 1).</description>
+				</key>
+			</category>
+			<category title="Dreapta">
+				<key name="Path" file="Wincmd.ini" section="Right" default="path" dialog="Open Folder" version="1.10">
+					<description>Ultimul director activ.</description>
+				</key>
+				<key name="ShowAllDetails" file="Wincmd.ini" section="Right" default="1" version="1.10">
+					<description>Mod vizualizare:
+	0=pe scurt;
+	1=complet;
+	2=arbore.</description>
+				</key>
+				<key name="Show" file="Wincmd.ini" section="Right" default="1" version="1.10">
+					<description>Se vor afişa în fereastra cu fişiere:
+	1=toate fişierele;
+	2=numai programele;
+	3=definit de utilizator.</description>
+				</key>
+				<key name="UserSpec" file="Wincmd.ini" section="Right" default="file_mask" version="2.00">
+					<description>Ultimele caractere generice folosite.</description>
+				</key>
+				<key name="SpecialView" file="Wincmd.ini" section="Right" default="100" version="6.50">
+					<description>Numărul coloanei particularizate, override afişare=valoare. Este stocat într-o variabile separată pentru a preveni problemele cu versiunile mai vechi Total Commander.</description>
+				</key>
+				<key name="SortOrder" file="Wincmd.ini" section="Right" default="0" version="1.10">
+					<description>Sortare după:
+	0=nume;
+	1=extensie;
+	2=mărime;
+	3=dată/timp;
+	4=nesortat.</description>
+				</key>
+				<key name="CustomSortOrder" file="Wincmd.ini" section="Right" default="0" version="6.50">
+					<description>Sortare după coloane particularizate (numai în mod afişare coloane particularizate):
+	100=prima coloană particularizată;
+	101=a doua;
+	102=a treia, etc.</description>
+				</key>
+				<key name="Negative Sortorder" file="Wincmd.ini" section="Right" default="0" version="1.10">
+					<description>0=Sortare Ascendentă.
+1=Sortare Descendentă.</description>
+				</key>
+				<key name="AddSortOrders" file="Wincmd.ini" section="Right" default="1" version="7.00">
+					<description>Sortare multiplă după mai multe câmpuri.
+Exemplu:
+1,-3,2 semnifică sortarea adiţională după prima coloană în ordine ascendentă, a treia coloană în ordine descendentă şi a doua coloană în ordine ascendentă (numărând coloanele începând de la 1).</description>
+				</key>
+			</category>
+		</category>
+	</main_category>
+</ultra_tc_editors_data_file>

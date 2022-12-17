@@ -1,1 +1,0 @@
-#Include %A_LineFile%\..\TcShortcut\TcShortcut.ahk
