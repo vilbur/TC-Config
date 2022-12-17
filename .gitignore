@@ -10,9 +10,7 @@
 !userChrome.less
 
 
-# DO NOT IGNORE FOLDERS PREFIXED WITH UNDERSCORE
-!/_*
-
-
-# BUT IGNORE THIS FOLDER
-_Utilities
+# DO NOT IGNORE THESE FOLDERS
+!/_Extensions
+!/_Menu
+!/_TC-commands
