@@ -1,0 +1,35 @@
+<NotepadPlus>
+    <InternalCommands>
+        <Shortcut id="42014" Ctrl="yes" Alt="no" Shift="no" Key="38" />
+        <Shortcut id="42015" Ctrl="yes" Alt="no" Shift="no" Key="40" />
+        <Shortcut id="41014" Ctrl="yes" Alt="yes" Shift="no" Key="82" />
+        <Shortcut id="10001" Ctrl="yes" Alt="no" Shift="no" Key="9" />
+        <Shortcut id="50004" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="50003" Ctrl="no" Alt="no" Shift="no" Key="119" />
+        <Shortcut id="44072" Ctrl="yes" Alt="no" Shift="yes" Key="9" />
+        <Shortcut id="10003" Ctrl="yes" Alt="no" Shift="yes" Key="88" />
+    </InternalCommands>
+    <Macros>
+        <Macro name="Komodo-tools-name_to_lowercase" Ctrl="no" Alt="no" Shift="no" Key="0">
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam='&quot;name&quot;:\s+&quot;([^&quot;]+)&quot;' />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&quot;name&quot;: &quot;\L\1&quot;' />
+            <Action type="3" message="1702" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1635" sParam="" />
+        </Macro>
+        <Macro name="Komodo-tools-name_to_UPPERCASE" Ctrl="no" Alt="no" Shift="no" Key="0">
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam='&quot;name&quot;:\s+&quot;([^&quot;]+)&quot;' />
+            <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam='&quot;name&quot;: &quot;\U\1&quot;' />
+            <Action type="3" message="1702" wParam="0" lParam="2" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1635" sParam="" />
+        </Macro>
+    </Macros>
+    <UserDefinedCommands />
+    <PluginCommands />
+    <ScintillaKeys>
+        <ScintKey ScintID="2455" menuCmdID="0" Ctrl="no" Alt="no" Shift="no" Key="0" />
+    </ScintillaKeys>
+</NotepadPlus>

@@ -14,3 +14,9 @@
 !/_Extensions
 !/_Menu
 !/_TC-commands
+
+
+# DO NOT IGNORE THESE SUBFOLDERS
+!/_Utilities/
+/_Utilities/*
+!/_Utilities/Notepad++/
